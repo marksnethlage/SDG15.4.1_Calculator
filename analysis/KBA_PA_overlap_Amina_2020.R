@@ -163,8 +163,6 @@ for (g in 1:nrow(cnpa)){ #this loop checks each transboundary pa and splits the 
 }
 
 #### 2.4 - create list of countries ----
-# DgProjw <- CRS(proj4string(kbas)) #checks coordinate system - DEPRECATED in sf
-kbas #check that in the console output: proj4string:    +proj=longlat +datum=WGS84 +no_defs
 
 kbas <- kbas[!is.na(kbas$SitRecID),] #remove any NAs
 listcnts <- as.character(unique(kbas$ISO3))
@@ -183,7 +181,9 @@ lu(listcnts)
 
 finaltab <- data.frame()
 tt <- proc.time()
-for (x in 1:length(listcnts)){ #starts loop for all countries
+
+## starts loop for all countries
+for (x in 1:length(listcnts)){ 
 
   country <- listcnts[x]
   
@@ -203,7 +203,6 @@ for (x in 1:length(listcnts)){ #starts loop for all countries
   cat(x, '\t', country, '\t', country.n, '\n')  
  
   ## 3. Plot map of KBAs and PAs to check ----
-  PLOTIT <- T
   if(PLOTIT){
     plot(kba.c$geometry, border=3)#kbas are in green
     plot(pa.c$geometry, border=4, add=T) # pas are in blue
@@ -214,7 +213,6 @@ for (x in 1:length(listcnts)){ #starts loop for all countries
   }
   
   ### could refine by removing this bit when we've added in some preliminary analysis to REMOVE ALL COUNTRIES WITH NO PAs.
-  nrow(pa.c) ## number of PAs in the country
   if (nrow(pa.c) == 0){ #finds all kbas with no protected area overlap - sets all output to 0 (0 overlap, no. of pas it overlaps with are 0, etc)
     
     areasov <- data.frame(SitRecID = kba.c$SitRecID, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, ISO = country, COUNTRY = country.n) 
