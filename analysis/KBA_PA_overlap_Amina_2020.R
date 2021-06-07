@@ -220,7 +220,7 @@ for (x in 1:length(listcnts)){
     title(main=paste(country.n, country))
     box()
     axis(1)
-    axis(2)TODOr
+    axis(2)
   }
   
   ### could refine by removing this bit when we've added in some preliminary analysis to REMOVE ALL COUNTRIES WITH NO PAs.
