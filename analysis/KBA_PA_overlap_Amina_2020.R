@@ -19,11 +19,17 @@
 
 
 #### Part 1.1 install and load packages ----
-kpacks <- c('sf', 'dplyr','tidyverse', 'lwgeom', 'todor')  ### install automatically the relevant packages
-new.packs <- kpacks[!(kpacks %in% installed.packages()[,"Package"])]
-if(length(new.packs)) install.packages(new.packs)
-lapply(kpacks, require, character.only=T)
-remove(kpacks, new.packs)
+# kpacks <- c('sf', 'dplyr','tidyverse', 'lwgeom', 'todor')  ### install automatically the relevant packages
+# new.packs <- kpacks[!(kpacks %in% installed.packages()[,"Package"])]
+# if(length(new.packs)) install.packages(new.packs)
+# lapply(kpacks, require, character.only=T)
+# remove(kpacks, new.packs)
+
+library(sf)
+library(dplyr)
+library(tidyverse)
+library(lwgeom)
+library(todor)
 
 #### Define functions ----
 lu <- function (x = x){
