@@ -293,7 +293,7 @@ for (x in 1:length(listcnts)){
             years <- sort(unique(ovfpol$STATUS_YR))
 
             year1 <- min(years)
-            ovf1 <- ovfpol %>% select(STATUS_YR == year1) #CHANGED just dplyr again
+            ovf1 <- ovfpol %>% filter(STATUS_YR == year1) #CHANGED just dplyr again
             nrow(ovf1) #changed from length
             ovf11 <- NULL
             ovf11 <- tryCatch({st_union(ovf1, by_feature = F)}, error=function(e){})
