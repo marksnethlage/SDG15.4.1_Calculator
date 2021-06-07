@@ -152,21 +152,26 @@ cnpa <- data.frame(ISO3 = unique(pas$ISO3))
 cnpa$nchart <- nchar(as.character(cnpa$ISO3))
 cnpa <- cnpa[cnpa$nchart>4, ] #where iso3 codes have more than 4 characters (more than one country per site)
 cnpa
-transb <- data.frame()
-for (g in 1:nrow(cnpa)){ #this loop checks each transboundary pa and splits the iso code while keeping track of the combined countries
+transb <- data.frame() 
 
-  cnpa1 <- cnpa[g, ]
-  sp <- substr(cnpa1$ISO3, 4, 5)
-  if (sp == "; "){
-    cnpa2 <- data.frame(ISO3=strsplit(as.character(cnpa1$ISO3), split="; ")[[1]])
-    cnpa2$oISO3 <- as.character(cnpa1$ISO3)
+#if there are some transboundary ones...deal with it
+if(nrow(cnpa) > 1) {
+  for (g in 1:nrow(cnpa)){ #this loop checks each transboundary pa and splits the iso code while keeping track of the combined countries
+    
+    cnpa1 <- cnpa[g, ]
+    sp <- substr(cnpa1$ISO3, 4, 5)
+    if (sp == "; "){
+      cnpa2 <- data.frame(ISO3=strsplit(as.character(cnpa1$ISO3), split="; ")[[1]])
+      cnpa2$oISO3 <- as.character(cnpa1$ISO3)
     }
-  if (sp != "; "){
-    cnpa2 <- data.frame(ISO3=strsplit(as.character(cnpa1$ISO3), split=";")[[1]])
-    cnpa2$oISO3 <- as.character(cnpa1$ISO3)
+    if (sp != "; "){
+      cnpa2 <- data.frame(ISO3=strsplit(as.character(cnpa1$ISO3), split=";")[[1]])
+      cnpa2$oISO3 <- as.character(cnpa1$ISO3)
     }
-  transb <- rbind(transb, cnpa2)
+    transb <- rbind(transb, cnpa2)
+  }
 }
+
 
 #### 2.4 - create list of countries ----
 
