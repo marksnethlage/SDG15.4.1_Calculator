@@ -43,7 +43,7 @@ CLIPPED <- TRUE ## if you want to use the python clipped versions (just a subset
 PYTHON_INTERSEC <- FALSE ## if you have run the python code to intersect KBA & PAs and want to loop through those instead
 YEAR_RUN <- 2020
 PLOTIT <- F ##if you want plots (usually when stepping through, not the full run)
-LEVEL <- "Level_3" ## this is the level you want the GMBA to be looped through
+LEVEL <- "Level_3" ## this is the level you'd like to loop through. 
 
 #### 1.2 set file locations and working directories ----
 
@@ -65,18 +65,16 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 
 clip <- ifelse(CLIPPED, "clipped_", "")
 
-kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_May2021_Public_shp/WDPA_May2021_Public/", clip, "WDPA_May2021_Public_shp-polygons.shp"), stringsAsFactors = F) 
-gmba <- st_read(dsn = paste0(getwd(), '/data/GMBA/GMBA_Inventory_V2_210420_GME/', clip, "GMBA_Inventory_V2_210420_GME.shp"), stringsAsFactors = F) 
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_May2021_Public_shp/WDPA_May2021_Public/", clip, "WDPA_May2021_Public_flattened.shp"), stringsAsFactors = F) 
+gmba_kba <- st_read(dsn = paste0(getwd(), '/data/Combined/GMBA_KBA/', clip, "GMBA_KBA.shp"), stringsAsFactors = F) 
 
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
 pas <- pas[!is.na(st_dimension(pas)),]
 as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are in the dataset
 
 #check for and repair any geometry issues
-kbas <- if(sum(st_is_valid(kbas)) < nrow(kbas))) st_make_valid(kbas) 
 pas <- if(sum(st_is_valid(pas)) < nrow(pas)) st_make_valid(pas)
-gmba <- if(sum(st_is_valid(gmba)) < nrow(gmba)) st_make_valid(gmba)
+gmba_kba <- if(sum(st_is_valid(gmba_kba)) < nrow(gmba_kba)) st_make_valid(gmba_kba)
 
 ## convert factors to characters in the dataframes
 ## PAs dataframe
@@ -110,41 +108,37 @@ pas$ISO3[(pas$ISO3)=='XNC'] <- 'CYP'
 unassigned_pas <- pas[pas$ISO3 == " " | is.na(pas$ISO3) | pas$ISO3 == '---',]
 
 #### 2.2 - KBAs with no ISO code ----
-unique(kbas$ISO3)
-unique(kbas$Country[kbas$ISO3 == "---"])
-kbas$ISO3[kbas$ISO3 == "---" & kbas$Country == "High Seas"] <- "ABNJ"
-kbas$ISO3[kbas$ISO3 == "---" & kbas$Country == "Falkland Islands (Malvinas)"] <- "FLK"
-#kbas$ISO3[kbas$ISO3 == "---" & kbas$Country != "High Seas"] <- "RUS"
+unique(gmba_kba$ISO3)
+unique(gmba_kba$Country[gmba_kba$ISO3 == "---"])
+gmba_kba$ISO3[gmba_kba$ISO3 == "---" & gmba_kba$Country == "High Seas"] <- "ABNJ"
+gmba_kba$ISO3[gmba_kba$ISO3 == "---" & gmba_kba$Country == "Falkland Islands (Malvinas)"] <- "FLK"
+#gmba_kba$ISO3[gmba_kba$ISO3 == "---" & gmba_kba$Country != "High Seas"] <- "RUS"
 
-unique(kbas$Country[kbas$ISO3 == " "])
-unique(kbas$Country[is.na(kbas$ISO3)])
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Palau"] <- "PLW"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Aruba"] <- "ABW"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Aruba (to Netherlands)"] <- "ABW"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Guadeloupe"] <- "GLP"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Guadeloupe (to France)"] <- "GLP"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Norfolk Island"] <- "NFK"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Norfolk Island (to Australia)"] <- "NFK"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Lao People's Democratic Republic"] <- "LAO"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Laos"] <- "LAO"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "India"] <- "IND"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Cuba"] <- "CUB"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Libya"] <- "LBY"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Belarus"] <- "BLR"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Russian Federation"] <- "RUS"
-kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Russia (Asian)"] <- "RUS"
+unique(gmba_kba$Country[gmba_kba$ISO3 == " "])
+unique(gmba_kba$Country[is.na(gmba_kba$ISO3)])
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Palau"] <- "PLW"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Aruba"] <- "ABW"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Aruba (to Netherlands)"] <- "ABW"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Guadeloupe"] <- "GLP"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Guadeloupe (to France)"] <- "GLP"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Norfolk Island"] <- "NFK"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Norfolk Island (to Australia)"] <- "NFK"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Lao People's Democratic Republic"] <- "LAO"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Laos"] <- "LAO"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "India"] <- "IND"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Cuba"] <- "CUB"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Libya"] <- "LBY"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Belarus"] <- "BLR"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Russian Federation"] <- "RUS"
+gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Russia (Asian)"] <- "RUS"
 
-kbas <- kbas[kbas$Country != 'Disputed',] #remove any sites that cannot be assigned a country as are disputed
+gmba_kba <- gmba_kba[gmba_kba$Country != 'Disputed',] #remove any sites that cannot be assigned a country as are disputed
 
-unassigned_kbas <- kbas[kbas$ISO3 == " " | is.na(kbas$ISO3) | kbas$ISO3 == '---',] #check if any sites don't have an ISO3 code, if any are missing, add in country name (if non are missing, will have 0 observations)
-# site 27335 missing - in Belarus
-#kbas$ISO3[kbas$SitRecID == 27335] <- 'BLR'
-#kbas$Country[kbas$SitRecID == 27335] <- 'Belarus'
+unassigned_gmba_kba <- gmba_kba[gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3) | gmba_kba$ISO3 == '---',] #check if any sites don't have an ISO3 code, if any are missing, add in country name (if non are missing, will have 0 observations)
 
 ## Fill in the country field for these sites as well
-#kbas$Country[kbas$ISO3 == "RUS"] <- "Russian Federation"
-kbas_without_names <- kbas[kbas$Country == " ",] #checks if any KBAs are missing country names, should be 0, if not find out which sites are missing country names and add in country name
-
+#gmba_kba$Country[gmba_kba$ISO3 == "RUS"] <- "Russian Federation"
+gmba_kba_without_names <- gmba_kba[gmba_kba$Country == " ",] #checks if any gmba_kba are missing country names, should be 0, if not find out which sites are missing country names and add in country name
 
 #### 2.3 Transboundary PAs ----
 
@@ -176,34 +170,39 @@ if(nrow(cnpa) > 1) {
 }
 
 
-#### 2.4 - create list of countries ----
+#### 2.4 - create list of countries or mountains (what do we want to loop through) ----
 
-kbas <- kbas[!is.na(kbas$SitRecID),] #remove any NAs
-listcnts <- as.character(unique(kbas$ISO3))
-lu(listcnts)
+if(LEVEL == "ISO3") {
+  
+  gmba_kba <- gmba_kba %>% filter(!is.na(LEVEL))
+  gmba_kba <- gmba_kba[!is.na(gmba_kba$SitRecID),] #remove any NAs
+  listloop <- as.character(unique(gmba_kba$ISO3))
 
-#for reruns
-#listcnts <- as.character(unique(kbas$ISO3[kbas$ISO3 %in% c('FIN', 'SHN', 'FRA', 'GBR', 'UMI', 'CYP', 'SRB')])) #missed countries
-#lu(listcnts)
+} else {
+  
+  gmba_kba <- gmba_kba[!is.na(gmba_kba$SitRecID),] #remove any NAs
+  listloop <- as.character(unique(gmba_kba$ISO3))
+
+}
 
 #########################################################################
 #### Part 3 - SPATIAL ANALYSIS ----
 #########################################################################
 
 ##### OVERLAP WITH PROTECTED AREAS
-### per country
+### per mountain or country, depending on global variable
 
 finaltab <- data.frame()
 tt <- proc.time()
 
 ## starts loop for all countries
-for (x in 1:length(listcnts)){ 
+for (x in 1:length(listloop)){ 
   
-  country <- listcnts[x]
+  domain <- listloop[x]
   
-  ## 1. Subset kbas and pas to this country
-  kba.c <- kbas[kbas$ISO3 == country, ]
-  pa.c <- pas[pas$ISO3 == country, ]  ## protected areas within the country
+  ## 1. Subset kbas and pas to this domain
+  kba.c <- gmba_kba[gmba_kba$ISO3 == domain, ]
+  pa.c <- pas[pas$ISO3 == domain, ]  ## protected areas within the domain
   
   #finds PA in country for transboundary sites and so includes in pa country list
   if (country %in% transb$ISO3){ 
