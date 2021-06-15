@@ -16,6 +16,8 @@
 # update your Universal Variables 
 # make sure you have the results/files_country_%YEAR directory
 # make sure you update the working directory
+
+
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ############# Part 1 - Setup #######################
 
@@ -36,7 +38,7 @@ lu <- function (x = x){
 }
 
 #### Universal Variables ----
-# TODO review these 
+# TODO review these and update based on what you want to do
 CLIPPED <- TRUE ## if you want to use the python clipped versions (just a subset of the code for testing)
 PYTHON_INTERSEC <- FALSE ## if you have run the python code to intersect KBA & PAs and want to loop through those instead
 YEAR_RUN <- 2020
@@ -46,14 +48,14 @@ LEVEL <- "Level_3" ## this is the level you want the GMBA to be looped through
 #### 1.2 set file locations and working directories ----
 
 ## NB.in the KBA layer attribute table, the relevant fields should be "SitRecID" and "Country", not in capitals!
-# TODO set up working directory. Make sure you have a folder called files_country_%YEAR
+# TODO set up working directories and file paths 
 
 ## set the working directory
 ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
        setwd("~/Box Sync/mountain_biodiversity"),
        setwd("/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity"))
 folder <- getwd()
-finfolder <- paste0(folder, "/results/files_country_", YEAR_RUN) #folder where the files per country will be saved
+finfolder <- paste0(folder, "/results/files_mt_", YEAR_RUN) #folder where the files per country will be saved
 
 # You will need 2 additional files: KBA classes and iso country codes
 tabmf <- read.csv(paste(getwd(), "/data/KBA/kba_class_2020.csv", sep = ""))   ## file with types of kbas 
@@ -61,19 +63,20 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 
 #### 1.3 Read in shapefiles ----
 
-# if you want the subet data, changed clipped to TRUE
 clip <- ifelse(CLIPPED, "clipped_", "")
 
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_May2021_Public_shp/WDPA_May2021_Public/", clip, "WDPA_May2021_Public_shp-polygons.shp"), stringsAsFactors = F) 
-gmba <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
+gmba <- st_read(dsn = paste0(getwd(), '/data/GMBA/GMBA_Inventory_V2_210420_GME/', clip, "GMBA_Inventory_V2_210420_GME.shp"), stringsAsFactors = F) 
 
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
 pas <- pas[!is.na(st_dimension(pas)),]
 as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are in the dataset
 
-#kbas <- st_make_valid(kbas) #repair any geometry issues
-#pas <- st_make_valid(pas) #repair any geometry issues
+#check for and repair any geometry issues
+kbas <- if(sum(st_is_valid(kbas)) < nrow(kbas))) st_make_valid(kbas) 
+pas <- if(sum(st_is_valid(pas)) < nrow(pas)) st_make_valid(pas)
+gmba <- if(sum(st_is_valid(gmba)) < nrow(gmba)) st_make_valid(gmba)
 
 ## convert factors to characters in the dataframes
 ## PAs dataframe

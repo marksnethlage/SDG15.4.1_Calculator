@@ -66,14 +66,16 @@ clip <- ifelse(CLIPPED, "clipped_", "")
 
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_May2021_Public_shp/WDPA_May2021_Public/", clip, "WDPA_May2021_Public_shp-polygons.shp"), stringsAsFactors = F) 
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_May2021_Public_shp/WDPA_May2021_Public/", clip, "WDPA_May2021_Public_flattened.shp"), stringsAsFactors = F) 
 
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
 pas <- pas[!is.na(st_dimension(pas)),]
 as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are in the dataset
 
-#kbas <- st_make_valid(kbas) #repair any geometry issues
-#pas <- st_make_valid(pas) #repair any geometry issues
+#check for and repair any geometry issues
+kbas <- if(sum(st_is_valid(kbas) < nrow(kbas))) st_make_valid(kbas) 
+pas <- if(sum(st_is_valid(pas) < nrow(pas))) st_make_valid(pas)
+gmba <- if(sum(st_is_valid(gmba) < nrow(gmba))) st_make_valid(gmba)
 
 ## convert factors to characters in the dataframes
 ## PAs dataframe
@@ -393,7 +395,7 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("finaltab_", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste0("./results/finaltab_", YEAR_RUN, ".csv"), row.names = F)
 ### end here
 
 #########################################################################################
