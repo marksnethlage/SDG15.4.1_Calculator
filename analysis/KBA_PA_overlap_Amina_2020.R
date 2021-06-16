@@ -74,7 +74,6 @@ as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are 
 #check for and repair any geometry issues
 kbas <- if(sum(st_is_valid(kbas) < nrow(kbas))) st_make_valid(kbas) 
 pas <- if(sum(st_is_valid(pas) < nrow(pas))) st_make_valid(pas)
-gmba <- if(sum(st_is_valid(gmba) < nrow(gmba))) st_make_valid(gmba)
 
 ## convert factors to characters in the dataframes
 ## PAs dataframe
