@@ -25,13 +25,13 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
 ## load in general files
 
 ## shapefiles for plotting
-CLIPPED <- TRUE ## if you want to use the python clipped versions (just a subset of the code for testing)
+clip <- "clipped_" ## if you want to use the python clipped versions (just a subset of the code for testing)
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_May2021_Public_shp/WDPA_May2021_Public/", clip, "WDPA_May2021_Public_shp-polygons.shp"), stringsAsFactors = F) 
 
 ## summary numbers
 birdlife_sum <- read_csv("./data/birdlife_summary_of_pa_coverage_per_kba.csv")
-local_rerun <- read_csv("./results/finaltab_2020_v2.csv")
+local_rerun <- read_csv("./results/finaltab_2020.csv")
 
 # make the %PAs the same format
 local_rerun_grp <- local_rerun %>% group_by(SitRecID, ISO, COUNTRY) %>% summarise(percPA = sum(percPA, na.rm = T))
@@ -67,6 +67,15 @@ ggplot(data=combined_byISO_melt_short, aes(x=Country, y=value, fill=variable)) +
   scale_color_manual(values=wes_palette(n=2, name="Zissou1")) +
   theme(text = element_text(size = 15)) +
   labs(colour="Group (n = count)") +
+  theme(axis.text.x = element_text(angle = 90)) +
+  theme_bw()
+
+# distribution of how off the overlaps are
+all_non_match <- combined %>% filter(match == F) %>% mutate(diff = percPA.x - percPA.y)
+
+ggplot(data = all_non_match, aes(x=diff)) +
+  geom_histogram() +
+  ggtitle("Distribution of %Diff in Coverage") +
   theme_bw()
 
 # country plots showing % coverage. Diff if mine minus theirs (so positive means I got more, neg they got more)
@@ -80,6 +89,13 @@ ggplot(data = kba_SK) +
   scale_fill_gradient(low = "blue", high = "red", na.value = "green") +
   theme_bw()
 
+# distribution of the non-matching ones in Korea
+all_non_match_K <- all_non_match %>% filter(ISO == "KOR")
+ggplot(data = all_non_match_K, aes(x=diff)) +
+  geom_histogram() +
+  ggtitle("Distribution %Diff in Coverage S. Korea") +
+  theme_bw()
+
 # country plots showing % coverage. Diff if mine minus theirs (so positive means I got more, neg they got more)
 Germany <- local_rerun_all %>% filter(ISO == "DEU") %>% mutate(diff = percPA.x - percPA.y) %>% mutate(diff = ifelse(diff == 0, NA, diff))
 kba_G <- kbas %>% filter(ISO3 == "DEU")
@@ -91,13 +107,11 @@ ggplot(data = kba_G) +
   scale_fill_gradient(low = "blue", high = "red", na.value = "green") +
   theme_bw()
 
-# distribution of how off the overlaps are
-all_non_match <- combined %>% filter(match == F) %>% mutate(diff = percPA.x - percPA.y)
-
-ggplot(data = all_non_match, aes(x=diff)) +
+# distribution of the non-matching ones in Korea
+all_non_match_D <- all_non_match %>% filter(ISO == "DEU")
+ggplot(data = all_non_match_D, aes(x=diff)) +
   geom_histogram() +
-  ggtitle("%Diff in Coverage") +
+  ggtitle("DIstribution %Diff in Coverage Germany") +
   theme_bw()
-
 
 dev.off()
