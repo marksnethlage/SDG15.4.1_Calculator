@@ -1,4 +1,4 @@
-## This file is meant to be run only once
+#!/usr/bin/python
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -8,6 +8,7 @@ import os.path
 #from PIL import Image
 import rasterio
 import math
+## This file is meant to be run only once
 
 # read in all of your files #TODO make sure these match your file path
 os.chdir("/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity")
