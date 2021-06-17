@@ -378,11 +378,10 @@ for (x in 1:length(listcnts)){
     } # ends loop for ovlkba>0
   }  ## ends loop for length(pac)>1
   
-  print(tname)
-  finaltab <- rbind(finaltab,areasov)
-
   tname <- paste(finfolder,"/",country.n, ".csv", sep="")
   tname
+  print(tname)
+  finaltab <- rbind(finaltab,areasov)
   write.csv(areasov, tname, row.names=F)
 
 }
