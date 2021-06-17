@@ -1,0 +1,17 @@
+[1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity"
+Reading layer `clipped_WDPA_Jun2021_Public_flattened' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/clipped_WDPA_Jun2021_Public_flattened.shp' using driver `ESRI Shapefile'
+Simple feature collection with 42698 features and 30 fields
+geometry type:  MULTIPOLYGON
+dimension:      XY
+bbox:           xmin: -87.69406 ymin: -4.359489 xmax: 131.9548 ymax: 58.08557
+CRS:            4326
+Reading layer `clipped_gmba_kba' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/combined/clipped_gmba_kba.shp' using driver `ESRI Shapefile'
+Simple feature collection with 5976 features and 36 fields
+geometry type:  MULTIPOLYGON
+dimension:      XY
+bbox:           xmin: -87.67226 ymin: -4.44639 xmax: 128.9939 ymax: 52.35793
+CRS:            4326
+[1] "MULTIPOLYGON"
+List of 2
+ $ ISO3      : chr(0) 
+ $ PARENT_ISO: chr(0) 

@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=runregs
-#SBATCH --error=/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/outfiles/runMT.err
-#SBATCH --output=/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/outfiles/runMT.out
+#SBATCH --error=/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/outfiles/runOV.err
+#SBATCH --output=/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/outfiles/runOV.out
 #SBATCH --nodes=1
 #SBATCH --time=23:00:00
 #SBATCH --ntasks-per-node=1
