@@ -1,9 +1,9 @@
 [1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity"
 Reading layer `clipped_KBAsGlobal_2020_September_02_POL' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/KBA/KBA2020/clipped_KBAsGlobal_2020_September_02_POL.shp' using driver `ESRI Shapefile'
-Simple feature collection with 655 features and 16 fields
+Simple feature collection with 1361 features and 16 fields
 geometry type:  MULTIPOLYGON
 dimension:      XY
-bbox:           xmin: -3.199789 ymin: 4.80091 xmax: 128.9939 ymax: 55.27193
+bbox:           xmin: -87.82076 ymin: -4.455852 xmax: 128.9939 ymax: 58.01013
 CRS:            4326
 Reading layer `clipped_WDPA_May2021_Public_flattened' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/WDPA/WDPA_May2021_Public_shp/WDPA_May2021_Public/clipped_WDPA_May2021_Public_flattened.shp' using driver `ESRI Shapefile'
 Simple feature collection with 37318 features and 32 fields
@@ -100,34 +100,40 @@ Classes ‘sf’ and 'data.frame':	37318 obs. of  33 variables:
  - attr(*, "sf_column")= chr "geometry"
  - attr(*, "agr")= Factor w/ 3 levels "constant","aggregate",..: NA NA NA NA NA NA NA NA NA NA ...
   ..- attr(*, "names")= chr  "CONS_OBJ" "DESIG" "DESIG_ENG" "DESIG_TYPE" ...
-[1] "CHE" "DEU" "GHA" "KOR"
+ [1] "AZE" "LVA" "CHE" "DEU" "BDI" "GHA" "KOR" "NIC" "SAU" "ESP"
 character(0)
 character(0)
 character(0)
 [1] ISO3   nchart
 <0 rows> (or 0-length row.names)
-[1] 4
-1 	 CHE 	 Switzerland 
-2 	 DEU 	 Germany 
-3 	 GHA 	 Ghana 
-4 	 KOR 	 South Korea 
+[1] 10
+1 	 AZE 	 Azerbaijan 
+2 	 LVA 	 Latvia 
+3 	 CHE 	 Switzerland 
+4 	 DEU 	 Germany 
+5 	 BDI 	 Burundi 
+6 	 GHA 	 Ghana 
+7 	 KOR 	 South Korea 
+8 	 NIC 	 Nicaragua 
+9 	 SAU 	 Saudi Arabia 
+10 	 ESP 	 Spain 
 user.self 
- 4.001517 
-  SitRecID      kba      ovl year random nPAs    percPA ISO     COUNTRY
-1     3260  1909131  1909131 1979  FALSE    1 1.0000000 CHE Switzerland
-2     3261  4583806  4583806 1979  FALSE    1 1.0000000 CHE Switzerland
-3     3262  3678740  3678740 1979  FALSE    1 1.0000000 CHE Switzerland
-4     3263  3690038  3690038 1979  FALSE    1 1.0000000 CHE Switzerland
-5     3264  7641283  7641283 1979  FALSE    1 1.0000000 CHE Switzerland
-6     3265 59346614 11640335 1976  FALSE    2 0.1961415 CHE Switzerland
-'data.frame':	1386 obs. of  9 variables:
- $ SitRecID: num  3260 3261 3262 3263 3264 ...
- $ kba     : num  1909131 4583806 3678740 3690038 7641283 ...
- $ ovl     : num  1909131 4583806 3678740 3690038 7641283 ...
- $ year    : num  1979 1979 1979 1979 1979 ...
+ 4.070017 
+  SitRecID kba ovl year random nPAs percPA ISO    COUNTRY
+1      161  NA   0    0  FALSE    0      0 AZE Azerbaijan
+2      163  NA   0    0  FALSE    0      0 AZE Azerbaijan
+3      173  NA   0    0  FALSE    0      0 AZE Azerbaijan
+4      175  NA   0    0  FALSE    0      0 AZE Azerbaijan
+5      187  NA   0    0  FALSE    0      0 AZE Azerbaijan
+6      139  NA   0    0  FALSE    0      0 AZE Azerbaijan
+'data.frame':	2093 obs. of  9 variables:
+ $ SitRecID: num  161 163 173 175 187 139 140 142 147 148 ...
+ $ kba     : num  NA NA NA NA NA NA NA NA NA NA ...
+ $ ovl     : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ year    : num  0 0 0 0 0 0 0 0 0 0 ...
  $ random  : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
- $ nPAs    : int  1 1 1 1 1 2 1 1 1 1 ...
- $ percPA  : num  1 1 1 1 1 ...
- $ ISO     : chr  "CHE" "CHE" "CHE" "CHE" ...
- $ COUNTRY : chr  "Switzerland" "Switzerland" "Switzerland" "Switzerland" ...
+ $ nPAs    : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ percPA  : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ ISO     : Factor w/ 10 levels "AZE","LVA","CHE",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ COUNTRY : Factor w/ 10 levels "Azerbaijan","Latvia",..: 1 1 1 1 1 1 1 1 1 1 ...
 [1] 0

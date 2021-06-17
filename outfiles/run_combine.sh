@@ -11,7 +11,7 @@
 #SBATCH -p diffenbaugh
 
 ml physics gdal udunits/2.2.26 netcdf/4.4.1.1 R/3.6.1 proj geos;
-module load Python/3.6.1
+module load math;
 
 cd $OAK/group_members/aminaly/mountain_biodiversity
-Rscript ./analysis/wdpa_cleaning.py
+python3.6 ./analysis/wdpa_cleaning.py
