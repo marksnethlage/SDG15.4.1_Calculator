@@ -44,7 +44,6 @@ CLIPPED <- TRUE ## if you want to use the python clipped versions (just a subset
 PYTHON_INTERSEC <- FALSE ## if you have run the python code to intersect KBA & PAs and want to loop through those instead
 YEAR_RUN <- 2020
 PLOTIT <- F ##if you want plots (usually when stepping through, not the full run)
-LEVEL <- "Level_3" ## this is the level you'd like to loop through. 
 
 #### 1.2 set file locations and working directories ----
 

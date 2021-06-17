@@ -27,7 +27,7 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
 ## shapefiles for plotting
 clip <- "clipped_" ## if you want to use the python clipped versions (just a subset of the code for testing)
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_May2021_Public_shp/WDPA_May2021_Public/", clip, "WDPA_May2021_Public_shp-polygons.shp"), stringsAsFactors = F) 
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F) 
 
 ## summary numbers
 birdlife_sum <- read_csv("./data/birdlife_summary_of_pa_coverage_per_kba.csv")
@@ -49,7 +49,7 @@ cnt_sites <- combined %>% group_by(ISO, Country = COUNTRY.y) %>% count()
 combined_byISO <- combined %>% group_by(ISO, Country = COUNTRY.y) %>% summarise(num_matching = sum(match))
 combined_byISO_melt <- melt(left_join(combined_byISO, cnt_sites))
 
-combined_byISO_melt_short <- combined_byISO_melt %>% filter(ISO %in% unique(local_rerun_all$ISO)[1:9])
+combined_byISO_melt_short <- combined_byISO_melt %>% filter(ISO %in% unique(local_rerun_all$ISO))
 
 ## Start PDF File
 ## lets do some plots
@@ -57,7 +57,7 @@ pdf(paste0("./visuals/compare_local_run", Sys.Date(), ".pdf"))
 ##Finalize datasets for regressions & run
 plot(c(0, 1), c(0, 1), ann = F, bty = 'n', type = 'n', xaxt = 'n', yaxt = 'n',
      main = title)
-text(x = 0.5, y = 0.5, paste(timestamp(), "\n Compare Birdlife output to Mine"),
+text(x = 0.5, y = 0.5, paste(date(), "\n Compare Birdlife output to Mine"),
      cex = 1.5, col = "black")
 
 # bar plot showing number of sites with matching PAs by country 
