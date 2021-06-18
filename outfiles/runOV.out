@@ -78,7 +78,7 @@ character(0)
 10 	 ESP 	 Spain 
 [1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results/files_country_2020/Spain.csv"
 user.self 
- 239.3361 
+ 241.7814 
   SitRecID      kba        ovl year random nPAs    percPA ISO    COUNTRY
 1      161  1951884   968948.3 1964  FALSE    1 0.4964169 AZE Azerbaijan
 2      163 41331152 26430625.8 1969  FALSE    1 0.6394844 AZE Azerbaijan
@@ -86,7 +86,7 @@ user.self
 4      173 36863469 14766151.6 1993  FALSE    1 0.4005633 AZE Azerbaijan
 5      175  2624999        0.0    0  FALSE    0 0.0000000 AZE Azerbaijan
 6      187  8000697        0.0    0  FALSE    0 0.0000000 AZE Azerbaijan
-'data.frame':	6104 obs. of  9 variables:
+'data.frame':	6120 obs. of  9 variables:
  $ SitRecID: num  161 163 173 173 175 187 139 140 142 142 ...
  $ kba     : num  1951884 41331152 36863469 36863469 2624999 ...
  $ ovl     : num  968948 26430626 16629519 14766152 0 ...
