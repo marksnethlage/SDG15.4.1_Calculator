@@ -33,6 +33,7 @@ library(lwgeom)
 library(todor)
 library(reticulate)
 
+
 #### Define functions ----
 lu <- function (x = x){
   length(unique(x))
@@ -65,16 +66,18 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 
 clip <- ifelse(CLIPPED, "clipped_", "")
 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F) 
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F, crs = 4326) 
+gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Inventory_GME_210420_Sel_292_attr/", clip, "Gmba_Inventory_GME_210420_Sel_292_attr.shp"), stringsAsFactors = F, crs = 4326) 
 gmba_kba <- st_read(dsn = paste0(getwd(), '/data/combined/', clip, "gmba_kba.shp"), stringsAsFactors = F) 
+world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
 pas <- pas[!is.na(st_dimension(pas)),]
 as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are in the dataset
 
 #check for and repair any geometry issues
-pas <- if(sum(st_is_valid(pas)) < nrow(pas)) st_make_valid(pas)
-gmba_kba <- if(sum(st_is_valid(gmba_kba)) < nrow(gmba_kba)) st_make_valid(gmba_kba)
+if(sum(st_is_valid(pas)) < nrow(pas)) pas <- st_make_valid(pas)
+if(sum(st_is_valid(gmba_kba)) < nrow(gmba_kba)) gmba_kba <- st_make_valid(gmba_kba)
 
 ## convert factors to characters in the dataframes
 ## PAs dataframe
@@ -190,9 +193,9 @@ for (x in 1:length(listloop)){
   
   ## 1. Subset kbas and pas to this domain
   #TODO change to the right column
-  kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
-  domain_isos <- paste0(unique(kba.c$ISO3))
-  RangeName <- paste0(unique(kba.c$RangeNameM))
+  gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
+  domain_isos <- paste0(unique(gmba_kba.c$ISO3))
+  RangeName <- paste0(unique(gmba_kba.c$RangeNameM))
   
   #finds the isos in this domain and subsets any pa.c that have these countries
   #if any of these countries are known to have transboundary sites, we include the others in the pa country list
@@ -204,15 +207,22 @@ for (x in 1:length(listloop)){
     pa.c <- pas %>% filter(ISO3 %in% domain_isos) ## protected areas within the domain
   }
   
+  
   ## 2. Print domain name and ISO3 code to console
-  domain.c <- kba.c$ISO3[1]
+  domain.c <- unique(gmba_kba.c$ISO3)
   cat(x, '\t', domain, '\t', domain.c, '\n')  
   
   ## 3. Plot map of KBAs and PAs to check ----
   if(PLOTIT){
-    plot(kba.c$geometry, border=3)#kbas are in green
-    plot(pa.c$geometry, border=4, add=T) # pas are in blue
-    title(main=paste(country.n, country))
+    
+    world.c <- world %>% filter(CNTRY_NAME %in% kba.c$Country)
+    gmba.c <- gmba %>% filter(GMBA_V2_ID == domain)
+    
+    plot(pa.c$geometry, border=4) # pas are in blue
+    plot(gmba_kba.c$geometry, border=3, add = T)#kbas are in green
+    plot(gmba.c$geometry, border = 2, add = T) #gmba not broken by kba
+    plot(world.c, border = 1, col = NA, add = T)
+    title(main=paste(domain.c, domain))
     box()
     axis(1)
     axis(2)
@@ -221,14 +231,14 @@ for (x in 1:length(listloop)){
   #if there are no pas in this country, sets output to zero and skips
   if (nrow(pa.c) == 0){ 
     
-    areasov <- data.frame(SitRecID = kba.c$SitRecID, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
+    areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                           DOMAIN = domain, COUNTRY = domain_isos, RangeName = RangeName) 
     
   } else {
     
     ##finds the overlap of the kba and the pa
     ovkba <- NULL
-    ovkba <- st_intersects(pa.c$geometry, kba.c$geometry, sparse = FALSE) 
+    ovkba <- st_intersects(pa.c$geometry, gmba_kba.c$geometry, sparse = FALSE) 
     ovkba ## matrix where rows = PAs, and cols = KBAs
     nrow(ovkba)
     
@@ -255,9 +265,9 @@ for (x in 1:length(listloop)){
       }
       
       ## starts loop for all kbas in the domain
-      for (z in 1:nrow(kba.c)){ 
+      for (z in 1:nrow(gmba_kba.c)){ 
 
-        kbaz <- kba.c[z, ]
+        kbaz <- gmba_kba.c[z, ]
         head(kbaz)
         akba <- NA #set to NA to incase next steps don't run
         akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbaz$geometry, byid = FALSE)}, error=function(e){})))
