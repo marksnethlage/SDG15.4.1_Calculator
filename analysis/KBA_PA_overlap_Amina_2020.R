@@ -68,10 +68,6 @@ kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_20
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F) 
 gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/GMBA_Inventory_V2_210420_GME/", clip, "GMBA_Inventory_V2_210420_GME.shp"), stringsAsFactors = F) 
 
-#just this once to see if it works. No UNESCO and no proposed
-pas <- pas %>% filter(INT_CRIT == "Not Applicable") 
-pas <- pas %>% filter(STATUS != "Proposed") %>% filter(STATUS != "Not Reported")
-
 
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
 pas <- pas[!is.na(st_dimension(pas)),]
