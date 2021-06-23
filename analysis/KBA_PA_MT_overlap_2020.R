@@ -194,7 +194,7 @@ for (x in 1:length(listloop)){
   ## 1. Subset kbas and pas to this domain
   #TODO change to the right column
   gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
-  domain_isos <- paste0(unique(gmba_kba.c$ISO3))
+  domain_isos <- paste0(unique(gmba_kba.c$ISO3), sep = ";")
   RangeName <- paste0(unique(gmba_kba.c$RangeNameM))
   
   #finds the isos in this domain and subsets any pa.c that have these countries
@@ -220,7 +220,7 @@ for (x in 1:length(listloop)){
     
     plot(pa.c$geometry, border=4) # pas are in blue
     plot(gmba_kba.c$geometry, border=3, add = T)#kbas are in green
-    plot(gmba.c$geometry, border = 2, add = T) #gmba not broken by kba
+    plot(gmba.c$geometry, border = 2, col = NA, add = T) #gmba not broken by kba
     plot(world.c, border = 1, col = NA, add = T)
     title(main=paste(domain.c, domain))
     box()
@@ -382,7 +382,7 @@ for (x in 1:length(listloop)){
       max(areasov$percPA)
       areasov$DOMAIN <- domain
       areasov$COUNTRY <- domain_isos
-      areasoc$RangeName <- RangeName
+      areasov$RangeName <- RangeName
       
     } # ends loop for ovlkba>0
   }  ## ends loop for length(pac)>1
