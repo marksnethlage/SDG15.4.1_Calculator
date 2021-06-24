@@ -199,6 +199,7 @@ for (x in 1:length(listloop)){
   
   #finds the isos in this domain and subsets any pa.c that have these countries
   #if any of these countries are known to have transboundary sites, we include the others in the pa country list
+  
   if (domain_isos %in% transb$ISO3){ 
     iso3 <- c(domain_isos, transb$oISO3[country == transb$ISO3])
     iso3
@@ -220,7 +221,7 @@ for (x in 1:length(listloop)){
 
     plot(pa.c$geometry, border=4) # pas are in blue
     plot(gmba_kba.c$geometry, border=3, add = T)#kbas are in green
-    plot(gmba.c$geometry, border = 2, col = NA, add = T) #gmba not broken by kba
+    plot(gmba.c$geometry, border = 2, col = NA, add = T) #gmba not broken by kba red 
     plot(world.c, border = 1, col = NA, add = T)
     title(main=paste(domain.c, domain))
     box()
@@ -248,13 +249,15 @@ for (x in 1:length(listloop)){
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
                             DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
                             COUNTRY = NA)
+      print("length ovkba == 0")
     
     ## if there are no overlaps, we're just going to set these to zeros
-    } else if(sum(ovkba <= 0)) {
+    } else if (sum(ovkba <= 0)) {
       
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                             DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
                             COUNTRY = NA)
+      print("sum ovkba <= 0")
     
     ##if there ARE overlaps between kbas and pas (e.g. some TRUES in the matrix): 
     } else {  
@@ -292,8 +295,12 @@ for (x in 1:length(listloop)){
             plot(kbaz$geometry, add = T)
             plot(world.c$geometry, col='transparent', border=2, add = T)
             
-            title(paste("PAs = Black Outline; KBA intersec GMBA = Purp \n Country Border = Red GMBA Site = ", 
-                        kbaz$GMBA_V2_ID, "\n Range Name", kbaz$RangeNameM))
+            plot(kbaz$geometry)
+            plot(pacz$geometry, col=rgb(0,0,.8,0.2), border=0, add = T)
+            plot(world.c$geometry, col='transparent', border=2, add = T)
+            
+            title(paste("KBA intersec GMBA = Black Outline;  PAS = Purp \n Country Border = Red GMBA Site = ", 
+                        kbaz$GMBA_V2_ID, "Range Name", kbaz$RangeNameM), cex = 1)
           }
           
           yearspacz <- pacz$STATUS_YR #years of pas in kba z
@@ -380,6 +387,7 @@ for (x in 1:length(listloop)){
           if (is.null(ovf) | !"sf" %in% class(ovf)){
             areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=NA, year=0, random=F, nPAs=0,
                                    DOMAIN = NA, range_countries = NA, RangeName = NA, COUNTRY = NA)  ## error in spatial overlap
+          print("is.null(ovf |")
           }
         }  ## ends loop for PAs overlapping with the KBA
         
