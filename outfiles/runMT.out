@@ -117,20 +117,33 @@ character(0)
 [1] ISO3   nchart
 <0 rows> (or 0-length row.names)
 1 	 15490 	 CHE DEU 
+[1] "sum ovkba <= 0"
 2 	 11448 	 CHE DEU 
+[1] "sum ovkba <= 0"
 3 	 10001 	 CHE DEU 
+[1] "sum ovkba <= 0"
 4 	 12457 	 DEU 
+[1] "sum ovkba <= 0"
 5 	 18171 	 GHA 
+[1] "sum ovkba <= 0"
 6 	 12507 	 KOR 
+[1] "sum ovkba <= 0"
 7 	 12166 	 ZAF 
+[1] "sum ovkba <= 0"
 8 	 11306 	 ZAF 
+[1] "sum ovkba <= 0"
 9 	 18277 	 ZAF 
+[1] "sum ovkba <= 0"
 10 	 18701 	 ZAF 
+[1] "sum ovkba <= 0"
 11 	 14461 	 ZAF 
+[1] "sum ovkba <= 0"
 12 	 18285 	 ZAF 
+[1] "sum ovkba <= 0"
 13 	 14280 	 ZAF 
+[1] "sum ovkba <= 0"
 user.self 
-0.4900333 
+   0.4901 
   SitRecID kba ovl year random nPAs percPA DOMAIN range_countries
 1       NA  NA   0    0  FALSE    0      0  15490         CHE,DEU
 2       NA  NA   0    0  FALSE    0      0  11448         CHE,DEU
