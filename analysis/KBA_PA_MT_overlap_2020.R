@@ -411,6 +411,6 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("finaltab_", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste("finaltab_mt_", YEAR_RUN, ".csv", sep=""), row.names = F)
 ### end here
 
