@@ -28,6 +28,7 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
 clip <- "clipped_" ## if you want to use the python clipped versions (just a subset of the code for testing)
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F) 
+gmba_kba <- st_read(dsn = paste0(getwd(), '/data/combined/', clip, "gmba_kba.shp"), stringsAsFactors = F) 
 
 ## summary numbers
 birdlife_sum <- read_csv("./data/birdlife_summary_of_pa_coverage_per_kba.csv")
@@ -112,6 +113,14 @@ all_non_match_D <- all_non_match %>% filter(ISO == "DEU")
 ggplot(data = all_non_match_D, aes(x=diff)) +
   geom_histogram() +
   ggtitle("DIstribution %Diff in Coverage Germany") +
+  theme_bw()
+
+## 
+seh <- gmba_kba %>% filter(Level_3 == "Southwest European Highlands")
+
+ggplot(data = seh) + 
+  ggtitle("Southwest European Highlands") +
+  geom_sf(data = seh, aes(fill = "SitRecId")) + 
   theme_bw()
 
 dev.off()

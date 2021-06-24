@@ -252,7 +252,7 @@ for (x in 1:length(listloop)){
       print("length ovkba == 0")
     
     ## if there are no overlaps, we're just going to set these to zeros
-    } else if (sum(ovkba <= 0)) {
+    } else if (sum(ovkba) <= 0) {
       
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                             DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
