@@ -232,7 +232,7 @@ for (x in 1:length(listloop)){
   if (nrow(pa.c) == 0){ 
     
     areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
-                          COUNTRY = NA, DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
+                          DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
                           COUNTRY = kbaz$ISO3) 
     
   } else {
@@ -257,7 +257,7 @@ for (x in 1:length(listloop)){
                             COUNTRY = NA)
     
     ##if there ARE overlaps between kbas and pas (e.g. some TRUES in the matrix): 
-    } else if (sum(ovkba > 0)) {  
+    } else {  
       areasov <- data.frame()
       
       ##re-assigns missing years to a randomly selected year from PAs in the respective country # should be in data cleaning
@@ -418,6 +418,6 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("finaltab_mt_", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste("results/finaltab_mt_", YEAR_RUN, ".csv", sep=""), row.names = F)
 ### end here
 
