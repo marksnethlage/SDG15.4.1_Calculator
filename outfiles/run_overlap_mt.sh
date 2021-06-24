@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=runregs
+#SBATCH --job-name=runMT
 #SBATCH --error=/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/outfiles/runMT.err
 #SBATCH --output=/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/outfiles/runMT.out
 #SBATCH --nodes=1
