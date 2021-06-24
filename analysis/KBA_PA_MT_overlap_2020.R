@@ -212,12 +212,12 @@ for (x in 1:length(listloop)){
   domain.c <- unique(gmba_kba.c$ISO3)
   cat(x, '\t', domain, '\t', domain.c, '\n')  
   
+  world.c <- world %>% filter(CNTRY_NAME %in% gmba_kba.c$Country)
+  gmba.c <- gmba %>% filter(GMBA_V2_ID == domain)
+  
   ## 3. Plot map of KBAs and PAs to check ----
   if(PLOTIT){
-    
-    world.c <- world %>% filter(CNTRY_NAME %in% kba.c$Country)
-    gmba.c <- gmba %>% filter(GMBA_V2_ID == domain)
-    
+
     plot(pa.c$geometry, border=4) # pas are in blue
     plot(gmba_kba.c$geometry, border=3, add = T)#kbas are in green
     plot(gmba.c$geometry, border = 2, col = NA, add = T) #gmba not broken by kba
@@ -246,10 +246,15 @@ for (x in 1:length(listloop)){
     if (length(ovkba) == 0){ 
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
                             DOMAIN = domain, COUNTRY = paste0(domain_isos, collapse = ","), RangeName = RangeName)
-    }
+    
+    ## if there are no overlaps, we're just going to set these to zeros
+    } else if(sum(ovkba <= 0)) {
+      
+      areasov <- data.frame(SitRecID = NA, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
+                            DOMAIN = domain, COUNTRY = paste0(domain_isos, collapse = ","), RangeName = RangeName)
     
     ##if there ARE overlaps between kbas and pas (e.g. some TRUES in the matrix): 
-    if (sum(ovkba) > 0){  #CHANGED this is now sum instead of length. No use is doing this if matrix is all false/no overlap
+    } else if (sum(ovkba > 0)) {  
       areasov <- data.frame()
       
       ##re-assigns missing years to a randomly selected year from PAs in the respective country # should be in data cleaning
@@ -271,7 +276,6 @@ for (x in 1:length(listloop)){
         head(kbaz)
         akba <- NA #set to NA to incase next steps don't run
         akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbaz$geometry, byid = FALSE)}, error=function(e){})))
-        
         ##find the number of pas that the 'zth' kba overlaps with (the particular kba the loop is currently processing)
         
         if (length(which(ovkba[ ,z] == T)) > 0){  ## when at least 1 pa overlaps with the kba
@@ -279,9 +283,14 @@ for (x in 1:length(listloop)){
           ##subset to pas that overlap this kba
           pacz <- pa.c[which(ovkba[ ,z] == T), ] 
           
-          if (PLOTIT){ #CHANGED shape --> geometry
-            plot(kbaz$geometry)
-            plot(pacz$geometry, col=rgb(0,0,.8,0.2), border=0, add=T)
+          if (PLOTIT){ 
+            
+            plot(pacz$geometry, col=rgb(0,0,.8,0.2), border=0)
+            plot(kbaz$geometry, add = T)
+            plot(world.c$geometry, col='transparent', border=2, add = T)
+            
+            title(paste("PAs = Black Outline; KBA intersec GMBA = Purp \n Country Border = Red GMBA Site = ", 
+                        kbaz$GMBA_V2_ID, "\n Range Name", kbaz$RangeNameM))
           }
           
           yearspacz <- pacz$STATUS_YR #years of pas in kba z
@@ -384,12 +393,12 @@ for (x in 1:length(listloop)){
       areasov$COUNTRY <- domain_isos
       areasov$RangeName <- RangeName
       
-    } # ends loop for ovlkba>0
+    }  # ends loop for ovlkba>0
   }  ## ends loop for length(pac)>1
   
   finaltab <- rbind(finaltab,areasov)
   
-  tname <- paste(finfolder,"/",country.n, ".csv", sep="")
+  tname <- paste(finfolder,"/",domain.n, ".csv", sep="")
   tname
   write.csv(areasov, tname, row.names=F)
   
