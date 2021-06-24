@@ -405,7 +405,7 @@ for (x in 1:length(listloop)){
   
   finaltab <- rbind(finaltab,areasov)
   
-  tname <- paste(finfolder,"/",domain.n, ".csv", sep="")
+  tname <- paste(finfolder,"/",domain.c, ".csv", sep="")
   tname
   write.csv(areasov, tname, row.names=F)
   
