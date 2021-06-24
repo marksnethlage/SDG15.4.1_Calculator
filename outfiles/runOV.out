@@ -114,3 +114,30 @@ character(0)
 1 	 CHE 	 Switzerland 
 [1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results/files_country_2020/Switzerland.csv"
 2 	 DEU 	 Germany 
+[1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results/files_country_2020/Germany.csv"
+3 	 GHA 	 Ghana 
+[1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results/files_country_2020/Ghana.csv"
+4 	 KOR 	 South Korea 
+[1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results/files_country_2020/South Korea.csv"
+5 	 ZAF 	 South Africa 
+[1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results/files_country_2020/South Africa.csv"
+user.self 
+ 96.82938 
+  SitRecID     kba        ovl year random nPAs     percPA ISO     COUNTRY
+1     3260 1909131   24734.34 2001  FALSE    1 0.01295581 CHE Switzerland
+2     3261 4583806 3010502.73 1991  FALSE    1 0.65676919 CHE Switzerland
+3     3261 4583806  104876.73 1996  FALSE    2 0.02287983 CHE Switzerland
+4     3261 4583806  157277.95 2007  FALSE    2 0.03431165 CHE Switzerland
+5     3262 3678740 2588942.15 1991  FALSE    1 0.70375791 CHE Switzerland
+6     3262 3678740   46665.94 1996  FALSE    1 0.01268531 CHE Switzerland
+'data.frame':	4189 obs. of  9 variables:
+ $ SitRecID: num  3260 3261 3261 3261 3262 ...
+ $ kba     : num  1909131 4583806 4583806 4583806 3678740 ...
+ $ ovl     : num  24734 3010503 104877 157278 2588942 ...
+ $ year    : num  2001 1991 1996 2007 1991 ...
+ $ random  : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
+ $ nPAs    : num  1 1 2 2 1 1 1 1 2 1 ...
+ $ percPA  : num  0.013 0.6568 0.0229 0.0343 0.7038 ...
+ $ ISO     : chr  "CHE" "CHE" "CHE" "CHE" ...
+ $ COUNTRY : chr  "Switzerland" "Switzerland" "Switzerland" "Switzerland" ...
+[1] 0

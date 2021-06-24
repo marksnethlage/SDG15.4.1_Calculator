@@ -130,7 +130,7 @@ character(0)
 12 	 18285 	 ZAF 
 13 	 14280 	 ZAF 
 user.self 
-   0.4962 
+0.4900333 
   SitRecID kba ovl year random nPAs percPA DOMAIN range_countries
 1       NA  NA   0    0  FALSE    0      0  15490         CHE,DEU
 2       NA  NA   0    0  FALSE    0      0  11448         CHE,DEU
