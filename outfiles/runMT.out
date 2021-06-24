@@ -117,57 +117,57 @@ character(0)
 [1] ISO3   nchart
 <0 rows> (or 0-length row.names)
 1 	 15490 	 CHE DEU 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 2 	 11448 	 CHE DEU 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 3 	 10001 	 CHE DEU 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 4 	 12457 	 DEU 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 5 	 18171 	 GHA 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 6 	 12507 	 KOR 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 7 	 12166 	 ZAF 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 8 	 11306 	 ZAF 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 9 	 18277 	 ZAF 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 10 	 18701 	 ZAF 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 11 	 14461 	 ZAF 
 [1] "sum ovkba <= 0"
 12 	 18285 	 ZAF 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 13 	 14280 	 ZAF 
-[1] "sum ovkba <= 0"
+[1] "made it here"
 user.self 
-   0.4901 
-  SitRecID kba ovl year random nPAs percPA DOMAIN range_countries
-1       NA  NA   0    0  FALSE    0      0  15490         CHE,DEU
-2       NA  NA   0    0  FALSE    0      0  11448         CHE,DEU
-3       NA  NA   0    0  FALSE    0      0  10001         CHE,DEU
-4       NA  NA   0    0  FALSE    0      0  12457             DEU
-5       NA  NA   0    0  FALSE    0      0  18171             GHA
-6       NA  NA   0    0  FALSE    0      0  12507             KOR
-         RangeName COUNTRY
-1  Central Uplands      NA
-2   Jura Mountains      NA
-3    European Alps      NA
-4  Bohemian Massif      NA
-5  Volta Highlands      NA
-6 Korean Peninsula      NA
-'data.frame':	13 obs. of  11 variables:
- $ SitRecID       : logi  NA NA NA NA NA NA ...
- $ kba            : logi  NA NA NA NA NA NA ...
- $ ovl            : num  0 0 0 0 0 0 0 0 0 0 ...
- $ year           : num  0 0 0 0 0 0 0 0 0 0 ...
+ 73.30365 
+  SitRecID        kba         ovl year random nPAs DOMAIN range_countries
+1     3261   210805.6   208963.11 1991  FALSE    1  15490         CHE,DEU
+2     3262   180858.2   180512.48 1991  FALSE    1  15490         CHE,DEU
+3     3273   135052.6        0.00    0  FALSE    0  15490         CHE,DEU
+4     3342 35834593.8  9013824.93 1980  FALSE    3  15490         CHE,DEU
+5     3342 35834593.8 25009514.91 2004  FALSE    2  15490         CHE,DEU
+6     3342 35834593.8    46157.63 2005  FALSE    4  15490         CHE,DEU
+        RangeName COUNTRY      percPA
+1 Central Uplands     CHE 0.991259820
+2 Central Uplands     CHE 0.998088590
+3 Central Uplands     CHE 0.000000000
+4 Central Uplands     DEU 0.251539755
+5 Central Uplands     DEU 0.697915402
+6 Central Uplands     DEU 0.001288075
+'data.frame':	2227 obs. of  11 variables:
+ $ SitRecID       : num  3261 3262 3273 3342 3342 ...
+ $ kba            : num  210806 180858 135053 35834594 35834594 ...
+ $ ovl            : num  208963 180512 0 9013825 25009515 ...
+ $ year           : num  1991 1991 0 1980 2004 ...
  $ random         : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
- $ nPAs           : num  0 0 0 0 0 0 0 0 0 0 ...
- $ percPA         : num  0 0 0 0 0 0 0 0 0 0 ...
- $ DOMAIN         : Factor w/ 13 levels "15490","11448",..: 1 2 3 4 5 6 7 8 9 10 ...
- $ range_countries: Factor w/ 5 levels "CHE,DEU","DEU",..: 1 1 1 2 3 4 5 5 5 5 ...
- $ RangeName      : Factor w/ 13 levels "Central Uplands",..: 1 2 3 4 5 6 7 8 9 10 ...
- $ COUNTRY        : logi  NA NA NA NA NA NA ...
+ $ nPAs           : num  1 1 0 3 2 4 1 1 1 1 ...
+ $ DOMAIN         : Factor w/ 13 levels "15490","11448",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ range_countries: Factor w/ 5 levels "CHE,DEU","DEU",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ RangeName      : Factor w/ 13 levels "Central Uplands",..: 1 1 1 1 1 1 1 1 1 1 ...
+ $ COUNTRY        : Factor w/ 5 levels "CHE","DEU","GHA",..: 1 1 1 2 2 2 2 2 2 2 ...
+ $ percPA         : num  0.991 0.998 0 0.252 0.698 ...
 [1] 0
