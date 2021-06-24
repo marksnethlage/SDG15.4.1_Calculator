@@ -399,14 +399,16 @@ for (x in 1:length(listloop)){
         }
         
         areasov <- rbind(areasov,areasov1)
-      }  ## ends loop for all kbas in the country
+      }  ## ends loop for all kbas in the domain
       
       areasov$percPA <- areasov$ovl/areasov$kba
       areasov
       max(areasov$percPA)
-      areasov$DOMAIN <- domain
-      areasov$COUNTRY <- domain_isos
-      areasov$RangeName <- RangeName
+      print("made it here")
+      #areasov$DOMAIN <- domain
+      #areasov$range_countries <- paste0(domain_isos, collapse = ",")
+      #areasov$RangeName <- RangeName
+      #areasoc$COUNTRY <- kbaz$ISO3
       
     }  # ends loop for ovlkba>0
   }  ## ends loop for length(pac)>1
