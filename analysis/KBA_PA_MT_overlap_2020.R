@@ -66,7 +66,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 #### 1.3 Read in shapefiles ----
 
 clip <- ifelse(CLIPPED, "clipped_", "")
-full_kba <- ifelse(FULL_KBA, "full_", "")
+full_kba <- ifelse(FULL_KBA, "full_kba_", "")
 
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F, crs = 4326) 
 gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Inventory_GME_210420_Sel_292_attr/", clip, "Gmba_Inventory_GME_210420_Sel_292_attr.shp"), stringsAsFactors = F, crs = 4326) 
