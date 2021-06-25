@@ -64,8 +64,10 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 # if you want the subet data, changed clipped to TRUE
 clip <- ifelse(CLIPPED, "clipped_", "")
 
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_poly_Nov2020_filtered.gdb"))
+pas <- pas %>% filter(ISO3 %in% c("DEU", "GHA", "KOR", "ZAF", "CHE")) %>% filter(INT_CRIT %in% c("Not Applicable", "Not Reported"))
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F, crs = 4326) 
+#pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F, crs = 4326) 
 gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/GMBA_Inventory_V2_210420_GME/", clip, "GMBA_Inventory_V2_210420_GME.shp"), stringsAsFactors = F, crs = 4326) 
 
 
