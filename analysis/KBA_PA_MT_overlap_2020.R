@@ -45,6 +45,7 @@ CLIPPED <- TRUE ## if you want to use the python clipped versions (just a subset
 PYTHON_INTERSEC <- FALSE ## if you have run the python code to intersect KBA & PAs and want to loop through those instead
 YEAR_RUN <- 2020
 PLOTIT <- F ##if you want plots (usually when stepping through, not the full run)
+FULL_KBA <- T
 
 #### 1.2 set file locations and working directories ----
 
@@ -65,10 +66,11 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 #### 1.3 Read in shapefiles ----
 
 clip <- ifelse(CLIPPED, "clipped_", "")
+full_kba <- ifelse(FULL_KBA, "full_", "")
 
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F, crs = 4326) 
 gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Inventory_GME_210420_Sel_292_attr/", clip, "Gmba_Inventory_GME_210420_Sel_292_attr.shp"), stringsAsFactors = F, crs = 4326) 
-gmba_kba <- st_read(dsn = paste0(getwd(), '/data/combined/', clip, "gmba_kba.shp"), stringsAsFactors = F) 
+gmba_kba <- st_read(dsn = paste0(getwd(), '/data/combined/', clip, full_kba, "gmba_kba.shp"), stringsAsFactors = F) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
@@ -415,7 +417,7 @@ for (x in 1:length(listloop)){
   
   finaltab <- rbind(finaltab,areasov)
   
-  tname <- paste(finfolder,"/", RangeName, ".csv", sep="")
+  tname <- paste(finfolder,"/fullkba_", RangeName, ".csv", sep="")
   tname
   write.csv(areasov, tname, row.names=F)
   
@@ -428,6 +430,6 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("results/finaltab_mt_", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste("results/finaltab_mt_fullkba", YEAR_RUN, ".csv", sep=""), row.names = F)
 ### end here
 
