@@ -77,8 +77,8 @@ pas <- pas[!is.na(st_dimension(pas)),]
 as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are in the dataset
 
 #check for and repair any geometry issues
-if(sum(st_is_valid(kbas) < nrow(kbas))) kbas <- st_make_valid(kbas) 
-if(sum(st_is_valid(pas) < nrow(pas))) pas <- st_make_valid(pas)
+if(sum(st_is_valid(kbas)) < nrow(kbas)) kbas <- st_make_valid(kbas) 
+if(sum(st_is_valid(pas)) < nrow(pas)) pas <- st_make_valid(pas)
 
 ## convert factors to characters in the dataframes
 ## PAs dataframe
