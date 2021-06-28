@@ -11,11 +11,11 @@ geometry type:  MULTIPOLYGON
 dimension:      XY
 bbox:           xmin: -6.197911 ymin: -53.23763 xmax: 130.9792 ymax: 52.38945
 CRS:            EPSG:4326
-Reading layer `clipped_gmba_kba' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/combined/clipped_gmba_kba.shp' using driver `ESRI Shapefile'
-Simple feature collection with 464 features and 34 fields
+Reading layer `clipped_full_kba_gmba_kba' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/combined/clipped_full_kba_gmba_kba.shp' using driver `ESRI Shapefile'
+Simple feature collection with 434 features and 16 fields
 geometry type:  MULTIPOLYGON
 dimension:      XY
-bbox:           xmin: -3.079161 ymin: -46.97893 xmax: 128.9939 ymax: 52.35793
+bbox:           xmin: -3.199789 ymin: -46.97893 xmax: 128.9939 ymax: 52.35793
 CRS:            4326
 Reading layer `world' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/World/world_shp/world.shp' using driver `ESRI Shapefile'
 Simple feature collection with 251 features and 2 fields
@@ -116,58 +116,3 @@ character(0)
 character(0)
 [1] ISO3   nchart
 <0 rows> (or 0-length row.names)
-1 	 15490 	 CHE DEU 
-[1] "made it here"
-2 	 11448 	 CHE DEU 
-[1] "made it here"
-3 	 10001 	 CHE DEU 
-[1] "made it here"
-4 	 12457 	 DEU 
-[1] "made it here"
-5 	 18171 	 GHA 
-[1] "made it here"
-6 	 12507 	 KOR 
-[1] "made it here"
-7 	 12166 	 ZAF 
-[1] "made it here"
-8 	 11306 	 ZAF 
-[1] "made it here"
-9 	 18277 	 ZAF 
-[1] "made it here"
-10 	 18701 	 ZAF 
-[1] "made it here"
-11 	 14461 	 ZAF 
-[1] "sum ovkba <= 0"
-12 	 18285 	 ZAF 
-[1] "made it here"
-13 	 14280 	 ZAF 
-[1] "made it here"
-user.self 
- 73.30365 
-  SitRecID        kba         ovl year random nPAs DOMAIN range_countries
-1     3261   210805.6   208963.11 1991  FALSE    1  15490         CHE,DEU
-2     3262   180858.2   180512.48 1991  FALSE    1  15490         CHE,DEU
-3     3273   135052.6        0.00    0  FALSE    0  15490         CHE,DEU
-4     3342 35834593.8  9013824.93 1980  FALSE    3  15490         CHE,DEU
-5     3342 35834593.8 25009514.91 2004  FALSE    2  15490         CHE,DEU
-6     3342 35834593.8    46157.63 2005  FALSE    4  15490         CHE,DEU
-        RangeName COUNTRY      percPA
-1 Central Uplands     CHE 0.991259820
-2 Central Uplands     CHE 0.998088590
-3 Central Uplands     CHE 0.000000000
-4 Central Uplands     DEU 0.251539755
-5 Central Uplands     DEU 0.697915402
-6 Central Uplands     DEU 0.001288075
-'data.frame':	2227 obs. of  11 variables:
- $ SitRecID       : num  3261 3262 3273 3342 3342 ...
- $ kba            : num  210806 180858 135053 35834594 35834594 ...
- $ ovl            : num  208963 180512 0 9013825 25009515 ...
- $ year           : num  1991 1991 0 1980 2004 ...
- $ random         : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
- $ nPAs           : num  1 1 0 3 2 4 1 1 1 1 ...
- $ DOMAIN         : Factor w/ 13 levels "15490","11448",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ range_countries: Factor w/ 5 levels "CHE,DEU","DEU",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ RangeName      : Factor w/ 13 levels "Central Uplands",..: 1 1 1 1 1 1 1 1 1 1 ...
- $ COUNTRY        : Factor w/ 5 levels "CHE","DEU","GHA",..: 1 1 1 2 2 2 2 2 2 2 ...
- $ percPA         : num  0.991 0.998 0 0.252 0.698 ...
-[1] 0
