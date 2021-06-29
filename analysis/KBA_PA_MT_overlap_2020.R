@@ -204,7 +204,7 @@ for (x in 1:length(listloop)){
   #if any of these countries are known to have transboundary sites, we include the others in the pa country list
   
   if (domain_isos %in% transb$ISO3){ 
-    iso3 <- c(domain_isos, transb$oISO3[country == transb$ISO3])
+    iso3 <- c(domain_isos, transb$oISO3[transb$ISO3 %in% domain_isos])
     iso3
     pa.c <- pas %>% filter(ISO3 %in% iso3)
   } else {
