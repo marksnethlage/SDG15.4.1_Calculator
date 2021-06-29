@@ -29,7 +29,7 @@ clip <- "clipped_" ## if you want to use the python clipped versions (just a sub
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
 #pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F) 
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_poly_Nov2020_filtered.gdb"))
-pas <- pas %>% filter(ISO3 %in% c("DEU", "GHA", "KOR", "ZAF", "CHE")) %>% filter(INT_CRIT %in% c("Not Applicable", "Not Reported")) %>% rename(geometry = Shape)
+pas <- pas %>% filter(ISO3 %in% c("DEU", "GHA", "KOR", "ZAF", "CHE")) %>% rename(geometry = Shape)
 gmba_kba <- st_read(dsn = paste0(getwd(), '/data/combined/', clip, "gmba_kba.shp"), stringsAsFactors = F) 
 
 ## summary numbers
@@ -56,7 +56,7 @@ combined_byISO_melt_short <- combined_byISO_melt %>% filter(ISO %in% unique(loca
 
 ## Start PDF File
 ## lets do some plots
-pdf(paste0("./visuals/compare_local_run", Sys.Date(), ".pdf"))
+pdf(paste0("./visuals/compare_local_run", Sys.Date(), "."))
 ##Finalize datasets for regressions & run
 plot(c(0, 1), c(0, 1), ann = F, bty = 'n', type = 'n', xaxt = 'n', yaxt = 'n',
      main = title)
@@ -81,27 +81,50 @@ ggplot(data = all_non_match, aes(x=diff)) +
   ggtitle("Distribution of %Diff in Coverage") +
   theme_bw()
 
-#loop through each ISO and plot
-for(i in unique(local_rerun_all$ISO)) {
-  
-  # country plots showing % coverage. Diff if mine minus theirs (so positive means I got more, neg they got more)
-  Country <- local_rerun_all %>% filter(ISO == i) %>% mutate(diff = percPA.x - percPA.y) %>% mutate(diff = ifelse(diff == 0, NA, diff))
-  kba_c <- kbas %>% filter(ISO3 == i)
-  kba_c <- left_join(kba_c, Country)
-  
-  ggplot(data = kba_c) + 
-    ggtitle(i) +
-    geom_sf(data = kba_c, aes(fill = diff)) +
-    scale_fill_gradient(low = "blue", high = "red", na.value = "green") +
-    theme_bw()
-  
-  # distribution of the non-matching ones in Korea
-  all_non_match_c <- all_non_match %>% filter(ISO == i)
-  ggplot(data = all_non_match_c, aes(x=diff)) +
-    geom_histogram() +
-    ggtitle(paste("Distribution %Diff in Coverage", i)) +
-    theme_bw()
-  
-}
+
+# country plots showing % coverage. Diff if mine minus theirs (so positive means I got more, neg they got more)
+country <- local_rerun_all %>% filter(ISO == "DEU") %>% mutate(diff = percPA.x - percPA.y) %>% mutate(diff = ifelse(diff == 0, NA, diff))
+kba_c <- kbas %>% filter(ISO3 == "DEU")
+kba_c <- left_join(kba_c, country)
+#pas_p_c <- pas_p %>% filter(ISO3 == "DEU")
+#pas_nov_unfilt_c <- pas_nov_unfilt %>% filter(ISO3 == "DEU")
+
+ggplot(data = kba_c) + 
+  ggtitle("Germany") +
+  geom_sf(data = kba_c, size = 0.002, aes(fill = diff)) +
+  #geom_sf(data = pas_nov_unfilt_c, color = "orange") +
+  scale_fill_gradient(low = "blue", high = "red", na.value = "green") +
+  theme_bw()
+
+# distribution of the non-matching ones in Korea
+all_non_match_c <- all_non_match %>% filter(ISO == "DEU")
+ggplot(data = all_non_match_c, aes(x=diff)) +
+  geom_histogram() +
+  ggtitle("Distribution %Diff in Coverage Germany") +
+  theme_bw()
+
+
+# country plots showing % coverage. Diff if mine minus theirs (so positive means I got more, neg they got more)
+country <- local_rerun_all %>% filter(ISO == "ZAF") %>% mutate(diff = percPA.x - percPA.y) %>% mutate(diff = ifelse(diff == 0, NA, diff))
+kba_c <- kbas %>% filter(ISO3 == "ZAF")
+kba_c <- left_join(kba_c, country)
+pas_p_c <- pas_p %>% filter(ISO3 == "ZAF")
+#pas_c <- pas %>% filter(ISO3 == "GHA")
+#pas_nov_unfilt_c <- pas_nov_unfilt %>% filter(ISO3 == "ZAF")
+
+ggplot(data = kba_c) + 
+  ggtitle("South Africa") +
+  geom_sf(data = kba_c, size = 0.002, aes(fill = diff)) +
+  #geom_sf(data = pas_nov_unfilt_c, color = "orange") +
+  scale_fill_gradient(low = "blue", high = "red", na.value = "green") +
+  theme_bw()
+
+# distribution of the non-matching ones in Korea
+all_non_match_c <- all_non_match %>% filter(ISO == "ZAF")
+ggplot(data = all_non_match_c, aes(x=diff)) +
+  geom_histogram() +
+  ggtitle("Distribution %Diff in Coverage South Africa") +
+  theme_bw()
+
 
 dev.off()
