@@ -19,21 +19,5 @@ The following objects are masked from ‘package:base’:
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 Linking to liblwgeom 3.0.0beta1 r16016, GEOS 3.6.2, PROJ 4.9.3
-Error: Problem with `filter()` input `..1`.
-✖ object 'GMBA_V2_ID' not found
-ℹ Input `..1` is `GMBA_V2_ID == domain`.
-Backtrace:
-     █
-  1. ├─gmba_kba %>% filter(GMBA_V2_ID == domain)
-  2. ├─dplyr::filter(., GMBA_V2_ID == domain)
-  3. ├─sf:::filter.sf(., GMBA_V2_ID == domain)
-  4. │ └─sf:::.re_sf(...)
-  5. │   └─base::stopifnot(...)
-  6. ├─base::NextMethod()
-  7. ├─dplyr:::filter.data.frame(., GMBA_V2_ID == domain)
-  8. │ └─dplyr:::filter_rows(.data, ...)
-  9. │   ├─base::withCallingHandlers(...)
- 10. │   └─mask$eval_all_filter(dots, env_filter)
- 11. └─base::.handleSimpleError(...)
- 12.   └─dplyr:::h(simpleError(msg, call))
+Error in country : object 'country' not found
 Execution halted
