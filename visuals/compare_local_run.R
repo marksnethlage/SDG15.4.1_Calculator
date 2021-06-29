@@ -46,6 +46,7 @@ local_rerun_grp <- local_rerun_grp %>% mutate(percPA = percPA *100) %>%
 local_rerun_all <- left_join(local_rerun_grp, birdlife_sum, by = c('SitRecID', 'ISO'))
 
 combined <- left_join(local_rerun_grp, birdlife_sum, by = c('SitRecID', 'ISO'))
+combined <- combined %>% mutate(percPA.x = ifelse(percPA.x > 100, 100, percPA.x))
 combined$match <- combined$percPA.x == combined$percPA.y
 
 cnt_sites <- combined %>% group_by(ISO, Country = COUNTRY.y) %>% count()
@@ -56,7 +57,7 @@ combined_byISO_melt_short <- combined_byISO_melt %>% filter(ISO %in% unique(loca
 
 ## Start PDF File
 ## lets do some plots
-pdf(paste0("./visuals/compare_local_run", Sys.Date(), "."))
+pdf(paste0("./visuals/compare_local_run", Sys.Date(), ".pdf"))
 ##Finalize datasets for regressions & run
 plot(c(0, 1), c(0, 1), ann = F, bty = 'n', type = 'n', xaxt = 'n', yaxt = 'n',
      main = title)
@@ -108,7 +109,7 @@ ggplot(data = all_non_match_c, aes(x=diff)) +
 country <- local_rerun_all %>% filter(ISO == "ZAF") %>% mutate(diff = percPA.x - percPA.y) %>% mutate(diff = ifelse(diff == 0, NA, diff))
 kba_c <- kbas %>% filter(ISO3 == "ZAF")
 kba_c <- left_join(kba_c, country)
-pas_p_c <- pas_p %>% filter(ISO3 == "ZAF")
+#pas_p_c <- pas_p %>% filter(ISO3 == "ZAF")
 #pas_c <- pas %>% filter(ISO3 == "GHA")
 #pas_nov_unfilt_c <- pas_nov_unfilt %>% filter(ISO3 == "ZAF")
 
@@ -126,5 +127,21 @@ ggplot(data = all_non_match_c, aes(x=diff)) +
   ggtitle("Distribution %Diff in Coverage South Africa") +
   theme_bw()
 
-
 dev.off()
+
+# plot the overlap of a specific site rec id and the pas that overlap it
+onekba <- kbas %>% filter(SitRecID == 7110)
+non_match <- all_non_match %>% filter(ISO == "ZAF") %>% filter(SitRecID == 7110)
+pas_sa <- pas %>% filter(ISO3 == "ZAF")
+a <- st_intersects(pas_sa$geometry, onekba$geometry, sparse = F)
+pacz <- pas_sa[which(a == T), ] 
+
+plot(onekba$geometry, col = 0, border = "orange")
+plot(pacz$geometry, col=rgb(0,0,.8,0.2), border=0, add=T)
+plot(onekba$geometry, col = 'transparent', border = "orange", lwd = 3, add = T)
+
+
+
+
+
+
