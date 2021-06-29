@@ -27,7 +27,9 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
 ## shapefiles for plotting
 clip <- "clipped_" ## if you want to use the python clipped versions (just a subset of the code for testing)
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F) 
+#pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F) 
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_poly_Nov2020_filtered.gdb"))
+pas <- pas %>% filter(ISO3 %in% c("DEU", "GHA", "KOR", "ZAF", "CHE")) %>% filter(INT_CRIT %in% c("Not Applicable", "Not Reported")) %>% rename(geometry = Shape)
 gmba_kba <- st_read(dsn = paste0(getwd(), '/data/combined/', clip, "gmba_kba.shp"), stringsAsFactors = F) 
 
 ## summary numbers
@@ -58,7 +60,7 @@ pdf(paste0("./visuals/compare_local_run", Sys.Date(), ".pdf"))
 ##Finalize datasets for regressions & run
 plot(c(0, 1), c(0, 1), ann = F, bty = 'n', type = 'n', xaxt = 'n', yaxt = 'n',
      main = title)
-text(x = 0.5, y = 0.5, paste(date(), "\n Compare Birdlife output to Mine"),
+text(x = 0.5, y = 0.5, paste(date(), "\n Compare Birdlife output to Local: November WDPA"),
      cex = 1.5, col = "black")
 
 # bar plot showing number of sites with matching PAs by country 
@@ -79,48 +81,27 @@ ggplot(data = all_non_match, aes(x=diff)) +
   ggtitle("Distribution of %Diff in Coverage") +
   theme_bw()
 
-# country plots showing % coverage. Diff if mine minus theirs (so positive means I got more, neg they got more)
-SouthKorea <- local_rerun_all %>% filter(ISO == "KOR") %>% mutate(diff = percPA.x - percPA.y) %>% mutate(diff = ifelse(diff == 0, NA, diff))
-kba_SK <- kbas %>% filter(ISO3 == "KOR")
-kba_SK <- left_join(kba_SK, SouthKorea)
-
-ggplot(data = kba_SK) + 
-  ggtitle("South Korea") +
-  geom_sf(data = kba_SK, aes(fill = diff)) +
-  scale_fill_gradient(low = "blue", high = "red", na.value = "green") +
-  theme_bw()
-
-# distribution of the non-matching ones in Korea
-all_non_match_K <- all_non_match %>% filter(ISO == "KOR")
-ggplot(data = all_non_match_K, aes(x=diff)) +
-  geom_histogram() +
-  ggtitle("Distribution %Diff in Coverage S. Korea") +
-  theme_bw()
-
-# country plots showing % coverage. Diff if mine minus theirs (so positive means I got more, neg they got more)
-Germany <- local_rerun_all %>% filter(ISO == "DEU") %>% mutate(diff = percPA.x - percPA.y) %>% mutate(diff = ifelse(diff == 0, NA, diff))
-kba_G <- kbas %>% filter(ISO3 == "DEU")
-kba_G <- left_join(kba_G, Germany)
-
-ggplot(data = kba_G) + 
-  ggtitle("Germany") +
-  geom_sf(data = kba_G, aes(fill = diff)) +
-  scale_fill_gradient(low = "blue", high = "red", na.value = "green") +
-  theme_bw()
-
-# distribution of the non-matching ones in Korea
-all_non_match_D <- all_non_match %>% filter(ISO == "DEU")
-ggplot(data = all_non_match_D, aes(x=diff)) +
-  geom_histogram() +
-  ggtitle("DIstribution %Diff in Coverage Germany") +
-  theme_bw()
-
-## 
-seh <- gmba_kba %>% filter(Level_3 == "Southwest European Highlands")
-
-ggplot(data = seh) + 
-  ggtitle("Southwest European Highlands") +
-  geom_sf(data = seh, aes(fill = "SitRecId")) + 
-  theme_bw()
+#loop through each ISO and plot
+for(i in unique(local_rerun_all$ISO)) {
+  
+  # country plots showing % coverage. Diff if mine minus theirs (so positive means I got more, neg they got more)
+  Country <- local_rerun_all %>% filter(ISO == i) %>% mutate(diff = percPA.x - percPA.y) %>% mutate(diff = ifelse(diff == 0, NA, diff))
+  kba_c <- kbas %>% filter(ISO3 == i)
+  kba_c <- left_join(kba_c, Country)
+  
+  ggplot(data = kba_c) + 
+    ggtitle(i) +
+    geom_sf(data = kba_c, aes(fill = diff)) +
+    scale_fill_gradient(low = "blue", high = "red", na.value = "green") +
+    theme_bw()
+  
+  # distribution of the non-matching ones in Korea
+  all_non_match_c <- all_non_match %>% filter(ISO == i)
+  ggplot(data = all_non_match_c, aes(x=diff)) +
+    geom_histogram() +
+    ggtitle(paste("Distribution %Diff in Coverage", i)) +
+    theme_bw()
+  
+}
 
 dev.off()
