@@ -198,16 +198,27 @@ for(i in 1:nrow(intersecs)) {
   
   #if there is just one intersection, assign the gmba to the kba (scenario A, B, and F)
   if(nrow(gmbaz) == 1) {
+    
     kba.c$GMBA_V2_ID <- gmbaz$GMBA_V2_ID
     kba.c$RangeNameM <- gmbaz$RangeNameM
-    kba.c$split <- FALSE
+    kba.c$multiple_ranges <- FALSE
+    kba.c$all_gmba_intersecting <- paste0(unique(gmbaz$GMBA_V2_ID))
+    
     gmba_kba <- rbind(gmba_kba, kba.c)
     
-  # if there are multiple gmbas with intersections, split the kba (scenario D & E) 
+  # if there are multiple gmbas with intersections, intersect & find greatest intersection
+  # & assign that mountain to the kba (scenario D & E) 
   } else {
-    int <- st_intersection(kba.c, gmbaz, sparse = F)
-    int <- int %>% select(c(names(kba.c), GMBA_V2_ID, RangeNameM)) %>% mutate(split = TRUE)
-    gmba_kba <- rbind(gmba_kba, int)
+    
+    int <- st_intersection(gmbaz, kba.c, sparse = F)
+    gmba_max <- gmbaz[which.max(st_area(int)),]
+    
+    kba.c$GMBA_V2_ID <- gmba_max$GMBA_V2_ID
+    kba.c$RangeNameM <- gmba_max$RangeNameM
+    kba.c$multiple_ranges <- TRUE
+    kba.c$all_gmba_intersecting <- paste0(unique(gmbaz$GMBA_V2_ID))
+    
+    gmba_kba <- rbind(gmba_kba, kba.c)
   }
 }
 
