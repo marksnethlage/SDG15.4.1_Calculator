@@ -33,7 +33,6 @@ library(lwgeom)
 library(todor)
 library(reticulate)
 
-
 #### Define functions ----
 lu <- function (x = x){
   length(unique(x))
@@ -171,12 +170,6 @@ if(nrow(cnpa) > 1) {
   }
 }
 
-#### 2.4 - create list of mountains regions (what do we want to loop through) ----
-
-#TODO make this the right column selection
-gmba_kba <- gmba_kba[!is.na(gmba_kba$GMBA_V2_ID),] #remove any NAs
-listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
-
 
 #########################################################################
 #### Part 3 - SPATIAL ANALYSIS ----
@@ -184,7 +177,7 @@ listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
 
 ##### OVERLAP WITH PROTECTED AREAS
 
-#### 3.1 - prepare KBA layer using GMBA
+#### 3.1 - prepare KBA layer using GMBA ----
 gmba_kba <- c()
 
 # select any of the KBAs that intersect with GMBA and paste all GMBA_V2_ID that match
@@ -237,7 +230,11 @@ if(nrow(kbas_nogmba) > 0) gmba_kba <- rbind(gmba_kba, kbas_nogmba)
 #finally, check to see if any of the picked up kbas were not identified as mountain by kba 
 gmba_kba <- gmba_kba %>% mutate(kba_mt = ifelse(SitRecID %in% mount_kba$SitRecID, T, F))
 
-#### 3.2 - per mountain region, depending on global variable
+#### 3.3 - per mountain region, depending on global variable
+
+# create list of countries to loop through ----
+# TODO if you want to loop through countries, youll need to change this and the selection at the beginning of the loop below
+listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
 
 finaltab <- data.frame()
 tt <- proc.time()
@@ -248,7 +245,7 @@ for (x in 1:length(listloop)){
   domain <- listloop[x]
   
   ## 1. Subset kbas and pas to this domain
-  gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain) #TODO this needs to change to filter KBA if the domain appears in domain column
+  gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
   domain_isos <- paste0(unique(gmba_kba.c$ISO3))
   RangeName <- paste0(unique(gmba_kba.c$RangeNameM))
   
@@ -465,7 +462,7 @@ for (x in 1:length(listloop)){
   
   finaltab <- rbind(finaltab,areasov)
   
-  tname <- paste(finfolder,"/fullkba_", RangeName, ".csv", sep="")
+  tname <- paste(finfolder,"/kba_", RangeName, ".csv", sep="")
   tname
   write.csv(areasov, tname, row.names=F)
   
@@ -478,6 +475,6 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("results/finaltab_mt_fullkba", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste("results/finaltab_mt_kba", YEAR_RUN, ".csv", sep=""), row.names = F)
 ### end here
 
