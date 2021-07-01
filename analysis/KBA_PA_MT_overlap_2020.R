@@ -111,35 +111,35 @@ pas$ISO3[(pas$ISO3)=='XNC'] <- 'CYP'
 unassigned_pas <- pas[pas$ISO3 == " " | is.na(pas$ISO3) | pas$ISO3 == '---',]
 
 #### 2.2 - KBAs with no ISO code ----
-unique(gmba_kba$ISO3)
-unique(gmba_kba$Country[gmba_kba$ISO3 == "---"])
-gmba_kba$ISO3[gmba_kba$ISO3 == "---" & gmba_kba$Country == "High Seas"] <- "ABNJ"
-gmba_kba$ISO3[gmba_kba$ISO3 == "---" & gmba_kba$Country == "Falkland Islands (Malvinas)"] <- "FLK"
+unique(kbas$ISO3)
+unique(kbas$Country[kbas$ISO3 == "---"])
+kbas$ISO3[kbas$ISO3 == "---" & kbas$Country == "High Seas"] <- "ABNJ"
+kbas$ISO3[kbas$ISO3 == "---" & kbas$Country == "Falkland Islands (Malvinas)"] <- "FLK"
 
-unique(gmba_kba$Country[gmba_kba$ISO3 == " "])
-unique(gmba_kba$Country[is.na(gmba_kba$ISO3)])
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Palau"] <- "PLW"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Aruba"] <- "ABW"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Aruba (to Netherlands)"] <- "ABW"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Guadeloupe"] <- "GLP"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Guadeloupe (to France)"] <- "GLP"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Norfolk Island"] <- "NFK"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Norfolk Island (to Australia)"] <- "NFK"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Lao People's Democratic Republic"] <- "LAO"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Laos"] <- "LAO"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "India"] <- "IND"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Cuba"] <- "CUB"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Libya"] <- "LBY"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Belarus"] <- "BLR"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Russian Federation"] <- "RUS"
-gmba_kba$ISO3[(gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3)) & gmba_kba$Country == "Russia (Asian)"] <- "RUS"
+unique(kbas$Country[kbas$ISO3 == " "])
+unique(kbas$Country[is.na(kbas$ISO3)])
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Palau"] <- "PLW"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Aruba"] <- "ABW"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Aruba (to Netherlands)"] <- "ABW"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Guadeloupe"] <- "GLP"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Guadeloupe (to France)"] <- "GLP"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Norfolk Island"] <- "NFK"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Norfolk Island (to Australia)"] <- "NFK"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Lao People's Democratic Republic"] <- "LAO"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Laos"] <- "LAO"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "India"] <- "IND"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Cuba"] <- "CUB"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Libya"] <- "LBY"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Belarus"] <- "BLR"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Russian Federation"] <- "RUS"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Russia (Asian)"] <- "RUS"
 
-gmba_kba <- gmba_kba[gmba_kba$Country != 'Disputed',] #remove any sites that cannot be assigned a country as are disputed
+kbas <- kbas[kbas$Country != 'Disputed',] #remove any sites that cannot be assigned a country as are disputed
 
-unassigned_gmba_kba <- gmba_kba[gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3) | gmba_kba$ISO3 == '---',] #check if any sites don't have an ISO3 code, if any are missing, add in country name (if non are missing, will have 0 observations)
+unassigned_kbas <- kbas[kbas$ISO3 == " " | is.na(kbas$ISO3) | kbas$ISO3 == '---',] #check if any sites don't have an ISO3 code, if any are missing, add in country name (if non are missing, will have 0 observations)
 
 ## Fill in the country field for these sites as well
-gmba_kba_without_names <- gmba_kba[gmba_kba$Country == " ",] #checks if any gmba_kba are missing country names, should be 0, if not find out which sites are missing country names and add in country name
+kbas_without_names <- kbas[kbas$Country == " ",] #checks if any kbas are missing country names, should be 0, if not find out which sites are missing country names and add in country name
 
 #### 2.3 - Transboundary PAs ----
 
