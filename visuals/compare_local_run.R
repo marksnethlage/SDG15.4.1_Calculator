@@ -140,8 +140,15 @@ plot(onekba$geometry, col = 0, border = "orange")
 plot(pacz$geometry, col=rgb(0,0,.8,0.2), border=0, add=T)
 plot(onekba$geometry, col = 'transparent', border = "orange", lwd = 3, add = T)
 
+plot(kba.c$geometry, col = 0, border = "orange")
+plot(gmbaz$geometry, col=gmbaz$GMBA_V2_ID, border=0, add=T)
+plot(kba.c$geometry, col = 'transparent', border = "orange", lwd = 3, add = T)
+title(paste("SitRecID", kba.c$SitRecID, gmbaz$RangeNameM))
 
-
+plot(int$geometry, col = int$GMBA_V2_ID, border = "orange")
+plot(kba.c$geometry, col = 'transparent', border = "orange", lwd = 3, add = T)
+plot(gmbaz$geometry, col='transparent', border=gmbaz$GMBA_V2_ID, add=T)
+title("Intersected KBA w/ GMBA")
 
 
 

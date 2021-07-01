@@ -1,5 +1,5 @@
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-## KBA-protected area overlap calculator
+## Mountainous KBA-protected area overlap calculator
 ## Amina Ly, June 2021
 ## based on code by Ash Simkins & Lizzie Pearmain, March 2020
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -66,12 +66,10 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 #### 1.3 Read in shapefiles ----
 
 clip <- ifelse(CLIPPED, "clipped_", "")
-full_kba <- ifelse(FULL_KBA, "full_kba_", "")
 
-#pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F, crs = 4326) 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_poly_Nov2020_filtered.gdb"))
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/", clip, "WDPA_Nov2020_Public_flattened.shp"))
 gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Inventory_GME_210420_Sel_292_attr/", clip, "Gmba_Inventory_GME_210420_Sel_292_attr.shp"), stringsAsFactors = F, crs = 4326) 
-gmba_kba <- st_read(dsn = paste0(getwd(), '/data/combined/', clip, full_kba, "gmba_kba.shp"), stringsAsFactors = F) 
+kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
@@ -80,7 +78,7 @@ as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are 
 
 #check for and repair any geometry issues
 if(sum(st_is_valid(pas)) < nrow(pas)) pas <- st_make_valid(pas)
-if(sum(st_is_valid(gmba_kba)) < nrow(gmba_kba)) gmba_kba <- st_make_valid(gmba_kba)
+if(sum(st_is_valid(gmba)) < nrow(gmba)) gmba <- st_make_valid(gmba)
 
 ## convert factors to characters in the dataframes
 ## PAs dataframe
@@ -144,7 +142,7 @@ unassigned_gmba_kba <- gmba_kba[gmba_kba$ISO3 == " " | is.na(gmba_kba$ISO3) | gm
 ## Fill in the country field for these sites as well
 gmba_kba_without_names <- gmba_kba[gmba_kba$Country == " ",] #checks if any gmba_kba are missing country names, should be 0, if not find out which sites are missing country names and add in country name
 
-#### 2.3 Transboundary PAs ----
+#### 2.3 - Transboundary PAs ----
 
 ## For protected areas that cross borders, their ISO3 column is longer than 4 characters 
 ## This checks, splits up the iso name, and then creates a new list
@@ -179,12 +177,67 @@ if(nrow(cnpa) > 1) {
 gmba_kba <- gmba_kba[!is.na(gmba_kba$GMBA_V2_ID),] #remove any NAs
 listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
 
+
 #########################################################################
 #### Part 3 - SPATIAL ANALYSIS ----
 #########################################################################
 
 ##### OVERLAP WITH PROTECTED AREAS
-### per mountain region, depending on global variable
+
+#### 3.1 - prepare KBA layer using GMBA
+gmba_kba <- c()
+
+# select any of the KBAs that intersect with GMBA and paste all GMBA_V2_ID that match
+#check for intersection of all kba and gmbas
+intersecs <- st_intersects(kbas$geometry, gmba$geometry, sparse = F)
+
+#loop through each row (corresponds to each kba)
+for(i in 1:nrow(intersecs)) {
+  
+  #select the currect kba 
+  kba.c <- kbas[i,]
+  
+  #if there are no intersections between this kba and any gmba, just continue and don't add it
+  if(sum(intersecs[i,]) <= 0) next
+  
+  #assuming there are intersections, select the gmbas that intersect
+  gmbaz <- gmba[which(intersecs[i,]==T), ]
+  
+  #if there is just one intersection, assign the gmba to the kba (scenario A, B, and F)
+  if(nrow(gmbaz) == 1) {
+    kba.c$GMBA_V2_ID <- gmbaz$GMBA_V2_ID
+    kba.c$RangeNameM <- gmbaz$RangeNameM
+    kba.c$split <- FALSE
+    gmba_kba <- rbind(gmba_kba, kba.c)
+    
+  # if there are multiple gmbas with intersections, split the kba (scenario D & E) 
+  } else {
+    int <- st_intersection(kba.c, gmbaz, sparse = F)
+    int <- int %>% select(c(names(kba.c), GMBA_V2_ID, RangeNameM)) %>% mutate(split = TRUE)
+    gmba_kba <- rbind(gmba_kba, int)
+  }
+}
+
+##Mark mismatching mountain identifiers between KBA and GMBA
+if(CLIPPED) tabmf <- tabmf %>% filter(ISO %in% kbas$ISO3)
+
+#pull all KBA identified as being mountainous
+mount_kba <- tabmf %>% filter(mountain == 1)
+
+#find all mount kbas where the SitRecID isn't already in gmba_kba (not intersecting, scenario c)
+kbas_nogmba <- mount_kba %>% filter(!(SitRecID %in% gmba_kba$SitRecID))
+
+#using the IDs from above, get the kbas 
+kbas_nogmba <- kbas %>% filter(SitRecID %in% kbas_nogmba$SitRecID) %>%
+  mutate(GMBA_V2_ID = NA) %>% mutate(RangeNameM = NA) %>% mutate(split = FALSE) 
+
+#assuming we picked some up, bind it to the gmba_kba file
+if(nrow(kbas_nogmba) > 0) gmba_kba <- rbind(gmba_kba, kbas_nogmba)
+
+#finally, check to see if any of the picked up kbas were not identified as mountain by kba 
+gmba_kba <- gmba_kba %>% mutate(kba_mt = ifelse(SitRecID %in% mount_kba$SitRecID, T, F))
+
+#### 3.2 - per mountain region, depending on global variable
 
 finaltab <- data.frame()
 tt <- proc.time()
@@ -195,8 +248,7 @@ for (x in 1:length(listloop)){
   domain <- listloop[x]
   
   ## 1. Subset kbas and pas to this domain
-  #TODO change to the right column
-  gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
+  gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain) #TODO this needs to change to filter KBA if the domain appears in domain column
   domain_isos <- paste0(unique(gmba_kba.c$ISO3))
   RangeName <- paste0(unique(gmba_kba.c$RangeNameM))
   
@@ -210,7 +262,6 @@ for (x in 1:length(listloop)){
   } else {
     pa.c <- pas %>% filter(ISO3 %in% domain_isos) ## protected areas within the domain
   }
-  
   
   ## 2. Print domain name and ISO3 code to console
   domain.c <- unique(gmba_kba.c$ISO3)
@@ -234,11 +285,9 @@ for (x in 1:length(listloop)){
   
   #if there are no pas in this country, sets output to zero and skips
   if (nrow(pa.c) == 0){ 
-    
     areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                           DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
                           COUNTRY = kbaz$ISO3) 
-    
   } else {
     
     ##finds the overlap of the kba and the pa
@@ -252,16 +301,14 @@ for (x in 1:length(listloop)){
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
                             DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
                             COUNTRY = NA)
-      print("length ovkba == 0")
-    
+
     ## if there are no overlaps, we're just going to set these to zeros
     } else if (sum(ovkba) <= 0) {
       
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                             DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
                             COUNTRY = NA)
-      print("sum ovkba <= 0")
-    
+
     ##if there ARE overlaps between kbas and pas (e.g. some TRUES in the matrix): 
     } else {  
       areasov <- data.frame()
