@@ -216,7 +216,7 @@ for(i in 1:nrow(intersecs)) {
     kba.c$GMBA_V2_ID <- gmba_max$GMBA_V2_ID
     kba.c$RangeNameM <- gmba_max$RangeNameM
     kba.c$multiple_ranges <- TRUE
-    kba.c$all_gmba_intersecting <- paste0(unique(gmbaz$GMBA_V2_ID))
+    kba.c$all_gmba_intersecting <- paste0(unique(gmbaz$GMBA_V2_ID), collapse = ";")
     
     gmba_kba <- rbind(gmba_kba, kba.c)
   }
@@ -294,7 +294,7 @@ for (x in 1:length(listloop)){
   #if there are no pas in this country, sets output to zero and skips
   if (nrow(pa.c) == 0){ 
     areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
-                          DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
+                          DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                           COUNTRY = kbaz$ISO3) 
   } else {
     
@@ -307,14 +307,14 @@ for (x in 1:length(listloop)){
     ##if there is no matrix produced, this is an error so set all outputs to error 
     if (length(ovkba) == 0){ 
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
-                            DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
+                            DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                             COUNTRY = NA)
 
     ## if there are no overlaps, we're just going to set these to zeros
     } else if (sum(ovkba) <= 0) {
       
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
-                            DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
+                            DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                             COUNTRY = NA)
 
     ##if there ARE overlaps between kbas and pas (e.g. some TRUES in the matrix): 
@@ -392,7 +392,7 @@ for (x in 1:length(listloop)){
             random1 <- sum(random0$random) > 0
             
             areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year1, random = random1, nPAs=nrow(ovf1), 
-                                   DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
+                                   DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                    COUNTRY = kbaz$ISO3) #creates row in output table with this site overlap area and associated information within it #sets numbers to numeric not units (removes m^2)
             
             #If there is more than just one year, keep going 
@@ -434,7 +434,7 @@ for (x in 1:length(listloop)){
                   random2 <- pacz %>% filter(STATUS_YR == year1) 
                   random3 <- sum(random0$random) > 0
                   areasov1 <- rbind(areasov1,data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year2, random = random3, nPAs=nrow(ovf2), 
-                                                        DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
+                                                        DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                                         COUNTRY = kbaz$ISO3))
                   areasov1
                 }
@@ -452,7 +452,7 @@ for (x in 1:length(listloop)){
         ## if there are no pas that overlap with this zth kba, create empty row w/siteID
         if (length(which(ovkba[ ,z] == T)) == 0){
           areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=0, year=0, random=F, nPAs=0,
-                                 DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ","), RangeName = RangeName,
+                                 DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                  COUNTRY = kbaz$ISO3)   ## if there are NO (zero/none) pas overlapping the kba
         }
         
