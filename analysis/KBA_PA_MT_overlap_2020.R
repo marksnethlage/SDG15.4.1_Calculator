@@ -246,7 +246,8 @@ gmba_kba <- gmba_kba %>% mutate(kba_mt = ifelse(SitRecID %in% mount_kba$SitRecID
 
 # create list of moutnain ranges to loop through ----
 # TODO if you want to loop through countries, youll need to change this and the selection at the beginning of the loop below
-listloop <- as.character(unique(gmba_kba$GMBA_V2_ID, na.rm = T))
+listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
+listloop <- listloop[!is.na(listloop)]
 
 finaltab <- data.frame()
 tt <- proc.time()
