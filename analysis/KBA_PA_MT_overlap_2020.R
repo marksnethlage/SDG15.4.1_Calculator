@@ -233,7 +233,8 @@ kbas_nogmba <- mount_kba %>% filter(!(SitRecID %in% gmba_kba$SitRecID))
 
 #using the IDs from above, get the kbas 
 kbas_nogmba <- kbas %>% filter(SitRecID %in% kbas_nogmba$SitRecID) %>%
-  mutate(GMBA_V2_ID = NA) %>% mutate(RangeNameM = NA) %>% mutate(split = FALSE) 
+  mutate(GMBA_V2_ID = NA) %>% mutate(RangeNameM = NA) %>% mutate(multiple_ranges = FALSE) %>% 
+  mutate(all_gmba_intersecting = NA)
 
 #assuming we picked some up, bind it to the gmba_kba file
 if(nrow(kbas_nogmba) > 0) gmba_kba <- rbind(gmba_kba, kbas_nogmba)
