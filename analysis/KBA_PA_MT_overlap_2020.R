@@ -244,9 +244,9 @@ gmba_kba <- gmba_kba %>% mutate(kba_mt = ifelse(SitRecID %in% mount_kba$SitRecID
 
 #### 3.3 - per mountain region, depending on global variable
 
-# create list of countries to loop through ----
+# create list of moutnain ranges to loop through ----
 # TODO if you want to loop through countries, youll need to change this and the selection at the beginning of the loop below
-listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
+listloop <- as.character(unique(gmba_kba$GMBA_V2_ID, na.rm = T))
 
 finaltab <- data.frame()
 tt <- proc.time()
@@ -258,6 +258,7 @@ for (x in 1:length(listloop)){
   
   ## 1. Subset kbas and pas to this domain
   gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
+  print(gmba_kba.c)
   domain_isos <- paste0(unique(gmba_kba.c$ISO3))
   RangeName <- paste0(unique(gmba_kba.c$RangeNameM))
   
