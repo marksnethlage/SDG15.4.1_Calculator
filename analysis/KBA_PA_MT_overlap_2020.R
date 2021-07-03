@@ -40,7 +40,7 @@ lu <- function (x = x){
 
 #### Universal Variables ----
 # TODO review these and update based on what you want to do
-CLIPPED <- TRUE ## if you want to use the python clipped versions (just a subset of the code for testing)
+CLIPPED <- FALSE ## if you want to use the python clipped versions (just a subset of the code for testing)
 PYTHON_INTERSEC <- FALSE ## if you have run the python code to intersect KBA & PAs and want to loop through those instead
 YEAR_RUN <- 2020
 PLOTIT <- F ##if you want plots (usually when stepping through, not the full run)
@@ -66,7 +66,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 
 clip <- ifelse(CLIPPED, "clipped_", "")
 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/", clip, "WDPA_Nov2020_Public_flattened.shp"))
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_poly_Nov2020_filtered.gdb"))
 gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Inventory_GME_210420_Sel_292_attr/", clip, "Gmba_Inventory_GME_210420_Sel_292_attr.shp"), stringsAsFactors = F, crs = 4326) 
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
@@ -181,7 +181,7 @@ if(nrow(cnpa) > 1) {
 gmba_kba <- c()
 
 # select any of the KBAs that intersect with GMBA and paste all GMBA_V2_ID that match
-#check for intersection of all kba and gmbas
+#check for intcd ..ersection of all kba and gmbas
 intersecs <- st_intersects(kbas$geometry, gmba$geometry, sparse = F)
 
 #loop through each row (corresponds to each kba)
