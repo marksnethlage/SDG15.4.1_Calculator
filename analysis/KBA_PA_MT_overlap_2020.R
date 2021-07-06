@@ -263,12 +263,12 @@ for (x in 1:length(listloop)){
   gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
   print(gmba_kba.c)
   domain_isos <- paste0(unique(gmba_kba.c$ISO3))
-  RangeName <- str_replace(paste0(unique(gmba_kba.c$RangeNameM)), "/", "_")
+  RangeName <- str_replace(paste0(unique(gmba_kba.c$RangeNameM), collapse = ""), "/", "_")
   
   #finds the isos in this domain and subsets any pa.c that have these countries
   #if any of these countries are known to have transboundary sites, we include the others in the pa country list
   
-  if (sum(domain_isos %in% transb$ISO3) > 0{ 
+  if (sum(domain_isos %in% transb$ISO3) > 0) { 
     iso3 <- c(domain_isos, transb$oISO3[transb$ISO3 %in% domain_isos])
     iso3
     pa.c <- pas %>% filter(ISO3 %in% iso3)
