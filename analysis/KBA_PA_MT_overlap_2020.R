@@ -66,7 +66,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 
 clip <- ifelse(CLIPPED, "clipped_", "")
 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_poly_Nov2020_filtered.gdb"))
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
 gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Inventory_GME_210420_Sel_292_attr/", clip, "Gmba_Inventory_GME_210420_Sel_292_attr.shp"), stringsAsFactors = F, crs = 4326) 
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
@@ -263,12 +263,12 @@ for (x in 1:length(listloop)){
   gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
   print(gmba_kba.c)
   domain_isos <- paste0(unique(gmba_kba.c$ISO3))
-  RangeName <- paste0(unique(gmba_kba.c$RangeNameM))
+  RangeName <- str_replace(paste0(unique(gmba_kba.c$RangeNameM)), "/", "_")
   
   #finds the isos in this domain and subsets any pa.c that have these countries
   #if any of these countries are known to have transboundary sites, we include the others in the pa country list
   
-  if (domain_isos %in% transb$ISO3){ 
+  if (sum(domain_isos %in% transb$ISO3) > 0{ 
     iso3 <- c(domain_isos, transb$oISO3[transb$ISO3 %in% domain_isos])
     iso3
     pa.c <- pas %>% filter(ISO3 %in% iso3)
@@ -468,10 +468,6 @@ for (x in 1:length(listloop)){
       areasov
       max(areasov$percPA)
       print("made it here")
-      #areasov$DOMAIN <- domain
-      #areasov$range_countries <- paste0(domain_isos, collapse = ",")
-      #areasov$RangeName <- RangeName
-      #areasoc$COUNTRY <- kbaz$ISO3
       
     }  # ends loop for ovlkba>0
   }  ## ends loop for length(pac)>1
@@ -491,6 +487,6 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("results/finaltab_mt_kba_full", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste("./results/finaltab_mt_kba_full_", YEAR_RUN, ".csv", sep=""), row.names = F)
 ### end here
 
