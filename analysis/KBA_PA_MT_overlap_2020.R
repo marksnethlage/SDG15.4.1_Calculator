@@ -71,6 +71,8 @@ gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Inventory_GME_210420_Sel_
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
+if("Shape" %in% names(pas)) pas <- pas %>% rename(geometry = Shape)
+
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
 pas <- pas[!is.na(st_dimension(pas)),]
 as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are in the dataset
