@@ -38,7 +38,7 @@ lu <- function (x = x){
 }
 # 
 #### Universal Variables ----
-CLIPPED <- TRUE ## if you want to use the python clipped versions
+CLIPPED <- FALSE ## if you want to use the python clipped versions
 YEAR_RUN <- 2020
 PLOTIT <- F ##if you want plots (usually when stepping through, not the full run)
 
@@ -65,14 +65,14 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 clip <- ifelse(CLIPPED, "clipped_", "")
 
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/", clip, "WDPA_Nov2020_Public_flattened.shp"), stringsAsFactors = F, crs = 4326) 
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
 gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/GMBA_Inventory_V2_210420_GME/", clip, "GMBA_Inventory_V2_210420_GME.shp"), stringsAsFactors = F, crs = 4326) 
 
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
 pas <- pas[!is.na(st_dimension(pas)),]
 as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are in the dataset
 
-#check for and repair any geometry issues
+#check for and repair any geometry issues CHANGED only makes valid if there are some that need it
 if(sum(st_is_valid(kbas)) < nrow(kbas)) kbas <- st_make_valid(kbas) 
 if(sum(st_is_valid(pas)) < nrow(pas)) pas <- st_make_valid(pas)
 
@@ -279,6 +279,7 @@ for (x in 1:length(listcnts)){
             plot(kbaz$geometry, col = 0, border = "orange")
             plot(pacz$geometry, col=rgb(0,0,.8,0.2), border=0, add=T)
             plot(kbaz$geometry, col = 'transparent', border = "orange", add = T)
+            title(paste(country, country.n, kbaz$SitRecID))
           }
 
           yearspacz <- pacz$STATUS_YR #years of pas in kba z

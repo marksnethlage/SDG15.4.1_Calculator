@@ -28,7 +28,7 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
 clip <- "clipped_" ## if you want to use the python clipped versions (just a subset of the code for testing)
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F) 
 #pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Jun2021_Public_shp/WDPA_Jun2021_Public/", clip, "WDPA_Jun2021_Public_flattened.shp"), stringsAsFactors = F) 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_poly_Nov2020_filtered.gdb"))
+pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
 pas <- pas %>% filter(ISO3 %in% c("DEU", "GHA", "KOR", "ZAF", "CHE")) %>% rename(geometry = Shape)
 gmba_kba <- st_read(dsn = paste0(getwd(), '/data/combined/', clip, "gmba_kba.shp"), stringsAsFactors = F) 
 
