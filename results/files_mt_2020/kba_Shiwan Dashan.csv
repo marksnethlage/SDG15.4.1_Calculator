@@ -1,0 +1,6 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+12063,117670483.284291,0,0,FALSE,0,"11885","VNM;CHN","Shiwan Dashan","VNM",NA,NA,NA,"no pas overlapping kba",0
+15772,1939482203.33696,0,0,FALSE,0,"11885","VNM;CHN","Shiwan Dashan","CHN",NA,NA,NA,"no pas overlapping kba",0
+25062,95421772.1568811,0,0,FALSE,0,"11885","VNM;CHN","Shiwan Dashan","CHN",NA,NA,NA,"no pas overlapping kba",0
+25068,128016708.606678,0,0,FALSE,0,"11885","VNM;CHN","Shiwan Dashan","CHN",NA,NA,NA,"no pas overlapping kba",0
+47216,152783250.062822,152783362.849385,2002,FALSE,1,"11885","VNM;CHN","Shiwan Dashan","VNM",FALSE,"11885",TRUE,"",1.00000073821288

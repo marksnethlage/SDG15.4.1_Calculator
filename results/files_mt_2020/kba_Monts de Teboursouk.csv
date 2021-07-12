@@ -1,0 +1,6 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+6926,37385875.3160342,34253.5652574301,1993,FALSE,1,"15751","TUN;DZA","Monts de Teboursouk","TUN",TRUE,"15751;19347",TRUE,"",0.000916216752125615
+6926,37385875.3160342,34519740.6292488,2013,FALSE,2,"15751","TUN;DZA","Monts de Teboursouk","TUN",TRUE,"15751;19347",TRUE,"",0.923336429532353
+29257,38491984.0629292,0,0,FALSE,0,"15751","TUN;DZA","Monts de Teboursouk","TUN",NA,NA,NA,"no pas overlapping kba",0
+46662,8370897.16965812,0,0,FALSE,0,"15751","TUN;DZA","Monts de Teboursouk","TUN",NA,NA,NA,"no pas overlapping kba",0
+46639,645292044.910637,0,0,FALSE,0,"15751","TUN;DZA","Monts de Teboursouk","DZA",NA,NA,NA,"no pas overlapping kba",0

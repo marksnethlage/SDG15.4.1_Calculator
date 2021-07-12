@@ -1,0 +1,16 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+10155,618417584.371565,118870146.818415,1988,FALSE,1,"17713","MEX","Sierras del Norte de Chiapas","MEX",TRUE,"17713;14555",TRUE,"",0.192216634556423
+10155,618417584.371565,57528411.8492575,2008,FALSE,1,"17713","MEX","Sierras del Norte de Chiapas","MEX",TRUE,"17713;14555",TRUE,"",0.0930251876775428
+10158,2474980.12074061,0,0,FALSE,0,"17713","MEX","Sierras del Norte de Chiapas","MEX",NA,NA,NA,"no pas overlapping kba",0
+10159,39052408.389468,0,0,FALSE,0,"17713","MEX","Sierras del Norte de Chiapas","MEX",NA,NA,NA,"no pas overlapping kba",0
+10160,20485978.8779854,0,0,FALSE,0,"17713","MEX","Sierras del Norte de Chiapas","MEX",NA,NA,NA,"no pas overlapping kba",0
+10181,6888486.93776751,0,0,FALSE,0,"17713","MEX","Sierras del Norte de Chiapas","MEX",NA,NA,NA,"no pas overlapping kba",0
+10182,10932559.7023667,0,0,FALSE,0,"17713","MEX","Sierras del Norte de Chiapas","MEX",NA,NA,NA,"no pas overlapping kba",0
+29841,12566371.7619952,0,0,FALSE,0,"17713","MEX","Sierras del Norte de Chiapas","MEX",NA,NA,NA,"no pas overlapping kba",0
+47154,137418759.118581,0,0,FALSE,0,"17713","MEX","Sierras del Norte de Chiapas","MEX",NA,NA,NA,"no pas overlapping kba",0
+10162,779454297.941091,19874.7966323011,1995,FALSE,1,"17713","MEX","Sierras del Norte de Chiapas","MEX",FALSE,"17713",TRUE,"",2.5498347606524e-05
+10162,779454297.941091,19880.6801663376,1996,FALSE,2,"17713","MEX","Sierras del Norte de Chiapas","MEX",FALSE,"17713",TRUE,"",2.55058958797866e-05
+10193,4147173798.93913,12660023.502461,2009,FALSE,1,"17713","MEX","Sierras del Norte de Chiapas","MEX",TRUE,"15508;17713",TRUE,"",0.00305268699028227
+10193,4147173798.93913,798792.766839445,2010,FALSE,2,"17713","MEX","Sierras del Norte de Chiapas","MEX",TRUE,"15508;17713",TRUE,"",0.00019261135548353
+10193,4147173798.93913,498793.489325047,2014,FALSE,1,"17713","MEX","Sierras del Norte de Chiapas","MEX",TRUE,"15508;17713",TRUE,"",0.000120273109714534
+10193,4147173798.93913,1395047.28317606,2017,FALSE,3,"17713","MEX","Sierras del Norte de Chiapas","MEX",TRUE,"15508;17713",TRUE,"",0.000336385054210392

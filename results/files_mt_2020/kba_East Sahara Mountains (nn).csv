@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+6195,1340228150.37851,1328768813.0123,1989,FALSE,1,"20038","EGY","East Sahara Mountains (nn)","EGY",FALSE,"20038",TRUE,"",0.991449711481604
+6196,1757162426.41422,1753452408.6254,1989,FALSE,1,"20038","EGY","East Sahara Mountains (nn)","EGY",FALSE,"20038",TRUE,"",0.99788863127674
+6198,1418469407.74227,0,0,FALSE,0,"20038","EGY","East Sahara Mountains (nn)","EGY",NA,NA,NA,"no pas overlapping kba",0
+6200,3412967384.67637,16678516.0353942,1996,FALSE,1,"20038","EGY","East Sahara Mountains (nn)","EGY",FALSE,"20038",TRUE,"",0.00488680791685201

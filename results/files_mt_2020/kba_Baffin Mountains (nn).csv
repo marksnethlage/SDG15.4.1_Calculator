@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+11264,53680472.6236229,35111420.177062,2010,FALSE,1,"20939","CAN","Baffin Mountains (nn)","CAN",FALSE,"20939",TRUE,"",0.654081800345601
+11281,36221430.1718268,0,0,FALSE,0,"20939","CAN","Baffin Mountains (nn)","CAN",NA,NA,NA,"no pas overlapping kba",0
+11305,2633867017.48628,0,0,FALSE,0,"20939","CAN","Baffin Mountains (nn)","CAN",NA,NA,NA,"no pas overlapping kba",0
+11311,106834726.731724,86682283.6739826,2010,FALSE,1,"20939","CAN","Baffin Mountains (nn)","CAN",FALSE,"20939",TRUE,"",0.811368047878789

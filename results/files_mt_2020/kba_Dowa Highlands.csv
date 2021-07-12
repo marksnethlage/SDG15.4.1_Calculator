@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+6670,2340652965.46115,2298287967.91249,1970,FALSE,1,"18514","MWI","Dowa Highlands","MWI",FALSE,"18514",TRUE,"",0.981900350810735
+6672,96525628.2963937,0,0,FALSE,0,"18514","MWI","Dowa Highlands","MWI",NA,NA,NA,"no pas overlapping kba",0
+6671,1778504475.03171,1778366575.93205,1954,FALSE,1,"18514","MWI","Dowa Highlands","MWI",FALSE,"18514",TRUE,"",0.999922463450839
+48998,33483817.280598,860.237474390155,1954,FALSE,1,"18514","MWI","Dowa Highlands","MWI",FALSE,"18514",TRUE,"",2.56911411020217e-05

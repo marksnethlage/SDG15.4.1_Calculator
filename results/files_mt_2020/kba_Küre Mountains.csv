@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+746,304839516.484691,204811487.7523,1998,FALSE,1,"12119","TUR","Küre Mountains","TUR",TRUE,"12119;14620",TRUE,"",0.671866594312044
+776,113449030.888863,0,0,FALSE,0,"12119","TUR","Küre Mountains","TUR",NA,NA,NA,"no pas overlapping kba",0
+24290,173839475.268726,0,0,FALSE,0,"12119","TUR","Küre Mountains","TUR",NA,NA,NA,"no pas overlapping kba",0
+24291,1299526527.06245,0,0,FALSE,0,"12119","TUR","Küre Mountains","TUR",NA,NA,NA,"no pas overlapping kba",0

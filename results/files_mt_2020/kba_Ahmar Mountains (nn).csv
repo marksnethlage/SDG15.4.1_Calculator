@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+28644,14204450751.9383,5501352935.28428,1970,FALSE,1,"20854","ETH","Ahmar Mountains (nn)","ETH",TRUE,"19090;19092;13088;20854",TRUE,"",0.387297828783247
+28644,14204450751.9383,3529237405.5438,1973,FALSE,1,"20854","ETH","Ahmar Mountains (nn)","ETH",TRUE,"19090;19092;13088;20854",TRUE,"",0.24845996984869
+6251,4433177.94658527,0,0,FALSE,0,"20854","ETH","Ahmar Mountains (nn)","ETH",NA,NA,NA,"no pas overlapping kba",0

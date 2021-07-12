@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+48979,117288029.531864,0,0,FALSE,0,"14080","TZA;MOZ","Matengo Highlands","TZA",NA,NA,NA,"no pas overlapping kba",0
+48995,328447401.407714,0,0,FALSE,0,"14080","TZA;MOZ","Matengo Highlands","TZA",NA,NA,NA,"no pas overlapping kba",0
+48999,30905306.1462202,20129854.2327241,2011,FALSE,1,"14080","TZA;MOZ","Matengo Highlands","MOZ",FALSE,"14080",TRUE,"",0.6513397452685

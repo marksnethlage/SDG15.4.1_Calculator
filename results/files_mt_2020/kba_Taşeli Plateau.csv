@@ -1,0 +1,7 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+768,216120191.519066,118805676.080679,1994,FALSE,1,"14672","TUR","Taşeli Plateau","TUR",TRUE,"14657;14672",TRUE,"",0.549720390517968
+794,264123751.619411,0,0,FALSE,0,"14672","TUR","Taşeli Plateau","TUR",NA,NA,NA,"no pas overlapping kba",0
+31618,303535501.47094,0,0,FALSE,0,"14672","TUR","Taşeli Plateau","TUR",NA,NA,NA,"no pas overlapping kba",0
+31623,175426179.848017,0,0,FALSE,0,"14672","TUR","Taşeli Plateau","TUR",NA,NA,NA,"no pas overlapping kba",0
+31620,1132942229.59313,0,0,FALSE,0,"14672","TUR","Taşeli Plateau","TUR",NA,NA,NA,"no pas overlapping kba",0
+31622,21443551.0589304,0,0,FALSE,0,"14672","TUR","Taşeli Plateau","TUR",NA,NA,NA,"no pas overlapping kba",0

@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+15902,5160183701.24468,1294062747.2245,1980,TRUE,1,"11720","IDN","Schwaner Mountains","IDN",FALSE,"11720",TRUE,"",0.250778426146411
+15904,1075180243.61261,835918140.715933,2013,TRUE,1,"11720","IDN","Schwaner Mountains","IDN",FALSE,"11720",TRUE,"",0.777467913572559
+15905,7531988134.81817,0,0,FALSE,0,"11720","IDN","Schwaner Mountains","IDN",NA,NA,NA,"no pas overlapping kba",0

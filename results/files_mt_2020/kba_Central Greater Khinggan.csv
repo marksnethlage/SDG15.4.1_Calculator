@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+28309,3673142192.6757,3668351787.45997,2019,FALSE,1,"20326","MNG;CHN","Central Greater Khinggan","MNG",TRUE,"19870;20326",TRUE,"",0.998695829084623
+15407,448186785.634377,0,0,FALSE,0,"20326","MNG;CHN","Central Greater Khinggan","CHN",NA,NA,NA,"no pas overlapping kba",0
+15404,930707701.607727,0,0,FALSE,0,"20326","MNG;CHN","Central Greater Khinggan","CHN",NA,NA,NA,"no pas overlapping kba",0

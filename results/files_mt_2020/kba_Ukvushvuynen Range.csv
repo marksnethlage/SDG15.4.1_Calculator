@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+16596,8264004325.59806,7109482840.99786,1971,FALSE,3,"13994","RUS","Ukvushvuynen Range","RUS",TRUE,"15680;13994",TRUE,"",0.860295150012927
+16599,1524401723.8117,0,0,FALSE,0,"13994","RUS","Ukvushvuynen Range","RUS",NA,NA,NA,"no pas overlapping kba",0
+45734,19111351851.5744,23420873.053669,1971,FALSE,1,"13994","RUS","Ukvushvuynen Range","RUS",FALSE,"13994",TRUE,"",0.00122549536189611

@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+3087,190251196.685868,3554.37384787202,1977,FALSE,1,"20806","SRB","Majevica","SRB",FALSE,"20806",TRUE,"",1.86825308318076e-05
+3087,190251196.685868,564322.949247926,2016,FALSE,1,"20806","SRB","Majevica","SRB",FALSE,"20806",TRUE,"",0.00296619920966755
+27502,47168433.52095,0,0,FALSE,0,"20806","SRB","Majevica","SRB",NA,NA,NA,"no pas overlapping kba",0
