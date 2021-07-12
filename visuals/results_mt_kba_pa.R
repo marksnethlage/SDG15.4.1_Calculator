@@ -81,11 +81,12 @@ world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), strin
 
 ## Combine world shapefile w/ Avg Coverage by country
 isos <- read_csv("data/iso_country_codes.csv") 
-world <- merge(world, isos, by = "CNTRY_NAME")
-world <- merge(world, full_mt_run_country, by = "ISO3")
+world_m <- merge(world, isos, by = "CNTRY_NAME")
+world_m <- merge(world_m, full_mt_run_country, by = "ISO3")
 
 ## Combine GMBA shapefile w/ Avg Coverage by Range
-gmba <- merge(gmba %>% select(DOMAIN = GMBA_V2_ID), full_mt_run_range, by = "DOMAIN")
+gmba_r <- merge(gmba %>% select(DOMAIN = GMBA_V2_ID), full_mt_run_range, by = "DOMAIN")
+gmba_rc <- merge(gmba %>% select(DOMAIN = GMBA_V2_ID), full_mt_run_range_country, by = "DOMAIN")
 
 #### Figures (geometry) ----
 
@@ -101,17 +102,27 @@ text(x = 0.5, y = 0.5, paste(date(), "\n MT_KBA_Results w/Geometry"),
 ## Average coverage for each country
 ggplot(data = world, aes(group = cut5)) + 
   ggtitle("Coverage by Country") +
-  geom_sf(data = world, color = NA, aes(fill = cut5)) +
+  geom_sf(data = world_m, color = NA, aes(fill = cut5)) +
   scale_fill_brewer(palette = "YlGn") +
   labs(colour="Avg Coverage Group") +
   theme_bw()
 
 ## Average coverage for each range
-ggplot(data = gmba, aes(group = cut5)) + 
+ggplot(data = gmba_r, aes(group = cut5)) + 
   ggtitle("Coverage by Range") +
-  geom_sf(data = gmba, color = NA, aes(fill = cut5)) +
+  geom_sf(data = gmba_r, color = NA, aes(fill = cut5)) +
   scale_fill_brewer(palette = "YlGn") +
   geom_sf(data = world, fill = NA, color = '#636363', size = 0.002) +
+  labs(colour="Avg Coverage Group") +
+  theme_bw()
+
+
+## Average coverage for each range
+ggplot(data = gmba_rc, aes(group = cut5)) + 
+  ggtitle("Coverage by Range") +
+  geom_sf(data = gmba_rc, color = NA, aes(fill = cut5)) +
+  scale_fill_brewer(palette = "YlGn") +
+  geom_sf(data = world, fill = NA, color = '#636363') +
   labs(colour="Avg Coverage Group") +
   theme_bw()
 

@@ -10,8 +10,7 @@
 ### IMPORTANT NOTES
 # Given the complexity of the code, it is strongly recommended to copy-paste the code into an R editor (e.g. RStudio)
 # The minimum requirement to run the script is a 16 GB RAM machine
-# WDPA layer is extremely large, can take several minutes (up to half an hour) to load
-# to facilitate the process, the code runs the script and saves a file country by country. This avoids reanalysing the countries already done in case of error
+qu# to facilitate the process, the code runs the script and saves a file country by country. This avoids reanalysing the countries already done in case of error
 # it might occur an error preventing to calculate which kbas overlap with protected area. These situations are easily identifiable in the final csv file (filter by ovl=9999)
 
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
