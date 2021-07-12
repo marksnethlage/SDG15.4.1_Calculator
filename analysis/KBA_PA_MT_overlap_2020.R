@@ -41,7 +41,6 @@ lu <- function (x = x){
 #### Universal Variables ----
 # TODO review these and update based on what you want to do
 CLIPPED <- FALSE ## if you want to use the python clipped versions (just a subset of the code for testing)
-PYTHON_INTERSEC <- FALSE ## if you have run the python code to intersect KBA & PAs and want to loop through those instead
 YEAR_RUN <- 2020
 PLOTIT <- F ##if you want plots (usually when stepping through, not the full run)
 FULL_KBA <- T
@@ -67,7 +66,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 clip <- ifelse(CLIPPED, "clipped_", "")
 
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
-gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Inventory_GME_210420_Sel_292_attr/", clip, "Gmba_Inventory_GME_210420_Sel_292_attr.shp"), stringsAsFactors = F, crs = 4326) 
+gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Mountain_Inventory_v2_broad_20210630/", clip, "Gmba_Mountain_Inventory_v2_broad_20210630.shp"), stringsAsFactors = F, crs = 4326) 
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
@@ -173,6 +172,13 @@ if(nrow(cnpa) > 1) {
 }
 
 
+
+#### 2.4 - GMBA File Selection
+
+# remove any aggregated polygons from the set
+gmba <- gmba %>% filter(MapUnit == "Basic")
+
+
 #########################################################################
 #### Part 3 - SPATIAL ANALYSIS ----
 #########################################################################
@@ -202,7 +208,7 @@ for(i in 1:nrow(intersecs)) {
   if(nrow(gmbaz) == 1) {
     
     kba.c$GMBA_V2_ID <- gmbaz$GMBA_V2_ID
-    kba.c$RangeNameM <- gmbaz$RangeNameM
+    kba.c$DBaseName <- gmbaz$DBaseName
     kba.c$multiple_ranges <- FALSE
     kba.c$all_gmba_intersec <- paste0(unique(gmbaz$GMBA_V2_ID))
     
@@ -216,7 +222,7 @@ for(i in 1:nrow(intersecs)) {
     gmba_max <- gmbaz[which.max(st_area(int)),]
     
     kba.c$GMBA_V2_ID <- gmba_max$GMBA_V2_ID
-    kba.c$RangeNameM <- gmba_max$RangeNameM
+    kba.c$DBaseName <- gmba_max$DBaseName
     kba.c$multiple_ranges <- TRUE
     kba.c$all_gmba_intersec <- paste0(unique(gmbaz$GMBA_V2_ID), collapse = ";")
     
@@ -238,7 +244,7 @@ kbas_nogmba <- mount_kba %>% filter(!(SitRecID %in% gmba_kba$SitRecID))
 
 #using the IDs from above, get the kbas 
 kbas_nogmba <- kbas %>% filter(SitRecID %in% kbas_nogmba$SitRecID) %>%
-  mutate(GMBA_V2_ID = NA) %>% mutate(RangeNameM = NA) %>% mutate(multiple_ranges = FALSE) %>% 
+  mutate(GMBA_V2_ID = NA) %>% mutate(DBaseName = NA) %>% mutate(multiple_ranges = FALSE) %>% 
   mutate(all_gmba_intersec = NA) %>% mutate(in_gmba = FALSE)
 
 #assuming we picked some up, bind it to the gmba_kba file
@@ -266,7 +272,7 @@ for (x in 1:length(listloop)){
   gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
   print(gmba_kba.c)
   domain_isos <- paste0(unique(gmba_kba.c$ISO3))
-  RangeName <- str_replace(paste0(unique(gmba_kba.c$RangeNameM), collapse = ""), "/", "_")
+  RangeName <- str_replace(paste0(unique(gmba_kba.c$DBaseName), collapse = ""), "/", "_")
   
   #finds the isos in this domain and subsets any pa.c that have these countries
   #if any of these countries are known to have transboundary sites, we include the others in the pa country list
@@ -366,7 +372,7 @@ for (x in 1:length(listloop)){
             plot(world.c$geometry, col='transparent', border=2, add = T)
             
             title(paste("KBA intersec GMBA = Black Outline;  PAS = Purp \n Country Border = Red GMBA Site = ", 
-                        kbaz$GMBA_V2_ID, "Range Name", kbaz$RangeNameM), cex = 1)
+                        kbaz$GMBA_V2_ID, "Range Name", kbaz$DBaseName), cex = 1)
           }
           
           yearspacz <- pacz$STATUS_YR #years of pas in kba z
