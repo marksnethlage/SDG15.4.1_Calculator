@@ -469,7 +469,7 @@ for (x in 1:length(listloop)){
         ## if there are no pas that overlap with this zth kba, create empty row w/siteID
         if (length(which(ovkba[ ,z] == T)) == 0){
           areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=0, year=0, random=F, nPAs=0,
-                                 DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                                  DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                  COUNTRY = kbaz$ISO3, multiple_ranges = NA, 
                                  all_gmba_intersec = NA, in_gmba = NA, note = "no pas overlapping kba") ## if there are NO (zero/none) pas overlapping the kba
         }
