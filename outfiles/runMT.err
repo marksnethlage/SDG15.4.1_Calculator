@@ -3888,7 +3888,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -3907,12 +3906,14 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -3920,6 +3921,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -3937,7 +3939,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -3955,7 +3956,6 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -3979,13 +3979,14 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -4006,9 +4007,11 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4093,11 +4096,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4144,12 +4144,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4168,7 +4163,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4180,9 +4174,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4232,10 +4226,10 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4245,10 +4239,10 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4258,12 +4252,12 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4552,6 +4546,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4573,6 +4570,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4583,7 +4581,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4717,6 +4714,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4796,6 +4794,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -4806,6 +4805,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4944,8 +4944,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4962,8 +4962,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -4992,6 +4992,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5012,13 +5013,14 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5046,6 +5048,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5105,10 +5108,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5131,22 +5132,22 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -5327,7 +5328,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5377,6 +5377,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5389,6 +5391,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5516,7 +5519,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5537,7 +5539,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5624,6 +5625,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -5724,6 +5726,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -5734,6 +5737,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7067,6 +7072,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7091,6 +7097,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -7437,9 +7444,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7596,15 +7601,12 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -7612,7 +7614,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7621,10 +7622,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7690,7 +7690,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7821,6 +7820,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7836,7 +7836,6 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7852,12 +7851,12 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -7866,7 +7865,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -7892,7 +7890,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7920,10 +7917,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7948,7 +7943,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7960,6 +7954,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -7974,9 +7969,6 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7987,7 +7979,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -7995,7 +7986,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -8123,7 +8113,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -8164,7 +8153,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -8348,7 +8336,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -8511,6 +8498,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -9253,10 +9242,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -9267,6 +9254,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -9364,6 +9352,7 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -10108,7 +10097,6 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -10795,7 +10783,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -10957,10 +10944,10 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -11997,8 +11984,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -12377,6 +12362,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -12393,13 +12379,13 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -12419,7 +12405,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -12447,7 +12432,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -12456,10 +12440,13 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -12658,13 +12645,11 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -13117,6 +13102,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -13328,8 +13314,8 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -13844,8 +13830,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -13867,8 +13851,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -13877,8 +13859,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -13984,7 +13964,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -13996,8 +13975,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14008,8 +13985,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14052,6 +14027,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14076,6 +14054,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14161,6 +14140,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14168,6 +14148,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14443,13 +14424,13 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14462,7 +14443,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14475,7 +14455,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14504,7 +14486,9 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14525,9 +14509,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14622,6 +14606,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14640,7 +14625,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14657,7 +14641,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14670,6 +14653,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14677,6 +14661,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14693,6 +14678,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14709,10 +14697,10 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -14734,6 +14722,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14746,6 +14735,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14770,7 +14760,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -14793,6 +14782,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -14808,6 +14800,7 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -14990,10 +14983,10 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15009,7 +15002,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15022,7 +15014,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15040,6 +15031,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -15062,8 +15054,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -15113,8 +15103,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -15131,6 +15119,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15170,7 +15159,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -15178,7 +15166,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15205,6 +15192,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15222,6 +15210,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15236,6 +15225,7 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15258,7 +15248,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -15289,6 +15278,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15344,9 +15334,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15367,9 +15357,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15380,7 +15367,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15409,6 +15395,7 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -15427,6 +15414,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -15447,6 +15435,10 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15540,8 +15532,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -15621,6 +15613,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -15869,7 +15862,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -16016,6 +16008,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -16204,7 +16197,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -16438,6 +16430,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -16760,7 +16753,6 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -16824,6 +16816,8 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -16848,7 +16842,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -16904,7 +16897,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -16971,7 +16963,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -17003,12 +16994,14 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -17017,10 +17010,7 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -17093,7 +17083,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -18522,7 +18511,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -18721,6 +18709,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -18730,8 +18719,8 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -19638,6 +19627,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -19697,7 +19687,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -19819,7 +19808,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -19927,6 +19915,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -19940,9 +19929,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -19960,6 +19949,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -20275,6 +20265,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -20666,7 +20657,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -20694,7 +20684,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -20752,7 +20741,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -20855,9 +20843,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21088,6 +21076,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21134,6 +21123,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21157,6 +21147,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21176,6 +21167,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21229,11 +21221,13 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21303,6 +21297,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21321,7 +21316,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21358,9 +21352,7 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21504,7 +21496,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21631,6 +21622,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21712,6 +21704,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21753,6 +21746,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21793,7 +21787,6 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21848,7 +21841,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -21998,7 +21990,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -22048,7 +22039,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -22123,7 +22113,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -22162,7 +22151,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -22287,7 +22275,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -22377,7 +22364,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -22422,6 +22408,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -22557,7 +22544,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -22575,7 +22561,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -23005,9 +22990,9 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23018,10 +23003,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23042,7 +23025,6 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23329,12 +23311,12 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23353,6 +23335,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23362,7 +23345,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23398,9 +23380,12 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23412,12 +23397,14 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23431,10 +23418,12 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23445,6 +23434,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23530,6 +23520,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23546,7 +23537,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23561,7 +23551,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23579,6 +23568,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23601,7 +23591,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23670,7 +23659,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23686,7 +23674,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23711,7 +23698,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -23727,6 +23713,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23792,6 +23779,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23909,7 +23897,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -23991,7 +23978,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -24119,6 +24105,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -24136,6 +24124,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -24155,7 +24144,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -24183,6 +24171,8 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -24569,7 +24559,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -24916,6 +24905,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -25143,7 +25133,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -25158,7 +25147,6 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -25204,11 +25192,13 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -25366,7 +25356,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -25378,6 +25367,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
@@ -25483,7 +25473,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -25496,7 +25485,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -25858,7 +25846,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -25947,15 +25934,11 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -26032,6 +26015,7 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
@@ -26072,7 +26056,6 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -26088,6 +26071,7 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -26117,13 +26101,17 @@ although coordinates are longitude/latitude, st_difference assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
+although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
@@ -26131,8 +26119,6 @@ although coordinates are longitude/latitude, st_intersects assumes that they are
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
-although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_difference assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
 although coordinates are longitude/latitude, st_intersects assumes that they are planar
