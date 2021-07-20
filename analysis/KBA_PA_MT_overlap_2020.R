@@ -4,24 +4,23 @@
 ## based on code by Ash Simkins & Lizzie Pearmain, March 2020
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Script to estimate the overlap of PAs and KBAs (giving earliest year of designation) at Mountain Layer level
+# Script to estimate the overlap of PAs and KBAs (giving earliest year of designation) 
+# using GMBA mountain inventory to identify mountainous KBAs 
 
 ### IMPORTANT NOTES
 # The minimum requirement to run the script is a 16 GB RAM machine
-# to facilitate the process, the code runs the script and saves a file mountain by mountain. This avoids reanalysing the countries already done in case of error
+# to facilitate the process, the code runs the script and saves a file mountain by mountain. 
 # it might occur an error preventing to calculate which kbas overlap with protected area. These situations are easily identifiable in the final csv file (filter by ovl=NA)
 
 # TODO before you run this make sure you do the following:
-# you have run the python code to intsersect KBA & GMBA and the WDPA files
+# you have run the python code to prepare the KBA & GMBA and the WDPA files if necessary
 # have your file paths set up to reflect your code
 # update your Universal Variables 
 # make sure you have the results/files_country_%YEAR directory
 # make sure you update the working directory
 
-
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ############# Part 1 - Setup #######################
-
 
 #### Part 1.1 load packages ----
 # if you do not have any of the packages, please install them before running this code
@@ -30,8 +29,6 @@ library(sf)
 library(dplyr)
 library(tidyverse)
 library(lwgeom)
-library(todor)
-library(reticulate)
 
 #### Define functions ----
 lu <- function (x = x){
@@ -41,9 +38,9 @@ lu <- function (x = x){
 #### Universal Variables ----
 # TODO review these and update based on what you want to do
 CLIPPED <- FALSE ## if you want to use the python clipped versions (just a subset of the code for testing)
-YEAR_RUN <- 2020
-PLOTIT <- F ##if you want plots (usually when stepping through, not the full run)
-FULL_KBA <- T
+YEAR_RUN <- 2020 ## update with the year of the input files
+PLOTIT <- F ## if you want plots (usually when stepping through, not the full run)
+OVERWRITE <- F ## For ranges already calculated, do you want to rerun them if we already have output?
 
 #### 1.2 set file locations and working directories ----
 
@@ -55,7 +52,7 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
        setwd("~/Box Sync/mountain_biodiversity"),
        setwd("/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity"))
 folder <- getwd()
-finfolder <- paste0(folder, "/results/files_mt_", YEAR_RUN) #folder where the files per country will be saved
+finfolder <- paste0(folder, "./results/files_mt_", YEAR_RUN) #folder where the files per country will be saved
 
 # You will need 2 additional files: KBA classes and iso country codes
 tabmf <- read.csv(paste(getwd(), "/data/KBA/kba_class_2020.csv", sep = ""))   ## file with types of kbas 
@@ -188,8 +185,8 @@ gmba <- gmba %>% filter(MapUnit == "Basic")
 #### 3.1 - prepare KBA layer using GMBA ----
 gmba_kba <- c()
 
-# select any of the KBAs that intersect with GMBA and paste all GMBA_V2_ID that match
-#check for intcd ..ersection of all kba and gmbas
+#select any of the KBAs that intersect with GMBA and paste all GMBA_V2_ID that match
+#check for intersection of all kba and gmbas
 intersecs <- st_intersects(kbas$geometry, gmba$geometry, sparse = F)
 
 #loop through each row (corresponds to each kba)
@@ -230,7 +227,7 @@ for(i in 1:nrow(intersecs)) {
   }
 }
 
-## mark all these as intersected with gmba
+#mark all these as intersected with gmba
 gmba_kba$in_gmba <- TRUE
 
 ##Mark mismatching mountain identifiers between KBA and GMBA
@@ -242,9 +239,9 @@ mount_kba <- tabmf %>% filter(mountain == 1)
 #find all mount kbas where the SitRecID isn't already in gmba_kba (not intersecting, scenario c)
 kbas_nogmba <- mount_kba %>% filter(!(SitRecID %in% gmba_kba$SitRecID))
 
-#using the IDs from above, get the kbas 
+#using the IDs from above, get the kbas ASSIGNS THEM THE ID 99999
 kbas_nogmba <- kbas %>% filter(SitRecID %in% kbas_nogmba$SitRecID) %>%
-  mutate(GMBA_V2_ID = NA) %>% mutate(DBaseName = NA) %>% mutate(multiple_ranges = FALSE) %>% 
+  mutate(GMBA_V2_ID = 99999) %>% mutate(DBaseName = NA) %>% mutate(multiple_ranges = FALSE) %>% 
   mutate(all_gmba_intersec = NA) %>% mutate(in_gmba = FALSE)
 
 #assuming we picked some up, bind it to the gmba_kba file
@@ -274,9 +271,20 @@ for (x in 1:length(listloop)){
   domain_isos <- paste0(unique(gmba_kba.c$ISO3))
   RangeName <- str_replace(paste0(unique(gmba_kba.c$DBaseName), collapse = ""), "/", "_")
   
+  ##checks to see if this range has already been run
+  ## if we don't want to overwrite existing code (OVERWRITE), then skip to the next in the loop
+  tname <- paste(finfolder,"/kba_", RangeName, ".csv", sep="")
+  if((!OVERWRITE) && file.exists(tname)) {
+    ## read in the completed run
+    areasov <- read_csv(tname)
+    ## add to finaltab
+    finaltab <- rbind(finaltab,areasov)
+    ##skip to next iteration of the loop
+    next
+  }
+  
   #finds the isos in this domain and subsets any pa.c that have these countries
   #if any of these countries are known to have transboundary sites, we include the others in the pa country list
-  
   if (sum(domain_isos %in% transb$ISO3) > 0) { 
     iso3 <- c(domain_isos, transb$oISO3[transb$ISO3 %in% domain_isos])
     iso3
@@ -435,7 +443,8 @@ for (x in 1:length(listloop)){
                   }
                   
                   ovf23 <- NULL
-                  ##Determine if there is a difference in protected area coverage of kba the following year by making a new polygon of the area in the following year that wasn't in the previous year
+                  ##Determine if there is a difference in protected area coverage of kba the following year by making a 
+                  ## new polygon of the area in the following year that wasn't in the previous year
                   
                   ovf23 <- tryCatch({st_difference(ovf22, ovfprev3)}, error = function(e){}) 
                   if(PLOTIT){
@@ -486,9 +495,6 @@ for (x in 1:length(listloop)){
   }  ## ends loop for length(pac)>1
   
   finaltab <- rbind(finaltab,areasov)
-  
-  tname <- paste(finfolder,"/kba_", RangeName, ".csv", sep="")
-  tname
   write.csv(areasov, tname, row.names=F)
   
 }
