@@ -1,4 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
 6464,108590092.907131,0,0,FALSE,0,"13014","LSO;ZAF","Maloti Mountains","LSO",NA,NA,NA,"no pas overlapping kba",0
-6466,457089989.646222,1612098.33451134,2000,TRUE,1,"13014","LSO;ZAF","Maloti Mountains","LSO",FALSE,"13014",TRUE,"",0.00352687298131177
+6466,457089989.646222,1612098.33451134,2012,TRUE,1,"13014","LSO;ZAF","Maloti Mountains","LSO",FALSE,"13014",TRUE,"",0.00352687298131177
 7111,327236085.009378,325446572.097515,1963,FALSE,1,"13014","LSO;ZAF","Maloti Mountains","ZAF",FALSE,"13014",TRUE,"",0.994531431605987
