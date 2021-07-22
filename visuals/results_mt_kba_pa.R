@@ -26,6 +26,8 @@ library(lwgeom)
 library(gganimate)
 library(gifski)
 library(transformr)
+library(animation)
+library(RColorBrewer)
 
 #### Part 1.2 Set working directory and load in results ----
 
@@ -44,6 +46,7 @@ gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Mountain_Inventory_v2_bro
 kbas <- st_read(dsn = paste0(getwd(), "/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), "/data/World/world_shp/world.shp"), stringsAsFactors = F)
 isos <- read_csv("./data/iso_country_codes.csv")
+regions <- read_csv("./data/ipbes_regions_subregions_1.1.csv")
 
 ## fix geo issues just in case
 if(sum(st_is_valid(gmba)) < nrow(gmba)) gmba <- st_make_valid(gmba)
@@ -53,7 +56,8 @@ if(sum(st_is_valid(gmba)) < nrow(gmba)) gmba <- st_make_valid(gmba)
 #### 2.1 Universal calculations to add to results ----
 
 ## Set 0 years to NA and NA ovl to 0
-full_mt_run <- full_mt_run %>% mutate(year = ifelse(year == 0, NA, year), ovl = ifelse(is.na(ovl), 0, ovl))
+full_mt_run <- full_mt_run %>% mutate(year = ifelse(year == 0, NA, year), 
+                                      ovl = ifelse(is.na(ovl), 0, ovl))
 
 ## create dataframe of all years with all ID vars 
 uniqids <- unique(full_mt_run %>% select(SitRecID, kba, DOMAIN, RangeName, COUNTRY, in_gmba))
@@ -94,6 +98,9 @@ full_mt_run_all_years <- full_mt_run_all_years  %>%
   group_by(SitRecID) %>% mutate(cum_overlap = cumsum(ovl)) %>%
   mutate(cum_percPA = (cum_overlap/kba) * 100)
 
+full_mt_run_all_years <- left_join(full_mt_run_all_years, regions %>% rename(COUNTRY = ISO_3166_alpha_3), by = "COUNTRY")
+
+
 #### 2.2 Create datasets that combine total area first ----
 
 range_by_year <- full_mt_run_all_years %>% 
@@ -130,6 +137,16 @@ level2_by_year <- full_mt_run_all_years %>%
   mutate(coverage_group = cut(coverage_percent, breaks = seq(0, 100, 15)))
 
 level2_2020 <- level2_by_year %>% filter(year == 2020) %>% 
+  mutate(coverage_group = cut(coverage_percent, breaks = seq(0, 100, 15)))
+
+region_by_year <- full_mt_run_all_years %>% 
+  group_by(Region, year) %>%
+  summarize(sum_kba_area = sum(unique(kba), na.rm = T), sum_ovl_area = sum(cum_overlap, na.rm = T)) %>%
+  mutate(coverage_percent = (sum_ovl_area / sum_kba_area) * 100) %>%
+  mutate(coverage_percent = ifelse(coverage_percent > 100, 100, coverage_percent)) %>%
+  mutate(coverage_group = cut(coverage_percent, breaks = seq(0, 100, 15)))
+
+region_2020 <- level2_by_year %>% filter(year == 2020) %>% 
   mutate(coverage_group = cut(coverage_percent, breaks = seq(0, 100, 15)))
 
 kba_notgmba_by_year <- full_mt_run_all_years %>% 
@@ -240,6 +257,21 @@ ggplot(range_2020, aes(x=coverage_percent)) +
   ggtitle("Freq %Coverage by Range") +
   geom_histogram(color="black", fill="white", bins = 10)
 
+## Histogram of avg coverage for each region
+ggplot(region_2020, aes(x=coverage_percent)) + 
+  ggtitle("Freq %Coverage by Range") +
+  geom_histogram(color="black", fill="white", bins = 10)
+
+## Timeline of coverage over time @ level 2
+#mycolors <- colorRampPalette(brewer.pal(length(unique(level2_by_year$Level_02)), "YlOrRd"))
+ggplot(data=region_by_year, aes(x = year, y=coverage_percent, group = Region)) +
+  geom_line(aes(group=Region, color=as.factor(Region))) +
+  ggtitle("Coverage Percent over Time") + ylab("Cumulative Coverage") + xlab("Year") +
+  scale_fill_manual(values = "YlOrRd'") +
+  theme_bw() +
+  theme(text = element_text(size = 15), legend.position = "none")
+  
+
 ## end pdf
 dev.off()
 
@@ -247,11 +279,11 @@ dev.off()
 #### Figures (geometry) ----
 
 ## start PDF
-pdf(paste0("./visuals/MT_KBA_Results", Sys.Date(), ".pdf"), compress =  T)
+pdf(paste0("./visuals/MT_KBA_Results_2020", Sys.Date(), ".pdf"), compress =  T)
 ##Finalize datasets for regressions & run
 plot(c(0, 1), c(0, 1), ann = F, bty = 'n', type = 'n', xaxt = 'n', yaxt = 'n',
      main = title)
-text(x = 0.5, y = 0.5, paste(date(), "\n MT_KBA_Results w/Geometry"),
+text(x = 0.5, y = 0.5, paste(date(), "\n MT KBA 2020 Results w/Geometry"),
      cex = 1.5, col = "black")
 
 ### Basic
@@ -259,8 +291,9 @@ text(x = 0.5, y = 0.5, paste(date(), "\n MT_KBA_Results w/Geometry"),
 ## Average coverage for each country
 ggplot(data = world, aes(group = coverage_group)) + 
   ggtitle("Coverage by Country") +
-  geom_sf(data = country_2020_geo, color = NA, aes(fill = coverage_group)) +
-  scale_fill_brewer(palette = "YlGn") +
+  geom_sf(data = world, color = NA, fill = "grey")
+  geom_sf(data = country_2020_geo, color = "grey", size = 0.002, aes(fill = coverage_group)) +
+  scale_fill_brewer(palette = "YlGn", na.value = "grey") +
   labs(colour="Avg Coverage Group") +
   theme_bw()
 
@@ -291,17 +324,29 @@ ggplot(data = level2_2020_geo) +
   labs(colour="Avg Coverage Group") +
   theme_bw()
 
+dev.off()
+
+## start PDF
+pdf(paste0("./visuals/MT_KBA_Results_historic", Sys.Date(), ".pdf"), compress =  T)
+##Finalize datasets for regressions & run
+plot(c(0, 1), c(0, 1), ann = F, bty = 'n', type = 'n', xaxt = 'n', yaxt = 'n',
+     main = title)
+text(x = 0.5, y = 0.5, paste(date(), "\n MT KBA Historic Results w/Geometry"),
+     cex = 1.5, col = "black")
+
 ### Different Year Groups
 ## select for the years we care about
-range_geo_e <- range_by_year_geo %>% filter(year %in% c(1980, 1985, 1990, 1995)) %>% mutate(coverage_group = ifelse(coverage_group == "<NA>", NA, coverage_group))
-range_geo_l <- range_by_year_geo %>% filter(year %in% c(2000, 2005, 2010, 2020)) %>% mutate(coverage_group = ifelse(coverage_group == "<NA>", NA, coverage_group))
+range_geo_e <- range_by_year_geo %>% filter(year %in% c(1980, 1985, 1990, 1995)) %>% 
+  mutate(coverage_group = cut(coverage_percent, breaks = seq(0, 100, 15)))
+range_geo_l <- range_by_year_geo %>% filter(year %in% c(2000, 2005, 2010, 2020)) %>% 
+  mutate(coverage_group = cut(coverage_percent, breaks = seq(0, 100, 15)))
 
 ## Average coverage for each range broken by year 
 ggplot(data = range_geo_e) + 
   ggtitle("Coverage by Range") +
   geom_sf(data = range_geo_e, color = NA, aes(fill = coverage_group)) +
   facet_wrap( ~ year, nrow = 2) +
-  scale_fill_distiller(palette = "YlGn", na.value = "grey") +
+  scale_fill_brewer(palette = "YlGn", na.value = "grey", direction = 1) +
   geom_sf(data = world, fill = NA, color = '#636363', size = 0.002) +
   labs(colour="Avg Coverage Group 1980-1999") +
   theme_bw()
@@ -310,7 +355,7 @@ ggplot(data = range_geo_l) +
   ggtitle("Coverage by Range") +
   geom_sf(data = range_geo_l, color = NA, aes(fill = coverage_group)) +
   facet_wrap( ~ year, nrow = 2) +
-  scale_fill_distiller(palette = "YlGn", na.value = "grey") +
+  scale_fill_brewer(palette = "YlGn", na.value = "grey", direction = 1) +
   geom_sf(data = world, fill = NA, color = '#636363', size = 0.002) +
   labs(colour="Avg Coverage Group 2000-2020") +
   theme_bw()
@@ -320,14 +365,20 @@ dev.off()
 
 #### For any gifs ----
 
+level2_by_year_geo <- level2_by_year_geo %>% filter(year %in% seq(1980, 2020, 10)) %>% 
+  mutate(coverage_percent = ifelse(coverage_percent > 100, 100, coverage_percent)) %>%
+  mutate(coverage_group = cut(coverage_percent, breaks = seq(0, 100, 20), include.lowest = T))
+
 ## years (not filling in gaps)
-annual <- ggplot(data = gmba_r_ay_c) +
-  geom_sf(data = gmba_r_ay_c, color = NA, aes(fill = cut)) +
-  scale_fill_brewer(palette = "YlGn") +
+annual <- ggplot(data = level2_by_year_geo) +
+  geom_sf(data = level2_by_year_geo, color = NA, aes(fill = coverage_group,
+                                               group = interaction(coverage_group, year))) +
+  scale_fill_brewer(palette = "YlGn", na.value = "grey") +
   geom_sf(data = world, fill = NA, color = '#636363', size = 0.002) +
-  labs(title = 'Year: {frame_time}') +
   transition_time(year) +
-  ease_aes('linear')
+  theme_void() +
+  theme(legend.box.just = "center") +
+  labs(subtitle = "Year: {frame_time}") 
 
 anim_save("./visuals/gifs/annual_increase.gif", annual)
 
