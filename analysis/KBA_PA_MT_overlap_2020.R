@@ -63,7 +63,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 clip <- ifelse(CLIPPED, "clipped_", "")
 
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
-gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/Gmba_Mountain_Inventory_v2_broad_20210630/", clip, "Gmba_Mountain_Inventory_v2_broad_20210630.shp"), stringsAsFactors = F, crs = 4326) 
+gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/GMBA_Inventory_v2.0_3_Layers/", clip, "GMBA_Inventory_v2.0_Basic.shp"), stringsAsFactors = F, crs = 4326) 
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
