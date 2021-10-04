@@ -150,5 +150,15 @@ plot(kba.c$geometry, col = 'transparent', border = "orange", lwd = 3, add = T)
 plot(gmbaz$geometry, col='transparent', border=gmbaz$GMBA_V2_ID, add=T)
 title("Intersected KBA w/ GMBA")
 
+onedomain <- gmba %>% filter(GMBA_V2_ID == 19629)
+b <- full_mt_run %>% filter(DOMAIN == 19629)
+kba_inone <- kbas %>% filter(SitRecID %in% b$SitRecID)
+pas_sa <- pas %>% filter(ISO3 == "USA")
+a <- st_intersects(pas_sa$Shape, kba_inone$geometry, sparse = F)
+pacz <- pas_sa[which(a == T), ] 
 
+plot(onedomain$geometry, col = "darkgreen", border = 0)
+plot(kba_inone$geometry, col=rgb(0,0,.8,0.2), border=rgb(0,0,.8,0.2), add = T)
+plot(pacz$Shape, col = 'transparent', border = "darkorange", lwd = 2, add = T)
+title(paste(onedomain$MapName))
 

@@ -24,10 +24,11 @@ library(interactions)
 library(sf)
 library(lwgeom)
 library(gganimate)
-library(gifski)
 library(transformr)
 library(animation)
 library(RColorBrewer)
+
+install.packages(c("gifski", "transformr", "animation", "RColorBrewer"))
 
 #### Part 1.2 Set working directory and load in results ----
 
@@ -365,7 +366,7 @@ dev.off()
 
 #### For any gifs ----
 
-level2_by_year_geo <- level2_by_year_geo %>% filter(year %in% seq(1980, 2020, 10)) %>% 
+level2_by_year_geo <- level2_by_year_geo %>% filter(year %in% c(1980, 2020)) %>% 
   mutate(coverage_percent = ifelse(coverage_percent > 100, 100, coverage_percent)) %>%
   mutate(coverage_group = cut(coverage_percent, breaks = seq(0, 100, 20), include.lowest = T))
 
