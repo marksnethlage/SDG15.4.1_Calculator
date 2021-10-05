@@ -169,13 +169,10 @@ if(nrow(cnpa) > 1) {
   }
 }
 
-
-
 #### 2.4 - GMBA File Selection
 
 # remove any aggregated polygons from the set
 gmba <- gmba %>% filter(MapUnit == "Basic")
-
 
 #########################################################################
 #### Part 3 - SPATIAL ANALYSIS ----
@@ -217,6 +214,7 @@ for(i in 1:nrow(intersecs)) {
   } else {
     
     print(gmbaz$GMBA_V2_ID)
+    gmbaz <- st_buffer(gmbaz, 0.0)
     int <- st_intersection(gmbaz, kba.c, sparse = F)
     gmba_max <- gmbaz[which.max(st_area(int)),]
     
