@@ -75,8 +75,7 @@ as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are 
 
 #check for and repair any geometry issues
 if(sum(st_is_valid(pas)) < nrow(pas)) pas <- st_make_valid(pas)
-#if(sum(st_is_valid(gmba)) < nrow(gmba)) 
-gmba <- st_make_valid(gmba)
+if(sum(st_is_valid(gmba)) < nrow(gmba)) gmba <- st_make_valid(gmba)
 
 ## convert factors to characters in the dataframes
 ## PAs dataframe
@@ -214,7 +213,6 @@ for(i in 1:nrow(intersecs)) {
   } else {
     
     print(gmbaz$GMBA_V2_ID)
-    gmbaz <- st_buffer(gmbaz, 0.0)
     int <- st_intersection(gmbaz, kba.c, sparse = F)
     gmba_max <- gmbaz[which.max(st_area(int)),]
     
