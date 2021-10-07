@@ -677,9 +677,6 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
 Error in CPL_geos_op2(op, x, y) : 
   Evaluation error: TopologyException: Input geom 1 is invalid: Ring Self-intersection at or near point -84.499150847633473 35.282375120415622 at -84.499150847633473 35.282375120415622.
 Calls: st_intersection ... geos_op2_df -> geos_op2_geom -> st_sfc -> CPL_geos_op2
