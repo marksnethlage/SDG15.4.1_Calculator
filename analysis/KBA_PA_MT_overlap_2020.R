@@ -63,7 +63,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 clip <- ifelse(CLIPPED, "clipped_", "")
 
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
-gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/", clip, "GMBA_Inventory_v2.0_basic.shp"), stringsAsFactors = F, crs = 4326) 
+gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/GMBA_Inventory_v2.0_basic/", clip, "GMBA_Inventory_v2.0_basic.shp"), stringsAsFactors = F, crs = 4326) 
 kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
@@ -76,6 +76,7 @@ as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are 
 #check for and repair any geometry issues
 if(sum(st_is_valid(pas)) < nrow(pas)) pas <- st_make_valid(pas)
 if(sum(st_is_valid(gmba)) < nrow(gmba)) gmba <- st_make_valid(gmba)
+if(sum(st_is_valid(kbas)) < nrow(kbas)) kbas <- st_make_valid(kbas)
 
 ## convert factors to characters in the dataframes
 ## PAs dataframe
@@ -168,7 +169,7 @@ if(nrow(cnpa) > 1) {
   }
 }
 
-#### 2.4 - GMBA File Selection
+#### 2.4 - GMBA File Selectiont
 
 # remove any aggregated polygons from the set
 gmba <- gmba %>% filter(MapUnit == "Basic")
@@ -214,7 +215,6 @@ for(i in 1:nrow(intersecs)) {
     
     print(gmbaz$GMBA_V2_ID)
     print(kba.c)
-    gmbaz <- st_make_valid(st_buffer(gmbaz, 0.0))
     int <- st_intersection(gmbaz, kba.c, sparse = F)
     gmba_max <- gmbaz[which.max(st_area(int)),]
     
