@@ -213,6 +213,8 @@ for(i in 1:nrow(intersecs)) {
   } else {
     
     print(gmbaz$GMBA_V2_ID)
+    print(kba.c)
+    gmbaz <- st_make_valid(st_buffer(gmbaz, 0.0))
     int <- st_intersection(gmbaz, kba.c, sparse = F)
     gmba_max <- gmbaz[which.max(st_area(int)),]
     
