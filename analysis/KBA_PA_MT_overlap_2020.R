@@ -52,7 +52,7 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
        setwd("~/Box Sync/mountain_biodiversity"),
        setwd("/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity"))
 folder <- getwd()
-finfolder <- paste0(folder, "./results/files_mt_", YEAR_RUN) #folder where the files per country will be saved
+finfolder <- paste0(folder, "/results/files_mt_", YEAR_RUN) #folder where the files per country will be saved
 
 # You will need 2 additional files: KBA classes and iso country codes
 tabmf <- read.csv(paste(getwd(), "/data/KBA/kba_class_2020.csv", sep = ""))   ## file with types of kbas 
