@@ -323,7 +323,7 @@ for (x in 1:length(listloop)){
       
       ## starts loop for all kbas in the domain
       for (z in 1:nrow(gmba_kba.c)){ 
-        
+        print(kbaz)
         kbaz <- gmba_kba.c[z, ]
         head(kbaz)
         akba <- NA #set to NA to incase next steps don't run
