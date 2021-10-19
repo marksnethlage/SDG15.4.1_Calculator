@@ -199,14 +199,11 @@ for(i in 1:nrow(intersecs)) {
   #assuming there are intersections, select the gmbas that intersect
   gmbaz <- gmba[which(intersecs[i,]==T), ]
   
-  #note if there are more than one intersections 
-  mult_ranges <- nrow(gmbaz) > 1
-  
-  #intersect the data, and save most of hte KBA and a bit of the GMBA information
+  #intersect the data, and save most of the KBA and a bit of the GMBA information
   int <- st_intersection(gmbaz, kba.c, sparse = F)
   int <- int %>% select(c(names(kba.c), GMBA_V2_ID, DBaseName)) %>%
-    mutate(multiple_ranges = mult_ranges) %>%
-    mutate(all_gmba_intersec <- paste0(unique(gmbaz$GMBA_V2_ID)))
+    mutate(multiple_ranges = length(unique(gmbaz$GMBA_V2_ID)) > 1) %>%
+    mutate(all_gmba_intersec = paste0(unique(gmbaz$GMBA_V2_ID)))
   
   gmba_kba <- rbind(gmba_kba, int)
     
@@ -281,6 +278,7 @@ for (x in 1:length(listloop)){
   
   #if there are no pas in this country, sets output to zero and skips
   if (nrow(pa.c) == 0){ 
+    print("no PAs")
     areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                           DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                           COUNTRY = kbaz$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, note = "no PAs in this range") 
@@ -321,9 +319,8 @@ for (x in 1:length(listloop)){
         pa.c$STATUS_YR[pa.c$STATUS_YR == 0] <- base::sample(ryears, nrow(pa.c[pa.c$STATUS_YR == 0, ]), replace = T) ## selects a year randomly from the pool of possible years
       }
       
-      ## starts loop for all kbas in the domain
+      ## starts loop for all kba/gmba pairs
       for (z in 1:nrow(gmba_kba.c)){ 
-        print(kbaz)
         kbaz <- gmba_kba.c[z, ]
         head(kbaz)
         akba <- NA #set to NA to incase next steps don't run
@@ -378,7 +375,7 @@ for (x in 1:length(listloop)){
             ##REVIEW but basically indicate if any of these from the earliest year were random, random is set to true
             random0 <- pacz %>% filter(STATUS_YR == year1) 
             random1 <- sum(random0$random) > 0
-            
+            print(paste("sit rec id rows", nrow(kbaz$SitRecID), "ovl rows", nrow(ovlz)))
             areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year1, random = random1, nPAs=nrow(ovf1), 
                                    DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                    COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
