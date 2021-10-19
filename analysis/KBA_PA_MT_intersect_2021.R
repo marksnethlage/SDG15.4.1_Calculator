@@ -375,7 +375,9 @@ for (x in 1:length(listloop)){
             ##REVIEW but basically indicate if any of these from the earliest year were random, random is set to true
             random0 <- pacz %>% filter(STATUS_YR == year1) 
             random1 <- sum(random0$random) > 0
-            print(paste("sit rec id rows", nrow(kbaz$SitRecID), "ovl rows", nrow(ovlz)))
+            print(kbaz$SitRecID)
+            print(akba)
+            print(ovlz)
             areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year1, random = random1, nPAs=nrow(ovf1), 
                                    DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                    COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
