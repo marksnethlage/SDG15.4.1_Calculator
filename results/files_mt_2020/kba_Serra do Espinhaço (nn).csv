@@ -1,6 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
 20158,50906331.7294109,0,0,FALSE,0,"19722","BRA","Serra do Espinhaço (nn)","BRA",NA,NA,NA,"no pas overlapping kba",0
 20159,244762473.673529,96794957.4285119,2018,FALSE,1,"19722","BRA","Serra do Espinhaço (nn)","BRA",FALSE,"19722",TRUE,"",0.395464860179587
-47048,10248502539.0305,10239145803.1141,1997,FALSE,2,"19722","BRA","Serra do Espinhaço (nn)","BRA",TRUE,"19722;18238",TRUE,"",0.999087014333974
 47060,78362949.1680582,0,0,FALSE,0,"19722","BRA","Serra do Espinhaço (nn)","BRA",NA,NA,NA,"no pas overlapping kba",0
-47077,809283573.211113,0,0,FALSE,0,"19722","BRA","Serra do Espinhaço (nn)","BRA",NA,NA,NA,"no pas overlapping kba",0

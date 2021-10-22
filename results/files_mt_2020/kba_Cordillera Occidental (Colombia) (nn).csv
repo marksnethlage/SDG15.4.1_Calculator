@@ -1,5 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-14415,8200380.12388175,8200380.12388175,2015,FALSE,1,"19707","COL","Cordillera Occidental (Colombia) (nn)","COL",TRUE,"19707;20946",TRUE,"",1
 14421,193986502.41134,36421474.0706861,1943,FALSE,1,"19707","COL","Cordillera Occidental (Colombia) (nn)","COL",FALSE,"19707",TRUE,"",0.187752619991343
 14421,193986502.41134,108870915.402648,2018,FALSE,1,"19707","COL","Cordillera Occidental (Colombia) (nn)","COL",FALSE,"19707",TRUE,"",0.56122933322336
 14486,11929637.5009433,1135322.1299652,2011,FALSE,1,"19707","COL","Cordillera Occidental (Colombia) (nn)","COL",FALSE,"19707",TRUE,"",0.0951682001968151

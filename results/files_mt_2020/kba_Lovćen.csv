@@ -1,5 +1,3 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
 31847,62678925.4958657,57283830.6598687,1952,FALSE,1,"14892","MNE","Lovćen","MNE",FALSE,"14892",TRUE,"",0.913924899105794
-32035,16988671.3189869,0,0,FALSE,0,"14892","MNE","Lovćen","MNE",NA,NA,NA,"no pas overlapping kba",0
-32036,1329362.79247761,0,0,FALSE,0,"14892","MNE","Lovćen","MNE",NA,NA,NA,"no pas overlapping kba",0
 32034,27790853.4065048,0,0,FALSE,0,"14892","MNE","Lovćen","MNE",NA,NA,NA,"no pas overlapping kba",0

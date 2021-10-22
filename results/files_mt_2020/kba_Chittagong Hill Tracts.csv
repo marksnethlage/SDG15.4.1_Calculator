@@ -1,9 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
 15233,235658177.648101,208466250.491981,1983,FALSE,1,"13139","BGD;MMR","Chittagong Hill Tracts","BGD",FALSE,"13139",TRUE,"",0.884612842942691
-15234,62472097.5047125,52674458.7992611,1999,FALSE,1,"13139","BGD;MMR","Chittagong Hill Tracts","BGD",FALSE,"13139",TRUE,"",0.843167764541404
 15236,763531198.302053,0,0,FALSE,0,"13139","BGD;MMR","Chittagong Hill Tracts","BGD",NA,NA,NA,"no pas overlapping kba",0
-15237,15228100.8137481,14357832.7180007,1980,FALSE,1,"13139","BGD;MMR","Chittagong Hill Tracts","BGD",FALSE,"13139",TRUE,"",0.942851173209878
-15238,114411223.950533,105945986.452997,2009,FALSE,1,"13139","BGD;MMR","Chittagong Hill Tracts","BGD",FALSE,"13139",TRUE,"",0.926010427952451
 22588,1289683454.74901,0,0,FALSE,0,"13139","BGD;MMR","Chittagong Hill Tracts","MMR",NA,NA,NA,"no pas overlapping kba",0
-31562,307327306.333854,0,0,FALSE,0,"13139","BGD;MMR","Chittagong Hill Tracts","MMR",NA,NA,NA,"no pas overlapping kba",0
-16303,196818489.428283,0,0,FALSE,0,"13139","BGD;MMR","Chittagong Hill Tracts","MMR",NA,NA,NA,"no pas overlapping kba",0

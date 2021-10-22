@@ -1,4 +1,2 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-18037,240758752.554232,145942552.314183,1978,FALSE,1,"15746","IND","Abor Range","IND",TRUE,"11630;15746",TRUE,"",0.606177556437159
-25020,37306234.5888248,0,0,FALSE,0,"15746","IND","Abor Range","IND",NA,NA,NA,"no pas overlapping kba",0
-25021,37302469.3125128,0,0,FALSE,0,"15746","IND","Abor Range","IND",NA,NA,NA,"no pas overlapping kba",0
+"SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note"
+NA,NA,0,0,FALSE,0,0,"15746","IND","Abor Range",NA,NA,NA,NA,"no overlaps btwn PAs and range"

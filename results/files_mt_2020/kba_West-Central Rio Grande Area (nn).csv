@@ -1,2 +1,2 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-31388,230864592.368704,229969241.99909,1939,FALSE,1,"20928","USA","West-Central Rio Grande Area (nn)","USA",TRUE,"16743;19572;20928",TRUE,"",0.996121751021117
+31388,230864592.368704,229969241.99909,1939,FALSE,1,"20928","USA","West-Central Rio Grande Area (nn)","USA",FALSE,"20928",TRUE,"",0.996121751021117

@@ -1,5 +1,2 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-16001,377158276.185533,43073581.0767534,1957,FALSE,2,"18738","MYS","Bungo Range","MYS",TRUE,"18732;18738",TRUE,"",0.114205583693899
-16052,99130676.2068982,0,0,FALSE,0,"18738","MYS","Bungo Range","MYS",NA,NA,NA,"no pas overlapping kba",0
-16053,297290187.652593,0,0,FALSE,0,"18738","MYS","Bungo Range","MYS",NA,NA,NA,"no pas overlapping kba",0
-16054,84049400.5739007,0,0,FALSE,0,"18738","MYS","Bungo Range","MYS",NA,NA,NA,"no pas overlapping kba",0
+"SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note"
+NA,NA,0,0,FALSE,0,0,"18738","MYS","Bungo Range",NA,NA,NA,NA,"no overlaps btwn PAs and range"

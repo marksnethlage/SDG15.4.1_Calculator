@@ -1,5 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-44710,97318580.5361812,0,0,FALSE,0,"15497","VUT","Malakula","VUT",NA,NA,NA,"no pas overlapping kba",0
 44721,213901526.017426,0,0,FALSE,0,"15497","VUT","Malakula","VUT",NA,NA,NA,"no pas overlapping kba",0
 44726,42730554.6458139,0,0,FALSE,0,"15497","VUT","Malakula","VUT",NA,NA,NA,"no pas overlapping kba",0
-44706,222459810.99719,13924514.9317051,1984,TRUE,1,"15497","VUT","Malakula","VUT",FALSE,"15497",TRUE,"",0.0625933954959668
+44706,222459810.99719,13924514.9317051,1983,TRUE,1,"15497","VUT","Malakula","VUT",FALSE,"15497",TRUE,"",0.0625933954959668

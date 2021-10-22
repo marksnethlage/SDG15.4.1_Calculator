@@ -1,11 +1,2 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-20843,52200844.5669166,0,0,FALSE,0,"18900","FLK","West Falkland","FLK",NA,NA,NA,"no pas overlapping kba",0
-20849,7175132.73606695,1376209.81396878,1966,FALSE,1,"18900","FLK","West Falkland","FLK",FALSE,"18900",TRUE,"",0.191802697537711
-20850,35251731.3421913,2954537.33058919,1966,TRUE,2,"18900","FLK","West Falkland","FLK",FALSE,"18900",TRUE,"",0.0838125453161227
-20850,35251731.3421913,6235827.29312029,1973,TRUE,8,"18900","FLK","West Falkland","FLK",FALSE,"18900",TRUE,"",0.176894213580282
-20850,35251731.3421913,869.462936527096,1978,TRUE,2,"18900","FLK","West Falkland","FLK",FALSE,"18900",TRUE,"",2.46644038015368e-05
-20851,39522691.2144091,0,0,FALSE,0,"18900","FLK","West Falkland","FLK",NA,NA,NA,"no pas overlapping kba",0
-20864,116858172.451494,0,0,FALSE,0,"18900","FLK","West Falkland","FLK",NA,NA,NA,"no pas overlapping kba",0
-20865,122393746.511214,0,0,FALSE,0,"18900","FLK","West Falkland","FLK",NA,NA,NA,"no pas overlapping kba",0
-20868,33653998.5952844,97625.7836928368,1965,FALSE,1,"18900","FLK","West Falkland","FLK",FALSE,"18900",TRUE,"",0.00290086728970494
-20870,17615300.5666733,0,0,FALSE,0,"18900","FLK","West Falkland","FLK",NA,NA,NA,"no pas overlapping kba",0
+"SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note"
+NA,NA,0,0,FALSE,0,0,"18900","FLK","West Falkland",NA,NA,NA,NA,"no overlaps btwn PAs and range"

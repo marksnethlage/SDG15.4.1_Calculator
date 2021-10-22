@@ -1,5 +1,5 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
 484,47362206.9288154,0,0,FALSE,0,"20602","ISL","Austurland Ranges (nn)","ISL",NA,NA,NA,"no pas overlapping kba",0
-528,2043837.134266,1815103.2901969,1995,FALSE,1,"20602","ISL","Austurland Ranges (nn)","ISL",FALSE,"20602",TRUE,"",0.888086070932824
+527,522056248.320457,0,0,FALSE,0,"20602","ISL","Austurland Ranges (nn)","ISL",NA,NA,NA,"no pas overlapping kba",0
 530,145868737.806364,0,0,FALSE,0,"20602","ISL","Austurland Ranges (nn)","ISL",NA,NA,NA,"no pas overlapping kba",0
 536,265017134.256413,169061.945636548,2006,FALSE,1,"20602","ISL","Austurland Ranges (nn)","ISL",TRUE,"19369;20602",TRUE,"",0.000637928359277236

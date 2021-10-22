@@ -1,5 +1,2 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-18272,170428469.303197,61705109.0332298,1970,FALSE,1,"19499","IND","Western Satpura Range (nn)","IND",FALSE,"19499",TRUE,"",0.362058694099133
-18282,371665884.040555,0,0,FALSE,0,"19499","IND","Western Satpura Range (nn)","IND",NA,NA,NA,"no pas overlapping kba",0
-18279,333612772.35095,0,0,FALSE,0,"19499","IND","Western Satpura Range (nn)","IND",NA,NA,NA,"no pas overlapping kba",0
-46922,723008669.339325,385708541.604918,1975,FALSE,1,"19499","IND","Western Satpura Range (nn)","IND",TRUE,"19760;19499",TRUE,"",0.533477063224391
+"SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note"
+NA,NA,0,0,FALSE,0,0,"19499","IND","Western Satpura Range (nn)",NA,NA,NA,NA,"no overlaps btwn PAs and range"

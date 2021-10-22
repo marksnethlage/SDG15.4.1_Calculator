@@ -1,2 +1,2 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-26033,1256206572.40446,106555190.739448,1988,FALSE,1,"15792","USA","Denali Range","USA",TRUE,"12270;15792",TRUE,"",0.0848229845951968
+26033,1256206572.40446,106555190.739448,1988,FALSE,1,"15792","USA","Denali Range","USA",FALSE,"15792",TRUE,"",0.0848229845951968

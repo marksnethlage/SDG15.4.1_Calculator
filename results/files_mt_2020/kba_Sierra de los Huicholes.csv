@@ -1,5 +1,5 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
 10046,1105844942.92265,827678828.23634,2002,FALSE,1,"21002","MEX","Sierra de los Huicholes","MEX",FALSE,"21002",TRUE,"",0.748458301982967
 10046,1105844942.92265,NA,2014,FALSE,1,"21002","MEX","Sierra de los Huicholes","MEX",FALSE,"21002",TRUE,"",NA
-10053,1211752149.50545,571311501.198944,2002,FALSE,1,"21002","MEX","Sierra de los Huicholes","MEX",TRUE,"17740;21002;21024",TRUE,"",0.471475541786424
+10053,1211752149.50545,571311501.198944,2002,FALSE,1,"21002","MEX","Sierra de los Huicholes","MEX",TRUE,"21002;21024",TRUE,"",0.471475541786424
 10233,1850375804.05274,0,0,FALSE,0,"21002","MEX","Sierra de los Huicholes","MEX",NA,NA,NA,"no pas overlapping kba",0

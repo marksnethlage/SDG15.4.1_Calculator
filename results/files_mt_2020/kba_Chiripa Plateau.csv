@@ -1,3 +1,2 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-48987,318245288.313665,30.2926803199393,1973,FALSE,1,"19042","MWI","Chiripa Plateau","MWI",TRUE,"19042;19364",TRUE,"",9.51865791335222e-08
-48997,15443812.8623166,0,0,FALSE,0,"19042","MWI","Chiripa Plateau","MWI",NA,NA,NA,"no pas overlapping kba",0
+48987,318245288.313665,30.2926803199393,1973,FALSE,1,"19042","MWI","Chiripa Plateau","MWI",FALSE,"19042",TRUE,"",9.51865791335222e-08

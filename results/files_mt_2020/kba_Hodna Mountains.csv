@@ -1,4 +1,2 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-6165,15125123.9428952,15125123.9428952,2004,FALSE,1,"12996","DZA","Hodna Mountains","DZA",TRUE,"10095;12996",TRUE,"",1
-46582,294481449.274006,0,0,FALSE,0,"12996","DZA","Hodna Mountains","DZA",NA,NA,NA,"no pas overlapping kba",0
-46587,54910723.2085233,0,0,FALSE,0,"12996","DZA","Hodna Mountains","DZA",NA,NA,NA,"no pas overlapping kba",0
+"SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note"
+NA,NA,0,0,FALSE,0,0,"12996","DZA","Hodna Mountains",NA,NA,NA,NA,"no overlaps btwn PAs and range"

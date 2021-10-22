@@ -1,6 +1,2 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-14327,821700835.324686,0,0,FALSE,0,"20983","NPL","Churia Ghati Hills","NPL",NA,NA,NA,"no pas overlapping kba",0
-14333,321904460.602462,149355058.695847,1976,FALSE,1,"20983","NPL","Churia Ghati Hills","NPL",FALSE,"20983",TRUE,"",0.463973249753423
-14333,321904460.602462,12445510.4009665,1987,FALSE,1,"20983","NPL","Churia Ghati Hills","NPL",FALSE,"20983",TRUE,"",0.0386621247113943
-14333,321904460.602462,138504403.70347,2004,FALSE,1,"20983","NPL","Churia Ghati Hills","NPL",FALSE,"20983",TRUE,"",0.430265562161677
-18502,894013.600751705,0,0,FALSE,0,"20983","NPL","Churia Ghati Hills","NPL",NA,NA,NA,"no pas overlapping kba",0
+"SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note"
+NA,NA,0,0,FALSE,0,0,"20983","NPL","Churia Ghati Hills",NA,NA,NA,NA,"no overlaps btwn PAs and range"

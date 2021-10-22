@@ -1,6 +1,2 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-6579,29635645.2510769,0,0,FALSE,0,"12288","MDG","Volcanic formations of Itasy","MDG",NA,NA,NA,"no pas overlapping kba",0
-22497,105413.209219337,105413.171964014,2005,FALSE,1,"12288","MDG","Volcanic formations of Itasy","MDG",FALSE,"12288",TRUE,"",0.999999646578234
-22434,2016728.07752216,0,0,FALSE,0,"12288","MDG","Volcanic formations of Itasy","MDG",NA,NA,NA,"no pas overlapping kba",0
-46999,828423652.65172,0,0,FALSE,0,"12288","MDG","Volcanic formations of Itasy","MDG",NA,NA,NA,"no pas overlapping kba",0
-22512,26609277.2076911,0,0,FALSE,0,"12288","MDG","Volcanic formations of Itasy","MDG",NA,NA,NA,"no pas overlapping kba",0
+"SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note"
+NA,NA,0,0,FALSE,0,0,"12288","MDG","Volcanic formations of Itasy",NA,NA,NA,NA,"no overlaps btwn PAs and range"
