@@ -38,9 +38,9 @@ lu <- function (x = x){
 #### Universal Variables ----
 # TODO review these and update based on what you want to do
 CLIPPED <- FALSE ## if you want to use the python clipped versions (just a subset of the code for testing)
-YEAR_RUN <- 2020 ## update with the year of the input files
+YEAR_RUN <- 2021 ## update with the year
 PLOTIT <- F ## if you want plots (usually when stepping through, not the full run)
-OVERWRITE <- F ## For ranges already calculated, do you want to rerun them if we already have output?
+OVERWRITE <- T ## For ranges already calculated, do you want to rerun them if we already have output?
 
 #### 1.2 set file locations and working directories ----
 
@@ -215,9 +215,9 @@ if(CLIPPED) tabmf <- tabmf %>% filter(ISO %in% kbas$ISO3)
 
 #### 3.3 - per mountain region, depending on global variable
 
-# create list of moutnain ranges to loop through ----
+# create list of mountain ranges to loop through ----
 # TODO if you want to loop through countries, youll need to change this and the selection at the beginning of the loop below
-listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
+listloop <- as.character(unique(gmba_kba$SitRecID))
 listloop <- listloop[!is.na(listloop)]
 
 finaltab <- data.frame()
@@ -229,14 +229,14 @@ for (x in 1:length(listloop)){
   domain <- listloop[x]
   
   ## 1. Subset kbas and pas to this domain
-  gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
+  gmba_kba.c <- gmba_kba %>% filter(SitRecID == domain)
   print(gmba_kba.c)
   domain_isos <- paste0(unique(gmba_kba.c$ISO3))
   RangeName <- str_replace(paste0(unique(gmba_kba.c$DBaseName), collapse = ""), "/", "_")
   
   ##checks to see if this range has already been run
   ## if we don't want to overwrite existing code (OVERWRITE), then skip to the next in the loop
-  tname <- paste(finfolder,"/kba_", RangeName, ".csv", sep="")
+  tname <- paste(finfolder,"/kba_int_",domain, "_", RangeName, ".csv", sep="")
   if((!OVERWRITE) && file.exists(tname)) {
     ## read in the completed run
     areasov <- read_csv(tname)
@@ -280,11 +280,11 @@ for (x in 1:length(listloop)){
   if (nrow(pa.c) == 0){ 
     print("no PAs")
     areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
-                          DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                          DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                           COUNTRY = kbaz$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, note = "no PAs in this range") 
   } else {
     
-    ##finds the overlap of the kba and the pa
+    ##finds the overlap of the gmba-intersected kba and the pa
     ovkba <- NULL
     ovkba <- st_intersects(pa.c$geometry, gmba_kba.c$geometry, sparse = FALSE) 
     ovkba ## matrix where rows = PAs, and cols = KBAs
@@ -293,14 +293,14 @@ for (x in 1:length(listloop)){
     ##if there is no matrix produced, this is an error so set all outputs to error 
     if (length(ovkba) == 0){ 
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
-                            DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                            DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                             COUNTRY = NA, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, note = "error in overlap btwn PA and range")
       
       ## if there are no overlaps, we're just going to set these to zeros
     } else if (sum(ovkba) <= 0) {
       
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
-                            DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                            DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                             COUNTRY = NA, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, note = "no overlaps btwn PAs and range")
       
       ##if there ARE overlaps between kbas and pas (e.g. some TRUES in the matrix): 
@@ -379,7 +379,7 @@ for (x in 1:length(listloop)){
             print(akba)
             print(ovlz)
             areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year1, random = random1, nPAs=nrow(ovf1), 
-                                   DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                                   DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                    COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
                                    in_gmba = kbaz$in_gmba, note = "") #creates row in output table with this site overlap area and associated information within it #sets numbers to numeric not units (removes m^2)
             
@@ -423,7 +423,7 @@ for (x in 1:length(listloop)){
                   random2 <- pacz %>% filter(STATUS_YR == year1) 
                   random3 <- sum(random0$random) > 0
                   areasov1 <- rbind(areasov1,data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year2, random = random3, nPAs=nrow(ovf2), 
-                                                        DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                                                        DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                                         COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
                                                         in_gmba = kbaz$in_gmba, note = ""))
                   areasov1
@@ -443,7 +443,7 @@ for (x in 1:length(listloop)){
         ## if there are no pas that overlap with this zth kba, create empty row w/siteID
         if (length(which(ovkba[ ,z] == T)) == 0){
           areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=0, year=0, random=F, nPAs=0,
-                                 DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                                 DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                  COUNTRY = kbaz$ISO3, multiple_ranges = NA, 
                                  all_gmba_intersec = NA, in_gmba = NA, note = "no pas overlapping kba") ## if there are NO (zero/none) pas overlapping the kba
         }
@@ -471,6 +471,6 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("./results/finaltab_mt_kba_full_", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste("./results/finaltab_mt_kba_intersect_", YEAR_RUN, ".csv", sep=""), row.names = F)
 ### end here
 
