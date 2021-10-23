@@ -181,37 +181,42 @@ if(nrow(cnpa) > 1) {
 ##### OVERLAP WITH PROTECTED AREAS
 
 #### 3.1 - prepare KBA layer using GMBA ----
+gmba_kba_loc <- paste0(getwd(), "/data/combined/gmba_kba.csv")
 gmba_kba <- c()
 
-#select any of the KBAs that intersect with any GMBA and paste all GMBA_V2_ID that match
-#check for intersection of all kba and gmbas
-intersecs <- st_intersects(kbas$geometry, gmba$geometry, sparse = F)
-
-#loop through each row (corresponds to each kba)
-for(i in 1:nrow(intersecs)) {
+if(file.exists(gmba_kba_loc)) {
   
-  #select the currect kba 
-  kba.c <- kbas[i,]
+  gmba_kba <- read.csv(gmba_kba_loc)
+} else {
   
-  #if there are no intersections between this kba and any gmba, just continue and don't add it
-  if(sum(intersecs[i,]) <= 0) next
+  #select any of the KBAs that intersect with any GMBA and paste all GMBA_V2_ID that match
+  #check for intersection of all kba and gmbas
+  intersecs <- st_intersects(kbas$geometry, gmba$geometry, sparse = F)
   
-  #assuming there are intersections, select the gmbas that intersect
-  gmbaz <- gmba[which(intersecs[i,]==T), ]
-  
-  #intersect the data, and save most of the KBA and a bit of the GMBA information
-  int <- st_intersection(gmbaz, kba.c, sparse = F)
-  int <- int %>% select(c(names(kba.c), GMBA_V2_ID, DBaseName)) %>%
-    mutate(multiple_ranges = length(unique(gmbaz$GMBA_V2_ID)) > 1) %>%
-    mutate(all_gmba_intersec = paste0(unique(gmbaz$GMBA_V2_ID)))
-  
-  gmba_kba <- rbind(gmba_kba, int)
+  #loop through each row (corresponds to each kba)
+  for(i in 1:nrow(intersecs)) {
     
+    #select the currect kba 
+    kba.c <- kbas[i,]
+    
+    #if there are no intersections between this kba and any gmba, just continue and don't add it
+    if(sum(intersecs[i,]) <= 0) next
+    
+    #assuming there are intersections, select the gmbas that intersect
+    gmbaz <- gmba[which(intersecs[i,]==T), ]
+    
+    #intersect the data, and save most of the KBA and a bit of the GMBA information
+    int <- st_intersection(gmbaz, kba.c, sparse = F)
+    int <- int %>% select(c(names(kba.c), GMBA_V2_ID, DBaseName)) %>%
+      mutate(multiple_ranges = length(unique(gmbaz$GMBA_V2_ID)) > 1) %>%
+      mutate(all_gmba_intersec = paste0(unique(gmbaz$GMBA_V2_ID)))
+    
+    gmba_kba <- rbind(gmba_kba, int)
+      
+  }
+  
+  write.csv(gmba_kba, paste0(getwd(), "/data/combined/gmba_kba"))
 }
-
-##Mark mismatching mountain identifiers between KBA and GMBA
-if(CLIPPED) tabmf <- tabmf %>% filter(ISO %in% kbas$ISO3)
-
 
 #### 3.3 - per mountain region, depending on global variable
 
