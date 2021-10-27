@@ -1,0 +1,154 @@
+[1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity"
+Reading layer `WDPA_poly_Nov2020_filtered' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb' using driver `OpenFileGDB'
+Simple feature collection with 239004 features and 30 fields
+geometry type:  MULTIPOLYGON
+dimension:      XY
+bbox:           xmin: -180 ymin: -85.41189 xmax: 180 ymax: 86.45372
+CRS:            4326
+Reading layer `GMBA_Inventory_v2.0_basic' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/GMBA/GMBA_Inventory_v2.0_basic.shp' using driver `ESRI Shapefile'
+Simple feature collection with 6719 features and 38 fields
+geometry type:  MULTIPOLYGON
+dimension:      XY
+bbox:           xmin: -180 ymin: -55.91472 xmax: 180 ymax: 83.63908
+CRS:            EPSG:4326
+Reading layer `KBAsGlobal_2020_September_02_POL' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp' using driver `ESRI Shapefile'
+Simple feature collection with 15903 features and 16 fields
+geometry type:  MULTIPOLYGON
+dimension:      XY
+bbox:           xmin: -180 ymin: -79.21161 xmax: 180 ymax: 81.36814
+CRS:            EPSG:4326
+Reading layer `world' from data source `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/World/world_shp/world.shp' using driver `ESRI Shapefile'
+Simple feature collection with 251 features and 2 fields
+geometry type:  MULTIPOLYGON
+dimension:      XY
+bbox:           xmin: -180 ymin: -90 xmax: 180 ymax: 83.6236
+CRS:            4326
+[1] "MULTIPOLYGON"
+Classes ‘sf’ and 'data.frame':	239004 obs. of  32 variables:
+ $ WDPAID      : num  5.56e+08 3.05e+05 3.07e+05 3.05e+05 5.56e+08 ...
+ $ WDPA_PID    : Factor w/ 239004 levels "1","10","100",..: 152602 51066 52721 51067 152604 152605 152607 152626 51706 50650 ...
+ $ PA_DEF      : Factor w/ 1 level "1": 1 1 1 1 1 1 1 1 1 1 ...
+ $ NAME        : Factor w/ 220919 levels " Marais et tourbières des vallées de la Somme et de l’Avre",..: 79694 211437 211242 211453 193850 211523 118754 52205 182811 120699 ...
+ $ ORIG_NAME   : Factor w/ 220974 levels " الرشيدية"," নিঝুম দ্বীপ",..: 76454 203386 203192 203402 185861 203471 113484 50911 175219 115354 ...
+ $ DESIG       : Factor w/ 1779 levels "§3 Beskyttet Natur (Alle Søer, Moser, Vandløb, Heder, Enge Mv)",..: 1435 1325 1435 1325 1435 1435 1435 1435 1435 1325 ...
+ $ DESIG_ENG   : Factor w/ 1447 levels "§3 Protected Habitats (All Lakes, Bogs, Streams, Heaths And Meadows Etc.)",..: 1262 1139 1262 1139 1262 1262 1262 1262 1262 1139 ...
+ $ DESIG_TYPE  : Factor w/ 4 levels "International",..: 2 2 2 2 2 2 2 2 2 2 ...
+ $ IUCN_CAT    : Factor w/ 10 levels "Ia","Ib","II",..: 4 4 4 4 4 4 4 4 4 4 ...
+ $ INT_CRIT    : Factor w/ 222 levels "(i)","(i)(ii)",..: 221 221 221 221 221 221 221 221 221 221 ...
+ $ MARINE      : Factor w/ 3 levels "0","1","2": 1 1 1 1 1 1 1 1 1 1 ...
+ $ REP_M_AREA  : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ GIS_M_AREA  : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ REP_AREA    : num  0.0375 1.3146 0.2735 0.9079 0.0267 ...
+ $ GIS_AREA    : num  0.0375 1.316 1.136 0.9088 0.0268 ...
+ $ NO_TAKE     : Factor w/ 5 levels "All","None","Not Applicable",..: 3 3 3 3 3 3 3 3 3 3 ...
+ $ NO_TK_AREA  : num  0 0 0 0 0 0 0 0 0 0 ...
+ $ STATUS      : Factor w/ 4 levels "Adopted","Designated",..: 2 2 2 2 2 2 2 2 2 2 ...
+ $ STATUS_YR   : int  1988 1936 1981 1908 1987 1987 1987 1987 1987 1971 ...
+ $ GOV_TYPE    : Factor w/ 12 levels "Collaborative governance",..: 2 2 2 2 2 2 2 2 2 2 ...
+ $ OWN_TYPE    : Factor w/ 9 levels "Communal","Contested",..: 8 8 8 8 8 8 8 8 8 8 ...
+ $ MANG_AUTH   : Factor w/ 5294 levels "\nDirección General de Biodiversidad. Consejería de Sostenibilidad y Transición Ecológica. Gobierno de La Rioja.",..: 1485 1485 1485 1485 1485 1485 1485 1485 1485 1485 ...
+ $ MANG_PLAN   : Factor w/ 4018 levels "\nhttp://www.caib.es/eboibfront/es/2015/10279?&p_numero=10279",..: 3927 3927 3927 3927 3927 3927 3927 3927 3927 3927 ...
+ $ VERIF       : Factor w/ 3 levels "Expert Verified",..: 3 3 3 3 3 3 3 3 3 3 ...
+ $ METADATAID  : int  1773 1773 1773 1773 1773 1773 1773 1773 1773 1773 ...
+ $ SUB_LOC     : Factor w/ 2528 levels " US-AZ / US-NV",..: 1626 1626 1627 1626 1593 1593 1626 1593 1593 1593 ...
+ $ PARENT_ISO3 : Factor w/ 209 levels "ABNJ","AFG","AGO",..: 148 148 148 148 148 148 148 148 148 148 ...
+ $ ISO3        : chr  "NZL" "NZL" "NZL" "NZL" ...
+ $ Shape_Length: num  0.00911 0.05396 0.10669 0.08185 0.01582 ...
+ $ Shape_Area  : num  3.81e-06 1.34e-04 1.16e-04 9.27e-05 2.73e-06 ...
+ $ geometry    :sfc_MULTIPOLYGON of length 239004; first list element: List of 1
+  ..$ :List of 1
+  .. ..$ : num [1:107, 1:2] 176 176 176 176 176 ...
+  ..- attr(*, "class")= chr  "XY" "MULTIPOLYGON" "sfg"
+ $ PARENT_ISO  : chr  "NZL" "NZL" "NZL" "NZL" ...
+ - attr(*, "sf_column")= chr "geometry"
+ - attr(*, "agr")= Factor w/ 3 levels "constant","aggregate",..: NA NA NA NA NA NA NA NA NA NA ...
+  ..- attr(*, "names")= chr  "WDPAID" "WDPA_PID" "PA_DEF" "NAME" ...
+  [1] "AND" "CZE" "GRL" "FRO" "SRB" "MKD" "AZE" "BLR" "LTU" "LIE" "EST" "LVA"
+ [13] "PRT" "BGR" "ROU" "ISL" "IRL" "BEL" "TUR" "MDA" "SWE" "POL" "GRC" "FIN"
+ [25] "HUN" "UKR" "ITA" "ALB" "SVK" "ARM" "AUT" "CHE" "DEU" "AGO" "BFA" "BDI"
+ [37] "BEN" "BWA" "COD" "CAF" "COG" "CIV" "CMR" "DJI" "DZA" "EGY" "ERI" "ETH"
+ [49] "GAB" "GHA" "GMB" "GIN" "GNQ" "GNB" "KEN" "LSO" "LBY" "MAR" "MLI" "MRT"
+ [61] "MWI" "MOZ" "NAM" "NER" "NGA" "RWA" "SDN" "SSD" "SHN" "SLE" "SEN" "SOM"
+ [73] "STP" "SWZ" "TCD" "ATF" "TGO" "TUN" "TZA" "UGA" "ZMB" "ZWE" "AFG" "BHR"
+ [85] "IRQ" "IRN" "JOR" "KWT" "OMN" "QAT" "SYR" "YEM" "MEX" "TWN" "NPL" "BTN"
+ [97] "BGD" "IDN" "MYS" "BRN" "PRK" "KOR" "MNG" "PAK" "IOT" "IND" "GEO" "PAN"
+[109] "KAZ" "BRA" "GTM" "PRY" "CRI" "NIC" "TKM" "UZB" "URY" "BLZ" "FLK" "SLV"
+[121] "AUS" "HND" "SUR" "GUF" "HMD" "CCK" "KGZ" "---" "NCL" "UMI" "PLW" "NFK"
+[133] "PYF" "LUX" "BIH" "ISR" "LKA" "MDV" "VNM" "THA" "HKG" "LAO" "KHM" "MAC"
+[145] "MMR" "CUW" "JAM" "BES" "PRI" "MSR" "CYM" "TCA" "VGB" "CUB" "BHS" "DOM"
+[157] "GRD" "VIR" "KNA" "SXM" "MAF" "VCT" "ATG" "BRB" "MTQ" "TTO" "GLP" "ABW"
+[169] "DMA" "BLM" "HTI" "AIA" "PNG" "ZAF" "FRA" "NOR" "RUS" "USA" "NLD" "NZL"
+[181] "SAU" "DNK" "SVN" "SJM" "CAN" "TLS" "VUT" "SLB" "JPN" "ATA" "GUY" "SGP"
+[193] "MDG" "MUS" "REU" "SYC" "MYT" "COM" "VEN" "CHL" "BOL" "ARG" "PER" "COL"
+[205] "ECU" "WSM" "PCN" "FJI" "COK" "MHL" "TON" "FSM" "WLF" "NIU" "KIR" "TKL"
+[217] "MNP" "GUM" "ASM" "MNE" "NRU" "HRV" "ESP" "CHN" "GIB" "CYP" "MLT" "LBN"
+[229] "PSE" "CPV" "ARE" "TJK" "LBR" "PHL" NA    "SGS" "CXR" "BMU" "LCA" "SPM"
+[241] "GBR" "BVT"
+[1] "High Seas" NA         
+[1] NA
+[1] "Philippines"
+                                               ISO3 nchart
+21                                  BLM;GLP;MAF;MTQ     15
+23                                          BLR;POL      7
+32                                          CAN;USA      7
+34                                          CHE;ITA      7
+36                                          CIV;GIN      7
+40                                          CRI;PAN      7
+56                                          FIN;SWE      7
+61                                          FRA;ESP      7
+62                                      FRA;ITA;MCO     11
+106                                         MNG;RUS      7
+117                                     NLD;DEU;DNK     11
+139                                         SVK;HUN      7
+154                                     UZB;KGZ;KAZ     11
+163                                         ZMB;ZWE      7
+175 DEU;SVK;ALB;AUT;BEL;BGR;ESP;HRV;ITA;ROU;SVN;UKR     47
+205                                     COG;CMR;CAF     11
+213                                         MKD;ALB      7
+218                                     BFA;NER;BEN     11
+236                                         LSO;ZAF      7
+Simple feature collection with 5 features and 20 fields
+geometry type:  POLYGON
+dimension:      XY
+bbox:           xmin: 1.422099 ymin: 42.43509 xmax: 1.780389 ymax: 42.65871
+CRS:            EPSG:4326
+     SitRecID Country ISO3       NatName            IntName SitArea IbaStatus
+4257       19 Andorra  AND IBA D'Andorra Pirineo de Andorra   47463 confirmed
+4258       19 Andorra  AND IBA D'Andorra Pirineo de Andorra   47463 confirmed
+4268       19 Andorra  AND IBA D'Andorra Pirineo de Andorra   47463 confirmed
+4269       19 Andorra  AND IBA D'Andorra Pirineo de Andorra   47463 confirmed
+4305       19 Andorra  AND IBA D'Andorra Pirineo de Andorra   47463 confirmed
+     KbaStatus AzeStatus  AddedDate ChangeDate
+4257      <NA>      <NA> 2009-06-17       <NA>
+4258      <NA>      <NA> 2009-06-17       <NA>
+4268      <NA>      <NA> 2009-06-17       <NA>
+4269      <NA>      <NA> 2009-06-17       <NA>
+4305      <NA>      <NA> 2009-06-17       <NA>
+                                                                          Source
+4257 IBA Directory description used to define boundary as entire area of country
+4258 IBA Directory description used to define boundary as entire area of country
+4268 IBA Directory description used to define boundary as entire area of country
+4269 IBA Directory description used to define boundary as entire area of country
+4305 IBA Directory description used to define boundary as entire area of country
+                                            DelTxt       DelGeom Shape_Leng
+4257 Political layer used to provide boundary data Draft polygon   1.060533
+4258 Political layer used to provide boundary data Draft polygon   1.060533
+4268 Political layer used to provide boundary data Draft polygon   1.060533
+4269 Political layer used to provide boundary data Draft polygon   1.060533
+4305 Political layer used to provide boundary data Draft polygon   1.060533
+     Shape_Area GMBA_V2_ID              DBaseName multiple_ranges
+4257 0.05202231      17916         Macizo de Orri            TRUE
+4258 0.05202231      17917     Macizo de Montcalm            TRUE
+4268 0.05202231      17929 Massif de l'Hospitalet            TRUE
+4269 0.05202231      17930   Massif de Campcardos            TRUE
+4305 0.05202231      17969         Serra de Banat            TRUE
+     all_gmba_intersec                       geometry
+4257             17916 POLYGON ((1.477013 42.53528...
+4258             17917 POLYGON ((1.452858 42.60685...
+4268             17929 POLYGON ((1.725589 42.53151...
+4269             17930 POLYGON ((1.71452 42.49919,...
+4305             17969 POLYGON ((1.721653 42.51487...
+1 	 19 	 AND 
+[1] 19
+[1] 39271525
+[1] 18860725
