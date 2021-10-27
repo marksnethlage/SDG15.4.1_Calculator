@@ -181,12 +181,12 @@ if(nrow(cnpa) > 1) {
 ##### OVERLAP WITH PROTECTED AREAS
 
 #### 3.1 - prepare KBA layer using GMBA ----
-gmba_kba_loc <- paste0(getwd(), "/data/combined/gmba_kba.csv")
+gmba_kba_loc <- paste0(getwd(), "/data/combined/gmba_kba.RDS")
 gmba_kba <- c()
 
 if(file.exists(gmba_kba_loc)) {
   
-  gmba_kba <- read.csv(gmba_kba_loc)
+  gmba_kba <- readRDS(gmba_kba_loc)
   
 } else {
   
@@ -216,7 +216,7 @@ if(file.exists(gmba_kba_loc)) {
       
   }
   
-  write.csv(gmba_kba, paste0(getwd(), "/data/combined/gmba_kba.csv"))
+  saveRDS(gmba_kba, paste0(getwd(), gmba_kba_loc))
 }
 
 #### 3.3 - per mountain region, depending on global variable
