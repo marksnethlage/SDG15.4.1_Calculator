@@ -216,7 +216,7 @@ if(file.exists(gmba_kba_loc)) {
       
   }
   
-  saveRDS(gmba_kba, paste0(getwd(), gmba_kba_loc))
+  saveRDS(gmba_kba, gmba_kba_loc)
 }
 
 #### 3.3 - per mountain region, depending on global variable
