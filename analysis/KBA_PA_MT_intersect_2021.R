@@ -216,7 +216,7 @@ if(file.exists(gmba_kba_loc)) {
       
   }
   
-  write.csv(gmba_kba, paste0(getwd(), "/data/combined/gmba_kba"))
+  write.csv(gmba_kba, paste0(getwd(), "/data/combined/gmba_kba.csv"))
 }
 
 #### 3.3 - per mountain region, depending on global variable
@@ -395,7 +395,6 @@ for (x in 1:length(listloop)){
                 
                 ## to see if there is still any area left by the pas of year 1
                 rema <- 1-(sum(areasov1$ovl[!is.na(areasov1$ovl)])/akba)  
-                rema
                 if (rema > 0.02){ #assuming 2% error in delineation of kbas compared to pas
                   year2 <- years[w]
                   
@@ -428,7 +427,7 @@ for (x in 1:length(listloop)){
                   
                   random2 <- pacz %>% filter(STATUS_YR == year1) 
                   random3 <- sum(random0$random) > 0
-                  areasov1 <- rbind(areasov1,data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year2, random = random3, nPAs=nrow(ovf2), 
+                  areasov1 <- rbind(areasov1,bind_cols(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year2, random = random3, nPAs=nrow(ovf2), 
                                                         DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                                         COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
                                                         in_gmba = kbaz$in_gmba, note = ""))
