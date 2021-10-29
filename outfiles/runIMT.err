@@ -6805,11 +6805,7 @@ although coordinates are longitude/latitude, st_intersection assumes that they a
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
 although coordinates are longitude/latitude, st_intersection assumes that they are planar
-There were 50 or more warnings (use warnings() to see the first 50)
-although coordinates are longitude/latitude, st_intersects assumes that they are planar
-although coordinates are longitude/latitude, st_intersection assumes that they are planar
-Error in data.frame(SitRecID = kbaz$SitRecID, kba = akba, ovl = ovlz,  : 
-  arguments imply differing number of rows: 1, 5, 0
-In addition: Warning message:
-attribute variables are assumed to be spatially constant throughout all geometries 
+Error in gzfile(file, mode) : cannot open the connection
+Calls: saveRDS -> gzfile
+In addition: There were 50 or more warnings (use warnings() to see the first 50)
 Execution halted
