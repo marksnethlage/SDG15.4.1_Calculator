@@ -267,7 +267,7 @@ for (x in 1:length(listloop)){
   cat(x, '\t', domain, '\t', domain.c, '\n')  
   
   world.c <- world %>% filter(CNTRY_NAME %in% gmba_kba.c$Country)
-  gmba.c <- gmba %>% filter(GMBA_V2_ID == domain)
+  gmba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
   
   ## 3. Plot map of KBAs and PAs to check ----
   if(PLOTIT){
@@ -292,10 +292,8 @@ for (x in 1:length(listloop)){
     
     ##finds the overlap of the gmba-intersected kba and the pa
     ovkba <- NULL
-    ovkba <- st_intersects(pa.c$geometry, gmba_kba.c$geometry, sparse = FALSE) 
-    ovkba ## matrix where rows = PAs, and cols = KBAs
-    nrow(ovkba)
-    
+    ovkba <- st_intersects(pa.c$geometry, gmba_kba.c$geometry, sparse = FALSE) ## matrix where rows = PAs, and cols = KBAs
+
     ##if there is no matrix produced, this is an error so set all outputs to error 
     if (length(ovkba) == 0){ 
       areasov <- bind_cols(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
@@ -450,7 +448,7 @@ for (x in 1:length(listloop)){
           areasov1 <- bind_cols(SitRecID=kbaz$SitRecID, kba=akba, ovl=0, year=0, random=F, nPAs=0,
                                  DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                  COUNTRY = kbaz$ISO3, multiple_ranges = NA, 
-                                 all_gmba_intersec = NA, in_gmba = NA, note = "no pas overlapping kba") ## if there are NO (zero/none) pas overlapping the kba
+                                 all_gmba_intersec = NA, note = "no pas overlapping kba") ## if there are NO (zero/none) pas overlapping the kba
         }
         
         areasov <- rbind(areasov,areasov1)
