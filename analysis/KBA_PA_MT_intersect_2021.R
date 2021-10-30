@@ -226,7 +226,7 @@ if(file.exists(gmba_kba_loc)) {
 listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
 listloop <- listloop[!is.na(listloop)]
 
-finaltab <- data.frame()
+finaltab <- c()
 tt <- proc.time()
 
 ## starts loop for all domains @ level 3
@@ -474,7 +474,7 @@ head(finaltab)
 str(finaltab)
 lu(finaltab$x) #not sure what suppposed to do
 
-finaltab <- unique(finaltab)
+#finaltab <- unique(finaltab)
 
 write.csv(finaltab, paste("./results/finaltab_mt_kba_intersect_", YEAR_RUN, ".csv", sep=""), row.names = F)
 ### end here
