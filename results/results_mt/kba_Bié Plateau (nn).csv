@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+6001,811974362.846189,0,0,FALSE,0,"19362","AGO","Bié Plateau (nn)","AGO",NA,NA,NA,"no pas overlapping kba",0
+6002,573524985.010183,0,0,FALSE,0,"19362","AGO","Bié Plateau (nn)","AGO",NA,NA,NA,"no pas overlapping kba",0
+6009,1217022504.50012,0,0,FALSE,0,"19362","AGO","Bié Plateau (nn)","AGO",NA,NA,NA,"no pas overlapping kba",0
+6014,8736874722.55843,8736819046.71811,1957,FALSE,1,"19362","AGO","Bié Plateau (nn)","AGO",FALSE,"19362",TRUE,"",0.999993627487851

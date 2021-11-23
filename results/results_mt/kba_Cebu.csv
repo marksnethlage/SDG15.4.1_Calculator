@@ -1,0 +1,6 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+9771,104648927.357988,0,0,FALSE,0,"15254","PHL","Cebu","PHL",NA,NA,NA,"no pas overlapping kba",0
+9772,26237113.6739494,0,0,FALSE,0,"15254","PHL","Cebu","PHL",NA,NA,NA,"no pas overlapping kba",0
+22334,136178178.070459,0,0,FALSE,0,"15254","PHL","Cebu","PHL",NA,NA,NA,"no pas overlapping kba",0
+9768,312845868.169123,5848467.49347885,1936,FALSE,1,"15254","PHL","Cebu","PHL",FALSE,"15254",TRUE,"",0.018694405419851
+9768,312845868.169123,273043670.293509,2007,FALSE,1,"15254","PHL","Cebu","PHL",FALSE,"15254",TRUE,"",0.87277377799953

@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+9803,323666315.405089,0,0,FALSE,0,"15242","PHL","Mount Busa Range*","PHL",NA,NA,NA,"no pas overlapping kba",0
+9805,1141306146.51,32929106.6609477,1966,FALSE,1,"15242","PHL","Mount Busa Range*","PHL",FALSE,"15242",TRUE,"",0.0288521241751318
+9805,1141306146.51,242369719.000808,1985,FALSE,1,"15242","PHL","Mount Busa Range*","PHL",FALSE,"15242",TRUE,"",0.212361704825608
+9805,1141306146.51,9543635.27313425,2002,FALSE,1,"15242","PHL","Mount Busa Range*","PHL",FALSE,"15242",TRUE,"",0.0083620291560838

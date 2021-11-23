@@ -20,22 +20,16 @@ library(ggplot2)
 
 install.packages(c("gifski", "transformr", "animation", "RColorBrewer"))
 
-#### Part 1.2 Set working directory and load in results ----
+#### 1.2 Set working directory and load in results ----
 
 ## set working directory
 ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
        setwd("~/Box Sync/mountain_biodiversity"),
        setwd("/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results"))
 
-## read in results of overlap
-kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, 
-                             "KBAsGlobal_2020_September_02_POL.shp"), 
-                stringsAsFactors = F, crs = 4326) 
-kbas <- st_make_valid(kbas)
-
-### Read in the results #TODO update this section
-saveName <- "finaltab_basic_intersection_cummulative"
-results <- read_csv("finaltab_basic_Intersection_Oct2021.csv")
+### Read in the results #TODO update this section before running
+saveName <- "finaltab_cumulative"
+results <- read_csv("finaltab_basic_Oct2020.csv")
 
 #### 2.1 Calculate full timeline with cumulative coverage ----
 
@@ -148,6 +142,22 @@ results_all_years_parentrange_country <- results_all_years %>%
 
 write.csv(results_all_years_parentrange_country, 
           paste0(saveName, "_parentrange_country.csv"))
+
+## 4.4 Calculate Avg Coverage of KBAs in Parent Range
+results_all_years_parentrange_avg <- results_all_years %>%
+  group_by(year, ParentRange) %>%
+  summarize(mean(percPA, na.rm = T))
+
+write.csv(results_all_years_parentrange_avg, 
+          paste0(saveName, "_parentrange_avg.csv"))
+
+## 4.5 Calculate Avg Coverage of KBAs in Parent Range and COuntry 
+results_all_years_parentrange_country_avg <- results_all_years %>%
+  group_by(year, ParentRange, COUNTRY) %>%
+  summarize(mean(percPA, na.rm = T))
+
+write.csv(results_all_years_parentrange_country_avg, 
+          paste0(saveName, "_parentrange_country_avg.csv"))
 
 
 

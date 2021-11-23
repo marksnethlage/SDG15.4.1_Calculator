@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+19501,4302199750.2267,42817332.2438526,1972,FALSE,1,"11901","ARG","Sierra de la Punilla (Precordillera)","ARG",TRUE,"11901;13037;19714;19715",TRUE,"",0.00995242776479553
+19501,4302199750.2267,4143506203.53526,1980,FALSE,1,"11901","ARG","Sierra de la Punilla (Precordillera)","ARG",TRUE,"11901;13037;19714;19715",TRUE,"",0.963113394099594
+19501,4302199750.2267,1412.16526697345,2003,FALSE,1,"11901","ARG","Sierra de la Punilla (Precordillera)","ARG",TRUE,"11901;13037;19714;19715",TRUE,"",3.28242608191086e-07

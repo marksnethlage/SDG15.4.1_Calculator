@@ -1,0 +1,6 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+6221,4892137566.48722,0,0,FALSE,0,"20055","ERI","Northern Highlands (Eritrea)","ERI",NA,NA,NA,"no pas overlapping kba",0
+6223,1282955508.27005,654296.790793717,1959,FALSE,1,"20055","ERI","Northern Highlands (Eritrea)","ERI",TRUE,"20055;20056",TRUE,"",0.000509991801411709
+6224,230908270.0675,0,0,FALSE,0,"20055","ERI","Northern Highlands (Eritrea)","ERI",NA,NA,NA,"no pas overlapping kba",0
+6230,811770831.702138,811765180.548623,1959,FALSE,1,"20055","ERI","Northern Highlands (Eritrea)","ERI",FALSE,"20055",TRUE,"",0.99999303848661
+28609,3347857292.80742,3347854375.55596,1959,FALSE,1,"20055","ERI","Northern Highlands (Eritrea)","ERI",FALSE,"20055",TRUE,"",0.999999128621324

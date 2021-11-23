@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+8215,22495704.0936157,0,0,FALSE,0,"14501","OMN;ARE","Ru'us al-Jibal","OMN",NA,NA,NA,"no pas overlapping kba",0
+8216,1081116379.66657,0,0,FALSE,0,"14501","OMN;ARE","Ru'us al-Jibal","OMN",NA,NA,NA,"no pas overlapping kba",0
+8323,23788458.3895089,22634331.7573495,2012,FALSE,1,"14501","OMN;ARE","Ru'us al-Jibal","ARE",FALSE,"14501",TRUE,"",0.95148375681762
+8323,23788458.3895089,1154106.57677454,2013,FALSE,1,"14501","OMN;ARE","Ru'us al-Jibal","ARE",FALSE,"14501",TRUE,"",0.0485154001103124

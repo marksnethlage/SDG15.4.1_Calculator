@@ -1,5 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-24526,44768354.5679833,2580831.21994483,1993,FALSE,1,"18835","GUM","Guam","GUM",FALSE,"18835",TRUE,"",0.0576485610170393
-24526,44768354.5679833,577358.745442124,1997,FALSE,1,"18835","GUM","Guam","GUM",FALSE,"18835",TRUE,"",0.0128965817710672
-24527,1468760.70569513,0,0,FALSE,0,"18835","GUM","Guam","GUM",NA,NA,NA,"no pas overlapping kba",0
-32095,350018.186282173,0,0,FALSE,0,"18835","GUM","Guam","GUM",NA,NA,NA,"no pas overlapping kba",0

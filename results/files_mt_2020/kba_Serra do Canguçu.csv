@@ -1,4 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-20233,1088356017.38617,0,0,FALSE,0,"18242","BRA;URY","Serra do Canguçu","BRA",NA,NA,NA,"no pas overlapping kba",0
-20234,1513644946.94363,346829.669160128,2019,FALSE,1,"18242","BRA;URY","Serra do Canguçu","BRA",FALSE,"18242",TRUE,"",0.000229135419016494
-20934,639234935.398651,257622344.011194,2019,FALSE,1,"18242","BRA;URY","Serra do Canguçu","URY",FALSE,"18242",TRUE,"",0.403016684078024
