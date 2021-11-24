@@ -142,7 +142,9 @@ unassigned_kbas <- kbas[kbas$ISO3 == " " | is.na(kbas$ISO3) | kbas$ISO3 == '---'
 ## Fill in the country field for these sites as well
 kbas_without_names <- kbas[kbas$Country == " ",] #checks if any kbas are missing country names, should be 0, if not find out which sites are missing country names and add in country name
 
-#### 2.3 - Transboundary PAs ----
+#### 2.3 - Filter out Marine KBAs ----
+kbas <- kbas %>% filter(SitRecID %in% (tabmf %>% filter(marine == 0)))
+#### 2.4 - Transboundary PAs ----
 
 ## For protected areas that cross borders, their ISO3 column is longer than 4 characters 
 ## This checks, splits up the iso name, and then creates a new list
@@ -307,7 +309,7 @@ for (x in 1:length(listloop)){
       ## if there are no overlaps, we're just going to set these to zeros
     } else if (sum(ovkba) <= 0) {
       
-      areasov <- bind_cols(SitRecID = NA, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
+      areasov <- bind_cols(SitRecID = gmba_kba.c$SitRecID, kba = NA, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                             DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                             COUNTRY = NA, multiple_ranges = NA, all_gmba_intersec = NA, note = "no overlaps btwn PAs and range")
       
