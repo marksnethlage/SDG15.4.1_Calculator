@@ -1,0 +1,7 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+19398,141095022.414238,1787112.56281245,2002,FALSE,1,"19321","ARG","Sistema de Santa Barbara (nn)","ARG",TRUE,"19321","",0.0126660213254419
+19446,108849030.720525,38090620.1521046,2002,FALSE,1,"19321","ARG","Sistema de Santa Barbara (nn)","ARG",TRUE,"19321","",0.349939911269437
+19462,265967522.516761,255024737.5291,1948,FALSE,1,"19321","ARG","Sistema de Santa Barbara (nn)","ARG",TRUE,"19321","",0.958856687146938
+19462,265967522.516761,25880.1328909695,2015,FALSE,1,"19321","ARG","Sistema de Santa Barbara (nn)","ARG",TRUE,"19321","",9.73056132796763e-05
+19466,33197944.4608498,18846628.1544202,2015,FALSE,1,"19321","ARG","Sistema de Santa Barbara (nn)","ARG",FALSE,"19321","",0.567704671493922
+19468,59067957.4249036,0,0,FALSE,0,"19321","ARG","Sistema de Santa Barbara (nn)","ARG",NA,NA,"no pas overlapping kba",0

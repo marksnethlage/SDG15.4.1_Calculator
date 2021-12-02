@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+8117,685715679.798428,685713122.059692,1970,FALSE,1,"19547","IRN","North Central Zagros (nn)","IRN",TRUE,"19547","",0.999996269971927
+8119,14534597.6641073,0,0,FALSE,0,"19547","IRN","North Central Zagros (nn)","IRN",NA,NA,"no pas overlapping kba",0
+8127,280607.99726671,0,0,FALSE,0,"19547","IRN","North Central Zagros (nn)","IRN",NA,NA,"no pas overlapping kba",0

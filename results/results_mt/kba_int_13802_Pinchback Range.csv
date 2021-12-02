@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+44593,7873.47050571442,0,0,FALSE,0,"13802","NZL","Pinchback Range","NZL",NA,NA,"no pas overlapping kba",0
+44594,1649228.85307619,723.645541071892,1907,FALSE,1,"13802","NZL","Pinchback Range","NZL",TRUE,"13802","",0.000438778123316317
+44594,1649228.85307619,45531.1629487807,1925,FALSE,1,"13802","NZL","Pinchback Range","NZL",TRUE,"13802","",0.0276075469234331

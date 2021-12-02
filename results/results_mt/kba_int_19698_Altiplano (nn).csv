@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+26268,34520943.0695713,0,0,FALSE,0,"19698","BOL;PER","Altiplano (nn)","BOL",NA,NA,"no pas overlapping kba",0
+14717,2446852.9444283,2446852.9444283,1997,FALSE,1,"19698","BOL;PER","Altiplano (nn)","PER",TRUE,"19698","",1
+14364,199754759.904682,5470534.15042472,1997,FALSE,1,"19698","BOL;PER","Altiplano (nn)","BOL",TRUE,"19698","",0.027386251787117

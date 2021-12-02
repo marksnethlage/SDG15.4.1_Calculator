@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+15918,254740248.695525,228492032.621323,2000,TRUE,1,"18735","IDN;MYS","Usun Apau Plateau","IDN",TRUE,"18735","",0.896960860293521
+16060,1041253368.49421,758133.56483563,2000,TRUE,1,"18735","IDN;MYS","Usun Apau Plateau","MYS",TRUE,"18735","",0.000728097106597591
+16061,833858681.158105,0,0,FALSE,0,"18735","IDN;MYS","Usun Apau Plateau","MYS",NA,NA,"no pas overlapping kba",0

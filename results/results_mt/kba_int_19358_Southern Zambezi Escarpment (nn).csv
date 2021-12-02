@@ -1,0 +1,6 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+7219,1320875651.13302,416434553.328177,1964,FALSE,1,"19358","ZWE;ZMB","Southern Zambezi Escarpment (nn)","ZWE",TRUE,"19358","",0.315271579857625
+7219,1320875651.13302,867642391.458482,1975,FALSE,4,"19358","ZWE;ZMB","Southern Zambezi Escarpment (nn)","ZWE",TRUE,"19358","",0.656869093403481
+7219,1320875651.13302,4798.03645791858,1984,FALSE,1,"19358","ZWE;ZMB","Southern Zambezi Escarpment (nn)","ZWE",TRUE,"19358","",3.63246642770871e-06
+7219,1320875651.13302,12716685.0409102,2002,FALSE,2,"19358","ZWE;ZMB","Southern Zambezi Escarpment (nn)","ZWE",TRUE,"19358","",0.00962746571185721
+24238,11824003.5472755,0,0,FALSE,0,"19358","ZWE;ZMB","Southern Zambezi Escarpment (nn)","ZMB",NA,NA,"no pas overlapping kba",0

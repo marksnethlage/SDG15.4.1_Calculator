@@ -1,0 +1,10 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+15982,235250016.807808,172534055.065003,1991,TRUE,1,"12769","IDN","Seram","IDN",FALSE,"12769","",0.733407195485803
+44897,49113310.2342785,44073145.7593326,2013,TRUE,1,"12769","IDN","Seram","IDN",FALSE,"12769","",0.897376811888601
+44898,21336892.7666231,0,0,FALSE,0,"12769","IDN","Seram","IDN",NA,NA,"no pas overlapping kba",0
+44905,148712802.818001,0,0,FALSE,0,"12769","IDN","Seram","IDN",NA,NA,"no pas overlapping kba",0
+15985,278591282.334588,0,0,FALSE,0,"12769","IDN","Seram","IDN",NA,NA,"no pas overlapping kba",0
+15983,573316310.619643,0,0,FALSE,0,"12769","IDN","Seram","IDN",NA,NA,"no pas overlapping kba",0
+44896,34377814.7035941,0,0,FALSE,0,"12769","IDN","Seram","IDN",NA,NA,"no pas overlapping kba",0
+15984,1971160592.04169,1382754487.54804,2013,TRUE,1,"12769","IDN","Seram","IDN",FALSE,"12769","",0.701492558815724
+15981,76117187.58961,0,0,FALSE,0,"12769","IDN","Seram","IDN",NA,NA,"no pas overlapping kba",0

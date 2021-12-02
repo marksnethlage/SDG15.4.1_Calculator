@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+14332,477589927.633231,207709051.794005,1984,FALSE,1,"12842","NPL;IND","Gurans Himal","NPL",FALSE,"12842","",0.434910871808665
+14332,477589927.633231,233947066.221725,2006,FALSE,1,"12842","NPL;IND","Gurans Himal","NPL",FALSE,"12842","",0.489849246572442
+18442,332996.420697764,0,0,FALSE,0,"12842","NPL;IND","Gurans Himal","IND",NA,NA,"no pas overlapping kba",0

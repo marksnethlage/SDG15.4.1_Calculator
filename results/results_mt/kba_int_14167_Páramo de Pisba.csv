@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+19083,497396267.783977,330844057.759566,1977,FALSE,1,"14167","COL","Páramo de Pisba","COL",FALSE,"14167","",0.66515187022524
+19083,497396267.783977,9630140.56795205,1986,FALSE,1,"14167","COL","Páramo de Pisba","COL",FALSE,"14167","",0.0193611033931893
+29709,124876640.503903,0,0,FALSE,0,"14167","COL","Páramo de Pisba","COL",NA,NA,"no pas overlapping kba",0
+14516,128668884.842018,0,0,FALSE,0,"14167","COL","Páramo de Pisba","COL",NA,NA,"no pas overlapping kba",0

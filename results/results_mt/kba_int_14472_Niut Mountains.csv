@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+15898,68368751.1308413,5785924.79538617,1984,TRUE,1,"14472","IDN;MYS","Niut Mountains","IDN",FALSE,"14472","",0.0846282065956316
+15899,1072065916.74696,763999465.463179,1992,TRUE,1,"14472","IDN;MYS","Niut Mountains","IDN",FALSE,"14472","",0.712642248511576
+16049,2814625.69196326,0,0,FALSE,0,"14472","IDN;MYS","Niut Mountains","MYS",NA,NA,"no pas overlapping kba",0
+16050,131036677.689868,0,0,FALSE,0,"14472","IDN;MYS","Niut Mountains","MYS",NA,NA,"no pas overlapping kba",0

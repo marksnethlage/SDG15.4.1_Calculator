@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+16322,7150.15868341923,6069.45367193222,1993,FALSE,1,"15709","MNG;RUS","Eastern Tannu Ola","MNG",FALSE,"15709","",0.848855800362432
+16322,7150.15868341923,NA,2003,FALSE,1,"15709","MNG;RUS","Eastern Tannu Ola","MNG",FALSE,"15709","",NA
+16536,163702.138428926,0,0,FALSE,0,"15709","MNG;RUS","Eastern Tannu Ola","RUS",NA,NA,"no pas overlapping kba",0

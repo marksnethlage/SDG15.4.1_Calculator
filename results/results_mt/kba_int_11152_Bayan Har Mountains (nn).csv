@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+15518,111541318.737346,0,0,FALSE,0,"11152","CHN","Bayan Har Mountains (nn)","CHN",NA,NA,"no pas overlapping kba",0
+23146,4366075482.62066,0,0,FALSE,0,"11152","CHN","Bayan Har Mountains (nn)","CHN",NA,NA,"no pas overlapping kba",0
+15470,30567883038.674,241264927.13136,2018,FALSE,1,"11152","CHN","Bayan Har Mountains (nn)","CHN",TRUE,"11152","",0.00789275877646205
+23246,1106493162.72475,837798733.192842,2018,FALSE,1,"11152","CHN","Bayan Har Mountains (nn)","CHN",TRUE,"11152","",0.757165757020817

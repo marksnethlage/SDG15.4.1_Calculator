@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+15464,19547.3487200737,0,0,FALSE,0,"20870","CHN","Qiangtan (nn)","CHN",NA,NA,"no pas overlapping kba",0
+15472,56360562949.1899,0,0,FALSE,0,"20870","CHN","Qiangtan (nn)","CHN",NA,NA,"no pas overlapping kba",0
+15477,835483739.006353,0,0,FALSE,0,"20870","CHN","Qiangtan (nn)","CHN",NA,NA,"no pas overlapping kba",0
+15479,3055234623.27301,1694767850.25649,2018,FALSE,1,"20870","CHN","Qiangtan (nn)","CHN",TRUE,"20870","",0.554709558914635

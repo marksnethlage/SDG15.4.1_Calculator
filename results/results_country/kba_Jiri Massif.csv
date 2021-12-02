@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+16134,184040382.249247,40539.82453008,2007,FALSE,1,"11441","KOR","Jiri Massif","KOR",FALSE,"11441",TRUE,"",0.00022027678944492
+16134,184040382.249247,362.074735209346,2019,FALSE,1,"11441","KOR","Jiri Massif","KOR",FALSE,"11441",TRUE,"",1.96736569868121e-06
+16135,46219504.8336381,0,0,FALSE,0,"11441","KOR","Jiri Massif","KOR",NA,NA,NA,"no pas overlapping kba",0

@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+18442,2015728351.15262,93419299.9464037,1986,FALSE,1,"20954","IND","Garhwal Himalaya (nn)","IND",TRUE,"12842;20954",TRUE,"",0.0463451833145004
+18448,651531227.075584,632310241.904605,1982,FALSE,1,"20954","IND","Garhwal Himalaya (nn)","IND",FALSE,"20954",TRUE,"",0.970498750678072
+18448,651531227.075584,5170.39048473007,1988,FALSE,1,"20954","IND","Garhwal Himalaya (nn)","IND",FALSE,"20954",TRUE,"",7.93575237818992e-06
+18452,357081851.371372,0,0,FALSE,0,"20954","IND","Garhwal Himalaya (nn)","IND",NA,NA,NA,"no pas overlapping kba",0

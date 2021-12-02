@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+31255,1673299.01530081,1671982.86359812,1987,FALSE,1,"13630","NZL","McArthur Tops","NZL",FALSE,"13630","",0.999213439026347
+27403,2681848.70686555,266474.160231352,1987,FALSE,1,"13630","NZL","McArthur Tops","NZL",TRUE,"13630","",0.0993621152264018
+27403,2681848.70686555,NA,1990,FALSE,1,"13630","NZL","McArthur Tops","NZL",TRUE,"13630","",NA

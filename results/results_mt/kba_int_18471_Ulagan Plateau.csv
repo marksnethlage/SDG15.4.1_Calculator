@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+18635,11540901.5410155,952858.867500544,1932,FALSE,1,"18471","RUS","Ulagan Plateau","RUS",TRUE,"18471","",0.0825636423735315
+18635,11540901.5410155,6039384.12002011,1998,FALSE,1,"18471","RUS","Ulagan Plateau","RUS",TRUE,"18471","",0.523302629223253
+18671,99146821.5340233,0,0,FALSE,0,"18471","RUS","Ulagan Plateau","RUS",NA,NA,"no pas overlapping kba",0

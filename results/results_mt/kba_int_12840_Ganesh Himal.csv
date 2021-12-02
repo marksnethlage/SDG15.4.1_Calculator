@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+14334,17295188.4131178,1968827.2714684,1976,FALSE,1,"12840","NPL;CHN","Ganesh Himal","NPL",TRUE,"12840","",0.113836705587729
+14334,17295188.4131178,362392.928283483,1998,FALSE,1,"12840","NPL;CHN","Ganesh Himal","NPL",TRUE,"12840","",0.0209533958016104
+15493,278644047.067274,0,0,FALSE,0,"12840","NPL;CHN","Ganesh Himal","CHN",NA,NA,"no pas overlapping kba",0

@@ -1,0 +1,22 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+29733,429589772.073636,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","YEM",NA,NA,NA,"no pas overlapping kba",0
+29740,246227296.326759,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","YEM",NA,NA,NA,"no pas overlapping kba",0
+8275,371885864.574309,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+8276,551337752.344427,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+8279,68325340.6012383,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+8280,2746689001.46496,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+8282,26803458.0868476,26429623.6866089,1981,FALSE,1,"20910","YEM;SAU","Asir Mountains (nn)","SAU",FALSE,"20910",TRUE,"",0.986052754871131
+29726,1103556021.0747,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+29727,290303261.809166,59734011.8568354,1981,FALSE,1,"20910","YEM;SAU","Asir Mountains (nn)","SAU",FALSE,"20910",TRUE,"",0.205764177379798
+29727,290303261.809166,0.000905796885490417,1989,FALSE,1,"20910","YEM;SAU","Asir Mountains (nn)","SAU",FALSE,"20910",TRUE,"",3.1201746747367e-12
+29729,448536622.239087,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+29904,690818226.723019,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+29905,9375728.06967145,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+29907,7399924.95651659,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+29908,15462772.7399142,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+29909,2211599748.36006,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+29910,82388218.1876315,78446378.501403,1981,FALSE,1,"20910","YEM;SAU","Asir Mountains (nn)","SAU",FALSE,"20910",TRUE,"",0.952155298743671
+29912,389468103.598238,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0
+8285,707241037.543323,852490.038882864,1981,FALSE,1,"20910","YEM;SAU","Asir Mountains (nn)","SAU",TRUE,"14123;20910",TRUE,"",0.00120537411381568
+29728,76346213.9684096,76346211.2309973,2002,FALSE,1,"20910","YEM;SAU","Asir Mountains (nn)","SAU",FALSE,"20910",TRUE,"",0.999999964144753
+29906,3360338.34403312,0,0,FALSE,0,"20910","YEM;SAU","Asir Mountains (nn)","SAU",NA,NA,NA,"no pas overlapping kba",0

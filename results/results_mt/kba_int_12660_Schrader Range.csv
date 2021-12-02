@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+26389,186383757.024669,8053087.65925504,1990,FALSE,1,"12660","PNG","Schrader Range","PNG",FALSE,"12660","",0.0432070250530961
+26381,272338081.300875,0,0,FALSE,0,"12660","PNG","Schrader Range","PNG",NA,NA,"no pas overlapping kba",0
+26404,232773372.619502,0,0,FALSE,0,"12660","PNG","Schrader Range","PNG",NA,NA,"no pas overlapping kba",0
+26402,674183356.590331,35494374.1065271,1991,FALSE,1,"12660","PNG","Schrader Range","PNG",TRUE,"12660","",0.0526479536457844

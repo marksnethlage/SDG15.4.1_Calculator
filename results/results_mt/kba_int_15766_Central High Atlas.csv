@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+31726,1404722169.94348,73783697.6970362,1994,FALSE,2,"15766","MAR","Central High Atlas","MAR",TRUE,"15766","",0.0525254739163152
+46645,807111439.023755,1065474.40358996,1994,FALSE,1,"15766","MAR","Central High Atlas","MAR",TRUE,"15766","",0.00132010816855565
+46645,807111439.023755,16501.2251421362,2019,FALSE,1,"15766","MAR","Central High Atlas","MAR",TRUE,"15766","",2.04447915669431e-05
+46669,71723886.3131233,0,0,FALSE,0,"15766","MAR","Central High Atlas","MAR",NA,NA,"no pas overlapping kba",0

@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+15823,5511509756.93705,4432228541.8694,1997,FALSE,1,"18692","IDN","Leuser Range","IDN",TRUE,"18692","",0.804176847603469
+15823,5511509756.93705,321081613.309492,2004,FALSE,1,"18692","IDN","Leuser Range","IDN",TRUE,"18692","",0.0582565626243087
+15824,32457781.0463926,0,0,FALSE,0,"18692","IDN","Leuser Range","IDN",NA,NA,"no pas overlapping kba",0
+23038,577311382.598308,0,0,FALSE,0,"18692","IDN","Leuser Range","IDN",NA,NA,"no pas overlapping kba",0

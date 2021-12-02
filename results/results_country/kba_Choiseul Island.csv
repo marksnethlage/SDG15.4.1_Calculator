@@ -1,0 +1,6 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+45058,741841729.321911,4177244.62746826,2006,FALSE,3,"18820","SLB","Choiseul Island","SLB",FALSE,"18820",TRUE,"",0.00563091082957347
+45058,741841729.321911,871181.535431564,2007,FALSE,1,"18820","SLB","Choiseul Island","SLB",FALSE,"18820",TRUE,"",0.00117434959641308
+45062,73905196.126474,0,0,FALSE,0,"18820","SLB","Choiseul Island","SLB",NA,NA,NA,"no pas overlapping kba",0
+45067,658013859.314555,0,0,FALSE,0,"18820","SLB","Choiseul Island","SLB",NA,NA,NA,"no pas overlapping kba",0
+27490,783984495.003967,10236404.2344325,2019,FALSE,2,"18820","SLB","Choiseul Island","SLB",FALSE,"18820",TRUE,"",0.0130568962774968

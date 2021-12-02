@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+21969,31342715.803516,0,0,FALSE,0,"11513","KAZ;KGZ","Terskey Ala-too","KAZ",NA,NA,NA,"no pas overlapping kba",0
+27419,150398146.492072,0,0,FALSE,0,"11513","KAZ;KGZ","Terskey Ala-too","KGZ",NA,NA,NA,"no pas overlapping kba",0
+27415,752468089.197201,421725546.644101,1948,FALSE,1,"11513","KAZ;KGZ","Terskey Ala-too","KGZ",TRUE,"11498;11513",TRUE,"",0.560456387052952
+27415,752468089.197201,13520577.9677552,1976,FALSE,1,"11513","KAZ;KGZ","Terskey Ala-too","KGZ",TRUE,"11498;11513",TRUE,"",0.0179683074430175

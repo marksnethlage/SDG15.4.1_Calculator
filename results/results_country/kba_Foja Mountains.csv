@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+26437,277894138.056784,0,0,FALSE,0,"12109","IDN","Foja Mountains","IDN",NA,NA,NA,"no pas overlapping kba",0
+26440,2958385347.09588,2362398777.28248,2017,TRUE,1,"12109","IDN","Foja Mountains","IDN",TRUE,"11722;12109",TRUE,"",0.798543293084367
+26447,1834977295.29358,1759742402.84233,2017,TRUE,1,"12109","IDN","Foja Mountains","IDN",FALSE,"12109",TRUE,"",0.958999551305504

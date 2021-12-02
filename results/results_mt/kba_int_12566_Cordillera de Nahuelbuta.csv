@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+25135,17355278.2171163,0,0,FALSE,0,"12566","CHL","Cordillera de Nahuelbuta","CHL",NA,NA,"no pas overlapping kba",0
+26916,876774.088714391,203154.142131317,1982,FALSE,1,"12566","CHL","Cordillera de Nahuelbuta","CHL",FALSE,"12566","",0.231706370827178
+26889,14336548.6563182,14336548.1553291,2010,FALSE,1,"12566","CHL","Cordillera de Nahuelbuta","CHL",FALSE,"12566","",0.999999965055109

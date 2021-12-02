@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+19894,8064.21568025649,0,0,FALSE,0,"18754","BES","Saint Eustatius Island","BES",NA,NA,"no pas overlapping kba",0
+19924,4702811.46574979,15303.1643863656,1996,FALSE,1,"18754","BES","Saint Eustatius Island","BES",FALSE,"18754","",0.00325404590377848
+19924,4702811.46574979,2119234.622039,1997,FALSE,1,"18754","BES","Saint Eustatius Island","BES",FALSE,"18754","",0.450631422814464

@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+1844,4289906.4265565,4162077.6135086,1997,FALSE,1,"19913","ESP","Sierra de Puertollano","ESP",TRUE,"19913","",0.970202423937134
+1844,4289906.4265565,2072.74677886441,2003,FALSE,1,"19913","ESP","Sierra de Puertollano","ESP",TRUE,"19913","",0.000483168296173818
+1712,5626273.7929214,0,0,FALSE,0,"19913","ESP","Sierra de Puertollano","ESP",NA,NA,"no pas overlapping kba",0

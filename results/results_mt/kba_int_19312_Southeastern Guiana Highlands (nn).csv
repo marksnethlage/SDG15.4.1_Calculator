@@ -1,0 +1,6 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+22255,56373646.7595056,0,0,FALSE,0,"19312","BRA;GUY","Southeastern Guiana Highlands (nn)","BRA",NA,NA,"no pas overlapping kba",0
+24278,28456570.8300392,0,0,FALSE,0,"19312","BRA;GUY","Southeastern Guiana Highlands (nn)","GUY",NA,NA,"no pas overlapping kba",0
+22213,194044838.95589,110062740.101815,1989,FALSE,1,"19312","BRA;GUY","Southeastern Guiana Highlands (nn)","BRA",TRUE,"19312","",0.567202615096786
+22213,194044838.95589,72395736.5880734,1990,FALSE,1,"19312","BRA;GUY","Southeastern Guiana Highlands (nn)","BRA",TRUE,"19312","",0.373087668693577
+22213,194044838.95589,11586363.3530242,2009,FALSE,1,"19312","BRA;GUY","Southeastern Guiana Highlands (nn)","BRA",TRUE,"19312","",0.059709721811555

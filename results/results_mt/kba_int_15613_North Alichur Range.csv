@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+46815,6068833.70999539,0,0,FALSE,0,"15613","TJK","North Alichur Range","TJK",NA,NA,"no pas overlapping kba",0
+21848,1022024674.97632,596505175.143448,1999,FALSE,1,"15613","TJK","North Alichur Range","TJK",TRUE,"15613","",0.583650463387557
+21848,1022024674.97632,70128537.3922591,2013,FALSE,1,"15613","TJK","North Alichur Range","TJK",TRUE,"15613","",0.0686172644450916

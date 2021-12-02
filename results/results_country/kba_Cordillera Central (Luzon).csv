@@ -1,0 +1,6 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+9702,89673363.3796456,32739115.429118,2007,FALSE,1,"11238","PHL","Cordillera Central (Luzon)","PHL",FALSE,"11238",TRUE,"",0.365092979623303
+9704,132827715.941141,127729556.187894,1987,FALSE,1,"11238","PHL","Cordillera Central (Luzon)","PHL",FALSE,"11238",TRUE,"",0.961618253260441
+9704,132827715.941141,887324.579156995,2000,FALSE,1,"11238","PHL","Cordillera Central (Luzon)","PHL",FALSE,"11238",TRUE,"",0.00668026678671633
+22323,1773473036.32579,0,0,FALSE,0,"11238","PHL","Cordillera Central (Luzon)","PHL",NA,NA,NA,"no pas overlapping kba",0
+9703,3614031268.23494,224080243.912874,1972,FALSE,1,"11238","PHL","Cordillera Central (Luzon)","PHL",FALSE,"11238",TRUE,"",0.062002851464623

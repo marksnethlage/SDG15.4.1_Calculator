@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+18283,397223154.192938,11058330.2409896,1979,FALSE,1,"14365","IND","Garo Hills","IND",FALSE,"14365","",0.0278390877376155
+18283,397223154.192938,8544709.08209741,1986,FALSE,1,"14365","IND","Garo Hills","IND",FALSE,"14365","",0.0215111052613693
+18285,152723557.601378,0,0,FALSE,0,"14365","IND","Garo Hills","IND",NA,NA,"no pas overlapping kba",0
+24997,35506741.1055832,0,0,FALSE,0,"14365","IND","Garo Hills","IND",NA,NA,"no pas overlapping kba",0

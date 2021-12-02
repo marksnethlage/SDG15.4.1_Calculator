@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+20403,2170912785.67334,216179916.080733,1994,FALSE,4,"11728","CRI","Peninsula de Nicoya","CRI",FALSE,"11728","",0.0995801938739246
+20403,2170912785.67334,348555.432996839,1995,FALSE,1,"11728","CRI","Peninsula de Nicoya","CRI",FALSE,"11728","",0.000160557086999112
+20403,2170912785.67334,55458610.5665904,2004,FALSE,1,"11728","CRI","Peninsula de Nicoya","CRI",FALSE,"11728","",0.0255462176705496
+20405,1036920.84916007,0,0,FALSE,0,"11728","CRI","Peninsula de Nicoya","CRI",NA,NA,"no pas overlapping kba",0

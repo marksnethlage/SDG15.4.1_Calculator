@@ -1,0 +1,6 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+14355,67821814.0301151,67821814.0301151,1973,FALSE,1,"18526","BOL;CHL","Cordón Volcánico (Bolivia)","BOL",TRUE,"18526","",1
+14356,4442752558.53135,2413611399.60834,1973,FALSE,1,"18526","BOL;CHL","Cordón Volcánico (Bolivia)","BOL",TRUE,"18526","",0.543269373616931
+14356,4442752558.53135,NA,1990,FALSE,1,"18526","BOL;CHL","Cordón Volcánico (Bolivia)","BOL",TRUE,"18526","",NA
+47094,143069002.962482,0,0,FALSE,0,"18526","BOL;CHL","Cordón Volcánico (Bolivia)","CHL",NA,NA,"no pas overlapping kba",0
+47100,97776900.7845859,0,0,FALSE,0,"18526","BOL;CHL","Cordón Volcánico (Bolivia)","CHL",NA,NA,"no pas overlapping kba",0

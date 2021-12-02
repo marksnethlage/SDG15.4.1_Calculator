@@ -1,0 +1,7 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+10017,817957653.735101,18162646.8470893,2005,FALSE,1,"17754","MEX","Depresion del Balsas","MEX",TRUE,"17754","",0.0222048742549836
+10017,817957653.735101,35992218.6468774,2008,FALSE,1,"17754","MEX","Depresion del Balsas","MEX",TRUE,"17754","",0.0440025452204323
+10023,335009329.730393,269712304.494577,2007,FALSE,1,"17754","MEX","Depresion del Balsas","MEX",TRUE,"17754","",0.805088935020512
+10054,15696698.9709702,0,0,FALSE,0,"17754","MEX","Depresion del Balsas","MEX",NA,NA,"no pas overlapping kba",0
+10036,339008862.811484,0,0,FALSE,0,"17754","MEX","Depresion del Balsas","MEX",NA,NA,"no pas overlapping kba",0
+10016,20561316.507504,8780914.7735244,1936,FALSE,1,"17754","MEX","Depresion del Balsas","MEX",FALSE,"17754","",0.42705994873041

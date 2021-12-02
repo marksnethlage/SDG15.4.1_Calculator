@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+10207,8089999.97996597,0,0,FALSE,0,"17732","MEX","Sierras y Llanuras Sonorenes","MEX",NA,NA,"no pas overlapping kba",0
+10226,512816624.338894,496979502.226185,2000,FALSE,1,"17732","MEX","Sierras y Llanuras Sonorenes","MEX",FALSE,"17732","",0.969117377711526
+10226,512816624.338894,3428560.91490499,2005,FALSE,1,"17732","MEX","Sierras y Llanuras Sonorenes","MEX",FALSE,"17732","",0.00668574447898403

@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+6440,168816817.004835,0,0,FALSE,0,"18199","KEN;TZA","Nguruman Escarpment","KEN",NA,NA,"no pas overlapping kba",0
+6446,940908915.583623,1446111.08536899,2001,FALSE,1,"18199","KEN;TZA","Nguruman Escarpment","KEN",TRUE,"18199","",0.00153692994233348
+6994,119848423.984405,950125.481373873,1932,TRUE,1,"18199","KEN;TZA","Nguruman Escarpment","TZA",TRUE,"18199","",0.00792772612093344
+6994,119848423.984405,118898304.515447,1958,TRUE,1,"18199","KEN;TZA","Nguruman Escarpment","TZA",TRUE,"18199","",0.992072324045903

@@ -1,0 +1,4 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
+26245,6473902.45125401,0,0,FALSE,0,"17072","USA","Central Boundary Ranges","USA",NA,NA,"no pas overlapping kba",0
+26239,51438350.668784,43550256.27093,1980,FALSE,1,"17072","USA","Central Boundary Ranges","USA",TRUE,"17072","",0.846649546587406
+31108,107707349.243837,2527483.23178095,1980,FALSE,2,"17072","USA","Central Boundary Ranges","USA",TRUE,"17072","",0.0234662095903875

@@ -1,0 +1,5 @@
+"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
+19911,1765472.59096408,0,0,FALSE,0,"18746","VIR","Saint Thomas Island","VIR",NA,NA,NA,"no pas overlapping kba",0
+20917,2693643.73970246,0,0,FALSE,0,"18746","VIR","Saint Thomas Island","VIR",NA,NA,NA,"no pas overlapping kba",0
+20919,5723447.75422763,287706.811227351,1961,TRUE,1,"18746","VIR","Saint Thomas Island","VIR",FALSE,"18746",TRUE,"",0.0502680942644818
+20919,5723447.75422763,310546.618605614,1994,TRUE,1,"18746","VIR","Saint Thomas Island","VIR",FALSE,"18746",TRUE,"",0.0542586622506038
