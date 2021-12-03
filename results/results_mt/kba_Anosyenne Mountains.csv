@@ -1,5 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-6594,127690545.032538,126081490.426567,1939,FALSE,1,"14357","MDG","Anosyenne Mountains","MDG",TRUE,"12286;14357",TRUE,"",0.987398796006695
-6593,541015641.52888,2530851.72125101,1939,FALSE,1,"14357","MDG","Anosyenne Mountains","MDG",TRUE,"14357;15336",TRUE,"",0.00467796404942926
-6593,541015641.52888,170.965163614601,2007,FALSE,1,"14357","MDG","Anosyenne Mountains","MDG",TRUE,"14357;15336",TRUE,"",3.16007801791946e-07
-47001,399681430.528417,0,0,FALSE,0,"14357","MDG","Anosyenne Mountains","MDG",NA,NA,NA,"no pas overlapping kba",0

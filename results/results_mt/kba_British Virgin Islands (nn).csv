@@ -1,4 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-19791,16958056.4889195,836815.537133005,1995,FALSE,2,"19655","VGB","British Virgin Islands (nn)","VGB",FALSE,"19655",TRUE,"",0.0493461935145567
-19791,16958056.4889195,220624.266605427,1998,FALSE,1,"19655","VGB","British Virgin Islands (nn)","VGB",FALSE,"19655",TRUE,"",0.0130099971508872
-26967,1208489.05462791,0,0,FALSE,0,"19655","VGB","British Virgin Islands (nn)","VGB",NA,NA,NA,"no pas overlapping kba",0

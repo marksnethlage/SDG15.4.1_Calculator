@@ -1,5 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-10022,548980669.16367,0,0,FALSE,0,"21001","MEX","Sierra El Conejo","MEX",NA,NA,NA,"no pas overlapping kba",0
-10020,3269741057.27547,7945074.0349181,2011,FALSE,1,"21001","MEX","Sierra El Conejo","MEX",TRUE,"17718;21001",TRUE,"",0.00242987866492962
-44578,410559130.154601,0,0,FALSE,0,"21001","MEX","Sierra El Conejo","MEX",NA,NA,NA,"no pas overlapping kba",0
-10021,2595662413.3091,3411255.91108412,2006,FALSE,1,"21001","MEX","Sierra El Conejo","MEX",TRUE,"17718;20931;21001",TRUE,"",0.0013142140108795

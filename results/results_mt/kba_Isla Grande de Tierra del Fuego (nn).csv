@@ -1,4 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-19578,1968355039.88957,771129801.14785,2000,FALSE,1,"19717","ARG","Isla Grande de Tierra del Fuego (nn)","ARG",TRUE,"12581;19717",TRUE,"",0.391763571876297
-19578,1968355039.88957,9446178.98755682,2009,FALSE,1,"19717","ARG","Isla Grande de Tierra del Fuego (nn)","ARG",TRUE,"12581;19717",TRUE,"",0.00479902192243059
-19575,1562726601.53666,0,0,FALSE,0,"19717","ARG","Isla Grande de Tierra del Fuego (nn)","ARG",NA,NA,NA,"no pas overlapping kba",0

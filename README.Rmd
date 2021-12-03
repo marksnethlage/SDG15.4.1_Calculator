@@ -1,8 +1,10 @@
 ---
-title: "README: GMBA SDG 15.4.1 Calculator"
+title: 'README: GMBA SDG 15.4.1 Calculator'
 author: "Amina Ly"
 date: "11/23/2021"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 ## Purpose:
 This project contains a set of scripts used to calculate mountain biodiversity 
@@ -22,7 +24,7 @@ required input data files. To do so:
 While most input files are static for any analysis, some may be updated annually
 Please refer to the file Input_File_Details in the home directory of this project
 for more detailed information on the required data files.
-
+ 
 ## Included Analyses: 
 _Detailed instructions on how to run these analyses can be found in 'Instructions
 to Prepare and Run Code.docx'_

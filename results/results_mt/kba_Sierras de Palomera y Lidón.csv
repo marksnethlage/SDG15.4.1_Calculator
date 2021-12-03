@@ -1,4 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-1804,332191065.525738,173653308.85695,2001,FALSE,1,"14991","ESP","Sierras de Palomera y Lidón","ESP",TRUE,"14991;14992;15037",TRUE,"",0.522751292489217
-29995,56547970.455719,504091.556892633,2006,FALSE,1,"14991","ESP","Sierras de Palomera y Lidón","ESP",TRUE,"12798;14991",TRUE,"",0.00891440581916856
-30019,43016629.9756012,0,0,FALSE,0,"14991","ESP","Sierras de Palomera y Lidón","ESP",NA,NA,NA,"no pas overlapping kba",0

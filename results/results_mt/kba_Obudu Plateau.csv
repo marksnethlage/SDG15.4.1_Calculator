@@ -1,4 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-6734,707433025.475379,0,0,FALSE,0,"19249","NGA","Obudu Plateau","NGA",NA,NA,NA,"no pas overlapping kba",0
-6743,952880158.740416,523073976.492891,1991,FALSE,1,"19249","NGA","Obudu Plateau","NGA",TRUE,"19249;19327",TRUE,"",0.548939939293444
-6743,952880158.740416,83220432.2504566,2008,FALSE,2,"19249","NGA","Obudu Plateau","NGA",TRUE,"19249;19327",TRUE,"",0.0873356754121769

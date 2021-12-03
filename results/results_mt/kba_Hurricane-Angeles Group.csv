@@ -1,4 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-29638,13952170.8907471,0,0,FALSE,0,"17194","USA","Hurricane-Angeles Group","USA",NA,NA,NA,"no pas overlapping kba",0
-31200,84941621.1284409,0,0,FALSE,0,"17194","USA","Hurricane-Angeles Group","USA",NA,NA,NA,"no pas overlapping kba",0
-31171,2233877056.12277,46873721.2972431,1994,FALSE,1,"17194","USA","Hurricane-Angeles Group","USA",TRUE,"17196;17194;17195",TRUE,"",0.0209831249077778
