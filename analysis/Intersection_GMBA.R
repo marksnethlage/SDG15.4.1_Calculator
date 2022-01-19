@@ -29,6 +29,7 @@ library(sf)
 library(dplyr)
 library(tidyverse)
 library(lwgeom)
+sf::sf_use_s2(FALSE) ## to deal with some issues not fixable with st_make_valid
 
 #### Define functions ----
 lu <- function (x = x){
@@ -144,7 +145,11 @@ kbas_without_names <- kbas[kbas$Country == " ",] #checks if any kbas are missing
 
 #### 2.3 - Filter out Marine KBAs ----
 kbas <- kbas %>% filter(SitRecID %in% (tabmf %>% filter(marine == 0) %>% pull(SitRecID)))
-#### 2.4 - Transboundary PAs ----
+
+#### 2.4 - Breakapart any overlapping KBAs ----
+
+
+#### 2.5 - Transboundary PAs ----
 
 ## For protected areas that cross borders, their ISO3 column is longer than 4 characters 
 ## This checks, splits up the iso name, and then creates a new list
