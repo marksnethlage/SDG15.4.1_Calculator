@@ -220,6 +220,10 @@ if(file.exists(gmba_kba_loc) & !OVERWRITE) {
       
   }
   
+  ## calculate the areas for later use
+  gmba_kba$akba <- NA
+  gmba_kba$akba <- as.numeric(suppressWarnings(tryCatch({st_area(gmba_kba$geometry, byid = FALSE)}, error=function(e){})))
+  
   saveRDS(gmba_kba, gmba_kba_loc)
 }
 
@@ -286,10 +290,10 @@ for (x in 1:length(listloop)){
     axis(2)
   }
   
-  #if there are no pas in this country, sets output to zero and skips
+  #if there are no pas in this range, sets output to zero and skips
   if (nrow(pa.c) == 0){ 
     print("no PAs")
-    areasov <- bind_cols(SitRecID = gmba_kba.c$SitRecID, kba = 0, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
+    areasov <- bind_cols(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                           DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                           COUNTRY = kbaz$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, note = "no PAs in this range") 
   } else {
@@ -309,7 +313,7 @@ for (x in 1:length(listloop)){
       ## if there are no overlaps, we're just going to set these to zeros
     } else if (sum(ovkba) <= 0) {
       
-      areasov <- bind_cols(SitRecID = gmba_kba.c$SitRecID, kba = 0, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
+      areasov <- bind_cols(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                             DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                             COUNTRY = NA, multiple_ranges = NA, all_gmba_intersec = NA, note = "no overlaps btwn PAs and range")
       
@@ -333,8 +337,7 @@ for (x in 1:length(listloop)){
       for (z in 1:nrow(gmba_kba.c)){ 
         kbaz <- gmba_kba.c[z, ]
         head(kbaz)
-        akba <- NA #set to NA to incase next steps don't run
-        akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbaz$geometry, byid = FALSE)}, error=function(e){})))
+        akba <- kbaz$akba 
         ##find the number of pas that the 'zth' kba overlaps with (the particular kba the loop is currently processing)
         
         if (length(which(ovkba[ ,z] == T)) > 0){  ## when at least 1 pa overlaps with the kba
