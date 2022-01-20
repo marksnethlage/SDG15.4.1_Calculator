@@ -1,4 +1,2 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-9788,581159862.015205,0,0,FALSE,0,"12702","PHL","Hamiguitan Range","PHL",NA,NA,"no pas overlapping kba",0
-9789,317897266.969046,68071056.3007257,2004,FALSE,2,"12702","PHL","Hamiguitan Range","PHL",FALSE,"12702","",0.214129101988643
-9789,317897266.969046,72708452.4217183,2014,FALSE,1,"12702","PHL","Hamiguitan Range","PHL",FALSE,"12702","",0.228716821364803
+"SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note"
+9788,581159862.025114,0,0,FALSE,0,0,12702,"PHL","Hamiguitan Range",NA,NA,NA,"no overlaps btwn PAs and range"

@@ -1,4 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-1913,133592467.398492,68824687.5347829,2001,FALSE,1,"15083","ESP","Sierra de las Estancias y de la Torrecilla","ESP",TRUE,"15083","",0.515183893785615
-1913,133592467.398492,1308402.18333036,2006,FALSE,1,"15083","ESP","Sierra de las Estancias y de la Torrecilla","ESP",TRUE,"15083","",0.00979398171775315
-1939,601615.210387743,0,0,FALSE,0,"15083","ESP","Sierra de las Estancias y de la Torrecilla","ESP",NA,NA,"no pas overlapping kba",0
+1913,133592467.411969,68824687.4453897,2001,FALSE,1,"15083","ESP","Sierra de las Estancias y de la Torrecilla","ESP",TRUE,"15083","",0.515183893064494
+1913,133592467.411969,1308402.11441386,2006,FALSE,1,"15083","ESP","Sierra de las Estancias y de la Torrecilla","ESP",TRUE,"15083","",0.00979398120089396
+1939,601615.200877883,0,0,FALSE,0,"15083","ESP","Sierra de las Estancias y de la Torrecilla","ESP",NA,NA,"no pas overlapping kba",0

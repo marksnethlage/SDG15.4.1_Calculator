@@ -1,4 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-10003,39791352.1583023,0,0,FALSE,0,"17755","MEX","Escarpa Limitrofe del Sur","MEX",NA,NA,"no pas overlapping kba",0
-10005,864701727.809706,34.890870269388,2004,FALSE,1,"17755","MEX","Escarpa Limitrofe del Sur","MEX",TRUE,"17755","",4.03501798912403e-08
-10054,447102256.152843,772992.212689559,2005,FALSE,2,"17755","MEX","Escarpa Limitrofe del Sur","MEX",TRUE,"17755","",0.00172889356305397
+10003,39791352.1502017,0,0,FALSE,0,"17755","MEX","Escarpa Limitrofe del Sur","MEX",NA,NA,"no pas overlapping kba",0
+10005,864701727.808912,34.8876469545066,2004,FALSE,1,"17755","MEX","Escarpa Limitrofe del Sur","MEX",TRUE,"17755","",4.03464522303075e-08
+10054,447102256.152163,772992.212768603,2005,FALSE,2,"17755","MEX","Escarpa Limitrofe del Sur","MEX",TRUE,"17755","",0.00172889356323339

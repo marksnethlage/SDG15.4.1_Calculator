@@ -1,5 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-22424,91747817.9945155,91709888.7487525,1958,FALSE,1,"11743","MDG","Plateau du Bemaraha","MDG",FALSE,"11743","",0.999586592394325
-24672,173792310.007596,0,0,FALSE,0,"11743","MDG","Plateau du Bemaraha","MDG",NA,NA,"no pas overlapping kba",0
-47000,91940865.5066365,0,0,FALSE,0,"11743","MDG","Plateau du Bemaraha","MDG",NA,NA,"no pas overlapping kba",0
-6580,13472704.8733891,0,0,FALSE,0,"11743","MDG","Plateau du Bemaraha","MDG",NA,NA,"no pas overlapping kba",0
+22424,91747817.9988847,91709888.7459122,1958,FALSE,1,"11743","MDG","Plateau du Bemaraha","MDG",FALSE,"11743","",0.999586592315766
+24672,173792309.99482,0,0,FALSE,0,"11743","MDG","Plateau du Bemaraha","MDG",NA,NA,"no pas overlapping kba",0
+47000,91940865.4921778,0,0,FALSE,0,"11743","MDG","Plateau du Bemaraha","MDG",NA,NA,"no pas overlapping kba",0

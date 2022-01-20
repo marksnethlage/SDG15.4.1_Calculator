@@ -1,22 +1,16 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-15970,759970381.131707,695558512.411166,2009,TRUE,1,"12772","IDN","Halmahera","IDN",FALSE,"12772","",0.915244238039089
-44870,92237306.5461687,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-15967,328145528.894531,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44876,129227786.526663,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44858,249138855.787725,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-15974,271986539.003643,212273151.672812,2009,TRUE,1,"12772","IDN","Halmahera","IDN",FALSE,"12772","",0.780454622682519
-44861,1722742814.91562,857055037.82526,2009,TRUE,1,"12772","IDN","Halmahera","IDN",FALSE,"12772","",0.497494478226711
-44874,109057502.564816,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-15965,1173752975.57185,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-15969,1638426.26764972,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44877,84834466.771513,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-15968,53259648.5330254,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44867,45237637.9546694,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44868,34211813.913602,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44880,82705207.5265705,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44875,101302596.79235,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44855,647729.633019611,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44859,9800.66726166755,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44865,647537.568450131,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44864,10082946.309458,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
-44866,1578157.72086943,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+15970,759970381.131443,695558512.41126,1999,TRUE,1,"12772","IDN","Halmahera","IDN",FALSE,"12772","",0.915244238039532
+44870,92237306.5465375,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+15967,328145528.894506,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+44876,129227786.526701,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+44858,249138855.788359,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+15974,271986539.003063,212273151.672099,2017,TRUE,1,"12772","IDN","Halmahera","IDN",FALSE,"12772","",0.78045462268156
+44861,1722742814.91579,857055037.827776,1999,TRUE,1,"12772","IDN","Halmahera","IDN",FALSE,"12772","",0.497494478228122
+44874,109057502.564724,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+15965,1173752975.57015,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+44877,84834466.7715119,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+15968,53259648.533001,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+44867,45237637.9545921,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+44868,34211813.9138277,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+44880,82705207.5262994,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0
+44875,101302596.792521,0,0,FALSE,0,"12772","IDN","Halmahera","IDN",NA,NA,"no pas overlapping kba",0

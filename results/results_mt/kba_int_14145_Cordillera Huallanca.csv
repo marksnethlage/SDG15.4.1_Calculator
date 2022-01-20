@@ -1,4 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-14773,123691114.951926,123692423.396762,1975,FALSE,1,"14145","PER","Cordillera Huallanca","PER",TRUE,"14145","",1.00001057832518
-14887,65918845.9575432,0,0,FALSE,0,"14145","PER","Cordillera Huallanca","PER",NA,NA,"no pas overlapping kba",0
-25154,101.296537152026,99.5621211212128,2002,FALSE,1,"14145","PER","Cordillera Huallanca","PER",TRUE,"14145","",0.98287783492332
+14773,123691114.948959,123692423.393334,1975,FALSE,1,"14145","PER","Cordillera Huallanca","PER",TRUE,"14145","",1.00001057832146
+14887,65918845.9657758,0,0,FALSE,0,"14145","PER","Cordillera Huallanca","PER",NA,NA,"no pas overlapping kba",0
+25154,101.296627192991,99.562192651676,2002,FALSE,1,"14145","PER","Cordillera Huallanca","PER",TRUE,"14145","",0.982877667407323

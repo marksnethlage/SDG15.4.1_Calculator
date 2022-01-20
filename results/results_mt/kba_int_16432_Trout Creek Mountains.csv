@@ -1,4 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-26133,195654395.729813,0,0,FALSE,0,"16432","USA","Trout Creek Mountains","USA",NA,NA,"no pas overlapping kba",0
-31407,696514134.273758,252645588.581729,1992,FALSE,3,"16432","USA","Trout Creek Mountains","USA",TRUE,"16432","",0.3627285881932
-31407,696514134.273758,3746.22996091843,2013,FALSE,1,"16432","USA","Trout Creek Mountains","USA",TRUE,"16432","",5.37854119044483e-06
+26133,195654395.740917,0,0,FALSE,0,"16432","USA","Trout Creek Mountains","USA",NA,NA,"no pas overlapping kba",0
+31407,696514134.251773,252645588.635204,1992,FALSE,3,"16432","USA","Trout Creek Mountains","USA",TRUE,"16432","",0.362728588281425
+31407,696514134.251773,3746.24439505634,2009,FALSE,1,"16432","USA","Trout Creek Mountains","USA",TRUE,"16432","",5.37856191401015e-06

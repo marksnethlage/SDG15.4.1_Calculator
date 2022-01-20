@@ -1,4 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-2116,42745932.1358452,0,0,FALSE,0,"20086","UKR;SVK","Laborets'-Uzhans'ke nyz'kohirya","UKR",NA,NA,"no pas overlapping kba",0
-3101,4449031.55460548,4433187.24401116,2004,FALSE,1,"20086","UKR;SVK","Laborets'-Uzhans'ke nyz'kohirya","SVK",TRUE,"20086","",0.996438705727336
-3113,4009243.46921873,4000275.71673727,1997,FALSE,2,"20086","UKR;SVK","Laborets'-Uzhans'ke nyz'kohirya","SVK",TRUE,"20086","",0.997763230756548
+2116,42745932.1331496,0,0,FALSE,0,"20086","UKR;SVK","Laborets'-Uzhans'ke nyz'kohirya","UKR",NA,NA,"no pas overlapping kba",0
+3101,4449031.56059777,4433187.25997537,2004,FALSE,1,"20086","UKR;SVK","Laborets'-Uzhans'ke nyz'kohirya","SVK",TRUE,"20086","",0.996438707973502
+3113,4009243.45866096,4000275.74224175,1997,FALSE,2,"20086","UKR;SVK","Laborets'-Uzhans'ke nyz'kohirya","SVK",TRUE,"20086","",0.997763239745435

@@ -1,8 +1,8 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-14506,4105691.16802812,0,0,FALSE,0,"19709","COL","Altiplano Cundiboyacense (nn)","COL",NA,NA,"no pas overlapping kba",0
-14413,296596.548379302,0,0,FALSE,0,"19709","COL","Altiplano Cundiboyacense (nn)","COL",NA,NA,"no pas overlapping kba",0
-19137,53893200.9820654,0,0,FALSE,0,"19709","COL","Altiplano Cundiboyacense (nn)","COL",NA,NA,"no pas overlapping kba",0
-26522,89157557.6378009,18312.2862881832,2015,FALSE,1,"19709","COL","Altiplano Cundiboyacense (nn)","COL",TRUE,"19709","",0.000205392417349252
-26522,89157557.6378009,33461923.0241053,2017,FALSE,1,"19709","COL","Altiplano Cundiboyacense (nn)","COL",TRUE,"19709","",0.375312243971992
-14504,79154876.2318461,79154876.153366,2008,FALSE,1,"19709","COL","Altiplano Cundiboyacense (nn)","COL",TRUE,"19709","",0.999999999008525
-14404,27739376.9366165,27739376.1101244,2017,FALSE,1,"19709","COL","Altiplano Cundiboyacense (nn)","COL",TRUE,"19709","",0.999999970205094
+14506,4105691.16751712,0,0,FALSE,0,"19709","COL","Altiplano Cundiboyacense (nn)","COL",NA,NA,"no pas overlapping kba",0
+14413,296596.548446724,0,0,FALSE,0,"19709","COL","Altiplano Cundiboyacense (nn)","COL",NA,NA,"no pas overlapping kba",0
+19137,53893200.9786394,0,0,FALSE,0,"19709","COL","Altiplano Cundiboyacense (nn)","COL",NA,NA,"no pas overlapping kba",0
+26522,89157557.6395069,18312.2861294852,2015,FALSE,1,"19709","COL","Altiplano Cundiboyacense (nn)","COL",TRUE,"19709","",0.000205392415565349
+26522,89157557.6395069,33461923.022367,2017,FALSE,1,"19709","COL","Altiplano Cundiboyacense (nn)","COL",TRUE,"19709","",0.375312243945313
+14504,79154876.2297749,79154876.1475871,2008,FALSE,1,"19709","COL","Altiplano Cundiboyacense (nn)","COL",TRUE,"19709","",0.999999998961683
+14404,27739376.938632,27739376.1086021,2017,FALSE,1,"19709","COL","Altiplano Cundiboyacense (nn)","COL",TRUE,"19709","",0.999999970077556

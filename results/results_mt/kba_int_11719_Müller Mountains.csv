@@ -1,5 +1,5 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-15901,324139916.281025,302191221.077815,2012,TRUE,1,"11719","IDN","Müller Mountains","IDN",TRUE,"11719","",0.932286355056064
-15902,1980744.54695695,0,0,FALSE,0,"11719","IDN","Müller Mountains","IDN",NA,NA,"no pas overlapping kba",0
-15908,6633563291.48836,1170021450.84878,2004,TRUE,1,"11719","IDN","Müller Mountains","IDN",FALSE,"11719","",0.176379028801919
-15920,38562995.8506965,0,0,FALSE,0,"11719","IDN","Müller Mountains","IDN",NA,NA,"no pas overlapping kba",0
+15901,324139916.280647,302191221.077545,2012,TRUE,1,"11719","IDN","Müller Mountains","IDN",TRUE,"11719","",0.932286355056321
+15902,1980744.5469247,0,0,FALSE,0,"11719","IDN","Müller Mountains","IDN",NA,NA,"no pas overlapping kba",0
+15908,6633563291.4886,1170021450.84934,1998,TRUE,1,"11719","IDN","Müller Mountains","IDN",FALSE,"11719","",0.176379028801997
+15920,38562995.8504832,0,0,FALSE,0,"11719","IDN","Müller Mountains","IDN",NA,NA,"no pas overlapping kba",0

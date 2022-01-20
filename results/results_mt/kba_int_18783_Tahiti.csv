@@ -1,6 +1,3 @@
 "SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note"
-45280,NA,0,0,FALSE,0,0,"18783","PYF","Tahiti","FJI",NA,NA,"no PAs in this range"
-24314,NA,0,0,FALSE,0,0,"18783","PYF","Tahiti","FJI",NA,NA,"no PAs in this range"
-24325,NA,0,0,FALSE,0,0,"18783","PYF","Tahiti","FJI",NA,NA,"no PAs in this range"
-31035,NA,0,0,FALSE,0,0,"18783","PYF","Tahiti","FJI",NA,NA,"no PAs in this range"
-27171,NA,0,0,FALSE,0,0,"18783","PYF","Tahiti","FJI",NA,NA,"no PAs in this range"
+45280,1018589087.03364,0,0,FALSE,0,0,"18783","PYF","Tahiti","FJI",NA,NA,"no PAs in this range"
+27171,14505036.9346172,0,0,FALSE,0,0,"18783","PYF","Tahiti","FJI",NA,NA,"no PAs in this range"

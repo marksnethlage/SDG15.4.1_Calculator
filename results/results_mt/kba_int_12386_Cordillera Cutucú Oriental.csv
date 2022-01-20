@@ -1,4 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-14554,332879682.466394,0,0,FALSE,0,"12386","ECU;PER","Cordillera Cutucú Oriental","ECU",NA,NA,"no pas overlapping kba",0
-14832,6993505.27086656,6976555.47017837,1999,FALSE,1,"12386","ECU;PER","Cordillera Cutucú Oriental","PER",TRUE,"12386","",0.997576351195615
-14565,263638524.80188,0,0,FALSE,0,"12386","ECU;PER","Cordillera Cutucú Oriental","ECU",NA,NA,"no pas overlapping kba",0
+14554,332879682.465194,0,0,FALSE,0,"12386","ECU;PER","Cordillera Cutucú Oriental","ECU",NA,NA,"no pas overlapping kba",0
+14832,6993505.27037899,6976555.4695718,1999,FALSE,1,"12386","ECU;PER","Cordillera Cutucú Oriental","PER",TRUE,"12386","",0.99757635117843
+14565,263638524.801321,0,0,FALSE,0,"12386","ECU;PER","Cordillera Cutucú Oriental","ECU",NA,NA,"no pas overlapping kba",0

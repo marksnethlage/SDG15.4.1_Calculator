@@ -1,12 +1,11 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-25126,3032687.05288363,0,0,FALSE,0,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",NA,NA,"no pas overlapping kba",0
-24728,78234945.5042854,66249500.2168983,1967,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.846801896388736
-24728,78234945.5042854,4350.89580506086,2000,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",5.5613201709491e-05
-47086,3232317750.25568,0,0,FALSE,0,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",NA,NA,"no pas overlapping kba",0
-47089,1679702831.69919,446142206.866437,1994,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.265607819696963
-47097,124196565.339092,0,0,FALSE,0,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",NA,NA,"no pas overlapping kba",0
-47092,200703742.494194,0,0,FALSE,0,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",NA,NA,"no pas overlapping kba",0
-47101,16135855.2932386,24013.8052874506,2010,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.00148822636612966
-47101,16135855.2932386,16111840.7981002,2013,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.998511730881195
-24720,42805945.7386361,42805922.813488,1984,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",TRUE,"19316","",0.999999464440099
-27450,547334.696791526,448038.967238568,1952,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.818583162852585
+24728,78234945.5557536,66249500.1979284,1967,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.84680189558918
+24728,78234945.5557536,4350.89706832496,2000,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",5.56132178199617e-05
+47086,3232317750.24889,0,0,FALSE,0,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",NA,NA,"no pas overlapping kba",0
+47089,1679702831.71867,446142206.851329,1994,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.265607819684889
+47097,124196565.338318,0,0,FALSE,0,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",NA,NA,"no pas overlapping kba",0
+47092,200703742.490366,0,0,FALSE,0,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",NA,NA,"no pas overlapping kba",0
+47101,16135855.318193,24013.8082399402,2010,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.00148822654680505
+47101,16135855.318193,16111840.8410592,2013,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.998511731999311
+24720,42805945.7282473,42805922.8418139,1984,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",TRUE,"19316","",0.999999465344522
+27450,547334.708698919,448038.969536566,1952,FALSE,1,"19316","CHL","Cordillera de la Costa (Chile) - Zona central (nn)","CHL",FALSE,"19316","",0.818583149242644

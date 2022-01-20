@@ -1,4 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-26440,36168.1730814399,14416.7250672337,2013,TRUE,1,"11722","IDN","Van Rees Mountains","IDN",TRUE,"11722","",0.39860252368212
-26463,36325084.0812772,0,0,FALSE,0,"11722","IDN","Van Rees Mountains","IDN",NA,NA,"no pas overlapping kba",0
-26436,260021.163626445,0,0,FALSE,0,"11722","IDN","Van Rees Mountains","IDN",NA,NA,"no pas overlapping kba",0
+26440,36168.1730518444,14416.7254090499,2006,TRUE,1,"11722","IDN","Van Rees Mountains","IDN",TRUE,"11722","",0.398602533459033
+26463,36325084.0807067,0,0,FALSE,0,"11722","IDN","Van Rees Mountains","IDN",NA,NA,"no pas overlapping kba",0
+26436,260021.163812386,0,0,FALSE,0,"11722","IDN","Van Rees Mountains","IDN",NA,NA,"no pas overlapping kba",0

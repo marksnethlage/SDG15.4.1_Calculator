@@ -1,5 +1,5 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-6262,77763917.1678355,0,0,FALSE,0,"19087","ETH","Chercher Mountains","ETH",NA,NA,"no pas overlapping kba",0
-28592,7562385.63426244,7562385.63426244,1973,FALSE,1,"19087","ETH","Chercher Mountains","ETH",TRUE,"19087","",1
-28595,169591757.653435,65832097.9552096,1973,FALSE,1,"19087","ETH","Chercher Mountains","ETH",TRUE,"19087","",0.388179819975326
-28719,859284592.897418,0,0,FALSE,0,"19087","ETH","Chercher Mountains","ETH",NA,NA,"no pas overlapping kba",0
+6262,77763917.1631453,0,0,FALSE,0,"19087","ETH","Chercher Mountains","ETH",NA,NA,"no pas overlapping kba",0
+28592,7562385.6338987,7562385.6338987,1973,FALSE,1,"19087","ETH","Chercher Mountains","ETH",TRUE,"19087","",1
+28595,169591757.647781,65832097.9509647,1973,FALSE,1,"19087","ETH","Chercher Mountains","ETH",TRUE,"19087","",0.388179819963237
+28719,859284592.899187,0,0,FALSE,0,"19087","ETH","Chercher Mountains","ETH",NA,NA,"no pas overlapping kba",0

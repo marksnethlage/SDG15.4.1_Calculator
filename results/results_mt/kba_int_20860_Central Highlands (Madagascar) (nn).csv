@@ -1,6 +1,6 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-22461,49953910.8156905,0,0,FALSE,0,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",NA,NA,"no pas overlapping kba",0
-22493,1610412.7262764,0,0,FALSE,0,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",NA,NA,"no pas overlapping kba",0
-22495,143172737.065577,143137607.203126,1958,FALSE,1,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",FALSE,"20860","",0.999754633017634
-6550,81134784.4135139,81119286.7380446,1956,FALSE,1,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",FALSE,"20860","",0.999808988517302
-22426,63267401.9614775,57184250.9222408,1982,FALSE,1,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",FALSE,"20860","",0.903850152675138
+22461,49953910.8196828,0,0,FALSE,0,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",NA,NA,"no pas overlapping kba",0
+22493,1610412.72668976,0,0,FALSE,0,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",NA,NA,"no pas overlapping kba",0
+22495,143172737.064703,143137607.202352,1958,FALSE,1,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",FALSE,"20860","",0.999754633018331
+6550,81134784.4074935,81119286.7319541,1956,FALSE,1,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",FALSE,"20860","",0.999808988516424
+22426,63267401.9704075,57184250.929197,1982,FALSE,1,"20860","MDG","Central Highlands (Madagascar) (nn)","MDG",FALSE,"20860","",0.903850152657512

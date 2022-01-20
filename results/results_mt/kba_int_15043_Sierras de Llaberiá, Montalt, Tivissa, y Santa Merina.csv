@@ -1,8 +1,5 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-1918,276795054.331192,205432537.141438,1992,FALSE,4,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",0.742182831401435
-1918,276795054.331192,5016.51944145222,2005,FALSE,1,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",1.81235876976683e-05
-1918,276795054.331192,0.0808979665811294,2006,FALSE,1,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",2.92266661977034e-10
-1918,276795054.331192,212.674001046456,2008,FALSE,1,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",7.68344656880995e-07
-28518,297474.875412991,38946.7892941218,1992,FALSE,2,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",0.130924634357947
-28518,297474.875412991,393.23764376709,2008,FALSE,1,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",0.00132191884515003
-28518,297474.875412991,0.00203265249729156,2014,FALSE,1,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",6.83302243414536e-09
+1918,276795054.299242,205432537.164589,1992,FALSE,4,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",0.742182831570746
+1918,276795054.299242,5016.4962504816,2005,FALSE,1,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",1.8123503915855e-05
+1918,276795054.299242,0.00407012800107404,2006,FALSE,1,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",1.47044823881638e-11
+1918,276795054.299242,212.669936479884,2008,FALSE,1,"15043","ESP","Sierras de Llaberiá, Montalt, Tivissa, y Santa Merina","ESP",TRUE,"15043","",7.68329972579524e-07

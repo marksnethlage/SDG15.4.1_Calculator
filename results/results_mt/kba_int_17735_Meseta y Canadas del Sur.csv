@@ -1,11 +1,9 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-10077,2690094405.43622,49779649.6328425,2004,FALSE,1,"17735","MEX","Meseta y Canadas del Sur","MEX",FALSE,"17735","",0.0185047965351128
-10077,2690094405.43622,658007.333280459,2008,FALSE,1,"17735","MEX","Meseta y Canadas del Sur","MEX",FALSE,"17735","",0.000244603807193807
-10047,2679476.70239305,2679476.70239305,1995,FALSE,1,"17735","MEX","Meseta y Canadas del Sur","MEX",TRUE,"17735","",1
-44572,1019565039.46818,0,0,FALSE,0,"17735","MEX","Meseta y Canadas del Sur","MEX",NA,NA,"no pas overlapping kba",0
-44580,1296756354.65008,639581681.919635,2002,FALSE,1,"17735","MEX","Meseta y Canadas del Sur","MEX",FALSE,"17735","",0.493216539580575
-10139,492394776.23813,0,0,FALSE,0,"17735","MEX","Meseta y Canadas del Sur","MEX",NA,NA,"no pas overlapping kba",0
-10076,100742256.578597,0,0,FALSE,0,"17735","MEX","Meseta y Canadas del Sur","MEX",NA,NA,"no pas overlapping kba",0
-10078,118450220.47584,118185115.477625,2002,FALSE,1,"17735","MEX","Meseta y Canadas del Sur","MEX",TRUE,"17735","",0.997761886831863
-10147,40020379.8076749,0,0,FALSE,0,"17735","MEX","Meseta y Canadas del Sur","MEX",NA,NA,"no pas overlapping kba",0
-44576,5227880990.73821,0,0,FALSE,0,"17735","MEX","Meseta y Canadas del Sur","MEX",NA,NA,"no pas overlapping kba",0
+10077,2690094405.43704,49779649.6394967,2004,FALSE,1,"17735","MEX","Meseta y Canadas del Sur","MEX",FALSE,"17735","",0.0185047965375808
+10077,2690094405.43704,658007.333865154,2008,FALSE,1,"17735","MEX","Meseta y Canadas del Sur","MEX",FALSE,"17735","",0.000244603807411083
+44572,1019565039.50755,0,0,FALSE,0,"17735","MEX","Meseta y Canadas del Sur","MEX",NA,NA,"no pas overlapping kba",0
+44580,1296756354.63584,639581681.899784,2002,FALSE,1,"17735","MEX","Meseta y Canadas del Sur","MEX",FALSE,"17735","",0.493216539570683
+10139,492394776.248876,0,0,FALSE,0,"17735","MEX","Meseta y Canadas del Sur","MEX",NA,NA,"no pas overlapping kba",0
+10076,100742256.58313,0,0,FALSE,0,"17735","MEX","Meseta y Canadas del Sur","MEX",NA,NA,"no pas overlapping kba",0
+10078,118450220.4726,118185115.468488,2002,FALSE,1,"17735","MEX","Meseta y Canadas del Sur","MEX",TRUE,"17735","",0.997761886782025
+44576,5227880990.76566,0,0,FALSE,0,"17735","MEX","Meseta y Canadas del Sur","MEX",NA,NA,"no pas overlapping kba",0

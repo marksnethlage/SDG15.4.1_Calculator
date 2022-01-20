@@ -1,5 +1,5 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-14687,367785449.59069,300246.293807387,2016,FALSE,1,"13111","PER","Cordillera de Vilcanota","PER",TRUE,"13111","",0.000816362621581503
-14840,27016131.4990324,0,0,FALSE,0,"13111","PER","Cordillera de Vilcanota","PER",NA,NA,"no pas overlapping kba",0
-45316,260888239.393496,24809059.0291324,2011,FALSE,1,"13111","PER","Cordillera de Vilcanota","PER",TRUE,"13111","",0.0950945856616904
-47179,21942733.2295891,0,0,FALSE,0,"13111","PER","Cordillera de Vilcanota","PER",NA,NA,"no pas overlapping kba",0
+14687,367785449.615675,300246.293818504,2016,FALSE,1,"13111","PER","Cordillera de Vilcanota","PER",TRUE,"13111","",0.00081636262155627
+14840,27016131.4920657,0,0,FALSE,0,"13111","PER","Cordillera de Vilcanota","PER",NA,NA,"no pas overlapping kba",0
+45316,260888239.399601,24809059.0358217,2011,FALSE,1,"13111","PER","Cordillera de Vilcanota","PER",TRUE,"13111","",0.0950945856851057
+47179,21942733.2467592,0,0,FALSE,0,"13111","PER","Cordillera de Vilcanota","PER",NA,NA,"no pas overlapping kba",0

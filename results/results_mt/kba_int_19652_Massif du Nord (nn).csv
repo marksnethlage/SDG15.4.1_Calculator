@@ -1,9 +1,7 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-26959,90432327.0658862,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
-26961,40790969.9092184,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
-27001,120258257.318106,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
-29945,50214491.5736694,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
-19912,13843147.8759909,4018317.96051431,1968,FALSE,1,"19652","HTI","Massif du Nord (nn)","HTI",FALSE,"19652","",0.290274870752739
-30042,90993991.9521651,18361484.0589538,1968,FALSE,1,"19652","HTI","Massif du Nord (nn)","HTI",FALSE,"19652","",0.201787872638957
-26674,131737032.049128,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
-26675,3369080.5637958,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
+26959,90432327.077528,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
+26961,40790969.9200222,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
+27001,120258257.352207,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
+29945,50214491.5730827,0,0,FALSE,0,"19652","HTI","Massif du Nord (nn)","HTI",NA,NA,"no pas overlapping kba",0
+19912,13843147.8745548,4018317.97224176,1968,FALSE,1,"19652","HTI","Massif du Nord (nn)","HTI",FALSE,"19652","",0.290274871630019
+30042,90993991.9515505,18361484.0792531,1968,FALSE,1,"19652","HTI","Massif du Nord (nn)","HTI",FALSE,"19652","",0.201787872863404

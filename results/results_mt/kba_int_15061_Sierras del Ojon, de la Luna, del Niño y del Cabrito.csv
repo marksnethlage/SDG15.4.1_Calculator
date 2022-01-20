@@ -1,10 +1,4 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-1869,5707963.42761047,5707963.42761047,1989,FALSE,2,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",1
-1868,321926683.86096,320278374.463159,1989,FALSE,2,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",0.994879860911087
-1867,32621429.440165,1418088.68370494,1989,FALSE,2,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",0.0434710773881333
-1867,32621429.440165,23846553.2018857,1992,FALSE,1,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",0.731008837170229
-1867,32621429.440165,195.998677131743,2003,FALSE,2,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",6.00827984841218e-06
-1867,32621429.440165,0.0214422500322816,2006,FALSE,2,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",6.57305654603869e-10
-1867,32621429.440165,0.000507736204703235,2017,FALSE,1,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",1.5564498963313e-11
-1865,6961.81527721882,6961.81527721882,1989,FALSE,2,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",1
-28513,788227.206173703,788227.206173703,1992,FALSE,1,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",1
+1869,5707963.43129917,5707963.43129917,1989,FALSE,2,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",1
+1868,321926683.860536,320278374.547923,1989,FALSE,2,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",0.994879861175698
+1865,6961.81913312711,6961.81913312711,1989,FALSE,2,"15061","ESP","Sierras del Ojon, de la Luna, del Niño y del Cabrito","ESP",TRUE,"15061","",1

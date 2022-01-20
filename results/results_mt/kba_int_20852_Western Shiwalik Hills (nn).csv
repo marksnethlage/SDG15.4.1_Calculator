@@ -1,5 +1,5 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-8006,1905976.94875968,0,0,FALSE,0,"20852","AFG;IND","Western Shiwalik Hills (nn)","AFG",NA,NA,"no pas overlapping kba",0
-18149,25196648.9005658,1711385.90370056,1962,FALSE,1,"20852","AFG;IND","Western Shiwalik Hills (nn)","IND",TRUE,"20852","",0.067921171202339
-18161,17647046.4582831,16839624.4867483,1962,FALSE,1,"20852","AFG;IND","Western Shiwalik Hills (nn)","IND",TRUE,"20852","",0.954246056220028
-18166,33471099.2571328,0,0,FALSE,0,"20852","AFG;IND","Western Shiwalik Hills (nn)","IND",NA,NA,"no pas overlapping kba",0
+8006,1905976.94019181,0,0,FALSE,0,"20852","AFG;IND","Western Shiwalik Hills (nn)","AFG",NA,NA,"no pas overlapping kba",0
+18149,25196648.8541729,1711385.8988058,1962,FALSE,1,"20852","AFG;IND","Western Shiwalik Hills (nn)","IND",TRUE,"20852","",0.0679211711331355
+18161,17647046.4313851,16839624.476715,1962,FALSE,1,"20852","AFG;IND","Western Shiwalik Hills (nn)","IND",TRUE,"20852","",0.954246057105959
+18166,33471099.2661231,0,0,FALSE,0,"20852","AFG;IND","Western Shiwalik Hills (nn)","IND",NA,NA,"no pas overlapping kba",0

@@ -1,8 +1,8 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-14350,39520479.9477246,0,0,FALSE,0,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",NA,NA,"no pas overlapping kba",0
-14374,908934058.854302,852408945.128377,1991,FALSE,1,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",FALSE,"19703","",0.937811645217504
-14384,1109686734.36697,0,0,FALSE,0,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",NA,NA,"no pas overlapping kba",0
-14386,332784636.420208,289898297.16823,1989,FALSE,1,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",TRUE,"19703","",0.871128848635232
-19506,299963944.7686,0,0,FALSE,0,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","ARG",NA,NA,"no pas overlapping kba",0
-47037,149810136.646578,3823428.49899647,2006,FALSE,1,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",FALSE,"19703","",0.0255218277252923
-47042,180667673.123388,57718705.7695357,1991,TRUE,1,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",FALSE,"19703","",0.319474451470444
+14350,39520479.9494781,0,0,FALSE,0,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",NA,NA,"no pas overlapping kba",0
+14374,908934058.847837,852408945.122823,1991,FALSE,1,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",FALSE,"19703","",0.937811645218064
+14384,1109686734.37058,0,0,FALSE,0,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",NA,NA,"no pas overlapping kba",0
+14386,332784636.408864,289898297.153797,1989,FALSE,1,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",TRUE,"19703","",0.871128848621556
+19506,299963944.757451,0,0,FALSE,0,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","ARG",NA,NA,"no pas overlapping kba",0
+47037,149810136.644962,3823428.49905977,2006,FALSE,1,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",FALSE,"19703","",0.0255218277259901
+47042,180667673.101978,57718705.7602565,2011,TRUE,1,"19703","BOL;ARG","Cordillera Oriental (Bolivia) - Sur (nn)","BOL",FALSE,"19703","",0.319474451456941

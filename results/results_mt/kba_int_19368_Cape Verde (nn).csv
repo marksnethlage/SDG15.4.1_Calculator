@@ -1,12 +1,7 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-30812,30693063.2386702,0,0,FALSE,0,"19368","CPV","Cape Verde (nn)","CPV",NA,NA,"no pas overlapping kba",0
-6148,18536642.8830591,9498680.26821169,2005,TRUE,1,"19368","CPV","Cape Verde (nn)","CPV",FALSE,"19368","",0.512427213931636
-31766,40716753.7415453,0,0,FALSE,0,"19368","CPV","Cape Verde (nn)","CPV",NA,NA,"no pas overlapping kba",0
-30813,5795276.00066296,0,0,FALSE,0,"19368","CPV","Cape Verde (nn)","CPV",NA,NA,"no pas overlapping kba",0
-6144,160885338.358421,84597974.2019154,2013,TRUE,1,"19368","CPV","Cape Verde (nn)","CPV",FALSE,"19368","",0.525827742074594
-46628,24867102.7340397,0,0,FALSE,0,"19368","CPV","Cape Verde (nn)","CPV",NA,NA,"no pas overlapping kba",0
-46574,84898168.3511473,0,0,FALSE,0,"19368","CPV","Cape Verde (nn)","CPV",NA,NA,"no pas overlapping kba",0
-46572,55683737.8350179,0,0,FALSE,0,"19368","CPV","Cape Verde (nn)","CPV",NA,NA,"no pas overlapping kba",0
-46573,3854598.28380072,0,0,FALSE,0,"19368","CPV","Cape Verde (nn)","CPV",NA,NA,"no pas overlapping kba",0
-46569,12595331.5229793,0,0,FALSE,0,"19368","CPV","Cape Verde (nn)","CPV",NA,NA,"no pas overlapping kba",0
-46655,1106555.8559043,0,0,FALSE,0,"19368","CPV","Cape Verde (nn)","CPV",NA,NA,"no pas overlapping kba",0
+"SitRecID","kba","ovl","year","random","nPAs","percPA","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note"
+46628,24867102.7380616,0,0,FALSE,0,0,19368,"CPV","Cape Verde (nn)",NA,NA,NA,"no overlaps btwn PAs and range"
+46574,84898168.3511473,0,0,FALSE,0,0,19368,"CPV","Cape Verde (nn)",NA,NA,NA,"no overlaps btwn PAs and range"
+46572,55683737.8421255,0,0,FALSE,0,0,19368,"CPV","Cape Verde (nn)",NA,NA,NA,"no overlaps btwn PAs and range"
+46573,3854598.27035558,0,0,FALSE,0,0,19368,"CPV","Cape Verde (nn)",NA,NA,NA,"no overlaps btwn PAs and range"
+46569,12595331.5299541,0,0,FALSE,0,0,19368,"CPV","Cape Verde (nn)",NA,NA,NA,"no overlaps btwn PAs and range"
+46655,1106555.84226917,0,0,FALSE,0,0,19368,"CPV","Cape Verde (nn)",NA,NA,NA,"no overlaps btwn PAs and range"

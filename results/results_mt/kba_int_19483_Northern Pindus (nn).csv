@@ -1,11 +1,10 @@
 "SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-46595,186366585.586416,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","SRB",NA,NA,"no pas overlapping kba",0
-46567,11322692.9406176,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
-46565,206471909.896083,300060.878359079,1996,FALSE,1,"19483","SRB;ALB","Northern Pindus (nn)","ALB",TRUE,"19483","",0.00145327700271722
-46627,78245351.4562235,46405748.7310283,2008,FALSE,1,"19483","SRB;ALB","Northern Pindus (nn)","ALB",TRUE,"19483","",0.59307994490882
-2907,1024461314.1075,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
-46566,3275798.54980415,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
-46561,1553592.82406497,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
-46623,31298937.0580349,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
-2913,1779558.26317585,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
-3126,6136676.89842305,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","SRB",NA,NA,"no pas overlapping kba",0
+46595,186366585.649556,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","SRB",NA,NA,"no pas overlapping kba",0
+46567,11322692.9304641,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
+46565,206471909.877043,300060.870003782,1996,FALSE,1,"19483","SRB;ALB","Northern Pindus (nn)","ALB",TRUE,"19483","",0.00145327696238424
+46627,78245351.47026,46405748.768433,2008,FALSE,1,"19483","SRB;ALB","Northern Pindus (nn)","ALB",TRUE,"19483","",0.59307994528047
+2907,1024461314.11676,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
+46566,3275798.55533064,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
+46561,1553592.84851789,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
+46623,31298937.055086,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","ALB",NA,NA,"no pas overlapping kba",0
+3126,6136676.90102333,0,0,FALSE,0,"19483","SRB;ALB","Northern Pindus (nn)","SRB",NA,NA,"no pas overlapping kba",0
