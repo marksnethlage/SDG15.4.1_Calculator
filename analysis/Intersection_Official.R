@@ -29,6 +29,8 @@ library(sf)
 library(dplyr)
 library(tidyverse)
 library(lwgeom)
+sf::sf_use_s2(FALSE) ## to deal with some issues not fixable with st_make_valid
+
 
 #### Define functions ----
 lu <- function (x = x){
