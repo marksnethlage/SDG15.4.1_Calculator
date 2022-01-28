@@ -38,7 +38,6 @@ lu <- function (x = x){
 
 #### Universal Variables ----
 # TODO review these and update based on what you want to do
-CLIPPED <- FALSE ## if you want to use the python clipped versions (just a subset of the code for testing)
 YEAR_RUN <- 2020 ## update with the year
 PLOTIT <- F ## if you want plots (usually when stepping through, not the full run)
 OVERWRITE <- T ## For ranges already calculated, do you want to rerun them if we already have output?
@@ -61,11 +60,9 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 
 #### 1.3 Read in shapefiles ----
 
-clip <- ifelse(CLIPPED, "clipped_", "")
-
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
-gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/", clip, "GMBA_Inventory_v2.0_basic.shp"), stringsAsFactors = F, crs = 4326) 
-kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
+gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/GMBA_Inventory_v2.0_Broad.shp"), stringsAsFactors = F, crs = 4326) 
+kbas <- st_read(dsn = paste0(getwd(), "/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
 if("Shape" %in% names(pas)) pas <- pas %>% rename(geometry = Shape)
@@ -177,11 +174,6 @@ if(nrow(cnpa) > 1) {
     transb <- rbind(transb, cnpa2)
   }
 }
-
-#### 2.4 - GMBA File Selection
-
-# remove any aggregated polygons from the set if you want
-#gmba <- gmba %>% filter(MapUnit == "Basic")
 
 #########################################################################
 #### Part 3 - SPATIAL ANALYSIS ----

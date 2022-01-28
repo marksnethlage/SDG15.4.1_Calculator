@@ -39,7 +39,6 @@ lu <- function (x = x){
 
 #### Universal Variables ----
 # TODO review these and update based on what you want to do
-CLIPPED <- FALSE ## if you want to use the python clipped versions (just a subset of the code for testing)
 YEAR_RUN <- 2020 ## update with the year of the input files
 PLOTIT <- F ## if you want plots (usually when stepping through, not the full run)
 OVERWRITE <- T ## For ranges already calculated, do you want to rerun them if we already have output?
@@ -62,11 +61,9 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 
 #### 1.3 Read in shapefiles ----
 
-clip <- ifelse(CLIPPED, "clipped_", "")
-
 pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
-gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/", clip, "GMBA_Inventory_v2.0_basic.shp"), stringsAsFactors = F, crs = 4326) 
-kbas <- st_read(dsn = paste0(getwd(), '/data/KBA/KBA2020/', clip, "KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
+gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/GMBA_Inventory_v2.0_Broad.shp"), stringsAsFactors = F, crs = 4326) 
+kbas <- st_read(dsn = paste0(getwd(), "/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
 if("Shape" %in% names(pas)) pas <- pas %>% rename(geometry = Shape)
@@ -150,7 +147,6 @@ kbas_without_names <- kbas[kbas$Country == " ",] #checks if any kbas are missing
 cnpa <- data.frame(ISO3 = unique(pas$ISO3))
 cnpa$nchart <- nchar(as.character(cnpa$ISO3))
 cnpa <- cnpa[cnpa$nchart>4, ] #where iso3 codes have more than 4 characters (more than one country per site)
-cnpa
 transb <- data.frame() 
 
 #if there are some transboundary ones...deal with it
@@ -170,11 +166,6 @@ if(nrow(cnpa) > 1) {
     transb <- rbind(transb, cnpa2)
   }
 }
-
-#### 2.4 - GMBA File Selectiont
-
-# remove any aggregated polygons from the set
-gmba <- gmba %>% filter(MapUnit == "Basic")
 
 #########################################################################
 #### Part 3 - SPATIAL ANALYSIS ----
@@ -217,6 +208,7 @@ if(file.exists(gmba_kba_loc) & !OVERWRITE) {
       kba.c$all_gmba_intersec <- NA
       kba.c$in_gmba <- F
       
+      print("rbind212")
       gmba_kba <- rbind(gmba_kba, kba.c)
       
     } else {
@@ -232,7 +224,7 @@ if(file.exists(gmba_kba_loc) & !OVERWRITE) {
         kba.c$multiple_ranges <- FALSE
         kba.c$all_gmba_intersec <- paste0(unique(gmbaz$GMBA_V2_ID))
         kba.c$in_gmba <- T
-        
+        print("rbind227")
         gmba_kba <- rbind(gmba_kba, kba.c)
         
         # if there are multiple gmbas with intersections, intersect & find greatest intersection
@@ -249,7 +241,7 @@ if(file.exists(gmba_kba_loc) & !OVERWRITE) {
         kba.c$multiple_ranges <- TRUE
         kba.c$all_gmba_intersec <- paste0(unique(gmbaz$GMBA_V2_ID), collapse = ";")
         kba.c$in_gmba <- T
-        
+        print("rbind245")
         gmba_kba <- rbind(gmba_kba, kba.c)
       }
       
@@ -275,7 +267,7 @@ listloop <- listloop[!is.na(listloop)]
 finaltab <- data.frame()
 tt <- proc.time()
 
-## starts loop for all domains @ level 3
+#### 3.2 - starts loop for all mntn ranges ----
 for (x in 1:length(listloop)){ 
   
   domain <- listloop[x]
@@ -338,9 +330,7 @@ for (x in 1:length(listloop)){
     ##finds the overlap of the kba and the pa
     ovkba <- NULL
     ovkba <- st_intersects(pa.c$geometry, gmba_kba.c$geometry, sparse = FALSE) 
-    ovkba ## matrix where rows = PAs, and cols = KBAs
-    nrow(ovkba)
-    
+
     ##if there is no matrix produced, this is an error so set all outputs to error 
     if (length(ovkba) == 0){ 
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
@@ -358,6 +348,7 @@ for (x in 1:length(listloop)){
 
     ##if there ARE overlaps between kbas and pas (e.g. some TRUES in the matrix): 
     } else {  
+      
       areasov <- data.frame()
       
       ##re-assigns missing years to a randomly selected year from PAs in the respective country # should be in data cleaning
@@ -421,7 +412,7 @@ for (x in 1:length(listloop)){
             if(PLOTIT) plot(ovf11, col = 2)
             ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf11, byid = FALSE)}, error=function(e){})))
             
-            if (length(ovlz) == 0){ #if there was an error, assign overlap to be 9999 (signifying an error)
+            if (length(ovlz) == 0){ #if there was an error, assign overlap to be NA (signifying an error)
               ovlz <- NA
             }
             
@@ -473,6 +464,7 @@ for (x in 1:length(listloop)){
                   
                   random2 <- pacz %>% filter(STATUS_YR == year1) 
                   random3 <- sum(random0$random) > 0
+                  print("rbind468")
                   areasov1 <- rbind(areasov1,data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year2, random = random3, nPAs=nrow(ovf2), 
                                                         DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                                         COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
@@ -501,12 +493,11 @@ for (x in 1:length(listloop)){
                                  all_gmba_intersec = NA, in_gmba = NA, mountain = gmba_kba.c$mountain, 
                                  terrestrial = gmba_kba.c$terrestrial, note = "kba this year has no additional overlap with pas") ## if there are NO (zero/none) pas overlapping the kba
         }
-        
+        print("rbind496")
         areasov <- rbind(areasov,areasov1)
       }  ## ends loop for all kbas in the domain
       
       areasov$percPA <- areasov$ovl/areasov$kba
-      areasov
       max(areasov$percPA)
       print("made it here")
       
