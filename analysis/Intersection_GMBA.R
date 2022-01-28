@@ -39,7 +39,7 @@ lu <- function (x = x){
 #### Universal Variables ----
 # TODO review these and update based on what you want to do
 CLIPPED <- FALSE ## if you want to use the python clipped versions (just a subset of the code for testing)
-YEAR_RUN <- 2021 ## update with the year
+YEAR_RUN <- 2020 ## update with the year
 PLOTIT <- F ## if you want plots (usually when stepping through, not the full run)
 OVERWRITE <- T ## For ranges already calculated, do you want to rerun them if we already have output?
 
@@ -249,7 +249,6 @@ for (x in 1:length(listloop)){
   
   ## 1. Subset kbas and pas to this domain
   gmba_kba.c <- gmba_kba %>% filter(GMBA_V2_ID == domain)
-  print(gmba_kba.c)
   domain_isos <- paste0(unique(gmba_kba.c$ISO3))
   RangeName <- str_replace(paste0(unique(gmba_kba.c$DBaseName), collapse = ""), "/", "_")
   
@@ -320,7 +319,7 @@ for (x in 1:length(listloop)){
       
       areasov <- bind_cols(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                             DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
-                            COUNTRY = NA, multiple_ranges = NA, all_gmba_intersec = NA, note = "no overlaps btwn PAs and range")
+                            COUNTRY = kbaz$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, note = "no overlaps btwn PAs and range")
       
       ##if there ARE overlaps between kbas and pas (e.g. some TRUES in the matrix): 
     } else {  
@@ -433,8 +432,8 @@ for (x in 1:length(listloop)){
                     plot(ovf23, add=T, col="grey")
                   }
                   ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){})))
-                  if (length(ovlz)==0){
-                    ovlz <- NA
+                  if (length(ovlz)==0){  #if no additional coverage this year, set to 0
+                    ovlz <- 0
                   }
                   
                   random2 <- pacz %>% filter(STATUS_YR == year1) 
@@ -462,7 +461,7 @@ for (x in 1:length(listloop)){
           areasov1 <- bind_cols(SitRecID=kbaz$SitRecID, kba=akba, ovl=0, year=0, random=F, nPAs=0,
                                  DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                  COUNTRY = kbaz$ISO3, multiple_ranges = NA, 
-                                 all_gmba_intersec = NA, note = "no pas overlapping kba") ## if there are NO (zero/none) pas overlapping the kba
+                                 all_gmba_intersec = NA, note = "kba this year has no additional overlap with pas") ## if there are NO (zero/none) pas overlapping the kba
         }
         
         areasov <- rbind(areasov,areasov1)
