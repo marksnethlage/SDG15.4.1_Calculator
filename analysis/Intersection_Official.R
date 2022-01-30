@@ -247,13 +247,13 @@ if(file.exists(gmba_kba_loc) & !OVERWRITE) {
       
     }
     
-    ## calculate the areas for later use
-    gmba_kba$akba <- NA
-    gmba_kba$akba <- as.numeric(suppressWarnings(tryCatch({st_area(gmba_kba$geometry, byid = FALSE)}, error=function(e){})))
-    
-    saveRDS(gmba_kba, gmba_kba_loc)
-    
   }
+  
+  ## calculate the areas for later use
+  gmba_kba$akba <- NA
+  gmba_kba$akba <- as.numeric(suppressWarnings(tryCatch({st_area(gmba_kba$geometry, byid = FALSE)}, error=function(e){})))
+  
+  saveRDS(gmba_kba, gmba_kba_loc)
   
 }
 
