@@ -68,6 +68,9 @@ world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), strin
 
 if("Shape" %in% names(pas)) pas <- pas %>% rename(geometry = Shape)
 
+# remove any aggregated polygons from the set
+gmba <- gmba %>% filter(MapUnit == "Basic")
+
 #### TODO: CHECK GEOMETRY TYPES - continue from here: https://github.com/r-spatial/sf/issues/427
 pas <- pas[!is.na(st_dimension(pas)),]
 as.character(unique(st_geometry_type(st_geometry(pas)))) ## what geometries are in the dataset
@@ -166,6 +169,7 @@ if(nrow(cnpa) > 1) {
     transb <- rbind(transb, cnpa2)
   }
 }
+
 
 #########################################################################
 #### Part 3 - SPATIAL ANALYSIS ----
