@@ -187,7 +187,7 @@ kbas <- left_join(kbas, land_kbas, by = "SitRecID")
 gmba_kba_loc <- paste0(getwd(), "/data/combined/gmba_kba_full.RDS")
 gmba_kba <- c()
 
-if(file.exists(gmba_kba_loc & !OVERWRITE)) {
+if(file.exists(gmba_kba_loc) & !OVERWRITE)) {
   
   gmba_kba <- readRDS(gmba_kba_loc)
   
