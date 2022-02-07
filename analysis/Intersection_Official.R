@@ -41,7 +41,7 @@ lu <- function (x = x){
 # TODO review these and update based on what you want to do
 YEAR_RUN <- 2020 ## update with the year of the input files
 PLOTIT <- F ## if you want plots (usually when stepping through, not the full run)
-OVERWRITE <- T ## For ranges already calculated, do you want to rerun them if we already have output?
+OVERWRITE <- F ## For ranges already calculated, do you want to rerun them if we already have output?
 
 #### 1.2 set file locations and working directories ----
 
