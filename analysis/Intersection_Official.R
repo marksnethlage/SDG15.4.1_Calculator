@@ -503,7 +503,7 @@ for (x in 1:length(listloop)){
   }  ## ends loop for length(pac)>1
   
   finaltab <- rbind(finaltab,areasov)
-  write.csv(areasov, tname, row.names=F)
+  write.csv(unique(areasov), tname, row.names=F)
   
 }
 (proc.time()-tt)[1]/60 ## time in minutes
