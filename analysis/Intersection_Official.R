@@ -282,11 +282,13 @@ for (x in 1:length(listloop)){
   tname <- paste(finfolder,"/kba_", RangeName, ".csv", sep="")
   if((!OVERWRITE) && file.exists(tname)) {
     ## read in the completed run
-    areasov <- read_csv(tname)
-    ## add to finaltab
-    finaltab <- rbind(finaltab,areasov)
-    ##skip to next iteration of the loop
-    next
+    oldresults <- read_csv(tname)
+    if (ncol(oldresults == 17)) {
+      ## add to finaltab
+      finaltab <- rbind(finaltab,oldresults)
+      ##skip to next iteration of the loop
+      next
+    } 
   }
   
   #finds the isos in this domain and subsets any pa.c that have these countries
