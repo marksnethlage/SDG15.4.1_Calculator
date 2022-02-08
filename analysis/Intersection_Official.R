@@ -283,7 +283,7 @@ for (x in 1:length(listloop)){
   if((!OVERWRITE) && file.exists(tname)) {
     ## read in the completed run
     oldresults <- read_csv(tname)
-    if (ncol(oldresults == 17)) {
+    if (ncol(oldresults) == 17) {
       ## add to finaltab
       finaltab <- rbind(finaltab,oldresults)
       ##skip to next iteration of the loop
