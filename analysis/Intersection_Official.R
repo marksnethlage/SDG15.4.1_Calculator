@@ -285,6 +285,8 @@ for (x in 1:length(listloop)){
     oldresults <- read_csv(tname)
     if (ncol(oldresults) == 17) {
       ## add to finaltab
+      oldresults <- unique(oldresults)
+      write_csv(oldresults, tname)
       finaltab <- rbind(finaltab,oldresults)
       ##skip to next iteration of the loop
       next
@@ -491,7 +493,7 @@ for (x in 1:length(listloop)){
                                   DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                  COUNTRY = kbaz$ISO3, multiple_ranges = NA, 
                                  all_gmba_intersec = NA, in_gmba = NA, mountain = kbaz$mountain, 
-                                 terrestrial = kbaz$terrestrial, note = "kba this year has no additional overlap with pas") ## if there are NO (zero/none) pas overlapping the kba
+                                 terrestrial = kbaz$terrestrial, note = "no pas overlapping this kba") ## if there are NO (zero/none) pas overlapping the kba
         }
         areasov <- rbind(areasov,areasov1)
       }  ## ends loop for all kbas in the domain

@@ -1,9 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-47104,1685918.55673414,0,0,FALSE,0,"17728","MEX","Sierras Transversales","MEX",NA,NA,NA,"no pas overlapping kba",0
-47093,86201492.6131363,0,0,FALSE,0,"17728","MEX","Sierras Transversales","MEX",NA,NA,NA,"no pas overlapping kba",0
-47145,411751229.66518,0,0,FALSE,0,"17728","MEX","Sierras Transversales","MEX",NA,NA,NA,"no pas overlapping kba",0
-47127,345599983.943904,0,0,FALSE,0,"17728","MEX","Sierras Transversales","MEX",NA,NA,NA,"no pas overlapping kba",0
-10232,5100776528.41671,119454012.586914,2002,FALSE,2,"17728","MEX","Sierras Transversales","MEX",TRUE,"17722;17727;17728",TRUE,"",0.023418789653189
-10232,5100776528.41671,405739.509724259,2008,FALSE,1,"17728","MEX","Sierras Transversales","MEX",TRUE,"17722;17727;17728",TRUE,"",7.95446551057201e-05
-10232,5100776528.41671,14784354.6340317,2015,FALSE,1,"17728","MEX","Sierras Transversales","MEX",TRUE,"17722;17727;17728",TRUE,"",0.0028984517458601
-10232,5100776528.41671,1144059.82135558,2019,FALSE,1,"17728","MEX","Sierras Transversales","MEX",TRUE,"17722;17727;17728",TRUE,"",0.000224291304467459

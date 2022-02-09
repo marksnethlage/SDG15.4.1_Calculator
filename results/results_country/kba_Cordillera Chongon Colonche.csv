@@ -1,6 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","in_gmba","note","percPA"
-14530,68579232.8451157,0,0,FALSE,0,"15626","ECU","Cordillera Chongon Colonche","ECU",NA,NA,NA,"no pas overlapping kba",0
-14539,597106331.89479,447289740.397235,1990,FALSE,1,"15626","ECU","Cordillera Chongon Colonche","ECU",FALSE,"15626",TRUE,"",0.749095624187833
-14539,597106331.89479,45578219.9293794,1994,FALSE,1,"15626","ECU","Cordillera Chongon Colonche","ECU",FALSE,"15626",TRUE,"",0.0763318315261314
-14539,597106331.89479,498749.200917985,2015,FALSE,1,"15626","ECU","Cordillera Chongon Colonche","ECU",FALSE,"15626",TRUE,"",0.000835277025677003
-14625,295962455.40289,183781.670470107,2003,FALSE,1,"15626","ECU","Cordillera Chongon Colonche","ECU",FALSE,"15626",TRUE,"",0.000620962784688105
