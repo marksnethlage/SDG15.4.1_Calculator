@@ -41,7 +41,7 @@ lu <- function (x = x){
 # TODO review these and update based on what you want to do
 YEAR_RUN <- 2020 ## update with the year of the input files
 PLOTIT <- F ## if you want plots (usually when stepping through, not the full run)
-OVERWRITE <- F ## For ranges already calculated, do you want to rerun them if we already have output?
+OVERWRITE <- T ## For ranges already calculated, do you want to rerun them if we already have output?
 
 #### 1.2 set file locations and working directories ----
 
@@ -187,7 +187,7 @@ kbas <- left_join(kbas, land_kbas, by = "SitRecID")
 gmba_kba_loc <- paste0(getwd(), "/data/combined/gmba_kba_full.RDS")
 gmba_kba <- c()
 
-if(file.exists(gmba_kba_loc) & !OVERWRITE) {
+if(file.exists(gmba_kba_loc)) {
   
   gmba_kba <- readRDS(gmba_kba_loc)
   
@@ -285,7 +285,6 @@ for (x in 1:length(listloop)){
     oldresults <- read_csv(tname)
     if (ncol(oldresults) == 17) {
       ## add to finaltab
-      oldresults <- unique(oldresults)
       write_csv(oldresults, tname)
       finaltab <- rbind(finaltab,oldresults)
       ##skip to next iteration of the loop
