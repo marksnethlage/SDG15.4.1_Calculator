@@ -44,7 +44,6 @@ OVERWRITE <- T ## For ranges already calculated, do you want to rerun them if we
 
 #### 1.2 set file locations and working directories ----
 
-## NB.in the KBA layer attribute table, the relevant fields should be "SitRecID" and "Country", not in capitals!
 # TODO set up working directories and file paths 
 
 ## set the working directory
@@ -143,11 +142,11 @@ unassigned_kbas <- kbas[kbas$ISO3 == " " | is.na(kbas$ISO3) | kbas$ISO3 == '---'
 ## Fill in the country field for these sites as well
 kbas_without_names <- kbas[kbas$Country == " ",] #checks if any kbas are missing country names, should be 0, if not find out which sites are missing country names and add in country name
 
-#### 2.3 - Filter out Marine KBAs ----
-kbas <- kbas %>% filter(SitRecID %in% (tabmf %>% filter(marine == 0) %>% pull(SitRecID)))
+#### 2.3 - Add in Labels for the type of KBA ----
 
-#### 2.4 - Breakapart any overlapping KBAs ----
-
+#filter KBAs to only include mountainous and terrestrial ones
+land_kbas <- tabmf %>% select(SitRecID, mountain, terrestrial, marine, freshwater = Freshwater)
+kbas <- left_join(kbas, land_kbas, by = "SitRecID")
 
 #### 2.5 - Transboundary PAs ----
 
@@ -184,7 +183,14 @@ if(nrow(cnpa) > 1) {
 
 ##### OVERLAP WITH PROTECTED AREAS
 
-#### 3.1 - prepare KBA layer using GMBA ----
+#### 3.1 - find overlapping KBAs and fix ----
+
+## following process of official indicator, allowign for 2% error
+
+## if overlap is less than 2%, leave the KBAs alone
+## if it's greater than 2%, larger KBA stays, and smaller one is cut by larger one
+
+#### 3.3 - prepare KBA layer using GMBA ----
 gmba_kba_loc <- paste0(getwd(), "/data/combined/gmba_kba.RDS")
 gmba_kba <- c()
 
@@ -237,7 +243,7 @@ listloop <- listloop[!is.na(listloop)]
 finaltab <- c()
 tt <- proc.time()
 
-## starts loop for all domains @ level 3
+#### 3.3 - starts loop for all mntn ranges ----
 for (x in 1:length(listloop)){ 
   
   domain <- listloop[x]
@@ -292,29 +298,36 @@ for (x in 1:length(listloop)){
   #if there are no pas in this range, sets output to zero and skips
   if (nrow(pa.c) == 0){ 
     print("no PAs")
-    areasov <- bind_cols(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
+    areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                           DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
-                          COUNTRY = kbaz$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, note = "no PAs in this range") 
+                          COUNTRY = gmba_kba.c$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, 
+                          mountain = gmba_kba.c$mountain, terrestrial = gmba_kba.c$terrestrial,
+                          marine = gmba_kba.c$marine, freshwater = gmba_kba.c$marine,
+                          note = "no PAs in this range") 
   } else {
     
     ##finds the overlap of the gmba-intersected kba and the pa
     ovkba <- NULL
     ovkba <- st_intersects(pa.c$geometry, gmba_kba.c$geometry, sparse = FALSE) 
-    ovkba ## matrix where rows = PAs, and cols = KBAs
-    nrow(ovkba)
     
     ##if there is no matrix produced, this is an error so set all outputs to error 
     if (length(ovkba) == 0){ 
-      areasov <- bind_cols(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
-                            DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
-                            COUNTRY = NA, multiple_ranges = NA, all_gmba_intersec = NA, note = "error in overlap btwn PA and range")
+      areasov <- data.frame(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
+                            DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                            COUNTRY = NA, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, 
+                            mountain = gmba_kba.c$mountain, terrestrial = gmba_kba.c$terrestrial, 
+                            marine = gmba_kba.c$marine, freshwater = gmba_kba.c$marine,
+                            note = "error in overlap btwn PA and range")
       
       ## if there are no overlaps, we're just going to set these to zeros
     } else if (sum(ovkba) <= 0) {
       
-      areasov <- bind_cols(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
-                            DOMAIN = gmba_kba.c$GMBA_V2_ID, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
-                            COUNTRY = kbaz$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, note = "no overlaps btwn PAs and range")
+      areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0,  
+                            DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                            COUNTRY = gmba_kba.c$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, 
+                            mountain = gmba_kba.c$mountain, terrestrial = gmba_kba.c$terrestrial, 
+                            marine = gmba_kba.c$marine, freshwater = gmba_kba.c$marine,
+                            note = "no overlaps btwn PAs and kbas in this range")
       
       ##if there ARE overlaps between kbas and pas (e.g. some TRUES in the matrix): 
     } else {  
@@ -387,13 +400,12 @@ for (x in 1:length(listloop)){
             ##REVIEW but basically indicate if any of these from the earliest year were random, random is set to true
             random0 <- pacz %>% filter(STATUS_YR == year1) 
             random1 <- sum(random0$random) > 0
-            print(kbaz$SitRecID)
-            print(akba)
-            print(ovlz)
-            areasov1 <- bind_cols(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year1, random = random1, nPAs=nrow(ovf1), 
+
+            areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year1, random = random1, nPAs=nrow(ovf1), 
                                    DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                    COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
-                                   note = "") #creates row in output table with this site overlap area and associated information within it #sets numbers to numeric not units (removes m^2)
+                                   in_gmba = kbaz$in_gmba, mountain = kbaz$mountain, terrestrial = kbaz$terrestrial,
+                                   marine = kbaz$marine, freshwater = kbaz$freshwater, note = "") #creates row in output table with this site overlap area and associated information within it #sets numbers to numeric not units (removes m^2)
             
             #If there is more than just one year, keep going 
             if (length(years) > 1){
@@ -433,30 +445,34 @@ for (x in 1:length(listloop)){
                   
                   random2 <- pacz %>% filter(STATUS_YR == year1) 
                   random3 <- sum(random0$random) > 0
-                  areasov1 <- rbind(areasov1,bind_cols(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year2, random = random3, nPAs=nrow(ovf2), 
+                  areasov1 <- rbind(areasov1, data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year2, random = random3, nPAs=nrow(ovf2), 
                                                         DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                                         COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
-                                                        note = ""))
-                  areasov1
+                                                        in_gmba = kbaz$in_gmba, mountain = kbaz$mountain, terrestrial = kbaz$terrestrial, 
+                                                        marine = kbaz$marine, freshwater = kbaz$freshwater, note = ""))
+                  
                 }
               }
             }
           }  # ends loop for class(ovf)=="SpatialPolygons"
           
           if (is.null(ovf) | !"sf" %in% class(ovf)){
-            areasov1 <- bind_cols(SitRecID=kbaz$SitRecID, kba=akba, ovl=NA, year=0, random=F, nPAs=0,
+            areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=NA, year=0, random=F, nPAs=0,
                                    DOMAIN = NA, range_countries = NA, RangeName = NA, COUNTRY = NA, multiple_ranges = NA, 
-                                   all_gmba_intersec = NA, note = "error in spatial overlap")  ## error in spatial overlap
-            print("is.null(ovf |")
+                                   all_gmba_intersec = NA, in_gmba = NA, mountain = kbaz$mountain, 
+                                   terrestrial = kbaz$terrestrial, marine = kbaz$marine, 
+                                   freshwater = kbaz$freshwater, note = "error in spatial overlap")  ## error in spatial overlap
           }
         }  ## ends loop for PAs overlapping with the KBA
         
         ## if there are no pas that overlap with this zth kba, create empty row w/siteID
         if (length(which(ovkba[ ,z] == T)) == 0){
-          areasov1 <- bind_cols(SitRecID=kbaz$SitRecID, kba=akba, ovl=0, year=0, random=F, nPAs=0,
+          areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=0, year=0, random=F, nPAs=0,
                                  DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                  COUNTRY = kbaz$ISO3, multiple_ranges = NA, 
-                                 all_gmba_intersec = NA, note = "kba this year has no additional overlap with pas") ## if there are NO (zero/none) pas overlapping the kba
+                                 all_gmba_intersec = NA, in_gmba = NA, mountain = kbaz$mountain, 
+                                 terrestrial = kbaz$terrestrial, marine = kbaz$marine, 
+                                 freshwater = kbaz$freshwater, note = "no pas overlapping this kba") ## if there are NO (zero/none) pas overlapping the kba
         }
         
         areasov <- rbind(areasov,areasov1)

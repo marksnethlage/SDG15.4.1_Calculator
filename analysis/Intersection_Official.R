@@ -16,7 +16,7 @@
 # you have run the python code to prepare the KBA & GMBA and the WDPA files if necessary
 # have your file paths set up to reflect your code
 # update your Universal Variables 
-# make sure you have the results/results_country directory
+# make sure you have the results/results_official directory
 # make sure you update the working directory
 
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -30,7 +30,6 @@ library(dplyr)
 library(tidyverse)
 library(lwgeom)
 sf::sf_use_s2(FALSE) ## to deal with some issues not fixable with st_make_valid
-
 
 #### Define functions ----
 lu <- function (x = x){
@@ -472,7 +471,6 @@ for (x in 1:length(listloop)){
                                                         COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
                                                         in_gmba = kbaz$in_gmba, mountain = kbaz$mountain, terrestrial = kbaz$terrestrial, 
                                                         note = ""))
-                  areasov1
                 }
               }
             }
