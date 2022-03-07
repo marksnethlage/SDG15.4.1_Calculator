@@ -55,15 +55,15 @@ folder <- getwd()
 finfolder <- paste0(folder, "/results/results_official") #folder where the files per country will be saved
 
 # You will need 2 additional files: KBA classes and iso country codes
-tabmf <- read.csv(paste(getwd(), "/data/KBA/kba_class_2020.csv", sep = ""))   ## file with types of kbas 
+tabmf <- read.csv(paste(folder, "/data/KBA/kba_class_2020.csv", sep = ""))   ## file with types of kbas 
 isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should be stored in the wkfolder specified above; no changes in 2 019, so 2018 file used
 
 #### 1.3 Read in shapefiles ----
 
-pas <- st_read(dsn = paste0(getwd(), "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
-gmba <- st_read(dsn = paste0(getwd(), "/data/GMBA/GMBA_Inventory_v2.0_broad_basic.shp"), stringsAsFactors = F, crs = 4326) 
-kbas <- st_read(dsn = paste0(getwd(), "/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
-world <- st_read(dsn = paste0(getwd(), '/data/World/world_shp/world.shp'), stringsAsFactors = F)
+pas <- st_read(dsn = paste0(folder, "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
+gmba <- st_read(dsn = paste0(folder, "/data/GMBA/GMBA_Inventory_v2.0_broad_basic.shp"), stringsAsFactors = F, crs = 4326) 
+kbas <- st_read(dsn = paste0(folder, "/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
+world <- st_read(dsn = paste0(folder, '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
 if("Shape" %in% names(pas)) pas <- pas %>% rename(geometry = Shape)
 
@@ -183,7 +183,7 @@ gmba_kba <- c()
 land_kbas <- tabmf %>% filter(mountain == 1 | terrestrial == 1) %>% select(SitRecID, mountain, terrestrial)
 kbas <- left_join(kbas, land_kbas, by = "SitRecID")
 
-gmba_kba_loc <- paste0(getwd(), "/data/combined/gmba_kba_full.RDS")
+gmba_kba_loc <- paste0(getwd(), "/data/combined/gmba_kba_official.RDS")
 gmba_kba <- c()
 
 if(file.exists(gmba_kba_loc)) {
@@ -439,10 +439,10 @@ for (x in 1:length(listloop)){
                   
                   ovf2 <- ovfpol[ovfpol$STATUS_YR == year2, ]
                   ovf22 <- NULL
-                  ovf22 <- tryCatch({st_union(ovf2, by_feature = F)}, error=function(e){})
+                  ovf22 <- tryCatch({st_union(ovf2, by_feature = F)}, error=function(e){print(e)})
                   
                   if(PLOTIT){
-                    plot(ovf22, add=T, col=w+1)
+                    plot(ovf22, col=w+1)
                   }
                   
                   ovfprev <- ovfpol[ovfpol$STATUS_YR < year2, ]
