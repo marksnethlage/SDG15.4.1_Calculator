@@ -10,9 +10,8 @@
 #SBATCH --mail-user=aminaly@stanford.edu
 #SBATCH -p diffenbaugh
 
-ml physics gdal udunits/2.2.26 netcdf/4.4.1.1 R/3.6.1 proj geos;
-module load R/3.6.1
-curl/7.81.0
+ml system math devel sqlite/3.18.0
+ml physics proj/4.9.3 geos gdal/2.2.1 udunits/2.2.26 curl/7.54.0 netcdf/4.4.1.1 R/3.6.1;
 
 cd $OAK/group_members/aminaly/mountain_biodiversity
 Rscript ./analysis/Intersection_GMBA.R
