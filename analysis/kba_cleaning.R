@@ -72,8 +72,10 @@ for(k in 1:nrow(kbas)) {
     kba <- kba[,1:18]
   }
   # now we've done all the kba adjustments, add it in
-  print(paste("KBA", kba))
-  print(paste("new_kbas", new_kbas))
+  print("KBA")
+  print(kba)
+  print("new_kbas")
+  print(new_kbas)
   new_kbas <- rbind(kba, new_kbas)
   
 }
