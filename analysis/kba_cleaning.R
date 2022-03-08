@@ -50,6 +50,7 @@ for(k in 1:nrow(kbas)) {
     #intersect the two
     overlap <- st_intersection(kba, intersec)
     overlap_area <- st_area(overlap$geometry)
+    print(overlap_area)
     
     ## is the overlapping area > 2% of this KBA's area?
     if(0.02 > (overlap_area/ kba$akba)) {
