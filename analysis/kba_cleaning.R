@@ -52,7 +52,7 @@ for(k in 1:nrow(kbas)) {
     overlap_area <- as.numeric(st_area(overlap$geometry))
 
     ## is the overlapping area > 2% of this KBA's area?
-    if(0.02 > (overlap_area/ kba$akba)) {
+    if(0.02 < (overlap_area/ kba$akba)) {
       
       #is this a duplicate KBA? 
       if(overlap_area == kba$akba) {
@@ -68,11 +68,12 @@ for(k in 1:nrow(kbas)) {
         kba$kba_notes <- paste(kba$kba_notes, "clipped by:", intersec$SitRecID, ";")
       }
     }
-    # once we are done adjusting this KBA, add it to the new KBAs
-    print(kba)
-    print(new_kbas)
-    new_kbas <- rbind(kba, new_kbas)
+    #get rid of the info from the second kba
+    kba <- kba[,1:18]
   }
+  # now we've done all the kba adjustments, add it in
+  new_kbas <- rbind(kba, new_kbas)
+  
 }
 
 new_kbas <- new_kbas %>% rename(original_area = akba) %>% 
