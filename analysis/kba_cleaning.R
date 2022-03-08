@@ -69,6 +69,8 @@ for(k in 1:nrow(kbas)) {
       }
     }
     # once we are done adjusting this KBA, add it to the new KBAs
+    print(kba)
+    print(new_kbas)
     new_kbas <- rbind(kba, new_kbas)
   }
 }
