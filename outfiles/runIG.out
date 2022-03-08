@@ -1,0 +1,33 @@
+[1] "/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity"
+Reading layer `WDPA_poly_Nov2020_filtered' from data source 
+  `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb' 
+  using driver `OpenFileGDB'
+Simple feature collection with 239004 features and 30 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -180 ymin: -85.41189 xmax: 180 ymax: 86.45372
+CRS:           4326
+Reading layer `GMBA_Inventory_v2.0_broad_basic' from data source 
+  `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/GMBA/GMBA_Inventory_v2.0_broad_basic.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 6991 features and 40 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -180 ymin: -55.91467 xmax: 180 ymax: 83.62797
+CRS:           EPSG:4326
+Reading layer `world' from data source 
+  `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/World/world_shp/world.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 251 features and 2 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -180 ymin: -90 xmax: 180 ymax: 83.6236
+CRS:           4326
+Reading layer `KBAsGlobal_2020_September_02_POL' from data source 
+  `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp' 
+  using driver `ESRI Shapefile'
+Simple feature collection with 15903 features and 16 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -180 ymin: -79.21161 xmax: 180 ymax: 81.36814
+CRS:           EPSG:4326
