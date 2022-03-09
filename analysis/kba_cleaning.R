@@ -33,7 +33,7 @@ for(k in 1:nrow(kbas)) {
   
   #get this KBA
   kba <- kbas[k,]
-  lba$kba_notes <- ""
+  kba$kba_notes <- ""
   
   ## for this KBA, check to see if it intersects with any other KBA
   intersecs <- st_intersects(kba$geometry, kbas$geometry, sparse = F)
