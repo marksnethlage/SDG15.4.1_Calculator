@@ -68,7 +68,10 @@ for(k in 1:nrow(kbas)) {
       }
     }
     #get rid of the info from the second kba
-    kba <- kba[,1:19]
+    kba <- kba %>% select(SitRecID, Country, ISO3, NatName, IntName, SitArea,
+                          IbaStatus, KbaStatus, AzeStatus, AddedDate, ChangeDate,
+                          Source, DelTxt, DelGeom, Shape_Leng, Shape_Area, akba, kba_notes,
+                          geometry)
   }
   # now we've done all the kba adjustments, add it in
   print("KBA")
