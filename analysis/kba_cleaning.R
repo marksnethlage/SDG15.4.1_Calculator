@@ -26,15 +26,14 @@ kbas <- st_read(dsn = paste0(folder, "/data/KBA/KBA2020/KBAsGlobal_2020_Septembe
 
 ## get all KBA areas
 kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbas$geometry, byid = FALSE)}, error=function(e){})))
-
+kbas$kba_notes <- ""
 new_kbas <- c()
 
 for(k in 1:nrow(kbas)) {
   
   #get this KBA
   kba <- kbas[k,]
-  kba$kba_notes <- ""
-  
+
   ## for this KBA, check to see if it intersects with any other KBA
   intersecs <- st_intersects(kba$geometry, kbas$geometry, sparse = F)
 
@@ -69,7 +68,7 @@ for(k in 1:nrow(kbas)) {
       }
     }
     #get rid of the info from the second kba
-    kba <- kba[,1:18]
+    kba <- kba[,1:19]
   }
   # now we've done all the kba adjustments, add it in
   print("KBA")
