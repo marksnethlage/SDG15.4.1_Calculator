@@ -26,7 +26,7 @@ kbas <- st_read(dsn = paste0(folder, "/data/KBA/KBA2020/KBAsGlobal_2020_Septembe
 
 ## get all KBA areas
 kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbas$geometry, byid = FALSE)}, error=function(e){})))
-kbas$kba_notes <- ""
+kbas$kba_notes <- NA
 
 new_kbas <- c()
 
