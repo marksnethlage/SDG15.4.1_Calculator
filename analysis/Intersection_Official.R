@@ -259,6 +259,9 @@ if(file.exists(gmba_kba_loc)) {
 #### 3.3 - per mountain region, depending on global variable
 
 # create list of mountain ranges to loop through ----
+##TODO delete these lines. this is for testing cyprus
+gmba_kba <- gmba_kba %>% filter(ISO3 == "CYP")
+
 listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
 listloop <- listloop[!is.na(listloop)]
 
@@ -369,6 +372,7 @@ for (x in 1:length(listloop)){
       for (z in 1:nrow(gmba_kba.c)){ 
 
         kbaz <- gmba_kba.c[z, ]
+        print(paste0("KBAZ for", kbaz$SitRecID))
         head(kbaz)
         akba <- kbaz$akba
         ##find the number of pas that the 'zth' kba overlaps with (the particular kba the loop is currently processing)
@@ -426,7 +430,7 @@ for (x in 1:length(listloop)){
                                    DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                    COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
                                    in_gmba = kbaz$in_gmba, mountain = kbaz$mountain, terrestrial = kbaz$terrestrial, note = "") #creates row in output table with this site overlap area and associated information within it #sets numbers to numeric not units (removes m^2)
-            
+
             #If there is more than just one year, keep going 
             if (length(years) > 1){
               for (w in 2:length(years)){
@@ -471,6 +475,9 @@ for (x in 1:length(listloop)){
                                                         COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
                                                         in_gmba = kbaz$in_gmba, mountain = kbaz$mountain, terrestrial = kbaz$terrestrial, 
                                                         note = ""))
+                  #TODO remove
+                  print("First areasov1")
+                  print(head(areasov1))
                 }
               }
             }
@@ -493,6 +500,9 @@ for (x in 1:length(listloop)){
                                  terrestrial = kbaz$terrestrial, note = "no pas overlapping this kba") ## if there are NO (zero/none) pas overlapping the kba
         }
         areasov <- rbind(areasov,areasov1)
+        #TODO remove
+        print("areasov after adding areasov1")
+        print(head(areasov))
       }  ## ends loop for all kbas in the domain
       
       areasov$percPA <- areasov$ovl/areasov$kba
