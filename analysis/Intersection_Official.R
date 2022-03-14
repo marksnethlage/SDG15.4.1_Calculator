@@ -260,7 +260,7 @@ if(file.exists(gmba_kba_loc)) {
 
 # create list of mountain ranges to loop through ----
 ##TODO delete these lines. this is for testing cyprus
-gmba_kba <- gmba_kba %>% filter(ISO3 == "CYP")
+gmba_kba <- gmba_kba %>% filter(SitRecID == 34)
 
 listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
 listloop <- listloop[!is.na(listloop)]
@@ -437,13 +437,16 @@ for (x in 1:length(listloop)){
                 
                 ## to see if there is still any area left by the pas of year 1
                 rema <- 1-(sum(areasov1$ovl[!is.na(areasov1$ovl)])/akba)  
-                rema
+                print(paste("remaining:", rema))
                 if (rema > 0.02){ #assuming 2% error in delineation of kbas compared to pas
                   year2 <- years[w]
+                  print(paste("year:", year2))
                   
                   ovf2 <- ovfpol[ovfpol$STATUS_YR == year2, ]
                   ovf22 <- NULL
                   ovf22 <- tryCatch({st_union(ovf2, by_feature = F)}, error=function(e){print(e)})
+                  
+                  print(paste("ovf22"), ovf22)
                   
                   if(PLOTIT){
                     plot(ovf22, col=w+1)
@@ -464,6 +467,11 @@ for (x in 1:length(listloop)){
                     plot(ovf23, add=T, col="grey")
                   }
                   ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){})))
+                  
+                  print(paste("ovf23:", ovf23))
+                  
+                  print(paste("ovlz:", ovlz))
+                  
                   if (length(ovlz)==0){ #if no additional coverage this year, set to 0
                     ovlz <- 0
                   }
