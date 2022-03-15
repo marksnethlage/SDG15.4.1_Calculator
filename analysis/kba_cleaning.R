@@ -51,27 +51,35 @@ for(k in 1:nrow(kbas)) {
     #intersect the two
     overlap <- st_intersection(kba, intersec)
     overlap_area <- as.numeric(st_area(overlap$geometry))
+    
+    print("i:")
+    print(i)
+    print("akbas kba")
+    print(kba$akba)
+    print("akbas intersec")
+    print(intersec$akba)
 
     ## is the overlapping area > 2% of this KBA's area?
     if(0.02 < (overlap_area/ kba$akba)) {
       
-      #is this a duplicate KBA? 
-      if(overlap_area == kba$akba) {
+      ## if the overlapping area is within 2% of the other
+      if(0.98 < (overlap_area/ kba$akba)) {
+      
         ## if this KBA was created after it's duplicate, mark it to be removed, otherwise note it's partner
         kba$kba_notes <- ifelse(kba$AddedDate > intersec$AddedDate,
                                 "remove duplicate",
                                 paste(kba$kba_notes, "removed duplicate", intersec$SitRecID))
+        
+        } else if(kba$akba < intersec$akba) {
+          
+          kba <- st_difference(kba, intersec)
+          print("KBA difference")
+          print(kba)
+          kba$kba_notes <- paste(kba$kba_notes, "clipped by:", intersec$SitRecID, ";")
+          
+        }
       }
-
-      #only if this KBA is smaller than the intersecting KBA, does it get clipped
-      if(kba$akba < intersec$akba) {
-        kba <- st_difference(kba, intersec)
-        print("KBA difference")
-        print(kba)
-        kba$kba_notes <- paste(kba$kba_notes, "clipped by:", intersec$SitRecID, ";")
-      }
-    }
-    #get rid of the info from the second kba
+    #get rid of the info from the second kba/select columns 
     kba <- kba %>% select(SitRecID, Country, ISO3, NatName, IntName, SitArea,
                           IbaStatus, KbaStatus, AzeStatus, AddedDate, ChangeDate,
                           Source, DelTxt, DelGeom, Shape_Leng, Shape_Area, akba, kba_notes,
