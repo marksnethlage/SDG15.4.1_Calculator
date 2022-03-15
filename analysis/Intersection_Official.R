@@ -446,8 +446,6 @@ for (x in 1:length(listloop)){
                   ovf22 <- NULL
                   ovf22 <- tryCatch({st_union(ovf2, by_feature = F)}, error=function(e){print(e)})
                   
-                  print(paste("ovf22"), ovf22)
-                  
                   if(PLOTIT){
                     plot(ovf22, col=w+1)
                   }
@@ -466,9 +464,7 @@ for (x in 1:length(listloop)){
                   if(PLOTIT){
                     plot(ovf23, add=T, col="grey")
                   }
-                  ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){})))
-                  
-                  print(paste("ovf23:", ovf23))
+                  ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){print(paste("error!", e))})))
                   
                   print(paste("ovlz:", ovlz))
                   
