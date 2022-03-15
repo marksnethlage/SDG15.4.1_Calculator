@@ -31,6 +31,8 @@ new_kbas <- c()
 
 for(k in 1:nrow(kbas)) {
   
+  print("KBA K # is")
+  print(k)
   #get this KBA
   kba <- kbas[k,]
 
@@ -64,6 +66,8 @@ for(k in 1:nrow(kbas)) {
       #only if this KBA is smaller than the intersecting KBA, does it get clipped
       if(kba$akba < intersec$akba) {
         kba <- st_difference(kba, intersec)
+        print("KBA difference")
+        print(kba)
         kba$kba_notes <- paste(kba$kba_notes, "clipped by:", intersec$SitRecID, ";")
       }
     }
@@ -74,10 +78,6 @@ for(k in 1:nrow(kbas)) {
                           geometry)
   }
   # now we've done all the kba adjustments, add it in
-  print("KBA")
-  print(kba)
-  print("new_kbas")
-  print(new_kbas)
   new_kbas <- rbind(kba, new_kbas)
   
 }
