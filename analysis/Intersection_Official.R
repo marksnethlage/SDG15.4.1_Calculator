@@ -304,10 +304,6 @@ for (x in 1:length(listloop)){
     pa.c <- pas %>% filter(ISO3 %in% domain_isos) ## protected areas within the domain
   }
   
-  ## 2. Print domain name and ISO3 code to console
-  #domain.c <- unique(gmba_kba.c$ISO3)
-  #cat(x, '\t', domain, '\t', domain.c, '\n')  
-  
   world.c <- world %>% filter(CNTRY_NAME %in% gmba_kba.c$Country)
   gmba.c <- gmba %>% filter(GMBA_V2_ID == domain)
   
@@ -386,11 +382,11 @@ for (x in 1:length(listloop)){
             
             plot(pacz$geometry, col=rgb(0,0,.8,0.2), border=0)
             plot(kbaz$geometry, add = T)
-            plot(world.c$geometry, col='transparent', border=2, add = T)
+            #plot(world.c$geometry, col='transparent', border=2, add = T)
             
             plot(kbaz$geometry)
             plot(pacz$geometry, col=rgb(0,0,.8,0.2), border=0, add = T)
-            plot(world.c$geometry, col='transparent', border=2, add = T)
+            #plot(world.c$geometry, col='transparent', border=2, add = T)
             
             title(paste("KBA intersec GMBA = Black Outline;  PAS = Purp \n Country Border = Red GMBA Site = ", 
                         kbaz$GMBA_V2_ID, "Range Name", kbaz$DBaseName), cex = 1)
@@ -462,8 +458,11 @@ for (x in 1:length(listloop)){
                   
                   ovf23 <- tryCatch({st_difference(ovf22, ovfprev3)}, error = function(e){}) 
                   if(PLOTIT){
-                    plot(ovf23, add=T, col="grey")
+                    plot(ovf23, add=T, col="grey", alpha = .1)
                   }
+                  print("ovf23")
+                  print(ovf23)
+                  if(year2 == 2014) saveRDS(ovf23, paste0(finfolder, "problem ovf23"))
                   ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){print(paste("error!", e))})))
                   
                   print(paste("ovlz:", ovlz))
