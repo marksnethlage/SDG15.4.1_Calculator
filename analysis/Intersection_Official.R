@@ -364,6 +364,9 @@ for (x in 1:length(listloop)){
         pa.c$STATUS_YR[pa.c$STATUS_YR == 0] <- base::sample(ryears, nrow(pa.c[pa.c$STATUS_YR == 0, ]), replace = T) ## selects a year randomly from the pool of possible years
       }
       
+      saveRDS(gmba_kba.c, paste0(finfolder, "/problem_gmba_kbac.rds"))
+      saveRDS(pa.c, paste0(finfolder, "/problem_pac.rds"))
+      
       ## starts loop for all kbas in the domain
       for (z in 1:nrow(gmba_kba.c)){ 
 
