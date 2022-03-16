@@ -462,7 +462,7 @@ for (x in 1:length(listloop)){
                   }
                   print("ovf23")
                   print(ovf23)
-                  if(year2 == 2014) saveRDS(ovf23, paste0(finfolder, "problem ovf23"))
+                  if(year2 == 2014) saveRDS(ovf23, paste0(finfolder, "/problem ovf23.rds"))
                   ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){print(paste("error!", e))})))
                   
                   print(paste("ovlz:", ovlz))
