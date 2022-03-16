@@ -22,7 +22,7 @@ finfile <- paste0(folder, "/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL_no
 
 #read in KBAs
 kbas <- st_read(dsn = paste0(folder, "/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
-
+if(sum(st_is_valid(kbas)) < nrow(kbas)) kbas <- st_make_valid(kbas)
 
 ## get all KBA areas
 kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbas$geometry, byid = FALSE)}, error=function(e){})))
@@ -63,7 +63,7 @@ for(k in 1:nrow(kbas)) {
     if(0.02 < (overlap_area/ kba$akba)) {
       
       ## if the overlapping area is within 2% of the other
-      if(0.98 < (overlap_area/ kba$akba)) {
+      if(0.98 <= (overlap_area/ kba$akba) & 1.02 >= (overlap_area/ kba$akba)) {
       
         ## if this KBA was created after it's duplicate, mark it to be removed, otherwise note it's partner
         kba$kba_notes <- ifelse(kba$AddedDate > intersec$AddedDate,
