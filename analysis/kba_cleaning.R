@@ -54,6 +54,8 @@ for(k in 1:nrow(kbas)) {
     
     print("i:")
     print(i)
+    print("kba:")
+    print(kba$SitRecID)
     print("akbas kba")
     print(kba$akba)
     print("akbas intersec")
