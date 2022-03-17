@@ -75,6 +75,7 @@ for(k in 1:nrow(kbas)) {
         } else if(kba$akba < intersec$akba) {
           
           kba <- st_difference(kba, intersec)
+          kba <- st_make_valid(kba) ## make sure the difference is still valid
           print("KBA difference")
           print(kba)
           kba$kba_notes <- paste(kba$kba_notes, "clipped by:", intersec$SitRecID, ";")
