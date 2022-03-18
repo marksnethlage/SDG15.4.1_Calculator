@@ -463,7 +463,7 @@ for (x in 1:length(listloop)){
                                                         marine = kbaz$marine, freshwater = kbaz$freshwater, 
                                                         original_area = kbaz$original_area,
                                                         kba_note = kbaz$kba_notes,
-                                                        error_note = "")
+                                                        error_note = ""))
                   
                 }
               }

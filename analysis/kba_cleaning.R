@@ -52,6 +52,9 @@ for(k in 1:nrow(kbas)) {
     overlap <- st_intersection(kba, intersec)
     overlap_area <- as.numeric(st_area(overlap$geometry))
     
+    #if this KBA has been cut already so now the overlap is no longer there, next
+    if(overlap_area <= 0) next
+    
     print("i:")
     print(i)
     print("kba:")
@@ -60,6 +63,8 @@ for(k in 1:nrow(kbas)) {
     print(kba$akba)
     print("akbas intersec")
     print(intersec$akba)
+    print("overlap area")
+    print(overlap_area)
 
     ## is the overlapping area > 2% of this KBA's area?
     if(0.02 < (overlap_area/ kba$akba)) {
