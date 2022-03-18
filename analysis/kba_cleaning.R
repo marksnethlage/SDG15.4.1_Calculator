@@ -53,7 +53,7 @@ for(k in 1:nrow(kbas)) {
     overlap_area <- as.numeric(st_area(overlap$geometry))
     
     #if this KBA has been cut already so now the overlap is no longer there, next
-    if(overlap_area <= 0) next
+    if(nrow(overlap) == 0) next
     
     print("i:")
     print(i)
