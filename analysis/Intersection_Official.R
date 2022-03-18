@@ -255,13 +255,12 @@ if(file.exists(gmba_kba_loc)) {
   
 }
 
+##TODO get rid of this
+gmba_kba <- gmba_kba %>% filter(ISO3 %in% c("AND", "TUN", "CYP", "PSE", "BVT", "ASM", "GIB"))
 
 #### 3.3 - per mountain region, depending on global variable
 
 # create list of mountain ranges to loop through ----
-##TODO delete these lines. this is for testing cyprus
-gmba_kba <- gmba_kba %>% filter(SitRecID == 34)
-
 listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
 listloop <- listloop[!is.na(listloop)]
 
@@ -450,7 +449,7 @@ for (x in 1:length(listloop)){
                   }
                   
                   ovfprev <- ovfpol[ovfpol$STATUS_YR < year2, ]
-                  ovfprev3 <- tryCatch({st_union(ovfprev, by_feature = FALSE)}, error=function(e){}) #merge all polygons from previous years
+                  ovfprev3 <- tryCatch({st_union(ovfprev, by_feature = FALSE)}, error=function(e){print(paste("error ovfprev3:", e))}) #merge all polygons from previous years
                   if(PLOTIT){
                     plot(ovfprev3, add=T, col=w+2)
                   }
@@ -459,14 +458,11 @@ for (x in 1:length(listloop)){
                   ##Determine if there is a difference in protected area coverage of kba the following year by making a 
                   ## new polygon of the area in the following year that wasn't in the previous year
                   
-                  ovf23 <- tryCatch({st_difference(ovf22, ovfprev3)}, error = function(e){}) 
+                  ovf23 <- tryCatch({st_difference(ovf22, ovfprev3)}, error = function(e){print(paste("error ovf23:", e))}) 
                   if(PLOTIT){
                     plot(ovf23, add=T, col="grey", alpha = .1)
                   }
-                  print("ovf23")
-                  print(ovf23)
-                  if(year2 == 2014) saveRDS(ovf23, paste0(finfolder, "/problem ovf23.rds"))
-                  ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){print(paste("error!", e))})))
+                  ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){print(e)})))
                   
                   print(paste("ovlz:", ovlz))
                   
