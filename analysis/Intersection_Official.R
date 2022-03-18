@@ -63,7 +63,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 pas <- st_read(dsn = paste0(folder, "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
 gmba <- st_read(dsn = paste0(folder, "/data/GMBA/GMBA_Inventory_v2.0_broad_basic.shp"), stringsAsFactors = F, crs = 4326) 
 kbas <- st_read(dsn = paste0(folder, "/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
-world <- st_read(dsn = paste0(folder, '/data/World/world_shp/world.shp'), stringsAsFactors = F)
+#world <- st_read(dsn = paste0(folder, '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
 if("Shape" %in% names(pas)) pas <- pas %>% rename(geometry = Shape)
 
@@ -303,7 +303,7 @@ for (x in 1:length(listloop)){
     pa.c <- pas %>% filter(ISO3 %in% domain_isos) ## protected areas within the domain
   }
   
-  world.c <- world %>% filter(CNTRY_NAME %in% gmba_kba.c$Country)
+  #world.c <- world %>% filter(CNTRY_NAME %in% gmba_kba.c$Country)
   gmba.c <- gmba %>% filter(GMBA_V2_ID == domain)
   
   ## 3. Plot map of KBAs and PAs to check ----
@@ -312,7 +312,7 @@ for (x in 1:length(listloop)){
     plot(pa.c$geometry, border=4) # pas are in blue
     plot(gmba_kba.c$geometry, border=3, add = T)#kbas are in green
     plot(gmba.c$geometry, border = 2, col = NA, add = T) #gmba not broken by kba red 
-    plot(world.c, border = 1, col = NA, add = T)
+    #plot(world.c, border = 1, col = NA, add = T)
     title(main=paste(domain.c, domain))
     box()
     axis(1)
@@ -449,7 +449,7 @@ for (x in 1:length(listloop)){
                   }
                   
                   ovfprev <- ovfpol[ovfpol$STATUS_YR < year2, ]
-                  ovfprev3 <- tryCatch({st_union(ovfprev, by_feature = FALSE)}, error=function(e){print(paste("error ovfprev3:", e))}) #merge all polygons from previous years
+                  ovfprev3 <- tryCatch({ovfprev %>% st_set_precision(1e5) %>% st_union(by_feature = FALSE)}, error=function(e){print(paste("error ovfprev3:", e))}) #merge all polygons from previous years
                   if(PLOTIT){
                     plot(ovfprev3, add=T, col=w+2)
                   }
@@ -525,6 +525,6 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("./results/finaltab_official_", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste("./results/finaltab_official_problems", YEAR_RUN, ".csv", sep=""), row.names = F)
 ### end here
 
