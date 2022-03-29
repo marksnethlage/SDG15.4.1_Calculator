@@ -79,11 +79,12 @@ for(k in 7372:nrow(kbas)) {
         
         } else if(kba$akba < intersec$akba) {
           
-          kba <- st_difference(kba, intersec)
+          kba_diff <- st_difference(kba, intersec)
           ## if this overlap ended up getting rid of this piece entirely, mark to be dropped
-          if(nrow(kba) == 0) {
+          if(nrow(kba_diff) == 0) {
             kba$kba_notes <- paste("remove -- fully overlapped")
           } else { ## else crop it
+            kba <- kba_diff
             if(!st_is_valid(kba)) kba <- st_make_valid(kba) ## make sure the difference is still valid
             print("KBA difference")
             print(kba)
