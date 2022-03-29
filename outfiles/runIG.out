@@ -6,7 +6,7 @@ Simple feature collection with 239004 features and 30 fields
 Geometry type: MULTIPOLYGON
 Dimension:     XY
 Bounding box:  xmin: -180 ymin: -85.41189 xmax: 180 ymax: 86.45372
-CRS:           4326
+Geodetic CRS:  WGS 84
 Reading layer `GMBA_Inventory_v2.0_broad_basic' from data source 
   `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/GMBA/GMBA_Inventory_v2.0_broad_basic.shp' 
   using driver `ESRI Shapefile'
@@ -14,7 +14,7 @@ Simple feature collection with 6991 features and 40 fields
 Geometry type: MULTIPOLYGON
 Dimension:     XY
 Bounding box:  xmin: -180 ymin: -55.91467 xmax: 180 ymax: 83.62797
-CRS:           EPSG:4326
+Geodetic CRS:  WGS 84
 Reading layer `world' from data source 
   `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/World/world_shp/world.shp' 
   using driver `ESRI Shapefile'
@@ -22,7 +22,7 @@ Simple feature collection with 251 features and 2 fields
 Geometry type: MULTIPOLYGON
 Dimension:     XY
 Bounding box:  xmin: -180 ymin: -90 xmax: 180 ymax: 83.6236
-CRS:           4326
+Geodetic CRS:  WGS 84
 Reading layer `KBAsGlobal_2020_September_02_POL' from data source 
   `/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp' 
   using driver `ESRI Shapefile'
@@ -30,4 +30,1008 @@ Simple feature collection with 15903 features and 16 fields
 Geometry type: MULTIPOLYGON
 Dimension:     XY
 Bounding box:  xmin: -180 ymin: -79.21161 xmax: 180 ymax: 81.36814
-CRS:           EPSG:4326
+Geodetic CRS:  WGS 84
+[1] "KBA K # is"
+[1] 7372
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31179
+[1] "akbas kba"
+[1] 79808658
+[1] "akbas intersec"
+[1] 1498888832
+[1] "overlap area"
+[1] 39383001
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -122.7331 ymin: 37.03861 xmax: -122.642 ymax: 37.12005
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3       NatName       IntName SitArea IbaStatus
+7372    31179     USA  USA San Mateo, CA San Mateo, CA    7981 confirmed
+     KbaStatus AzeStatus  AddedDate ChangeDate Source
+7372      <NA>      <NA> 2012-10-09 2014-11-20   <NA>
+                                                                                                                                                         DelTxt
+7372 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+           DelGeom Shape_Leng  Shape_Area     akba kba_notes SitRecID.1
+7372 Draft polygon  0.3441033 0.008088367 79808658                31173
+     Country.1 ISO3.1           NatName.1           IntName.1 SitArea.1
+7372       USA    USA San Mateo Coast, CA San Mateo Coast, CA    149892
+     IbaStatus.1 KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1 Source.1
+7372   confirmed        <NA>        <NA>  2012-10-09   2014-11-20     <NA>
+                                                                                                                                                       DelTxt.1
+7372 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+         DelGeom.1 Shape_Leng.1 Shape_Area.1     akba.1 kba_notes.1
+7372 Draft polygon     1.414728    0.1522775 1498888832            
+                           geometry
+7372 POLYGON ((-122.6926 37.0386...
+[1] "i:"
+[1] 3
+[1] "kba:"
+[1] 31179
+[1] "akbas kba"
+[1] 79808658
+[1] "akbas intersec"
+[1] 4402074255
+[1] "overlap area"
+[1] 40422403
+[1] "KBA K # is"
+[1] 7373
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31184
+[1] "akbas kba"
+[1] 4402074255
+[1] "akbas intersec"
+[1] 163080741
+[1] "overlap area"
+[1] 83912.99
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 31184
+[1] "akbas kba"
+[1] 4402074255
+[1] "akbas intersec"
+[1] 67319386
+[1] "overlap area"
+[1] 65113078
+[1] "i:"
+[1] 3
+[1] "kba:"
+[1] 31184
+[1] "akbas kba"
+[1] 4402074255
+[1] "akbas intersec"
+[1] 2424927752
+[1] "overlap area"
+[1] 326997008
+[1] "i:"
+[1] 4
+[1] "kba:"
+[1] 31184
+[1] "akbas kba"
+[1] 4402074255
+[1] "akbas intersec"
+[1] 1498888832
+[1] "overlap area"
+[1] 1132027494
+[1] "i:"
+[1] 5
+[1] "kba:"
+[1] 31184
+[1] "akbas kba"
+[1] 4402074255
+[1] "akbas intersec"
+[1] 79808658
+[1] "overlap area"
+[1] 79808658
+[1] "KBA K # is"
+[1] 7374
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31175
+[1] "akbas kba"
+[1] 970190558
+[1] "akbas intersec"
+[1] 2583550685
+[1] "overlap area"
+[1] 268108660
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -120.5485 ymin: 33.97959 xmax: -120.1957 ymax: 34.30064
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3               NatName               IntName SitArea
+7374    31175     USA  USA San Miguel Island, CA San Miguel Island, CA   97019
+     IbaStatus KbaStatus AzeStatus  AddedDate ChangeDate Source
+7374 confirmed      <NA>      <NA> 2012-10-09 2014-11-20   <NA>
+                                                                                                                                                         DelTxt
+7374 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+           DelGeom Shape_Leng Shape_Area      akba kba_notes SitRecID.1
+7374 Draft polygon   1.104589 0.09481459 970190558                26215
+     Country.1 ISO3.1                  NatName.1                  IntName.1
+7374       USA    USA Channel Islands - Northern Channel Islands - Northern
+     SitArea.1 IbaStatus.1 KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1
+7374    258344   confirmed        <NA>        <NA>  2013-02-11   2014-11-20
+     Source.1
+7374    State
+                                                                                                                                    DelTxt.1
+7374 Derived from State level datasets and provided by Connie Sanchez of national Audubon in January 2013, some sites currently under review
+         DelGeom.1 Shape_Leng.1 Shape_Area.1     akba.1 kba_notes.1
+7374 Draft polygon     4.021869    0.2517354 2583550685            
+                           geometry
+7374 POLYGON ((-120.4508 33.9795...
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 31175
+[1] "akbas kba"
+[1] 970190558
+[1] "akbas intersec"
+[1] 520030252
+[1] "overlap area"
+[1] 45454452
+[1] "i:"
+[1] 3
+[1] "kba:"
+[1] 31175
+[1] "akbas kba"
+[1] 970190558
+[1] "akbas intersec"
+[1] 2295715131
+[1] "overlap area"
+[1] 173963565
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -120.5068 ymin: 33.97959 xmax: -120.1957 ymax: 34.30064
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3               NatName               IntName SitArea
+7374    31175     USA  USA San Miguel Island, CA San Miguel Island, CA   97019
+     IbaStatus KbaStatus AzeStatus  AddedDate ChangeDate Source
+7374 confirmed      <NA>      <NA> 2012-10-09 2014-11-20   <NA>
+                                                                                                                                                         DelTxt
+7374 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+           DelGeom Shape_Leng Shape_Area      akba            kba_notes
+7374 Draft polygon   1.104589 0.09481459 970190558  clipped by: 26215 ;
+     SitRecID.1 Country.1 ISO3.1                NatName.1
+7374      31181       USA    USA Point Conception 121W34N
+                    IntName.1 SitArea.1 IbaStatus.1 KbaStatus.1 AzeStatus.1
+7374 Point Conception 121W34N    229570   confirmed        <NA>        <NA>
+     AddedDate.1 ChangeDate.1 Source.1
+7374  2012-10-09   2014-11-20     <NA>
+                                                                                                                                                       DelTxt.1
+7374 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+         DelGeom.1 Shape_Leng.1 Shape_Area.1     akba.1 kba_notes.1
+7374 Draft polygon     1.715235    0.2246337 2295715131            
+                           geometry
+7374 POLYGON ((-120.4508 33.9795...
+[1] "i:"
+[1] 5
+[1] "kba:"
+[1] 31175
+[1] "akbas kba"
+[1] 970190558
+[1] "akbas intersec"
+[1] 6053464305
+[1] "overlap area"
+[1] 317014101
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -120.5068 ymin: 33.97959 xmax: -120.2097 ymax: 34.30064
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3               NatName               IntName SitArea
+7374    31175     USA  USA San Miguel Island, CA San Miguel Island, CA   97019
+     IbaStatus KbaStatus AzeStatus  AddedDate ChangeDate Source
+7374 confirmed      <NA>      <NA> 2012-10-09 2014-11-20   <NA>
+                                                                                                                                                         DelTxt
+7374 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+           DelGeom Shape_Leng Shape_Area      akba
+7374 Draft polygon   1.104589 0.09481459 970190558
+                                    kba_notes SitRecID.1 Country.1 ISO3.1
+7374  clipped by: 26215 ; clipped by: 31181 ;      31190       USA    USA
+                   NatName.1               IntName.1 SitArea.1 IbaStatus.1
+7374 Santa Barbara Basin, CA Santa Barbara Basin, CA    605367   confirmed
+     KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1 Source.1
+7374        <NA>        <NA>  2012-10-09   2014-11-20     <NA>
+                                                                                                                                                       DelTxt.1
+7374 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+         DelGeom.1 Shape_Leng.1 Shape_Area.1     akba.1 kba_notes.1
+7374 Draft polygon     3.551618    0.5907538 6053464305            
+                           geometry
+7374 MULTIPOLYGON (((-120.4508 3...
+[1] "KBA K # is"
+[1] 7375
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31190
+[1] "akbas kba"
+[1] 6053464305
+[1] "akbas intersec"
+[1] 2583550685
+[1] "overlap area"
+[1] 1996690117
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 31190
+[1] "akbas kba"
+[1] 6053464305
+[1] "akbas intersec"
+[1] 20155180
+[1] "overlap area"
+[1] 69331.05
+[1] "i:"
+[1] 3
+[1] "kba:"
+[1] 31190
+[1] "akbas kba"
+[1] 6053464305
+[1] "akbas intersec"
+[1] 137584394
+[1] "overlap area"
+[1] 24893.91
+[1] "i:"
+[1] 4
+[1] "kba:"
+[1] 31190
+[1] "akbas kba"
+[1] 6053464305
+[1] "akbas intersec"
+[1] 2295715131
+[1] "overlap area"
+[1] 62584439
+[1] "i:"
+[1] 5
+[1] "kba:"
+[1] 31190
+[1] "akbas kba"
+[1] 6053464305
+[1] "akbas intersec"
+[1] 970190558
+[1] "overlap area"
+[1] 641655125
+[1] "i:"
+[1] 7
+[1] "kba:"
+[1] 31190
+[1] "akbas kba"
+[1] 6053464305
+[1] "akbas intersec"
+[1] 4328028666
+[1] "overlap area"
+[1] 447044374
+[1] "KBA K # is"
+[1] 7376
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31189
+[1] "akbas kba"
+[1] 757465915
+[1] "akbas intersec"
+[1] 2583550685
+[1] "overlap area"
+[1] 19208869
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -119.2743 ymin: 33.36554 xmax: -118.9573 ymax: 33.67606
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3                  NatName                  IntName
+7376    31189     USA  USA Santa Barbara Island, CA Santa Barbara Island, CA
+     SitArea IbaStatus KbaStatus AzeStatus  AddedDate ChangeDate Source
+7376   75746 confirmed      <NA>      <NA> 2012-10-09 2014-11-20   <NA>
+                                                                                                                                                         DelTxt
+7376 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+           DelGeom Shape_Leng Shape_Area      akba kba_notes SitRecID.1
+7376 Draft polygon  0.9777196 0.07351444 757465915                26215
+     Country.1 ISO3.1                  NatName.1                  IntName.1
+7376       USA    USA Channel Islands - Northern Channel Islands - Northern
+     SitArea.1 IbaStatus.1 KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1
+7376    258344   confirmed        <NA>        <NA>  2013-02-11   2014-11-20
+     Source.1
+7376    State
+                                                                                                                                    DelTxt.1
+7376 Derived from State level datasets and provided by Connie Sanchez of national Audubon in January 2013, some sites currently under review
+         DelGeom.1 Shape_Leng.1 Shape_Area.1     akba.1 kba_notes.1
+7376 Draft polygon     4.021869    0.2517354 2583550685            
+                           geometry
+7376 POLYGON ((-119.1467 33.3655...
+[1] "i:"
+[1] 3
+[1] "kba:"
+[1] 31189
+[1] "akbas kba"
+[1] 757465915
+[1] "akbas intersec"
+[1] 4328028666
+[1] "overlap area"
+[1] 271547871
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -119.2357 ymin: 33.36554 xmax: -118.9573 ymax: 33.67055
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3                  NatName                  IntName
+7376    31189     USA  USA Santa Barbara Island, CA Santa Barbara Island, CA
+     SitArea IbaStatus KbaStatus AzeStatus  AddedDate ChangeDate Source
+7376   75746 confirmed      <NA>      <NA> 2012-10-09 2014-11-20   <NA>
+                                                                                                                                                         DelTxt
+7376 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+           DelGeom Shape_Leng Shape_Area      akba            kba_notes
+7376 Draft polygon  0.9777196 0.07351444 757465915  clipped by: 26215 ;
+     SitRecID.1 Country.1 ISO3.1                NatName.1
+7376      31182       USA    USA Santa Cruz Basin 120W34N
+                    IntName.1 SitArea.1 IbaStatus.1 KbaStatus.1 AzeStatus.1
+7376 Santa Cruz Basin 120W34N    432810   confirmed        <NA>        <NA>
+     AddedDate.1 ChangeDate.1 Source.1
+7376  2012-10-09   2014-11-20     <NA>
+                                                                                                                                                       DelTxt.1
+7376 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+         DelGeom.1 Shape_Leng.1 Shape_Area.1     akba.1 kba_notes.1
+7376 Draft polygon     2.704861    0.4199606 4328028666            
+                           geometry
+7376 POLYGON ((-119.1467 33.3655...
+[1] "KBA K # is"
+[1] 7377
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 31440
+[1] "akbas kba"
+[1] 458939042
+[1] "akbas intersec"
+[1] 4328028666
+[1] "overlap area"
+[1] 458939042
+[1] "KBA K # is"
+[1] 7378
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31182
+[1] "akbas kba"
+[1] 4328028666
+[1] "akbas intersec"
+[1] 2583550685
+[1] "overlap area"
+[1] 9007798
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 31182
+[1] "akbas kba"
+[1] 4328028666
+[1] "akbas intersec"
+[1] 6053464305
+[1] "overlap area"
+[1] 447044374
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -120.166 ymin: 33.13171 xmax: -119.1144 ymax: 33.73865
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3                  NatName                  IntName
+7378    31182     USA  USA Santa Cruz Basin 120W34N Santa Cruz Basin 120W34N
+     SitArea IbaStatus KbaStatus AzeStatus  AddedDate ChangeDate Source
+7378  432810 confirmed      <NA>      <NA> 2012-10-09 2014-11-20   <NA>
+                                                                                                                                                         DelTxt
+7378 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+           DelGeom Shape_Leng Shape_Area       akba kba_notes SitRecID.1
+7378 Draft polygon   2.704861  0.4199606 4328028666                31190
+     Country.1 ISO3.1               NatName.1               IntName.1 SitArea.1
+7378       USA    USA Santa Barbara Basin, CA Santa Barbara Basin, CA    605367
+     IbaStatus.1 KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1 Source.1
+7378   confirmed        <NA>        <NA>  2012-10-09   2014-11-20     <NA>
+                                                                                                                                                       DelTxt.1
+7378 Pelagic site identified from Barrow-to-Baja Project analysis methods. Some sites clipped to initial terrestrial boundaries prodived by Audubon in Jan 2013
+         DelGeom.1 Shape_Leng.1 Shape_Area.1     akba.1 kba_notes.1
+7378 Draft polygon     3.551618    0.5907538 6053464305            
+                           geometry
+7378 POLYGON ((-119.6378 33.2252...
+[1] "i:"
+[1] 3
+[1] "kba:"
+[1] 31182
+[1] "akbas kba"
+[1] 4328028666
+[1] "akbas intersec"
+[1] 757465915
+[1] "overlap area"
+[1] 271547871
+[1] "i:"
+[1] 4
+[1] "kba:"
+[1] 31182
+[1] "akbas kba"
+[1] 4328028666
+[1] "akbas intersec"
+[1] 458939042
+[1] "overlap area"
+[1] 458939042
+[1] "KBA K # is"
+[1] 7379
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31214
+[1] "akbas kba"
+[1] 8612567
+[1] "akbas intersec"
+[1] 32374573
+[1] "overlap area"
+[1] 8612567
+[1] "KBA K # is"
+[1] 7380
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31204
+[1] "akbas kba"
+[1] 275127.8
+[1] "akbas intersec"
+[1] 52603798
+[1] "overlap area"
+[1] 1076.306
+[1] "KBA K # is"
+[1] 7381
+[1] "KBA K # is"
+[1] 7382
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 29511
+[1] "akbas kba"
+[1] 92034730
+[1] "akbas intersec"
+[1] 2424927752
+[1] "overlap area"
+[1] 91983330
+[1] "KBA K # is"
+[1] 7383
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31205
+[1] "akbas kba"
+[1] 29929230
+[1] "akbas intersec"
+[1] 328683307
+[1] "overlap area"
+[1] 1155.483
+[1] "KBA K # is"
+[1] 7384
+[1] "KBA K # is"
+[1] 7385
+[1] "KBA K # is"
+[1] 7386
+[1] "KBA K # is"
+[1] 7387
+[1] "KBA K # is"
+[1] 7388
+[1] "KBA K # is"
+[1] 7389
+[1] "KBA K # is"
+[1] 7390
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31420
+[1] "akbas kba"
+[1] 94384429
+[1] "akbas intersec"
+[1] 154207845
+[1] "overlap area"
+[1] 61876679
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -98.16418 ymin: 30.49316 xmax: -97.9501 ymax: 30.67717
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3                                       NatName
+7390    31420     USA  USA Balcones Canyonlands National Wildlife Refuge
+                                           IntName SitArea IbaStatus KbaStatus
+7390 Balcones Canyonlands National Wildlife Refuge    9438 confirmed      <NA>
+     AzeStatus  AddedDate ChangeDate Source
+7390      <NA> 2014-11-20       <NA>  USFWS
+                                                                          DelTxt
+7390 Provided by Connie Sanchez and Tom Auer of National Audubon in October 2014
+             DelGeom Shape_Leng  Shape_Area     akba kba_notes SitRecID.1
+7390 Refined polygon   2.158946 0.008875892 94384429                29631
+     Country.1 ISO3.1                     NatName.1
+7390       USA    USA Balcones Canyonlands Preserve
+                         IntName.1 SitArea.1 IbaStatus.1 KbaStatus.1
+7390 Balcones Canyonlands Preserve     15421   confirmed        <NA>
+     AzeStatus.1 AddedDate.1 ChangeDate.1   Source.1
+7390        <NA>  2013-02-11   2014-11-20 fedlanp020
+                                                                                                                                    DelTxt.1
+7390 Derived from State level datasets and provided by Connie Sanchez of national Audubon in January 2013, some sites currently under review
+         DelGeom.1 Shape_Leng.1 Shape_Area.1    akba.1 kba_notes.1
+7390 Draft polygon    0.7886542   0.01450165 154207845            
+                           geometry
+7390 MULTIPOLYGON (((-98.00603 3...
+[1] "KBA K # is"
+[1] 7391
+[1] "KBA K # is"
+[1] 7392
+[1] "KBA K # is"
+[1] 7393
+[1] "KBA K # is"
+[1] 7394
+[1] "KBA K # is"
+[1] 7395
+[1] "KBA K # is"
+[1] 7396
+[1] "KBA K # is"
+[1] 7397
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 29633
+[1] "akbas kba"
+[1] 83613698
+[1] "akbas intersec"
+[1] 91922163
+[1] "overlap area"
+[1] 83613698
+[1] "KBA K # is"
+[1] 7398
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 29635
+[1] "akbas kba"
+[1] 91922163
+[1] "akbas intersec"
+[1] 83613698
+[1] "overlap area"
+[1] 83613698
+[1] "KBA K # is"
+[1] 7399
+[1] "KBA K # is"
+[1] 7400
+[1] "KBA K # is"
+[1] 7401
+[1] "KBA K # is"
+[1] 7402
+[1] "KBA K # is"
+[1] 7403
+[1] "KBA K # is"
+[1] 7404
+[1] "KBA K # is"
+[1] 7405
+[1] "KBA K # is"
+[1] 7406
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31418
+[1] "akbas kba"
+[1] 9966842831
+[1] "akbas intersec"
+[1] 9394580617
+[1] "overlap area"
+[1] 449493.9
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 31418
+[1] "akbas kba"
+[1] 9966842831
+[1] "akbas intersec"
+[1] 128135775
+[1] "overlap area"
+[1] 5933.629
+[1] "KBA K # is"
+[1] 7407
+[1] "KBA K # is"
+[1] 7408
+[1] "KBA K # is"
+[1] 7409
+[1] "KBA K # is"
+[1] 7410
+[1] "KBA K # is"
+[1] 7411
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 44512
+[1] "akbas kba"
+[1] 13273544
+[1] "akbas intersec"
+[1] 525072.6
+[1] "overlap area"
+[1] 0.9628526
+[1] "KBA K # is"
+[1] 7412
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31415
+[1] "akbas kba"
+[1] 525072.6
+[1] "akbas intersec"
+[1] 13273544
+[1] "overlap area"
+[1] 0.9628526
+[1] "KBA K # is"
+[1] 7413
+[1] "KBA K # is"
+[1] 7414
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31199
+[1] "akbas kba"
+[1] 148523499
+[1] "akbas intersec"
+[1] 9367770208
+[1] "overlap area"
+[1] 10.78574
+[1] "KBA K # is"
+[1] 7415
+[1] "KBA K # is"
+[1] 7416
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31200
+[1] "akbas kba"
+[1] 84941621
+[1] "akbas intersec"
+[1] 13952171
+[1] "overlap area"
+[1] 0
+[1] "i:"
+[1] 3
+[1] "kba:"
+[1] 31200
+[1] "akbas kba"
+[1] 84941621
+[1] "akbas intersec"
+[1] 2233877056
+[1] "overlap area"
+[1] 84941621
+[1] "KBA K # is"
+[1] 7417
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 31171
+[1] "akbas kba"
+[1] 2233877056
+[1] "akbas intersec"
+[1] 13952171
+[1] "overlap area"
+[1] 0
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 31171
+[1] "akbas kba"
+[1] 2233877056
+[1] "akbas intersec"
+[1] 84941621
+[1] "overlap area"
+[1] 84941621
+[1] "KBA K # is"
+[1] 7418
+[1] "KBA K # is"
+[1] 7419
+[1] "KBA K # is"
+[1] 7420
+[1] "KBA K # is"
+[1] 7421
+[1] "KBA K # is"
+[1] 7422
+[1] "KBA K # is"
+[1] 7423
+[1] "KBA K # is"
+[1] 7424
+[1] "KBA K # is"
+[1] 7425
+[1] "KBA K # is"
+[1] 7426
+[1] "KBA K # is"
+[1] 7427
+[1] "KBA K # is"
+[1] 7428
+[1] "KBA K # is"
+[1] 7429
+[1] "KBA K # is"
+[1] 7430
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 44528
+[1] "akbas kba"
+[1] 220633369
+[1] "akbas intersec"
+[1] 22787963439
+[1] "overlap area"
+[1] 24344353
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -110.6653 ymin: 31.34231 xmax: -110.4705 ymax: 31.50331
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3               NatName               IntName SitArea
+7430    44528     USA  USA San Rafael Grasslands San Rafael Grasslands   22063
+     IbaStatus KbaStatus AzeStatus  AddedDate ChangeDate Source
+7430 confirmed      <NA>      <NA> 2014-11-20       <NA>  State
+                                                                          DelTxt
+7430 Provided by Connie Sanchez and Tom Auer of National Audubon in October 2014
+             DelGeom Shape_Leng Shape_Area      akba kba_notes SitRecID.1
+7430 Refined polygon  0.9481725 0.02092452 220633369                10126
+     Country.1 ISO3.1                                        NatName.1
+7430    Mexico    MEX Sistema de Sierras de la Sierra Madre Occidental
+                                            IntName.1 SitArea.1 IbaStatus.1
+7430 Sistema de Sierras de la Sierra Madre Occidental   2277932   confirmed
+     KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1
+7430        <NA>        <NA>  2009-10-21         <NA>
+                             Source.1
+7430 Recieved from David Dias in 2009
+                                                                                                     DelTxt.1
+7430 Recieved from David Dias in 2009 but refer to sites not yet confirmed in WBDB or released for public use
+         DelGeom.1 Shape_Leng.1 Shape_Area.1      akba.1 kba_notes.1
+7430 Draft polygon     17.38742     2.145059 22787963439            
+                           geometry
+7430 POLYGON ((-110.6564 31.4831...
+[1] "KBA K # is"
+[1] 7431
+[1] "KBA K # is"
+[1] 7432
+[1] "KBA K # is"
+[1] 7433
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 44516
+[1] "akbas kba"
+[1] 127452816
+[1] "akbas intersec"
+[1] 274813983
+[1] "overlap area"
+[1] 8111926
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -114.7219 ymin: 32.96977 xmax: -114.4572 ymax: 33.20171
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3                           NatName
+7433    44516     USA  USA Imperial National Wildlife Refuge
+                               IntName SitArea IbaStatus KbaStatus AzeStatus
+7433 Imperial National Wildlife Refuge   12745 confirmed      <NA>      <NA>
+      AddedDate ChangeDate Source
+7433 2014-11-20       <NA>  State
+                                                                          DelTxt
+7433 Provided by Connie Sanchez and Tom Auer of National Audubon in October 2014
+             DelGeom Shape_Leng Shape_Area      akba kba_notes SitRecID.1
+7433 Refined polygon   1.102131 0.01230661 127452816                29533
+     Country.1 ISO3.1                   NatName.1                   IntName.1
+7433       USA    USA Lower Colorado River Valley Lower Colorado River Valley
+     SitArea.1 IbaStatus.1 KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1
+7433     27481   confirmed        <NA>        <NA>  2013-02-11   2014-11-20
+     Source.1
+7433    State
+                                                                                                                                    DelTxt.1
+7433 Derived from State level datasets and provided by Connie Sanchez of national Audubon in January 2013, some sites currently under review
+         DelGeom.1 Shape_Leng.1 Shape_Area.1    akba.1 kba_notes.1
+7433 Draft polygon     3.492199   0.02682877 274813983            
+                           geometry
+7433 MULTIPOLYGON (((-114.5933 3...
+[1] "i:"
+[1] 3
+[1] "kba:"
+[1] 44516
+[1] "akbas kba"
+[1] 127452816
+[1] "akbas intersec"
+[1] 14281162
+[1] "overlap area"
+[1] 0.004892051
+[1] "KBA K # is"
+[1] 7434
+[1] "KBA K # is"
+[1] 7435
+[1] "KBA K # is"
+[1] 7436
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 44527
+[1] "akbas kba"
+[1] 230752083
+[1] "akbas intersec"
+[1] 22787963439
+[1] "overlap area"
+[1] 7161230
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -110.2565 ymin: 31.36143 xmax: -110.0714 ymax: 31.86163
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3                                       NatName
+7436    44527     USA  USA San Pedro Riparian National Conservation Area
+                                           IntName SitArea IbaStatus KbaStatus
+7436 San Pedro Riparian National Conservation Area   23074 confirmed      <NA>
+     AzeStatus  AddedDate ChangeDate Source
+7436      <NA> 2014-11-20       <NA>  State
+                                                                          DelTxt
+7436 Provided by Connie Sanchez and Tom Auer of National Audubon in October 2014
+             DelGeom Shape_Leng Shape_Area      akba kba_notes SitRecID.1
+7436 Refined polygon   1.959709 0.02193277 230752083                10126
+     Country.1 ISO3.1                                        NatName.1
+7436    Mexico    MEX Sistema de Sierras de la Sierra Madre Occidental
+                                            IntName.1 SitArea.1 IbaStatus.1
+7436 Sistema de Sierras de la Sierra Madre Occidental   2277932   confirmed
+     KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1
+7436        <NA>        <NA>  2009-10-21         <NA>
+                             Source.1
+7436 Recieved from David Dias in 2009
+                                                                                                     DelTxt.1
+7436 Recieved from David Dias in 2009 but refer to sites not yet confirmed in WBDB or released for public use
+         DelGeom.1 Shape_Leng.1 Shape_Area.1      akba.1 kba_notes.1
+7436 Draft polygon     17.38742     2.145059 22787963439            
+                           geometry
+7436 MULTIPOLYGON (((-110.2402 3...
+[1] "KBA K # is"
+[1] 7437
+[1] "KBA K # is"
+[1] 7438
+[1] "KBA K # is"
+[1] 7439
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 44517
+[1] "akbas kba"
+[1] 14281162
+[1] "akbas intersec"
+[1] 274813983
+[1] "overlap area"
+[1] 1473618
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: -114.4916 ymin: 32.88271 xmax: -114.4508 ymax: 32.97525
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3            NatName            IntName SitArea
+7439    44517     USA  USA Imperial Reservoir Imperial Reservoir    1428
+     IbaStatus KbaStatus AzeStatus  AddedDate ChangeDate Source
+7439 confirmed      <NA>      <NA> 2014-11-20       <NA>  State
+                                                                          DelTxt
+7439 Provided by Connie Sanchez and Tom Auer of National Audubon in October 2014
+             DelGeom Shape_Leng  Shape_Area     akba kba_notes SitRecID.1
+7439 Refined polygon  0.9042403 0.001376877 14281162                29533
+     Country.1 ISO3.1                   NatName.1                   IntName.1
+7439       USA    USA Lower Colorado River Valley Lower Colorado River Valley
+     SitArea.1 IbaStatus.1 KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1
+7439     27481   confirmed        <NA>        <NA>  2013-02-11   2014-11-20
+     Source.1
+7439    State
+                                                                                                                                    DelTxt.1
+7439 Derived from State level datasets and provided by Connie Sanchez of national Audubon in January 2013, some sites currently under review
+         DelGeom.1 Shape_Leng.1 Shape_Area.1    akba.1 kba_notes.1
+7439 Draft polygon     3.492199   0.02682877 274813983            
+                           geometry
+7439 POLYGON ((-114.4916 32.9703...
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 44517
+[1] "akbas kba"
+[1] 14281162
+[1] "akbas intersec"
+[1] 127452816
+[1] "overlap area"
+[1] 0.004892051
+[1] "KBA K # is"
+[1] 7440
+[1] "KBA K # is"
+[1] 7441
+[1] "KBA K # is"
+[1] 7442
+[1] "KBA K # is"
+[1] 7443
+[1] "KBA K # is"
+[1] 7444
+[1] "KBA K # is"
+[1] 7445
+[1] "KBA K # is"
+[1] 7446
+[1] "KBA K # is"
+[1] 7447
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 29570
+[1] "akbas kba"
+[1] 50757082
+[1] "akbas intersec"
+[1] 49592471
+[1] "overlap area"
+[1] 0
+[1] "KBA K # is"
+[1] 7448
+[1] "KBA K # is"
+[1] 7449
+[1] "KBA K # is"
+[1] 7450
+[1] "KBA K # is"
+[1] 7451
+[1] "i:"
+[1] 1
+[1] "kba:"
+[1] 29550
+[1] "akbas kba"
+[1] 49592471
+[1] "akbas intersec"
+[1] 50757082
+[1] "overlap area"
+[1] 0
+[1] "KBA K # is"
+[1] 7452
+[1] "KBA K # is"
+[1] 7453
+[1] "i:"
+[1] 2
+[1] "kba:"
+[1] 26090
+[1] "akbas kba"
+[1] 141025284
+[1] "akbas intersec"
+[1] 184474074
+[1] "overlap area"
+[1] 71186732
+[1] "KBA difference"
+Simple feature collection with 1 feature and 36 fields
+Geometry type: MULTIPOLYGON
+Dimension:     XY
+Bounding box:  xmin: -79.03477 ymin: 42.96551 xmax: -78.88509 ymax: 43.21854
+Geodetic CRS:  WGS 84
+     SitRecID Country ISO3                NatName                IntName
+7453    26090     USA  USA Niagara River Corridor Niagara River Corridor
+     SitArea IbaStatus KbaStatus AzeStatus  AddedDate ChangeDate        Source
+7453   14103 confirmed      <NA>      <NA> 2013-02-11 2014-11-20 State Audubon
+                                                                                                                                      DelTxt
+7453 Derived from State level datasets and provided by Connie Sanchez of national Audubon in January 2013, some sites currently under review
+           DelGeom Shape_Leng Shape_Area      akba kba_notes SitRecID.1
+7453 Draft polygon   1.259579 0.01557588 141025284                11320
+     Country.1 ISO3.1              NatName.1              IntName.1 SitArea.1
+7453    Canada    CAN Niagara River Corridor Niagara River Corridor     18447
+     IbaStatus.1 KbaStatus.1 AzeStatus.1 AddedDate.1 ChangeDate.1
+7453   confirmed        <NA>        <NA>  2009-05-22   2015-04-08
+                                                                                                                   Source.1
+7453 Original version provided by partner replaced  in April 2015 with new version downloaded from the Canadian IBA website
+     DelTxt.1       DelGeom.1 Shape_Leng.1 Shape_Area.1    akba.1 kba_notes.1
+7453     <NA> Refined polygon      1.17757   0.02038154 184474074            
+                           geometry
+7453 MULTIPOLYGON (((-79.03471 4...
+[1] "KBA K # is"
+[1] 7454
+[1] "KBA K # is"
+[1] 7455
+[1] "KBA K # is"
+[1] 7456
+[1] "KBA K # is"
+[1] 7457
