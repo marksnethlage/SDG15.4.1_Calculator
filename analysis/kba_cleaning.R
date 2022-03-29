@@ -29,7 +29,7 @@ kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbas$geometry, byid =
 kbas$kba_notes <- ""
 new_kbas <- c()
 
-for(k in 1:nrow(kbas)) {
+for(k in 7372:nrow(kbas)) {
   
   print("KBA K # is")
   print(k)
@@ -80,11 +80,15 @@ for(k in 1:nrow(kbas)) {
         } else if(kba$akba < intersec$akba) {
           
           kba <- st_difference(kba, intersec)
-          if(!st_is_valid(kba)) kba <- st_make_valid(kba) ## make sure the difference is still valid
-          print("KBA difference")
-          print(kba)
-          kba$kba_notes <- paste(kba$kba_notes, "clipped by:", intersec$SitRecID, ";")
-          
+          ## if this overlap ended up getting rid of this piece entirely, mark to be dropped
+          if(nrow(kba) == 0) {
+            kba$kba_notes <- paste("remove -- fully overlapped")
+          } else { ## else crop it
+            if(!st_is_valid(kba)) kba <- st_make_valid(kba) ## make sure the difference is still valid
+            print("KBA difference")
+            print(kba)
+            kba$kba_notes <- paste(kba$kba_notes, "clipped by:", intersec$SitRecID, ";")
+          }
         }
       }
     #get rid of the info from the second kba/select columns 
