@@ -316,7 +316,7 @@ for (x in 1:length(listloop)){
     axis(2)
   }
   
-  #if there are no pas in this country, sets output to zero and skips
+  #if there are no pas in this domain, sets output to zero and skips
   if (nrow(pa.c) == 0){ 
     areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                           DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
@@ -359,9 +359,6 @@ for (x in 1:length(listloop)){
         } #CHANGED: removed part where it doubles up ryears if there is just one. Doesn't really matter
         pa.c$STATUS_YR[pa.c$STATUS_YR == 0] <- base::sample(ryears, nrow(pa.c[pa.c$STATUS_YR == 0, ]), replace = T) ## selects a year randomly from the pool of possible years
       }
-      
-      saveRDS(gmba_kba.c, paste0(finfolder, "/problem_gmba_kbac.rds"))
-      saveRDS(pa.c, paste0(finfolder, "/problem_pac.rds"))
       
       ## starts loop for all kbas in the domain
       for (z in 1:nrow(gmba_kba.c)){ 
@@ -429,7 +426,7 @@ for (x in 1:length(listloop)){
             #If there is more than just one year, keep going 
             if (length(years) > 1){
               for (w in 2:length(years)){
-                
+                print(w)
                 ## to see if there is still any area left by the pas of year 1
                 rema <- 1-(sum(areasov1$ovl[!is.na(areasov1$ovl)])/akba)  
                 print(paste("remaining:", rema))
@@ -446,8 +443,9 @@ for (x in 1:length(listloop)){
                   }
                   
                   ovfprev <- ovfpol[ovfpol$STATUS_YR < year2, ]
+                  ovfprev <- 
                   ovfprev <- ovfprev %>% st_set_precision(1e5) %>% st_make_valid() 
-                  ovfprev3 <- tryCatch({ovfprev %>% st_union(by_feature = FALSE)}, error=function(e){print(paste("error ovfprev3:", e))}) #merge all polygons from previous years
+                  ovfprev3 <- tryCatch({ovfprev %>% st_union(by_feature = FALSE)}, error=function(e){print(paste("error ovfprev3:", e)); next}) #merge all polygons from previous years
                   if(PLOTIT){
                     plot(ovfprev3, add=T, col=w+2)
                   }

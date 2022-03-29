@@ -11,7 +11,7 @@ library(lwgeom)
 library(rgdal)
 sf::sf_use_s2(FALSE) ## to deal with some issues not fixable with st_make_valid
 
-#### Part 1.2 Workign Directory & Files ----
+#### Part 1.2 Working Directory & Files ----
 
 ## set the working directory
 ifelse(dir.exists("~/Box Sync/mountain_biodiversity"),
