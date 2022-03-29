@@ -255,9 +255,6 @@ if(file.exists(gmba_kba_loc)) {
   
 }
 
-##TODO get rid of this
-gmba_kba <- gmba_kba %>% filter(ISO3 %in% c("AND", "TUN", "CYP", "PSE", "BVT", "ASM", "GIB"))
-
 #### 3.3 - per mountain region, depending on global variable
 
 # create list of mountain ranges to loop through ----
@@ -526,6 +523,6 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("./results/finaltab_official_problems", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste("./results/finaltab_official", YEAR_RUN, ".csv", sep=""), row.names = F)
 ### end here
 
