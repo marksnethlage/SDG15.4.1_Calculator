@@ -444,9 +444,19 @@ for (x in 1:length(listloop)){
                   
                   ovfprev <- ovfpol[ovfpol$STATUS_YR < year2, ]
                   ovfprev <- ovfprev %>% st_set_precision(1e5) %>% st_make_valid() 
+                  ovfprev3 <- NULL
                   ovfprev3 <- tryCatch({ovfprev %>% st_union(by_feature = FALSE)}, error=function(e){print(paste("error ovfprev3:", e))}) #merge all polygons from previous years
-                  if(st_is_empty(ovfprev3)) next
-                  if(PLOTIT){
+                  if(is.null(ovfprev3)) {
+                    areasov1 <- rbind(areasov1,data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=NA, year=year2, random = random3, nPAs=nrow(ovf2), 
+                                                          DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
+                                                          COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
+                                                          in_gmba = kbaz$in_gmba, mountain = kbaz$mountain, terrestrial = kbaz$terrestrial, 
+                                                          note = "error topological exception"))
+                  }
+                  
+                  if(is.null(ovfprev3)) next
+                 
+                   if(PLOTIT){
                     plot(ovfprev3, add=T, col=w+2)
                   }
                   
