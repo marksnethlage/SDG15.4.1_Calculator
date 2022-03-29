@@ -29,7 +29,7 @@ kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbas$geometry, byid =
 kbas$kba_notes <- ""
 new_kbas <- c()
 
-for(k in 7372:nrow(kbas)) {
+for(k in 1:nrow(kbas)) {
   
   print("KBA K # is")
   print(k)
