@@ -104,7 +104,8 @@ for(k in 1:nrow(intersecs_all)) {
 }
 
 new_kbas <- new_kbas %>% rename(original_area = akba) %>% 
-  filter(!kba_notes == "remove duplicate")
+  filter(!kba_notes == "remove duplicate") %>%
+  filter(!kba_notes == "remove -- fully overlapped")
 
 st_write(new_kbas, dsn = finfile)
 
