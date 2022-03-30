@@ -445,7 +445,7 @@ for (x in 1:length(listloop)){
                   ovfprev <- ovfpol[ovfpol$STATUS_YR < year2, ]
                   ovfprev <- ovfprev %>% st_set_precision(1e5) %>% st_make_valid() 
                   ovfprev3 <- NULL
-                  ovfprev3 <- tryCatch({ovfprev %>% st_union(by_feature = FALSE)}, error=function(e){print(paste("error ovfprev3:", e))}) #merge all polygons from previous years
+                  ovfprev3 <- tryCatch({ovfprev %>% st_union(by_feature = FALSE)}, error=function(e){}) #merge all polygons from previous years
                   if(is.null(ovfprev3)) {
                     areasov1 <- rbind(areasov1,data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=NA, year=year2, random = random3, nPAs=nrow(ovf2), 
                                                           DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
