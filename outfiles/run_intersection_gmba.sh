@@ -5,7 +5,7 @@
 #SBATCH --nodes=1
 #SBATCH --time=48:00:00
 #SBATCH --ntasks-per-node=1
-#SBATCH --mem-per-cpu=90GB
+#SBATCH --mem-per-cpu=120GB
 #SBATCH --mail-type=END,FAIL 
 #SBATCH --mail-user=aminaly@stanford.edu
 #SBATCH -p diffenbaugh

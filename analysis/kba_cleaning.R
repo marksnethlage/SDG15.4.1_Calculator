@@ -105,7 +105,10 @@ for(k in 1:nrow(kbas)) {
 
 new_kbas <- new_kbas %>% rename(original_area = akba) %>% 
   filter(!kba_notes == "remove duplicate")
-new_kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbas$geometry, byid = FALSE)}, error=function(e){})))
+
+writeOGR(new_kbas, dsn = finfile, driver = 'ESRI Shapefile')
+
+new_kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(new_kbas$geometry, byid = FALSE)}, error=function(e){})))
 
 writeOGR(new_kbas, dsn = finfile, driver = 'ESRI Shapefile')
 
