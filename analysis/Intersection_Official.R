@@ -463,12 +463,13 @@ for (x in 1:length(listloop)){
                   ovf23 <- NULL
                   ##Determine if there is a difference in protected area coverage of kba the following year by making a 
                   ## new polygon of the area in the following year that wasn't in the previous year
-                  
-                  ovf23 <- tryCatch({st_difference(ovf22, ovfprev3)}, error = function(e){print(paste("error ovf23:", e))}) 
+                  ovf22 <- ovf22 %>% st_set_precision(1e5) %>% st_make_valid() 
+                  ovfprev3 <- ovfprev3 %>% st_set_precision(1e5) %>% st_make_valid() HGHHGD
+                  ovf23 <- tryCatch({st_difference(ovf22, ovfprev3)}, error = function(e){}) 
                   if(PLOTIT){
                     plot(ovf23, add=T, col="grey", alpha = .1)
                   }
-                  ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){print(e)})))
+                  ovlz <- as.numeric(suppressWarnings(tryCatch({st_area(ovf23, byid = FALSE)}, error = function(e){})))
                   
                   print(paste("ovlz:", ovlz))
                   
