@@ -29,19 +29,19 @@ kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(kbas$geometry, byid =
 kbas$kba_notes <- ""
 new_kbas <- c()
 
-for(k in 1:nrow(kbas)) {
+intersecs_all <- st_intersection(kbas, sparse = F)
+
+for(k in 1:nrow(intersecs_all)) {
   
   print("KBA K # is")
   print(k)
   #get this KBA
   kba <- kbas[k,]
 
-  ## for this KBA, check to see if it intersects with any other KBA
-  intersecs <- st_intersects(kba$geometry, kbas$geometry, sparse = F)
-
-  ## Select them all and loop through 
-  inter_kbas <- kbas[which(intersecs==T), ]
+  ## for this KBA, check to see if it intersects with any other KBA, select them all and loop through 
+  inter_kbas <- kbas[which(intersecs_all[k,]==T),]
   
+  ## start loop for KBA's that intersect with this one 
   for(i in 1:nrow(inter_kbas)) {
     
     intersec <- inter_kbas[i,]
@@ -106,9 +106,9 @@ for(k in 1:nrow(kbas)) {
 new_kbas <- new_kbas %>% rename(original_area = akba) %>% 
   filter(!kba_notes == "remove duplicate")
 
-writeOGR(new_kbas, dsn = finfile, driver = 'ESRI Shapefile')
+st_write(new_kbas, dsn = finfile)
 
 new_kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(new_kbas$geometry, byid = FALSE)}, error=function(e){})))
 
-writeOGR(new_kbas, dsn = finfile, driver = 'ESRI Shapefile')
+st_write(new_kbas, dsn = finfile)
 
