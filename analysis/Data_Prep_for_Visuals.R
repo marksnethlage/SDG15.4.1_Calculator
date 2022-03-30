@@ -24,6 +24,9 @@ library(animation)
 
 #### 1.2 Set working directory and load in results ----
 
+## global vars
+MOUNTAIN_ONLY <- T
+
 ## set working directory
 ifelse(dir.exists("~/Box Sync/mountain_biodiversity/results"),
        setwd("~/Box Sync/mountain_biodiversity/results"),
@@ -38,6 +41,9 @@ kba_class <- read.csv(paste(folder, "/data/KBA/kba_class_2020.csv", sep = ""))  
 
 #### 2.0 WCMC ----
 #### 2.1 Calculate full timeline with cumulative coverage for WCMC/official
+## only get mountain results if noted above
+if(MOUNTAIN_ONLY) results <- results %>% filter(mountain == 1)
+
 ## Set 0 years to NA and NA ovl to 0
 results <- results_wcmc %>% mutate(year = ifelse(year == 0, NA, year), 
                                       ovl = ifelse(is.na(ovl), 0, ovl))
