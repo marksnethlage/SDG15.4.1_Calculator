@@ -107,6 +107,7 @@ new_kbas <- new_kbas %>% rename(original_area = akba) %>%
   filter(!kba_notes == "remove duplicate") %>%
   filter(!kba_notes == "remove -- fully overlapped")
 
+saveRDS(new_kbas, finfile)
 st_write(new_kbas, dsn = finfile)
 
 new_kbas$akba <- as.numeric(suppressWarnings(tryCatch({st_area(new_kbas$geometry, byid = FALSE)}, error=function(e){})))
