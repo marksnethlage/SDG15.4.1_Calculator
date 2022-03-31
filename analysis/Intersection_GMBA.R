@@ -59,7 +59,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 
 #### 1.3 Read in shapefiles ----
 
-pas <- st_read(dsn = paste0(folder, "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
+paws <- st_read(dsn = paste0(folder, "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
 gmba <- st_read(dsn = paste0(folder, "/data/GMBA/GMBA_Inventory_v2.0_broad_basic.shp"), stringsAsFactors = F, crs = 4326) 
 world <- st_read(dsn = paste0(folder, '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
@@ -292,12 +292,11 @@ for (x in 1:length(listloop)){
   domain.c <- unique(gmba_kba.c$ISO3)
   cat(x, '\t', domain, '\t', domain.c, '\n')  
   
-  world.c <- world %>% filter(CNTRY_NAME %in% gmba_kba.c$Country)
-  gmba.c <- gmba %>% filter(GMBA_V2_ID == domain)
-  
   ## 3. Plot map of KBAs and PAs to check ----
   if(PLOTIT){
     
+    world.c <- world %>% filter(CNTRY_NAME %in% gmba_kba.c$Country)
+    gmba.c <- gmba %>% filter(GMBA_V2_ID == domain)
     plot(pa.c$geometry, border=4) # pas are in blue
     plot(gmba_kba.c$geometry, border=3, add = T)#kbas are in green
     plot(gmba.c$geometry, border = 2, col = NA, add = T) #gmba not broken by kba red 
@@ -313,7 +312,7 @@ for (x in 1:length(listloop)){
     print("no PAs")
     areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0, 
                           DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
-                          COUNTRY = gmba_kba.c$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, 
+                          COUNTRY = gmba_kba.c$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, 
                           mountain = gmba_kba.c$mountain, terrestrial = gmba_kba.c$terrestrial,
                           marine = gmba_kba.c$marine, freshwater = gmba_kba.c$marine,
                           original_area = gmba_kba.c$original_area,
@@ -329,7 +328,7 @@ for (x in 1:length(listloop)){
     if (length(ovkba) == 0){ 
       areasov <- data.frame(SitRecID = NA, kba = NA, ovl = NA, year = NA, random = F, nPAs = NA, percPA = NA, 
                             DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
-                            COUNTRY = NA, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, 
+                            COUNTRY = NA, multiple_ranges = NA, all_gmba_intersec = NA, 
                             mountain = gmba_kba.c$mountain, terrestrial = gmba_kba.c$terrestrial, 
                             marine = gmba_kba.c$marine, freshwater = gmba_kba.c$marine,
                             original_area = gmba_kba.c$original_area,
@@ -341,7 +340,7 @@ for (x in 1:length(listloop)){
       
       areasov <- data.frame(SitRecID = gmba_kba.c$SitRecID, kba = gmba_kba.c$akba, ovl = 0, year = 0, random = F, nPAs = 0, percPA = 0,  
                             DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
-                            COUNTRY = gmba_kba.c$ISO3, multiple_ranges = NA, all_gmba_intersec = NA, in_gmba = NA, 
+                            COUNTRY = gmba_kba.c$ISO3, multiple_ranges = NA, all_gmba_intersec = NA,
                             mountain = gmba_kba.c$mountain, terrestrial = gmba_kba.c$terrestrial, 
                             marine = gmba_kba.c$marine, freshwater = gmba_kba.c$marine,
                             original_area = gmba_kba.c$original_area, 
@@ -419,16 +418,14 @@ for (x in 1:length(listloop)){
             ##REVIEW but basically indicate if any of these from the earliest year were random, random is set to true
             random0 <- pacz %>% filter(STATUS_YR == year1) 
             random1 <- sum(random0$random) > 0
-
             areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year1, random = random1, nPAs=nrow(ovf1), 
                                    DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                    COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
-                                   in_gmba = kbaz$in_gmba, mountain = kbaz$mountain, terrestrial = kbaz$terrestrial,
+                                   mountain = kbaz$mountain, terrestrial = kbaz$terrestrial,
                                    marine = kbaz$marine, freshwater = kbaz$freshwater, 
                                    original_area = kbaz$original_area,
                                    kba_note = kbaz$kba_notes,
                                    error_note = "") #creates row in output table with this site overlap area and associated information within it #sets numbers to numeric not units (removes m^2)
-            
             #If there is more than just one year, keep going 
             if (length(years) > 1){
               for (w in 2:length(years)){
@@ -467,10 +464,11 @@ for (x in 1:length(listloop)){
                   
                   random2 <- pacz %>% filter(STATUS_YR == year1) 
                   random3 <- sum(random0$random) > 0
+
                   areasov1 <- rbind(areasov1, data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=ovlz, year=year2, random = random3, nPAs=nrow(ovf2), 
                                                         DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                                         COUNTRY = kbaz$ISO3, multiple_ranges = kbaz$multiple_ranges, all_gmba_intersec = kbaz$all_gmba_intersec, 
-                                                        in_gmba = kbaz$in_gmba, mountain = kbaz$mountain, terrestrial = kbaz$terrestrial, 
+                                                        mountain = kbaz$mountain, terrestrial = kbaz$terrestrial, 
                                                         marine = kbaz$marine, freshwater = kbaz$freshwater, 
                                                         original_area = kbaz$original_area,
                                                         kba_note = kbaz$kba_notes,
@@ -480,11 +478,10 @@ for (x in 1:length(listloop)){
               }
             }
           }  # ends loop for class(ovf)=="SpatialPolygons"
-          
           if (is.null(ovf) | !"sf" %in% class(ovf)){
             areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=NA, year=0, random=F, nPAs=0,
                                    DOMAIN = NA, range_countries = NA, RangeName = NA, COUNTRY = NA, multiple_ranges = NA, 
-                                   all_gmba_intersec = NA, in_gmba = NA, mountain = kbaz$mountain, 
+                                   all_gmba_intersec = NA, mountain = kbaz$mountain, 
                                    terrestrial = kbaz$terrestrial, marine = kbaz$marine, 
                                    freshwater = kbaz$freshwater, 
                                    original_area = kbaz$original_area,
@@ -492,13 +489,12 @@ for (x in 1:length(listloop)){
                                    error_note = "error in spatial overlap")
           }
         }  ## ends loop for PAs overlapping with the KBA
-        
         ## if there are no pas that overlap with this zth kba, create empty row w/siteID
         if (length(which(ovkba[ ,z] == T)) == 0){
           areasov1 <- data.frame(SitRecID=kbaz$SitRecID, kba=akba, ovl=0, year=0, random=F, nPAs=0,
                                  DOMAIN = domain, range_countries= paste0(domain_isos, collapse = ";"), RangeName = RangeName,
                                  COUNTRY = kbaz$ISO3, multiple_ranges = NA, 
-                                 all_gmba_intersec = NA, in_gmba = NA, mountain = kbaz$mountain, 
+                                 all_gmba_intersec = NA, mountain = kbaz$mountain, 
                                  terrestrial = kbaz$terrestrial, marine = kbaz$marine, 
                                  freshwater = kbaz$freshwater, 
                                  original_area = kbaz$original_area,
