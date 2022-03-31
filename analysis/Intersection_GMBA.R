@@ -249,6 +249,9 @@ if(file.exists(gmba_kba_loc) & !OVERWRITE) {
 #### 3.3 - per mountain region, depending on global variable
 
 # create list of mountain ranges to loop through ----
+## mountain only
+gmba_kba <- gmba_kba %>% filter(mountain == 1)
+
 # TODO if you want to loop through countries, youll need to change this and the selection at the beginning of the loop below
 listloop <- as.character(unique(gmba_kba$GMBA_V2_ID))
 listloop <- listloop[!is.na(listloop)]
