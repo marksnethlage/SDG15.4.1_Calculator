@@ -68,9 +68,20 @@ kba_loc <- paste0(folder,"/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL_noO
 
 if(file.exists(kba_loc)) {
   kbas <- st_read(dsn = kba_loc, stringsAsFactors = F, crs = 4326) 
+  ## fix column names 
+  coln <- c("SitRecID", "Country", "ISO3", "NatName", "IntName", "SitArea", "IbaStatus",
+            "KBAStatus", "AzeStatus", "AddedDate", "ChangeDate", "Source", "DelTxt",
+            "DelGeom", "Shape_Leng", "Shape_Area", "original_area", "kba_notes", 
+            "akba", "geometry")
+  colnames(kbas) <- coln
 } else {
   source(paste0(folder, "/analysis/kba_cleaning.R"))
   kbas <- st_read(dsn = kba_loc, stringsAsFactors = F, crs = 4326) 
+  coln <- c("SitRecID", "Country", "ISO3", "NatName", "IntName", "SitArea", "IbaStatus",
+            "KBAStatus", "AzeStatus", "AddedDate", "ChangeDate", "Source", "DelTxt",
+            "DelGeom", "Shape_Leng", "Shape_Area", "original_area", "kba_notes", 
+            "akba", "geometry")
+  colnames(kbas) <- coln
 }
 
 if("Shape" %in% names(pas)) pas <- pas %>% rename(geometry = Shape)
