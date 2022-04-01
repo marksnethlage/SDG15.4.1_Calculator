@@ -42,7 +42,7 @@ kba_class <- read.csv(paste(folder, "/data/KBA/kba_class_2020.csv", sep = ""))  
 #### 2.0 WCMC ----
 #### 2.1 Calculate full timeline with cumulative coverage for WCMC/official
 ## only get mountain results if noted above
-if(MOUNTAIN_ONLY) results <- results %>% filter(mountain == 1)
+if(MOUNTAIN_ONLY) results_wcmc <- results_wcmc %>% filter(mountain == 1)
 
 ## Set 0 years to NA and NA ovl to 0
 results <- results_wcmc %>% mutate(year = ifelse(year == 0, NA, year), 
@@ -70,7 +70,7 @@ results_all_years <- results_all_years  %>%
   mutate(cum_percPA = (cum_overlap/kba) * 100)
 
 ## this will be the data that creates all the other aggregations
-write.csv(results_all_years, paste0(saveName, ".csv"))
+write.csv(results_all_years, "results_all_years.csv")
 
 ## final output file
 cleaned_data <- c()
@@ -212,7 +212,7 @@ results <- results_gmba %>% mutate(year = ifelse(year == 0, NA, year),
                                    ovl = ifelse(is.na(ovl), 0, ovl))
 
 ## create dataframe of all years with all ID vars
-uniqids <- unique(results %>% select(SitRecID, DOMAIN, kba, RangeName, COUNTRY, in_gmba, mountain, terrestrial))
+uniqids <- unique(results %>% select(SitRecID, DOMAIN, kba, RangeName, COUNTRY, mountain, terrestrial))
 results_all_years <- merge(uniqids , c(min(results$year, na.rm = T):2020)) 
 results_all_years <- results_all_years %>% rename(year = y)
 
@@ -223,7 +223,7 @@ results_all_years <- left_join(results_all_years, results %>% drop_na(year),
 results_all_years <- results_all_years %>% 
   mutate(ovl = ifelse(is.na(ovl), 0, ovl)) %>% 
   select(-c(random, nPAs, range_countries,
-            multiple_ranges, all_gmba_intersec,note, percPA))
+            multiple_ranges, all_gmba_intersec, kba_note, error_note, percPA))
 
 ## calculate cumulative coverage 
 results_all_years <- results_all_years  %>% 
@@ -233,10 +233,7 @@ results_all_years <- results_all_years  %>%
   mutate(cum_percPA = (cum_overlap/kba) * 100)
 
 ## this will be the data that creates all the other aggregations
-write.csv(results_all_years, paste0(saveName, ".csv"))
-
-## final output file
-cleaned_data <- c()
+write.csv(results_all_years, "results_gmba_all_years.csv")
 
 #### 3.2 Calculate country aggregation cumulative coverage 
 results_all_years_country <- results_all_years %>% 
@@ -291,6 +288,7 @@ results_all_years_mtrange_country <- results_all_years %>%
             kba = sum(unique(kba), na.rm = T),
             cum_overlap = sum(cum_overlap, na.rm = T)) %>%
   mutate(cum_percPA = (cum_overlap/kba) * 100)
+
 results_all_years_mtrange_country <- left_join(results_all_years_mtrange_country, 
                                                unique(kba_class %>% select(COUNTRY, ISO)), by = "ISO")
 
