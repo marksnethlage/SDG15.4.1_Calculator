@@ -115,6596 +115,3425 @@ Classes ‘sf’ and 'data.frame':	239004 obs. of  32 variables:
 213                                         MKD;ALB      7
 218                                     BFA;NER;BEN     11
 236                                         LSO;ZAF      7
-1 	 14099 	 PSE ISR JOR 
+1 	 11695 	 JPN 
 [1] "made it here"
-2 	 18590 	 ITA 
+2 	 20818 	 JPN 
 [1] "made it here"
-3 	 18597 	 ITA 
+3 	 14099 	 PSE ISR LBN JOR 
 [1] "made it here"
-4 	 19033 	 ITA 
+4 	 19497 	 IND 
 [1] "made it here"
-5 	 17727 	 MEX 
+5 	 21014 	 CHL 
 [1] "made it here"
-6 	 17740 	 MEX 
+6 	 14776 	 ITA 
 [1] "made it here"
-7 	 19379 	 CHN 
+7 	 19471 	 ITA 
 [1] "made it here"
-8 	 11567 	 USA 
+8 	 19556 	 USA 
+9 	 12928 	 USA 
 [1] "made it here"
-9 	 12103 	 USA 
+10 	 13083 	 MEX 
 [1] "made it here"
-10 	 14556 	 MEX 
+11 	 14556 	 MEX 
 [1] "made it here"
-11 	 15508 	 MEX 
+12 	 15626 	 ECU 
 [1] "made it here"
-12 	 17713 	 MEX 
+13 	 12386 	 ECU 
 [1] "made it here"
-13 	 13083 	 MEX 
+14 	 17731 	 MEX 
 [1] "made it here"
-14 	 14557 	 MEX GTM 
+15 	 17732 	 MEX 
 [1] "made it here"
-15 	 20930 	 MEX 
+16 	 18773 	 ECU 
 [1] "made it here"
-16 	 17719 	 MEX 
+17 	 18775 	 ECU 
 [1] "made it here"
-17 	 21000 	 MEX 
+18 	 21005 	 MEX 
 [1] "made it here"
-18 	 17789 	 MEX 
+19 	 17735 	 MEX 
 [1] "made it here"
-19 	 20929 	 MEX 
+20 	 20033 	 PRT ESP 
 [1] "made it here"
-20 	 14440 	 COL 
+21 	 15602 	 VEN 
+22 	 18840 	 FSM 
+23 	 20944 	 AUS 
 [1] "made it here"
-21 	 19707 	 COL 
+24 	 14868 	 MNE 
+25 	 14871 	 MNE 
 [1] "made it here"
-22 	 17731 	 MEX 
+26 	 15784 	 USA 
 [1] "made it here"
-23 	 17736 	 MEX 
+27 	 15605 	 VEN 
 [1] "made it here"
-24 	 17735 	 MEX 
+28 	 14774 	 IND 
 [1] "made it here"
-25 	 12720 	 ECU COL PER 
+29 	 17737 	 MEX 
 [1] "made it here"
-26 	 18777 	 ECU 
+30 	 17745 	 MEX 
 [1] "made it here"
-27 	 17732 	 MEX 
+31 	 19763 	 MEX 
 [1] "made it here"
-28 	 21003 	 MEX 
+32 	 19764 	 MEX 
 [1] "made it here"
-29 	 21024 	 MEX 
+33 	 20806 	 SRB 
+34 	 15160 	 SRB 
+35 	 19487 	 SRB 
+36 	 19875 	 SRB 
+37 	 20059 	 SRB ROU 
 [1] "made it here"
-30 	 18535 	 BOL PER 
+38 	 20190 	 SRB ROU 
 [1] "made it here"
-31 	 15345 	 BOL 
+39 	 20191 	 SRB 
 [1] "made it here"
-32 	 17747 	 MEX 
+40 	 14478 	 SRB 
 [1] "made it here"
-33 	 17750 	 MEX 
+41 	 13909 	 IND 
 [1] "made it here"
-34 	 17733 	 MEX 
+42 	 19187 	 IND 
+43 	 18093 	 IND 
 [1] "made it here"
-35 	 20377 	 MEX 
+44 	 15746 	 IND 
+45 	 18369 	 IND 
 [1] "made it here"
-36 	 17756 	 MEX 
+46 	 19502 	 IND 
 [1] "made it here"
-37 	 14503 	 SLE 
+47 	 18854 	 IDN 
 [1] "made it here"
-38 	 17718 	 MEX 
+48 	 11253 	 PAN CRI 
 [1] "made it here"
-39 	 20931 	 MEX 
+49 	 14828 	 SVN HRV 
 [1] "made it here"
-40 	 21001 	 MEX 
+50 	 19344 	 MDG 
 [1] "made it here"
-41 	 11210 	 VEN 
+51 	 19011 	 IRL 
 [1] "made it here"
-42 	 11211 	 VEN 
+52 	 18977 	 IRL 
 [1] "made it here"
-43 	 11838 	 VEN BRA 
+53 	 19007 	 IRL 
 [1] "made it here"
-44 	 11915 	 VEN BRA 
+54 	 19716 	 CHL 
+55 	 13061 	 CHL 
 [1] "made it here"
-45 	 11932 	 VEN BRA 
+56 	 19316 	 CHL 
 [1] "made it here"
-46 	 19313 	 VEN BRA 
+57 	 12566 	 CHL 
 [1] "made it here"
-47 	 11733 	 BRA VEN 
+58 	 21008 	 COL 
 [1] "made it here"
-48 	 11859 	 BRA VEN 
+59 	 11743 	 MDG 
+60 	 12226 	 MDG 
+61 	 15335 	 MDG 
+62 	 15334 	 MDG 
+63 	 12678 	 MDG 
 [1] "made it here"
-49 	 11862 	 BRA 
+64 	 12225 	 MDG 
 [1] "made it here"
-50 	 19312 	 BRA 
+65 	 15332 	 MDG 
 [1] "made it here"
-51 	 19708 	 VEN COL 
+66 	 18996 	 GBR IRL 
 [1] "made it here"
-52 	 19710 	 VEN 
+67 	 19470 	 GBR IRL 
 [1] "made it here"
-53 	 15653 	 VEN COL 
+68 	 20995 	 GBR 
 [1] "made it here"
-54 	 12955 	 ETH 
+69 	 18992 	 GBR 
 [1] "made it here"
-55 	 14277 	 BVT 
+70 	 18998 	 GBR IRL 
+[1] "made it here"
+71 	 18995 	 GBR IRL 
+[1] "made it here"
+72 	 18990 	 GBR IRL 
+[1] "made it here"
+73 	 19020 	 GBR 
+[1] "made it here"
+74 	 19467 	 GBR 
+[1] "made it here"
+75 	 19468 	 GBR 
+[1] "made it here"
+76 	 19018 	 GBR 
+[1] "made it here"
+77 	 11678 	 GBR 
+[1] "made it here"
+78 	 20992 	 GBR 
+[1] "made it here"
+79 	 12454 	 GBR 
+[1] "made it here"
+80 	 18972 	 GBR 
+[1] "made it here"
+81 	 19055 	 GBR 
+[1] "made it here"
+82 	 18971 	 GBR 
+[1] "made it here"
+83 	 18973 	 GBR 
+[1] "made it here"
+84 	 21037 	 GBR 
+[1] "made it here"
+85 	 18974 	 GBR 
+[1] "made it here"
+86 	 19469 	 GBR 
+[1] "made it here"
+87 	 18999 	 GBR 
+[1] "made it here"
+88 	 19054 	 GBR 
+[1] "made it here"
+89 	 20006 	 GBR 
+[1] "made it here"
+90 	 20991 	 GBR 
+[1] "made it here"
+91 	 20886 	 GBR 
+[1] "made it here"
+92 	 19000 	 GBR 
+[1] "made it here"
+93 	 19001 	 GBR 
+[1] "made it here"
+94 	 19003 	 GBR 
+[1] "made it here"
+95 	 19006 	 GBR 
+[1] "made it here"
+96 	 17851 	 PRT 
+[1] "made it here"
+97 	 15357 	 MEX 
+[1] "made it here"
+98 	 15353 	 MEX 
+[1] "made it here"
+99 	 12579 	 CHL 
+100 	 16805 	 CAN 
+[1] "made it here"
+101 	 19667 	 CAN 
+102 	 14510 	 SLE 
+[1] "made it here"
+103 	 12187 	 IND MMR 
+104 	 18358 	 IND BGD 
+105 	 13826 	 NZL 
+[1] "made it here"
+106 	 19760 	 IND 
+107 	 19499 	 IND 
+[1] "made it here"
+108 	 19267 	 IND 
+[1] "made it here"
+109 	 11912 	 MEX 
+[1] "made it here"
+110 	 11898 	 MEX 
+[1] "made it here"
+111 	 17752 	 MEX 
+[1] "made it here"
+112 	 21004 	 MEX 
+[1] "made it here"
+113 	 18981 	 IRL 
+[1] "made it here"
+114 	 18986 	 IRL 
+[1] "made it here"
+115 	 20003 	 IRL 
+[1] "made it here"
+116 	 12589 	 YEM 
+[1] "made it here"
+117 	 12733 	 TZA 
+[1] "made it here"
+118 	 14360 	 IND 
+119 	 18425 	 IND 
+[1] "made it here"
+120 	 19501 	 IND 
+[1] "made it here"
+121 	 11137 	 IND 
+122 	 18364 	 IND 
+123 	 19761 	 IND 
+[1] "made it here"
+124 	 14585 	 HTI DOM 
+[1] "made it here"
+125 	 18747 	 VIR 
+[1] "made it here"
+126 	 14591 	 PRI 
+[1] "made it here"
+127 	 11992 	 JAM 
+[1] "made it here"
+128 	 14594 	 JAM 
+[1] "made it here"
+129 	 14595 	 JAM 
+[1] "made it here"
+130 	 11609 	 HTI 
+[1] "made it here"
+131 	 13950 	 GRD 
+[1] "made it here"
+132 	 14597 	 ATG 
+[1] "made it here"
+133 	 14604 	 LCA 
+[1] "made it here"
+134 	 18745 	 VIR 
+[1] "made it here"
+135 	 14605 	 VCT 
+[1] "made it here"
+136 	 14603 	 DMA 
+[1] "made it here"
+137 	 18767 	 BRB 
+[1] "made it here"
+138 	 14692 	 DOM 
+[1] "made it here"
+139 	 11892 	 DOM HTI 
+[1] "made it here"
+140 	 14582 	 DOM HTI 
+[1] "made it here"
+141 	 19653 	 DOM 
+[1] "made it here"
+142 	 15063 	 ESP 
+[1] "made it here"
+143 	 18697 	 ESP 
+[1] "made it here"
+144 	 15042 	 ESP 
+[1] "made it here"
+145 	 18706 	 ESP 
+[1] "made it here"
+146 	 17846 	 ESP PRT 
+[1] "made it here"
+147 	 17847 	 ESP 
+[1] "made it here"
+148 	 17845 	 ESP PRT 
+[1] "made it here"
+149 	 15096 	 ESP 
+[1] "made it here"
+150 	 18514 	 MWI 
+[1] "made it here"
+151 	 19042 	 MWI 
+152 	 20330 	 MWI 
+153 	 19364 	 MWI 
+154 	 19183 	 MWI 
+155 	 18189 	 MWI 
+156 	 14079 	 MWI 
+157 	 13123 	 MWI 
+158 	 11181 	 THA LAO KHM 
+[1] "made it here"
+159 	 20347 	 RWA BDI 
+[1] "made it here"
+160 	 20348 	 RWA 
+161 	 19423 	 CHN 
+162 	 20578 	 FSM 
+163 	 12567 	 CHL 
+[1] "made it here"
+164 	 14444 	 VEN 
+[1] "made it here"
+165 	 15646 	 VEN 
+166 	 20951 	 VEN 
+[1] "made it here"
+167 	 15180 	 VEN 
+[1] "made it here"
+168 	 18719 	 SYC 
+[1] "made it here"
+169 	 11774 	 NZL 
+[1] "made it here"
+170 	 14608 	 TTO 
+[1] "made it here"
+171 	 19513 	 VNM KHM LAO THA 
+[1] "made it here"
+172 	 19994 	 BRA 
+173 	 18250 	 BRA 
+174 	 11850 	 BRA 
+[1] "made it here"
+175 	 11462 	 BRA GUY 
+[1] "made it here"
+176 	 19311 	 BRA 
+[1] "made it here"
+177 	 19312 	 BRA GUY 
+[1] "made it here"
+178 	 19307 	 BRA 
+[1] "made it here"
+179 	 17722 	 MEX 
+[1] "made it here"
+180 	 17727 	 MEX 
+181 	 17728 	 MEX 
+[1] "made it here"
+182 	 21039 	 KEN 
+[1] "made it here"
+183 	 19332 	 ETH 
+184 	 19338 	 ETH 
+185 	 11722 	 IDN 
+[1] "made it here"
+186 	 12109 	 IDN 
+[1] "made it here"
+187 	 11716 	 IDN 
+[1] "made it here"
+188 	 12219 	 IDN 
+189 	 18816 	 PNG 
+190 	 19525 	 PNG 
+[1] "made it here"
+191 	 12710 	 PNG 
+192 	 12662 	 PNG 
+193 	 11815 	 PNG 
+194 	 13052 	 BRA 
+[1] "made it here"
+195 	 18240 	 BRA 
+[1] "made it here"
+196 	 18184 	 CIV LBR 
+[1] "made it here"
+197 	 12820 	 LKA 
+[1] "made it here"
+198 	 20362 	 LKA 
+[1] "made it here"
+199 	 14632 	 TUR SYR 
+200 	 12751 	 PHL 
+[1] "made it here"
+201 	 12487 	 MYS THA 
+[1] "made it here"
+202 	 18778 	 ECU 
+[1] "made it here"
+203 	 14276 	 SHN 
+204 	 17750 	 MEX 
+[1] "made it here"
+205 	 17756 	 MEX 
+206 	 18723 	 PHL 
+207 	 14584 	 HTI 
+[1] "made it here"
+208 	 20586 	 IDN 
+[1] "made it here"
+209 	 15191 	 AUS 
+[1] "made it here"
+210 	 19027 	 PCN 
+[1] "made it here"
+211 	 11929 	 COL 
+[1] "made it here"
+212 	 18844 	 SLB 
+213 	 18890 	 IDN 
+214 	 11653 	 CHN 
+[1] "made it here"
+215 	 20876 	 CHN 
+[1] "made it here"
+216 	 13048 	 BRA 
+[1] "made it here"
+217 	 19308 	 BRA 
+218 	 14255 	 BRA 
+[1] "made it here"
+219 	 19723 	 BRA 
+[1] "made it here"
+220 	 18196 	 STP 
+[1] "made it here"
+221 	 15259 	 PHL 
+[1] "made it here"
+222 	 19530 	 PHL 
+[1] "made it here"
+223 	 19352 	 ZAF 
+[1] "made it here"
+224 	 15930 	 USA 
+[1] "made it here"
+225 	 18238 	 BRA 
+[1] "made it here"
+226 	 14578 	 CUB 
+227 	 14579 	 CUB 
+[1] "made it here"
+228 	 18241 	 BRA 
+[1] "made it here"
+229 	 19167 	 JPN 
+[1] "made it here"
+230 	 13050 	 BRA 
+231 	 18239 	 BRA 
+[1] "made it here"
+232 	 12281 	 MDG 
+[1] "made it here"
+233 	 15333 	 MDG 
+[1] "made it here"
+234 	 21018 	 MUS 
+235 	 19722 	 BRA 
+[1] "made it here"
+236 	 14438 	 COL 
+237 	 14566 	 GTM 
+238 	 11273 	 BRA 
+239 	 18311 	 CHN 
+240 	 12948 	 MYS THA 
+[1] "made it here"
+241 	 17751 	 MEX 
+242 	 12606 	 NCL 
+[1] "made it here"
+243 	 11856 	 BRA 
+244 	 11885 	 CHN VNM 
+245 	 18495 	 CHN 
+246 	 19424 	 CHN 
+247 	 14441 	 COL 
+248 	 11926 	 CUB 
+[1] "made it here"
+249 	 14425 	 AUS 
+[1] "made it here"
+250 	 19157 	 NFK 
+[1] "made it here"
+251 	 19686 	 AUS 
+[1] "made it here"
+252 	 15261 	 PHL 
+253 	 14459 	 GAB 
+[1] "made it here"
+254 	 14297 	 IND 
+[1] "made it here"
+255 	 11755 	 USA 
+[1] "made it here"
+256 	 18878 	 USA 
+[1] "made it here"
+257 	 18879 	 USA 
+258 	 11457 	 USA 
+[1] "made it here"
+259 	 18882 	 USA 
+[1] "made it here"
+260 	 19711 	 ECU 
+261 	 14398 	 AUS 
+[1] "made it here"
+262 	 15142 	 MYS 
+[1] "made it here"
+263 	 19531 	 MYS 
+[1] "made it here"
+264 	 19899 	 GRC 
+[1] "made it here"
+265 	 19900 	 GRC 
+[1] "made it here"
+266 	 19901 	 GRC 
+[1] "made it here"
+267 	 11301 	 PHL 
+[1] "made it here"
+268 	 19551 	 ISR SYR JOR PSE 
+[1] "made it here"
+269 	 11882 	 IND 
+270 	 19195 	 IND 
+[1] "made it here"
+271 	 19654 	 PRI 
+[1] "made it here"
+272 	 14392 	 AUS 
+[1] "made it here"
+273 	 19831 	 AUS 
+[1] "made it here"
+274 	 19726 	 BRA 
+[1] "made it here"
+275 	 11629 	 MMR 
+[1] "made it here"
+276 	 15749 	 MMR 
+[1] "made it here"
+277 	 11659 	 MMR 
+[1] "made it here"
+278 	 18257 	 BRA 
+279 	 18258 	 BRA 
+280 	 20044 	 IDN 
+281 	 15201 	 AUS 
+[1] "made it here"
+282 	 13110 	 ARG 
+283 	 19713 	 ARG 
+284 	 11626 	 JPN 
+[1] "made it here"
+285 	 18782 	 CHL 
+[1] "made it here"
+286 	 19120 	 VNM 
+287 	 19518 	 VNM 
+[1] "made it here"
+288 	 12298 	 IDN 
+289 	 12711 	 IDN 
+290 	 18855 	 PHL 
+[1] "made it here"
+291 	 11840 	 BRA 
+[1] "made it here"
+292 	 12069 	 CHN 
+293 	 19979 	 BRA 
+294 	 15340 	 MDG 
+[1] "made it here"
+295 	 21044 	 MDG 
+[1] "made it here"
+296 	 13167 	 NZL 
+[1] "made it here"
+297 	 14553 	 BLZ 
+[1] "made it here"
+298 	 20367 	 AUS 
+[1] "made it here"
+299 	 14440 	 COL 
+300 	 11890 	 ARG 
+301 	 11237 	 PER 
+302 	 20041 	 ZAF 
+303 	 11696 	 ZAF 
+[1] "made it here"
+304 	 12013 	 ZAF 
+[1] "made it here"
+305 	 18278 	 ZAF 
+[1] "made it here"
+306 	 19351 	 ZAF 
+[1] "made it here"
+307 	 13026 	 ZAF 
+[1] "made it here"
+308 	 15582 	 ZAF 
+[1] "made it here"
+309 	 15596 	 ZAF 
+[1] "made it here"
+310 	 18277 	 ZAF 
+[1] "made it here"
+311 	 13024 	 ZAF 
+[1] "made it here"
+312 	 20040 	 NAM 
+[1] "made it here"
+313 	 15237 	 PHL 
+[1] "made it here"
+314 	 15238 	 PHL 
+315 	 15239 	 PHL 
+316 	 15242 	 PHL 
+[1] "made it here"
+317 	 15244 	 PHL 
+[1] "made it here"
+318 	 15260 	 PHL 
+319 	 18863 	 PHL 
+320 	 15258 	 PHL 
+[1] "made it here"
+321 	 11238 	 PHL 
+322 	 11628 	 PHL 
+[1] "made it here"
+323 	 15254 	 PHL 
+324 	 15241 	 PHL 
+325 	 19528 	 PHL 
+[1] "made it here"
+326 	 11921 	 PHL 
+327 	 12095 	 PHL 
+328 	 18696 	 IDN 
+[1] "made it here"
+329 	 13008 	 KEN 
+[1] "made it here"
+330 	 13012 	 KEN 
+[1] "made it here"
+331 	 18142 	 KEN 
+[1] "made it here"
+332 	 20352 	 KEN 
+[1] "made it here"
+333 	 14074 	 KEN TZA 
+[1] "made it here"
+334 	 12839 	 NPL IND 
+[1] "made it here"
+335 	 18694 	 IDN 
+[1] "made it here"
+336 	 14357 	 MDG 
+[1] "made it here"
+337 	 19329 	 UGA TZA 
+[1] "made it here"
+338 	 19747 	 UGA TZA KEN 
+[1] "made it here"
+339 	 18198 	 TZA 
+340 	 21043 	 TZA 
+[1] "made it here"
+341 	 19283 	 IND 
+[1] "made it here"
+342 	 20608 	 KEN 
+343 	 20364 	 LKA 
+[1] "made it here"
+344 	 19347 	 TUN 
+[1] "made it here"
+345 	 19368 	 CPV 
+[1] "made it here"
+346 	 15765 	 MAR 
+[1] "made it here"
+347 	 15158 	 ALB MNE 
+[1] "made it here"
+348 	 19483 	 ALB 
+[1] "made it here"
+349 	 14893 	 ALB MNE 
+[1] "made it here"
+350 	 20888 	 ALB MNE 
+[1] "made it here"
+351 	 10087 	 DZA MAR 
+[1] "made it here"
+352 	 11430 	 SYR TUR 
+353 	 11438 	 SYR LBN 
+[1] "made it here"
+354 	 14633 	 SYR 
 [1] "no PAs"
-56 	 19533 	 IDN 
+355 	 15750 	 TUN DZA 
 [1] "made it here"
-57 	 12581 	 ARG 
+356 	 15751 	 TUN 
 [1] "made it here"
-58 	 19717 	 ARG 
+357 	 11775 	 MAR ESP 
 [1] "made it here"
-59 	 11846 	 NAM AGO 
+358 	 11625 	 MAR 
 [1] "made it here"
-60 	 14351 	 NAM AGO 
+359 	 14874 	 ALB MNE 
 [1] "made it here"
-61 	 18127 	 NAM 
+360 	 18947 	 GNQ 
 [1] "made it here"
-62 	 18192 	 NAM AGO 
+361 	 18211 	 LBR 
+362 	 18213 	 LBR 
 [1] "made it here"
-63 	 19363 	 NAM 
+363 	 18212 	 LBR 
 [1] "made it here"
-64 	 11927 	 VEN 
+364 	 15173 	 SLE 
 [1] "made it here"
-65 	 11935 	 VEN 
+365 	 18210 	 SLE 
 [1] "made it here"
-66 	 19311 	 VEN BRA 
+366 	 20620 	 SLE 
 [1] "made it here"
-67 	 11622 	 VEN 
+367 	 14503 	 SLE 
+368 	 19953 	 NGA 
 [1] "made it here"
-68 	 15605 	 VEN 
+369 	 19327 	 NGA 
 [1] "made it here"
-69 	 20947 	 VEN 
+370 	 12274 	 GIN 
 [1] "made it here"
-70 	 14251 	 VEN BRA 
+371 	 14355 	 GIN 
 [1] "made it here"
-71 	 15639 	 VEN 
+372 	 19366 	 GIN SLE 
 [1] "made it here"
-72 	 15640 	 VEN 
+373 	 18152 	 GHA 
 [1] "made it here"
-73 	 19972 	 VEN 
+374 	 15171 	 CMR 
+375 	 19264 	 CMR 
+376 	 19791 	 CMR 
+377 	 15172 	 GHA 
 [1] "made it here"
-74 	 20951 	 VEN 
+378 	 19395 	 CHN 
+379 	 11325 	 CHN 
+380 	 11487 	 CHN 
+381 	 15720 	 CHN 
+382 	 11216 	 UZB 
+383 	 19928 	 CHN 
+384 	 11280 	 CHN 
+385 	 12175 	 CHN 
+386 	 11543 	 UZB TKM 
+387 	 12217 	 UZB 
+388 	 11502 	 UZB 
+389 	 14501 	 ARE OMN 
 [1] "made it here"
-75 	 14444 	 VEN 
+390 	 14499 	 ARE OMN 
 [1] "made it here"
-76 	 19187 	 IND 
+391 	 19540 	 RUS 
+392 	 15673 	 RUS 
+393 	 20914 	 IRN AZE 
 [1] "made it here"
-77 	 14887 	 SRB 
+394 	 19545 	 IRN 
 [1] "made it here"
-78 	 14886 	 SRB 
+395 	 12491 	 IRN 
 [1] "made it here"
-79 	 20060 	 SRB 
+396 	 19541 	 AZE 
+397 	 14621 	 TUR 
+398 	 15669 	 AZE 
+399 	 19544 	 AZE 
 [1] "made it here"
-80 	 20061 	 SRB ROU 
+400 	 15668 	 AZE 
 [1] "made it here"
-81 	 20059 	 SRB ROU 
+401 	 12687 	 GEO 
 [1] "made it here"
-82 	 20183 	 SRB ROU 
+402 	 15662 	 GEO 
+403 	 15670 	 GEO 
+404 	 11121 	 GEO TUR 
 [1] "made it here"
-83 	 20188 	 SRB ROU 
+405 	 15657 	 GEO 
 [1] "made it here"
-84 	 20190 	 SRB ROU 
+406 	 15666 	 GEO 
 [1] "made it here"
-85 	 12370 	 SRB BGR 
+407 	 12691 	 AZE 
 [1] "made it here"
-86 	 18410 	 SRB 
+408 	 19485 	 ALB GRC 
 [1] "made it here"
-87 	 19877 	 SRB 
+409 	 11368 	 ALB 
 [1] "made it here"
-88 	 20065 	 SRB 
-89 	 20962 	 SRB BGR 
+410 	 12960 	 ALB 
+411 	 12959 	 ALB 
 [1] "made it here"
-90 	 20902 	 SRB MKD BGR 
+412 	 18554 	 CPV 
 [1] "made it here"
-91 	 19879 	 SRB MKD 
+413 	 12999 	 DZA 
 [1] "made it here"
-92 	 11537 	 SRB MKD ALB 
+414 	 10088 	 DZA 
 [1] "made it here"
-93 	 19483 	 SRB ALB 
+415 	 14839 	 BIH HRV 
 [1] "made it here"
-94 	 20890 	 SRB 
-95 	 20894 	 SRB 
-96 	 20892 	 SRB MKD 
+416 	 14833 	 BIH HRV 
 [1] "made it here"
-97 	 19881 	 SRB 
-98 	 20888 	 SRB ALB 
+417 	 14855 	 BIH 
+418 	 14857 	 BIH 
+419 	 10096 	 DZA 
 [1] "made it here"
-99 	 15159 	 SRB 
+420 	 15770 	 DZA 
 [1] "made it here"
-100 	 14882 	 SRB 
+421 	 11160 	 MKD GRC 
 [1] "made it here"
-101 	 14889 	 SRB 
+422 	 14892 	 MNE 
+423 	 18683 	 TUR 
+424 	 14672 	 TUR 
 [1] "made it here"
-102 	 14478 	 SRB 
+425 	 14687 	 TUR 
+426 	 11348 	 TUR 
 [1] "made it here"
-103 	 11630 	 IND CHN 
-[1] "made it here"
-104 	 11711 	 IND MMR 
-[1] "made it here"
-105 	 12888 	 IND MMR 
-[1] "made it here"
-106 	 15747 	 IND 
-107 	 20955 	 IND CHN 
-108 	 20956 	 IND CHN 
-[1] "made it here"
-109 	 13914 	 IND 
-[1] "made it here"
-110 	 20848 	 IND 
-[1] "made it here"
-111 	 12843 	 IND 
-[1] "made it here"
-112 	 13916 	 IND 
-[1] "made it here"
-113 	 19501 	 IND 
-[1] "made it here"
-114 	 11673 	 IND 
-[1] "made it here"
-115 	 12942 	 IND 
-[1] "made it here"
-116 	 19761 	 IND 
-[1] "made it here"
-117 	 15250 	 IND 
-[1] "made it here"
-118 	 14367 	 IND 
-[1] "made it here"
-119 	 19502 	 IND 
-[1] "made it here"
-120 	 19760 	 IND 
-[1] "made it here"
-121 	 11597 	 IND 
-[1] "made it here"
-122 	 15333 	 MDG 
-[1] "made it here"
-123 	 19344 	 MDG 
-[1] "made it here"
-124 	 11664 	 PRK 
+427 	 11165 	 TUR 
+428 	 12083 	 TUR 
+429 	 11292 	 TUR 
+430 	 14654 	 TUR 
+431 	 11182 	 TUR 
+432 	 14306 	 LBY 
 [1] "no PAs"
-125 	 18982 	 IRL 
+433 	 15754 	 DZA 
 [1] "made it here"
-126 	 18984 	 IRL 
-127 	 11704 	 CHL 
+434 	 10084 	 DZA 
+435 	 14689 	 TUR 
+436 	 19345 	 MAR 
 [1] "made it here"
-128 	 20952 	 CHL 
+437 	 15767 	 MAR 
+438 	 14728 	 TUR 
 [1] "made it here"
-129 	 11259 	 CHL 
+439 	 19738 	 TUR 
 [1] "made it here"
-130 	 18702 	 CHL 
+440 	 11142 	 TUR 
+441 	 14711 	 TUR 
 [1] "made it here"
-131 	 19714 	 CHL ARG 
+442 	 14616 	 TUR GRC 
 [1] "made it here"
-132 	 19715 	 CHL ARG BOL 
+443 	 14759 	 TUR 
+444 	 12993 	 TUR 
+445 	 14772 	 TUR 
+446 	 18710 	 TUR 
+447 	 14769 	 TUR 
+448 	 11594 	 TUR 
+449 	 12778 	 TUR 
 [1] "made it here"
-133 	 19718 	 CHL ARG 
+450 	 13032 	 TUN 
 [1] "made it here"
-134 	 12576 	 CHL ARG 
+451 	 20916 	 TUR 
+452 	 14837 	 MNE 
 [1] "made it here"
-135 	 12577 	 CHL 
+453 	 18680 	 TUR GRC 
 [1] "made it here"
-136 	 19720 	 CHL ARG 
+454 	 10086 	 MAR 
+455 	 10089 	 DZA 
 [1] "made it here"
-137 	 20627 	 CHL 
+456 	 20614 	 DZA 
 [1] "made it here"
-138 	 20786 	 CHL 
+457 	 10090 	 DZA 
 [1] "made it here"
-139 	 20948 	 CHL ARG 
+458 	 11605 	 TUR 
+459 	 14714 	 TUR 
+460 	 12081 	 TUR 
 [1] "made it here"
-140 	 12566 	 CHL 
+461 	 12028 	 TUR 
 [1] "made it here"
-141 	 19317 	 CHL 
+462 	 14729 	 TUR 
 [1] "made it here"
-142 	 19316 	 CHL 
+463 	 14763 	 TUR 
 [1] "made it here"
-143 	 12225 	 MDG 
+464 	 14657 	 TUR 
 [1] "made it here"
-144 	 14438 	 COL 
+465 	 14834 	 HRV 
 [1] "made it here"
-145 	 11929 	 COL 
+466 	 15060 	 ESP 
 [1] "made it here"
-146 	 14173 	 COL 
+467 	 15061 	 ESP GIB 
 [1] "made it here"
-147 	 14165 	 COL 
+468 	 15062 	 ESP GIB 
 [1] "made it here"
-148 	 19711 	 COL ECU PER 
+469 	 15064 	 ESP 
 [1] "made it here"
-149 	 12282 	 MDG 
+470 	 19066 	 ESP 
 [1] "made it here"
-150 	 12579 	 CHL 
+471 	 19067 	 ESP 
 [1] "made it here"
-151 	 20860 	 MDG 
+472 	 19068 	 ESP 
 [1] "made it here"
-152 	 12456 	 POL CZE 
+473 	 12527 	 ESP 
 [1] "made it here"
-153 	 12986 	 POL CZE DEU 
+474 	 12529 	 ESP 
 [1] "made it here"
-154 	 12281 	 MDG 
+475 	 19069 	 ESP 
 [1] "made it here"
-155 	 14441 	 COL 
+476 	 11566 	 ESP 
 [1] "made it here"
-156 	 13080 	 COL 
+477 	 12528 	 ESP 
 [1] "made it here"
-157 	 19470 	 GBR IRL 
+478 	 11361 	 ESP 
 [1] "made it here"
-158 	 18992 	 GBR 
+479 	 12800 	 ESP 
+480 	 20032 	 ESP 
 [1] "made it here"
-159 	 18993 	 GBR IRL 
+481 	 15015 	 ESP 
 [1] "made it here"
-160 	 19020 	 GBR 
+482 	 15017 	 ESP 
 [1] "made it here"
-161 	 18974 	 GBR 
+483 	 15111 	 ESP 
 [1] "made it here"
-162 	 12454 	 GBR 
+484 	 19917 	 ESP 
 [1] "made it here"
-163 	 19468 	 GBR 
+485 	 15110 	 ESP 
 [1] "made it here"
-164 	 11678 	 GBR 
+486 	 17994 	 ESP 
 [1] "made it here"
-165 	 21037 	 GBR 
+487 	 17990 	 ESP 
 [1] "made it here"
-166 	 19018 	 GBR 
+488 	 19925 	 ESP 
 [1] "made it here"
-167 	 19469 	 GBR 
+489 	 12798 	 ESP 
+490 	 14991 	 ESP 
+491 	 15035 	 ESP 
 [1] "made it here"
-168 	 19002 	 GBR 
+492 	 15076 	 ESP 
+493 	 17832 	 ESP 
 [1] "made it here"
-169 	 19004 	 GBR 
+494 	 15034 	 ESP 
 [1] "made it here"
-170 	 18975 	 GBR 
+495 	 19922 	 ESP 
 [1] "made it here"
-171 	 19006 	 GBR 
+496 	 15030 	 ESP 
+497 	 20997 	 ESP 
 [1] "made it here"
-172 	 19054 	 GBR 
+498 	 15010 	 ESP 
 [1] "made it here"
-173 	 20991 	 GBR 
+499 	 19495 	 ESP 
 [1] "made it here"
-174 	 19001 	 GBR 
+500 	 20051 	 ESP 
 [1] "made it here"
-175 	 19005 	 GBR 
+501 	 15136 	 ESP 
 [1] "made it here"
-176 	 18973 	 GBR 
+502 	 15137 	 ESP 
 [1] "made it here"
-177 	 20992 	 GBR 
+503 	 15138 	 ESP 
 [1] "made it here"
-178 	 18972 	 GBR 
+504 	 15141 	 ESP 
 [1] "made it here"
-179 	 19467 	 GBR 
+505 	 19040 	 ESP 
 [1] "made it here"
-180 	 19003 	 GBR 
+506 	 15054 	 ESP 
 [1] "made it here"
-181 	 20946 	 COL 
+507 	 15058 	 ESP FRA 
 [1] "made it here"
-182 	 14159 	 COL 
+508 	 15048 	 ESP 
 [1] "made it here"
-183 	 14160 	 COL 
+509 	 15052 	 ESP 
+510 	 15043 	 ESP 
 [1] "made it here"
-184 	 14154 	 COL 
+511 	 15044 	 ESP 
 [1] "made it here"
-185 	 12133 	 COL VEN 
+512 	 15046 	 ESP 
 [1] "made it here"
-186 	 14166 	 COL 
+513 	 15047 	 ESP 
 [1] "made it here"
-187 	 15341 	 COL 
+514 	 18707 	 ESP 
 [1] "made it here"
-188 	 12897 	 COL 
+515 	 18708 	 ESP 
 [1] "made it here"
-189 	 14150 	 COL 
+516 	 17991 	 ESP 
 [1] "made it here"
-190 	 14153 	 COL 
+517 	 17852 	 ESP 
 [1] "made it here"
-191 	 14164 	 COL 
+518 	 17854 	 ESP 
 [1] "made it here"
-192 	 11866 	 COL PAN 
+519 	 12817 	 ESP 
 [1] "made it here"
-193 	 11870 	 COL PAN 
+520 	 17855 	 ESP 
 [1] "made it here"
-194 	 14439 	 COL 
+521 	 17856 	 ESP 
 [1] "made it here"
-195 	 12738 	 COL 
+522 	 15066 	 ESP 
 [1] "made it here"
-196 	 14172 	 COL 
+523 	 15070 	 ESP 
 [1] "made it here"
-197 	 19709 	 COL 
+524 	 18698 	 ESP 
 [1] "made it here"
-198 	 11345 	 CHN MMR 
+525 	 18660 	 ESP 
 [1] "made it here"
-199 	 11892 	 DOM HTI 
+526 	 19926 	 ESP 
 [1] "made it here"
-200 	 18093 	 BTN IND 
+527 	 20037 	 ESP 
 [1] "made it here"
-201 	 14524 	 IND BTN 
+528 	 15091 	 ESP 
+529 	 19496 	 ESP PRT 
 [1] "made it here"
-202 	 19382 	 IND BTN 
+530 	 12813 	 ESP 
 [1] "made it here"
-203 	 20851 	 IND CHN BTN 
+531 	 19916 	 ESP 
+532 	 15068 	 ESP 
 [1] "made it here"
-204 	 12187 	 IND MMR 
+533 	 19920 	 ESP 
+534 	 15098 	 ESP 
 [1] "made it here"
-205 	 13909 	 IND 
+535 	 15099 	 ESP 
 [1] "made it here"
-206 	 11137 	 IND 
+536 	 15094 	 ESP 
+537 	 15095 	 ESP 
 [1] "made it here"
-207 	 11598 	 IND 
+538 	 18657 	 ESP 
+539 	 18663 	 ESP 
 [1] "made it here"
-208 	 19188 	 IND 
+540 	 15097 	 ESP 
 [1] "made it here"
-209 	 18425 	 IND NPL 
+541 	 15104 	 ESP 
+542 	 12819 	 ESP 
 [1] "made it here"
-210 	 17754 	 MEX 
+543 	 17853 	 ESP 
 [1] "made it here"
-211 	 17738 	 MEX 
+544 	 19918 	 ESP 
 [1] "made it here"
-212 	 17755 	 MEX 
+545 	 17993 	 ESP 
 [1] "made it here"
-213 	 17746 	 MEX 
+546 	 14996 	 ESP 
 [1] "made it here"
-214 	 11912 	 MEX 
+547 	 14994 	 ESP 
 [1] "made it here"
-215 	 12901 	 MEX 
-216 	 17722 	 MEX 
+548 	 19924 	 ESP 
 [1] "made it here"
-217 	 17734 	 MEX USA 
+549 	 15009 	 ESP 
 [1] "made it here"
-218 	 15353 	 MEX 
+550 	 15002 	 ESP 
+551 	 12799 	 ESP 
 [1] "made it here"
-219 	 17739 	 MEX 
+552 	 17844 	 ESP 
 [1] "made it here"
-220 	 21002 	 MEX 
+553 	 14978 	 ESP 
 [1] "made it here"
-221 	 20378 	 MEX 
+554 	 14981 	 ESP 
 [1] "made it here"
-222 	 17749 	 MEX 
+555 	 12964 	 HRV 
 [1] "made it here"
-223 	 17725 	 MEX 
-224 	 17744 	 MEX 
+556 	 14894 	 HRV 
 [1] "made it here"
-225 	 19015 	 IRL 
+557 	 19480 	 HRV 
 [1] "made it here"
-226 	 12589 	 YEM 
+558 	 14829 	 HRV 
 [1] "made it here"
-227 	 12704 	 COD BDI 
+559 	 14842 	 HRV 
 [1] "made it here"
-228 	 20917 	 YEM 
+560 	 12965 	 HRV 
 [1] "made it here"
-229 	 12765 	 TLS IDN 
+561 	 12972 	 HRV 
 [1] "made it here"
-230 	 18550 	 TZA 
+562 	 14781 	 ITA 
 [1] "made it here"
-231 	 19747 	 TZA KEN SSD 
+563 	 14778 	 ITA 
 [1] "made it here"
-232 	 14594 	 JAM 
+564 	 14783 	 ITA 
 [1] "made it here"
-233 	 11609 	 HTI 
+565 	 12461 	 ITA 
 [1] "made it here"
-234 	 19497 	 IND 
-235 	 19217 	 IND 
+566 	 17711 	 ITA 
 [1] "made it here"
-236 	 14111 	 IND 
+567 	 19207 	 ITA 
 [1] "made it here"
-237 	 19216 	 IND 
-238 	 19359 	 ZWE 
-239 	 19956 	 ZWE 
-240 	 14585 	 HTI DOM 
+568 	 19205 	 ITA 
 [1] "made it here"
-241 	 19654 	 PRI 
+569 	 19461 	 ITA 
 [1] "made it here"
-242 	 14595 	 JAM 
+570 	 14782 	 ITA 
 [1] "made it here"
-243 	 11992 	 JAM 
+571 	 12462 	 ITA 
 [1] "made it here"
-244 	 12877 	 JAM 
+572 	 14784 	 ITA 
 [1] "made it here"
-245 	 14584 	 HTI 
-246 	 19652 	 HTI 
+573 	 12432 	 ITA 
 [1] "made it here"
-247 	 14591 	 PRI 
+574 	 14786 	 ITA 
 [1] "made it here"
-248 	 14604 	 LCA 
+575 	 12433 	 ITA 
 [1] "made it here"
-249 	 14605 	 VCT 
+576 	 19462 	 ITA 
 [1] "made it here"
-250 	 20829 	 DOM 
+577 	 12434 	 ITA 
 [1] "made it here"
-251 	 19651 	 DOM HTI 
+578 	 19039 	 ITA 
 [1] "made it here"
-252 	 19653 	 DOM HTI 
+579 	 19459 	 ITA 
 [1] "made it here"
-253 	 18806 	 VUT 
-254 	 14997 	 ESP 
+580 	 12429 	 ITA 
 [1] "made it here"
-255 	 14998 	 ESP 
+581 	 15774 	 ITA 
 [1] "made it here"
-256 	 14999 	 ESP 
+582 	 15779 	 ITA 
 [1] "made it here"
-257 	 19922 	 ESP 
+583 	 19479 	 ITA 
 [1] "made it here"
-258 	 18657 	 ESP 
+584 	 18167 	 ITA 
 [1] "made it here"
-259 	 18661 	 ESP 
+585 	 19472 	 ITA 
 [1] "made it here"
-260 	 18662 	 ESP 
+586 	 19206 	 ITA 
 [1] "made it here"
-261 	 18663 	 ESP 
+587 	 19060 	 ITA 
 [1] "made it here"
-262 	 20033 	 ESP PRT 
+588 	 19062 	 ITA 
 [1] "made it here"
-263 	 18658 	 ESP 
+589 	 19063 	 ITA 
 [1] "made it here"
-264 	 17846 	 ESP 
+590 	 19064 	 ITA 
 [1] "made it here"
-265 	 17847 	 ESP 
+591 	 18169 	 ITA 
 [1] "made it here"
-266 	 17989 	 ESP 
+592 	 19481 	 ITA SVN 
 [1] "made it here"
-267 	 20053 	 ESP 
+593 	 15131 	 FRA 
 [1] "made it here"
-268 	 15089 	 ESP PRT 
+594 	 10014 	 FRA 
 [1] "made it here"
-269 	 15090 	 ESP PRT 
+595 	 15132 	 FRA 
 [1] "made it here"
-270 	 20037 	 ESP PRT 
+596 	 10016 	 FRA 
 [1] "made it here"
-271 	 15047 	 ESP 
+597 	 15503 	 FRA 
 [1] "made it here"
-272 	 15048 	 ESP 
+598 	 15368 	 FRA 
 [1] "made it here"
-273 	 20032 	 ESP PRT 
+599 	 15375 	 FRA 
 [1] "made it here"
-274 	 12801 	 ESP PRT 
+600 	 15376 	 FRA 
 [1] "made it here"
-275 	 15015 	 ESP 
+601 	 15484 	 FRA 
 [1] "made it here"
-276 	 15034 	 ESP 
+602 	 17920 	 FRA 
+603 	 18678 	 FRA 
 [1] "made it here"
-277 	 15088 	 ESP 
+604 	 17918 	 FRA 
 [1] "made it here"
-278 	 18660 	 ESP 
+605 	 12468 	 FRA 
 [1] "made it here"
-279 	 19494 	 ESP 
+606 	 12469 	 FRA 
 [1] "made it here"
-280 	 19926 	 ESP 
+607 	 12464 	 FRA 
 [1] "made it here"
-281 	 12804 	 ESP 
+608 	 12465 	 FRA 
 [1] "made it here"
-282 	 15085 	 ESP 
+609 	 12466 	 FRA 
 [1] "made it here"
-283 	 15094 	 ESP 
+610 	 12467 	 FRA 
 [1] "made it here"
-284 	 15098 	 ESP 
+611 	 12463 	 FRA 
 [1] "made it here"
-285 	 15099 	 ESP 
+612 	 11651 	 CYP 
 [1] "made it here"
-286 	 19913 	 ESP 
+613 	 19457 	 CYP 
+614 	 18709 	 CYP 
+615 	 19075 	 PRT 
 [1] "made it here"
-287 	 19914 	 ESP 
+616 	 18684 	 GRC 
 [1] "made it here"
-288 	 14080 	 MOZ TZA 
+617 	 19454 	 GRC 
 [1] "made it here"
-289 	 13123 	 MWI ZMB 
+618 	 14796 	 GRC 
 [1] "made it here"
-290 	 19339 	 MWI ZMB 
+619 	 19908 	 GRC 
 [1] "made it here"
-291 	 13122 	 MWI 
+620 	 18690 	 GRC 
 [1] "made it here"
-292 	 19341 	 TZA 
+621 	 19969 	 GRC 
 [1] "made it here"
-293 	 13074 	 MOZ MWI 
+622 	 18689 	 GRC 
 [1] "made it here"
-294 	 18565 	 MOZ MWI 
+623 	 11707 	 GRC 
 [1] "made it here"
-295 	 19365 	 MOZ MWI 
+624 	 14803 	 GRC 
 [1] "made it here"
-296 	 18111 	 MOZ MWI 
+625 	 18691 	 GRC 
 [1] "made it here"
-297 	 13124 	 MWI ZMB 
+626 	 19893 	 GRC 
 [1] "made it here"
-298 	 18514 	 MWI 
+627 	 19071 	 PRT 
 [1] "made it here"
-299 	 18189 	 TZA MWI 
+628 	 19070 	 PRT 
 [1] "made it here"
-300 	 14079 	 TZA 
+629 	 19076 	 PRT 
 [1] "made it here"
-301 	 19042 	 MWI 
+630 	 19073 	 PRT 
 [1] "made it here"
-302 	 18174 	 MWI 
+631 	 19072 	 PRT 
 [1] "made it here"
-303 	 19364 	 MWI MOZ 
+632 	 19074 	 PRT 
 [1] "made it here"
-304 	 19043 	 MWI 
+633 	 19077 	 PRT 
 [1] "made it here"
-305 	 20330 	 MWI MOZ 
+634 	 19078 	 PRT 
 [1] "made it here"
-306 	 13126 	 TZA 
+635 	 17849 	 PRT 
 [1] "made it here"
-307 	 12746 	 IDN 
+636 	 17848 	 PRT 
 [1] "made it here"
-308 	 15235 	 IDN 
+637 	 20880 	 GRC 
 [1] "made it here"
-309 	 13099 	 VNM LAO 
+638 	 14801 	 GRC 
 [1] "made it here"
-310 	 19513 	 LAO VNM KHM 
+639 	 15392 	 ITA 
 [1] "made it here"
-311 	 18433 	 THA 
+640 	 18168 	 ITA 
 [1] "made it here"
-312 	 19520 	 THA LAO 
+641 	 12314 	 ITA 
 [1] "made it here"
-313 	 12067 	 LAO CHN 
+642 	 19477 	 ITA 
 [1] "made it here"
-314 	 13131 	 LAO CHN 
+643 	 14779 	 ITA 
 [1] "made it here"
-315 	 11792 	 LAO 
+644 	 18598 	 ITA 
 [1] "made it here"
-316 	 19960 	 LAO THA 
+645 	 19476 	 ITA 
 [1] "made it here"
-317 	 11722 	 IDN 
+646 	 19452 	 ITA 
 [1] "made it here"
-318 	 13026 	 ZAF 
+647 	 18946 	 GRC 
 [1] "made it here"
-319 	 19355 	 ZAF 
+648 	 15149 	 GRC 
 [1] "made it here"
-320 	 18898 	 IDN 
+649 	 19458 	 GRC 
 [1] "made it here"
-321 	 19526 	 IDN 
+650 	 14790 	 GRC 
 [1] "made it here"
-322 	 18812 	 PNG 
+651 	 19456 	 GRC 
 [1] "made it here"
-323 	 12298 	 IDN 
+652 	 14787 	 GRC 
 [1] "made it here"
-324 	 12304 	 IDN 
+653 	 19885 	 GRC 
 [1] "made it here"
-325 	 15231 	 IDN 
-326 	 12299 	 IDN 
+654 	 12705 	 GRC 
 [1] "made it here"
-327 	 15236 	 IDN 
+655 	 19888 	 GRC 
 [1] "made it here"
-328 	 18920 	 IDN 
+656 	 14807 	 GRC 
 [1] "made it here"
-329 	 18921 	 IDN 
+657 	 11693 	 GRC 
 [1] "made it here"
-330 	 18922 	 IDN 
+658 	 18416 	 GRC 
 [1] "made it here"
-331 	 14507 	 CMR 
+659 	 19896 	 GRC 
 [1] "made it here"
-332 	 19247 	 CMR 
-333 	 14339 	 CMR 
+660 	 19897 	 GRC 
 [1] "made it here"
-334 	 14340 	 CMR 
+661 	 19902 	 GRC 
 [1] "made it here"
-335 	 14341 	 CMR 
+662 	 19455 	 GRC 
 [1] "made it here"
-336 	 11165 	 TUR 
-337 	 12083 	 TUR 
-338 	 19070 	 PRT 
+663 	 19889 	 GRC 
 [1] "made it here"
-339 	 11624 	 CHN 
-340 	 19406 	 CHN 
-341 	 12595 	 FJI 
+664 	 19890 	 GRC 
 [1] "made it here"
-342 	 19701 	 ECU PER 
+665 	 19891 	 GRC 
 [1] "made it here"
-343 	 14167 	 COL 
+666 	 18681 	 GRC 
 [1] "made it here"
-344 	 15342 	 COL 
+667 	 19894 	 GRC 
 [1] "made it here"
-345 	 14443 	 COL 
+668 	 18682 	 GRC 
 [1] "made it here"
-346 	 19699 	 PER 
+669 	 11710 	 GRC 
 [1] "made it here"
-347 	 19704 	 PER 
+670 	 11973 	 GRC 
 [1] "made it here"
-348 	 15530 	 PER 
+671 	 11535 	 GRC 
 [1] "made it here"
-349 	 20817 	 JPN 
+672 	 19963 	 GRC 
 [1] "made it here"
-350 	 20812 	 JPN 
+673 	 20895 	 GRC 
 [1] "made it here"
-351 	 20813 	 JPN 
+674 	 20355 	 GRC 
 [1] "made it here"
-352 	 15232 	 IDN 
+675 	 20777 	 GRC 
 [1] "made it here"
-353 	 14601 	 MSR 
+676 	 20779 	 GRC 
 [1] "made it here"
-354 	 19335 	 ETH SSD 
+677 	 19887 	 GRC 
 [1] "made it here"
-355 	 20856 	 ETH 
+678 	 19482 	 GRC 
 [1] "made it here"
-356 	 20857 	 ETH 
+679 	 14815 	 GRC 
 [1] "made it here"
-357 	 14228 	 BRA 
+680 	 19486 	 GRC 
 [1] "made it here"
-358 	 14566 	 GTM MEX 
+681 	 17843 	 PRT 
 [1] "made it here"
-359 	 13052 	 BRA 
+682 	 11592 	 PRT 
 [1] "made it here"
-360 	 11836 	 BRA 
+683 	 11456 	 NZL 
 [1] "made it here"
-361 	 14366 	 IND 
-362 	 11661 	 IND 
-363 	 18370 	 IND 
+684 	 13574 	 NZL 
 [1] "made it here"
-364 	 12167 	 ZWE 
+685 	 13579 	 NZL 
 [1] "made it here"
-365 	 14746 	 AGO 
-366 	 18123 	 AGO 
-367 	 11926 	 CUB 
+686 	 14430 	 NZL 
 [1] "made it here"
-368 	 11253 	 CRI PAN 
+687 	 20433 	 NOR 
 [1] "made it here"
-369 	 12880 	 CRI PAN 
+688 	 20881 	 NOR 
 [1] "made it here"
-370 	 11240 	 CRI 
+689 	 12483 	 NOR 
 [1] "made it here"
-371 	 17757 	 CRI 
+690 	 20382 	 NOR 
 [1] "made it here"
-372 	 14564 	 SLV GTM 
+691 	 19463 	 NOR FIN 
 [1] "made it here"
-373 	 11256 	 SLV HND 
+692 	 20427 	 NOR 
 [1] "made it here"
-374 	 12301 	 IDN 
+693 	 20551 	 NOR 
 [1] "made it here"
-375 	 11721 	 IDN 
+694 	 11624 	 CHN 
+695 	 20966 	 CHN 
+696 	 19870 	 CHN RUS MNG 
 [1] "made it here"
-376 	 12219 	 IDN 
+697 	 12074 	 CHN RUS 
 [1] "made it here"
-377 	 20771 	 IDN 
-378 	 12303 	 IDN PNG 
+698 	 11291 	 CHN 
+699 	 11442 	 CHN 
+700 	 11375 	 CHN 
+701 	 11179 	 CHN 
+702 	 11761 	 CHN 
+703 	 14496 	 CHN 
+704 	 20719 	 CHN 
+705 	 20715 	 CHN 
+706 	 12073 	 CHN 
+707 	 18320 	 CHN 
+708 	 18310 	 CHN 
+709 	 15735 	 CHN 
+710 	 19812 	 CHN 
+711 	 11290 	 CHN 
+712 	 12090 	 CHN MAC 
+713 	 20714 	 CHN 
+714 	 18309 	 CHN HKG 
 [1] "made it here"
-379 	 12711 	 IDN PNG 
-380 	 12654 	 IDN 
+715 	 19422 	 CHN TWN 
 [1] "made it here"
-381 	 12302 	 IDN 
-382 	 17814 	 IDN 
+716 	 18431 	 CHN 
+717 	 19408 	 CHN 
+718 	 19811 	 CHN 
+719 	 12006 	 CHN 
+720 	 19731 	 CHN 
+721 	 19412 	 CHN 
+722 	 12670 	 CHN 
 [1] "made it here"
-383 	 12109 	 IDN 
+723 	 18742 	 CHN 
+724 	 12256 	 CHN 
+725 	 19410 	 CHN 
+726 	 11283 	 CHN 
+727 	 11447 	 CHN 
+728 	 19413 	 CHN 
+729 	 19872 	 CHN 
+730 	 19868 	 CHN 
+731 	 19813 	 CHN 
+732 	 11392 	 CHN 
+733 	 19873 	 CHN 
+734 	 18505 	 CHN 
+735 	 18379 	 CHN 
+736 	 11408 	 CHN 
+737 	 11561 	 CHN 
+738 	 19414 	 CHN 
 [1] "made it here"
-384 	 11542 	 PNG 
+739 	 20326 	 CHN 
+740 	 15698 	 CHN RUS 
+741 	 19156 	 CHN 
+742 	 11461 	 CHN PRK 
+743 	 11584 	 CHN 
+744 	 19416 	 CHN 
+745 	 11663 	 CHN RUS PRK 
 [1] "made it here"
-385 	 11815 	 PNG 
+746 	 20800 	 CHN RUS 
 [1] "made it here"
-386 	 15226 	 PNG 
+747 	 15715 	 CHN 
+748 	 18314 	 CHN 
+749 	 20726 	 RUS 
 [1] "made it here"
-387 	 19525 	 PNG 
+750 	 19510 	 RUS 
 [1] "made it here"
-388 	 12661 	 PNG 
+751 	 19511 	 RUS 
+752 	 13987 	 RUS 
 [1] "made it here"
-389 	 15227 	 PNG 
+753 	 19437 	 RUS 
+754 	 20733 	 RUS 
 [1] "made it here"
-390 	 19524 	 PNG 
-391 	 12712 	 PNG 
-392 	 18817 	 PNG 
-393 	 12660 	 PNG 
+755 	 19507 	 RUS 
 [1] "made it here"
-394 	 15225 	 PNG 
-395 	 12655 	 PNG 
-396 	 12656 	 PNG 
+756 	 12096 	 RUS 
 [1] "made it here"
-397 	 12659 	 PNG 
+757 	 12043 	 RUS 
 [1] "made it here"
-398 	 11333 	 PNG 
+758 	 19168 	 RUS JPN 
 [1] "made it here"
-399 	 11104 	 PNG 
-400 	 19523 	 PNG 
+759 	 19098 	 RUS 
 [1] "made it here"
-401 	 20343 	 PNG 
-402 	 12662 	 PNG 
+760 	 18020 	 RUS 
+761 	 19435 	 RUS 
 [1] "made it here"
-403 	 20344 	 PNG 
-404 	 12658 	 PNG 
+762 	 20724 	 RUS 
 [1] "made it here"
-405 	 20342 	 PNG 
-406 	 15228 	 PNG 
-407 	 18814 	 PNG 
-408 	 20050 	 PNG 
-409 	 19292 	 PNG 
-410 	 12710 	 PNG 
-411 	 18813 	 PNG 
+763 	 18023 	 RUS 
 [1] "made it here"
-412 	 20770 	 PNG 
+764 	 15714 	 RUS 
+765 	 11145 	 RUS 
+766 	 11478 	 RUS 
 [1] "made it here"
-413 	 20040 	 NAM AGO 
+767 	 20707 	 RUS 
 [1] "made it here"
-414 	 14183 	 NAM 
+768 	 20708 	 RUS 
+769 	 18406 	 RUS 
 [1] "made it here"
-415 	 15574 	 NAM 
+770 	 11689 	 RUS 
+771 	 20725 	 RUS 
 [1] "made it here"
-416 	 15580 	 NAM 
+772 	 11500 	 RUS 
+773 	 18704 	 RUS 
+774 	 20709 	 RUS 
+775 	 11484 	 RUS 
 [1] "made it here"
-417 	 18128 	 NAM 
+776 	 11122 	 RUS 
+777 	 18705 	 RUS 
+778 	 19430 	 RUS 
 [1] "made it here"
-418 	 18137 	 NAM 
+779 	 13994 	 RUS 
 [1] "made it here"
-419 	 18270 	 NAM 
+780 	 18019 	 RUS 
+781 	 15683 	 RUS 
 [1] "made it here"
-420 	 20041 	 NAM 
+782 	 18059 	 RUS 
 [1] "made it here"
-421 	 14337 	 NAM 
+783 	 15681 	 RUS 
+784 	 15680 	 RUS 
+785 	 19428 	 RUS 
+786 	 18054 	 RUS 
+787 	 19429 	 RUS 
+788 	 11317 	 RUS 
+789 	 18056 	 RUS 
+790 	 15597 	 RUS 
 [1] "made it here"
-422 	 15576 	 NAM 
+791 	 18024 	 RUS 
 [1] "made it here"
-423 	 18138 	 NAM 
+792 	 18025 	 RUS 
+793 	 13958 	 RUS 
 [1] "made it here"
-424 	 11449 	 IRQ 
-425 	 11748 	 IRQ 
-426 	 14673 	 IRQ 
-427 	 15304 	 IRQ IRN 
-428 	 15302 	 IRQ 
-429 	 15303 	 IRQ 
-430 	 19548 	 IRQ SYR TUR IRN 
+794 	 18065 	 RUS 
+795 	 18033 	 RUS 
 [1] "made it here"
-431 	 14674 	 IRQ TUR 
-432 	 15309 	 IRQ 
-433 	 15306 	 IRQ 
-434 	 15307 	 IRQ 
-435 	 15308 	 IRQ 
-436 	 15301 	 IRQ 
-437 	 15300 	 IRQ SYR TUR 
-438 	 15305 	 IRQ 
+796 	 19443 	 RUS 
 [1] "made it here"
-439 	 11379 	 IRQ TUR 
+797 	 18062 	 RUS 
+798 	 19200 	 RUS 
 [1] "made it here"
-440 	 11606 	 IRQ SYR TUR 
-441 	 18495 	 CHN VNM 
+799 	 19201 	 RUS 
 [1] "made it here"
-442 	 19424 	 CHN VNM 
+800 	 11956 	 RUS 
 [1] "made it here"
-443 	 11785 	 UGA COD 
+801 	 11489 	 RUS 
+802 	 11730 	 RUS 
 [1] "made it here"
-444 	 12274 	 GIN CIV LBR 
+803 	 13982 	 RUS 
 [1] "made it here"
-445 	 11647 	 UGA KEN 
+804 	 13992 	 RUS 
 [1] "made it here"
-446 	 12703 	 RWA COD UGA 
+805 	 18405 	 RUS 
 [1] "made it here"
-447 	 19957 	 RWA COD 
+806 	 18017 	 RUS 
+807 	 18064 	 RUS 
+808 	 19436 	 RUS 
+809 	 19508 	 RUS 
+810 	 13907 	 RUS 
+811 	 18002 	 RUS MNG 
 [1] "made it here"
-448 	 20348 	 RWA COD UGA TZA BDI 
+812 	 15697 	 RUS 
+813 	 20765 	 RUS 
+814 	 11518 	 RUS 
 [1] "made it here"
-449 	 11526 	 KEN TZA 
+815 	 17996 	 RUS 
+816 	 15709 	 RUS MNG 
 [1] "made it here"
-450 	 13039 	 BOL 
-451 	 19698 	 BOL PER 
+817 	 20967 	 RUS 
 [1] "made it here"
-452 	 18530 	 BOL PER 
+818 	 11101 	 RUS 
 [1] "made it here"
-453 	 20945 	 BOL 
+819 	 17827 	 ESP 
 [1] "made it here"
-454 	 13004 	 COD UGA 
+820 	 17829 	 ESP 
 [1] "made it here"
-455 	 18147 	 CIV 
+821 	 17861 	 ESP 
 [1] "made it here"
-456 	 15529 	 PER BOL 
+822 	 17824 	 ESP 
 [1] "made it here"
-457 	 18779 	 ECU 
+823 	 19491 	 ESP PRT 
 [1] "made it here"
-458 	 19703 	 BOL ARG 
+824 	 17838 	 ESP PRT 
 [1] "made it here"
-459 	 13046 	 BOL 
-460 	 12820 	 LKA 
+825 	 14956 	 ESP 
 [1] "made it here"
-461 	 12487 	 MYS THA 
+826 	 14935 	 ESP 
 [1] "made it here"
-462 	 19336 	 SOM 
+827 	 19492 	 ESP FRA 
+[1] "made it here"
+828 	 19490 	 ESP 
+[1] "made it here"
+829 	 17881 	 ESP 
+[1] "made it here"
+830 	 17957 	 ESP 
+[1] "made it here"
+831 	 17880 	 ESP 
+[1] "made it here"
+832 	 14955 	 ESP 
+[1] "made it here"
+833 	 17820 	 ESP 
+[1] "made it here"
+834 	 17875 	 ESP 
+[1] "made it here"
+835 	 17816 	 ESP 
+[1] "made it here"
+836 	 17835 	 ESP 
+[1] "made it here"
+837 	 17863 	 ESP 
+[1] "made it here"
+838 	 18667 	 ESP 
+[1] "made it here"
+839 	 18828 	 FSM 
+[1] "made it here"
+840 	 20832 	 HRV 
+[1] "made it here"
+841 	 20833 	 HRV 
+[1] "made it here"
+842 	 15470 	 HRV 
+[1] "made it here"
+843 	 20834 	 HRV 
+[1] "made it here"
+844 	 14489 	 HRV 
+[1] "made it here"
+845 	 14493 	 HRV BIH 
+[1] "made it here"
+846 	 14844 	 HRV 
+[1] "made it here"
+847 	 14878 	 HRV SVN 
+[1] "made it here"
+848 	 14492 	 HRV 
+[1] "made it here"
+849 	 20889 	 HRV 
+[1] "made it here"
+850 	 18835 	 GUM 
+851 	 19355 	 ZAF 
+[1] "made it here"
+852 	 13106 	 ZAF 
+[1] "made it here"
+853 	 11372 	 ZAF 
+[1] "made it here"
+854 	 11541 	 ZAF 
+855 	 18792 	 WLF 
 [1] "no PAs"
-463 	 15171 	 CMR 
-[1] "made it here"
-464 	 14342 	 CMR 
-465 	 12022 	 MEX 
-[1] "made it here"
-466 	 17728 	 MEX 
-467 	 14428 	 AUS 
-[1] "made it here"
-468 	 15206 	 AUS 
-[1] "made it here"
-469 	 19691 	 AUS 
-[1] "made it here"
-470 	 19831 	 AUS 
-[1] "made it here"
-471 	 12641 	 AUS 
-[1] "made it here"
-472 	 12515 	 AUS 
-[1] "made it here"
-473 	 12516 	 AUS 
-[1] "made it here"
-474 	 12521 	 AUS 
-[1] "made it here"
-475 	 12524 	 AUS 
-[1] "made it here"
-476 	 19692 	 AUS 
-[1] "made it here"
-477 	 12944 	 LKA 
-[1] "made it here"
-478 	 20363 	 LKA 
-[1] "made it here"
-479 	 20362 	 LKA 
-[1] "made it here"
-480 	 12300 	 IDN 
-481 	 18778 	 ECU 
-[1] "made it here"
-482 	 19455 	 GRC TUR 
-[1] "made it here"
-483 	 12771 	 IDN 
-484 	 19518 	 VNM CHN 
-[1] "made it here"
-485 	 18176 	 MOZ 
-[1] "made it here"
-486 	 11827 	 NZL 
-[1] "made it here"
-487 	 13781 	 NZL 
-[1] "made it here"
-488 	 19684 	 AUS 
-[1] "made it here"
-489 	 11871 	 PAN 
-[1] "made it here"
-490 	 15564 	 ZAF 
-[1] "made it here"
-491 	 14652 	 TUR 
-492 	 14732 	 TUR 
-[1] "made it here"
-493 	 14288 	 COM 
-[1] "made it here"
-494 	 15648 	 PER 
-[1] "made it here"
-495 	 15765 	 MAR 
-[1] "made it here"
-496 	 15197 	 AUS 
-[1] "made it here"
-497 	 19815 	 AUS 
-[1] "made it here"
-498 	 20367 	 AUS 
-[1] "made it here"
-499 	 10096 	 DZA 
-[1] "made it here"
-500 	 15770 	 DZA 
-[1] "made it here"
-501 	 14261 	 MUS 
-[1] "made it here"
-502 	 18864 	 PHL 
-[1] "made it here"
-503 	 11994 	 MMR 
-[1] "made it here"
-504 	 15744 	 MMR CHN IND 
-[1] "made it here"
-505 	 11361 	 ESP 
-[1] "made it here"
-506 	 18783 	 PYF 
+856 	 18793 	 WLF 
 [1] "no PAs"
-507 	 18834 	 MNP 
+857 	 18802 	 ASM 
+858 	 18803 	 ASM 
 [1] "made it here"
-508 	 18784 	 PYF 
+859 	 18785 	 PYF 
 [1] "no PAs"
-509 	 21063 	 PYF 
+860 	 18786 	 PYF 
 [1] "no PAs"
-510 	 12603 	 WSM 
-[1] "made it here"
-511 	 18828 	 FSM 
-512 	 21066 	 PYF 
+861 	 12599 	 PYF 
 [1] "no PAs"
-513 	 21065 	 PYF 
+862 	 21066 	 PYF 
 [1] "no PAs"
-514 	 11611 	 USA 
-[1] "made it here"
-515 	 11754 	 USA 
-[1] "made it here"
-516 	 11457 	 USA 
-[1] "made it here"
-517 	 11610 	 USA 
-[1] "made it here"
-518 	 18881 	 USA 
-[1] "made it here"
-519 	 18882 	 USA 
-[1] "made it here"
-520 	 11468 	 USA 
-[1] "made it here"
-521 	 11380 	 USA 
-[1] "made it here"
-522 	 19700 	 PER 
-[1] "made it here"
-523 	 13041 	 BOL PER 
-[1] "made it here"
-524 	 19974 	 CHL 
-[1] "made it here"
-525 	 19973 	 CHL 
-[1] "made it here"
-526 	 15603 	 VEN 
-[1] "made it here"
-527 	 14289 	 COM 
-[1] "made it here"
-528 	 14287 	 COM 
-[1] "made it here"
-529 	 14292 	 SYC 
-[1] "made it here"
-530 	 14082 	 REU 
-[1] "made it here"
-531 	 18810 	 SLB 
-532 	 12769 	 IDN 
-[1] "made it here"
-533 	 20585 	 IDN 
-534 	 13860 	 NZL 
-[1] "made it here"
-535 	 14431 	 NZL 
-[1] "made it here"
-536 	 14581 	 CUB 
-[1] "made it here"
-537 	 14749 	 MMR 
-[1] "made it here"
-538 	 19515 	 MMR IND 
-[1] "made it here"
-539 	 11592 	 PRT 
-[1] "made it here"
-540 	 12606 	 NCL 
-[1] "made it here"
-541 	 12511 	 AUS 
-[1] "made it here"
-542 	 12517 	 AUS 
-[1] "made it here"
-543 	 18240 	 BRA 
-[1] "made it here"
-544 	 18266 	 BRA 
-[1] "made it here"
-545 	 11726 	 PAN 
-[1] "made it here"
-546 	 15745 	 IND 
-[1] "made it here"
-547 	 12758 	 IDN 
-[1] "made it here"
-548 	 11628 	 PHL 
-[1] "made it here"
-549 	 15255 	 PHL 
-[1] "made it here"
-550 	 14284 	 ATF 
-[1] "made it here"
-551 	 18197 	 STP 
-[1] "made it here"
-552 	 14747 	 AGO 
-553 	 18120 	 AGO 
-554 	 19713 	 ARG 
-[1] "made it here"
-555 	 13070 	 CHN 
-[1] "made it here"
-556 	 21005 	 MEX 
-[1] "made it here"
-557 	 18310 	 CHN 
-558 	 21006 	 VEN 
-[1] "made it here"
-559 	 15739 	 CHN 
-[1] "made it here"
-560 	 14469 	 TWN 
-[1] "made it here"
-561 	 18944 	 JPN 
-[1] "made it here"
-562 	 11893 	 GTM BLZ 
-[1] "made it here"
-563 	 11902 	 GTM 
-[1] "made it here"
-564 	 14553 	 GTM 
-[1] "made it here"
-565 	 12630 	 AUS 
-[1] "made it here"
-566 	 14418 	 AUS 
-[1] "made it here"
-567 	 19296 	 AUS 
-[1] "made it here"
-568 	 12638 	 AUS 
-[1] "made it here"
-569 	 14416 	 AUS 
-[1] "made it here"
-570 	 14417 	 AUS 
-[1] "made it here"
-571 	 18440 	 AUS 
-[1] "made it here"
-572 	 18441 	 AUS 
-[1] "made it here"
-573 	 19688 	 AUS 
-[1] "made it here"
-574 	 15595 	 ZAF 
-[1] "made it here"
-575 	 18110 	 ZAF 
-[1] "made it here"
-576 	 12051 	 TZA 
-[1] "made it here"
-577 	 15587 	 ZAF 
-[1] "made it here"
-578 	 19350 	 ZAF BWA 
-[1] "made it here"
-579 	 11181 	 KHM LAO THA 
-[1] "made it here"
-580 	 11917 	 ARG 
-581 	 18844 	 SLB 
-582 	 13109 	 ARG 
-[1] "made it here"
-583 	 13110 	 ARG 
-[1] "made it here"
-584 	 13111 	 PER 
-[1] "made it here"
-585 	 14142 	 PER 
-[1] "made it here"
-586 	 12029 	 TZA 
-[1] "made it here"
-587 	 12027 	 TZA 
-[1] "made it here"
-588 	 11709 	 IDN 
-[1] "made it here"
-589 	 12025 	 TZA 
-[1] "made it here"
-590 	 14064 	 TZA 
-[1] "made it here"
-591 	 15334 	 MDG 
-[1] "made it here"
-592 	 15335 	 MDG 
-[1] "made it here"
-593 	 12136 	 VEN 
-[1] "made it here"
-594 	 14576 	 CUB 
-[1] "made it here"
-595 	 18311 	 CHN 
-596 	 11995 	 CHN 
-597 	 11262 	 HND 
-[1] "made it here"
-598 	 19763 	 MEX 
-599 	 12038 	 PNG 
-600 	 14509 	 CMR NGA 
-[1] "made it here"
-601 	 19252 	 CMR 
-[1] "made it here"
-602 	 19272 	 CMR 
-603 	 19322 	 CMR 
-[1] "made it here"
-604 	 19323 	 CMR 
-605 	 11885 	 VNM CHN 
-[1] "made it here"
-606 	 12596 	 FJI 
-[1] "made it here"
-607 	 14468 	 TWN 
-[1] "made it here"
-608 	 11412 	 TWN 
-[1] "made it here"
-609 	 19421 	 TWN 
-[1] "made it here"
-610 	 11170 	 MMR THA 
-[1] "made it here"
-611 	 15245 	 MMR THA 
-[1] "made it here"
-612 	 12565 	 CHL 
-[1] "made it here"
-613 	 11972 	 KEN 
-[1] "made it here"
-614 	 20790 	 ARG 
-[1] "made it here"
-615 	 12899 	 ARG 
-616 	 11910 	 ARG 
-617 	 11676 	 TZA KEN 
-[1] "made it here"
-618 	 11952 	 TZA KEN 
-[1] "made it here"
-619 	 12116 	 ETH 
-[1] "made it here"
-620 	 11898 	 MEX 
-[1] "made it here"
-621 	 11906 	 MEX 
-[1] "made it here"
-622 	 15357 	 MEX 
-623 	 14567 	 HND GTM 
-[1] "made it here"
-624 	 11894 	 GTM 
-[1] "made it here"
-625 	 14569 	 GTM HND 
-[1] "made it here"
-626 	 15354 	 MEX 
-[1] "made it here"
-627 	 11891 	 HND 
-[1] "made it here"
-628 	 11931 	 HND 
-[1] "made it here"
-629 	 14552 	 CRI 
-[1] "made it here"
-630 	 19996 	 CRI PAN 
-631 	 12491 	 IRN 
-[1] "made it here"
-632 	 19732 	 CHN 
-633 	 19408 	 CHN 
-634 	 12694 	 ARM AZE 
-[1] "made it here"
-635 	 12695 	 ARM AZE 
-[1] "made it here"
-636 	 12961 	 ARM 
-[1] "made it here"
-637 	 19544 	 ARM GEO AZE 
-[1] "made it here"
-638 	 12683 	 ARM TUR 
-[1] "made it here"
-639 	 12684 	 ARM AZE IRN TUR 
-[1] "made it here"
-640 	 19725 	 BRA 
-[1] "made it here"
-641 	 14505 	 BRA 
-[1] "made it here"
-642 	 15557 	 BRA 
-[1] "made it here"
-643 	 19929 	 BRA 
-[1] "made it here"
-644 	 19930 	 BRA 
-[1] "made it here"
-645 	 19932 	 BRA 
-[1] "made it here"
-646 	 19933 	 BRA 
-[1] "made it here"
-647 	 18236 	 BRA 
-648 	 12639 	 AUS 
-[1] "made it here"
-649 	 12640 	 AUS 
-[1] "made it here"
-650 	 14404 	 AUS 
-[1] "made it here"
-651 	 14405 	 AUS 
-[1] "made it here"
-652 	 14414 	 AUS 
-[1] "made it here"
-653 	 20942 	 AUS 
-[1] "made it here"
-654 	 19934 	 BRA 
-[1] "made it here"
-655 	 18924 	 IDN 
-656 	 12763 	 IDN 
-[1] "made it here"
-657 	 19990 	 BRA 
-[1] "made it here"
-658 	 13030 	 TZA 
-[1] "made it here"
-659 	 15414 	 AUT DEU 
-[1] "made it here"
-660 	 15420 	 AUT DEU 
-[1] "made it here"
-661 	 18526 	 CHL BOL 
-[1] "made it here"
-662 	 20756 	 CHL 
-[1] "made it here"
-663 	 12575 	 PER 
-664 	 11260 	 HND NIC 
-[1] "made it here"
-665 	 11642 	 HND 
-[1] "made it here"
-666 	 11643 	 HND 
-[1] "made it here"
-667 	 19657 	 HND 
-[1] "made it here"
-668 	 17721 	 MEX 
-[1] "made it here"
-669 	 13927 	 PER 
-670 	 12729 	 PER 
-[1] "made it here"
-671 	 12730 	 PER 
-[1] "made it here"
-672 	 11237 	 PER 
-[1] "made it here"
-673 	 11850 	 BRA 
-[1] "made it here"
-674 	 11852 	 BRA 
-[1] "made it here"
-675 	 15332 	 MDG 
-[1] "made it here"
-676 	 12289 	 MDG 
-[1] "made it here"
-677 	 15632 	 ARG 
-[1] "made it here"
-678 	 19320 	 ARG 
-[1] "made it here"
-679 	 19425 	 CHN 
-680 	 20584 	 IDN 
-681 	 11920 	 HND 
-[1] "made it here"
-682 	 19517 	 KHM THA 
-[1] "made it here"
-683 	 12941 	 KHM 
-[1] "made it here"
-684 	 13938 	 PER 
-685 	 19705 	 PER BOL 
-[1] "made it here"
-686 	 18896 	 IDN 
-[1] "made it here"
-687 	 12137 	 VEN 
-[1] "made it here"
-688 	 15604 	 VEN 
-[1] "made it here"
-689 	 14293 	 SYC 
-[1] "made it here"
-690 	 12223 	 MDG 
-[1] "made it here"
-691 	 19706 	 BOL ARG 
-[1] "made it here"
-692 	 18351 	 AFG 
-693 	 11749 	 RUS 
-[1] "made it here"
-694 	 11677 	 TTO 
-[1] "made it here"
-695 	 14401 	 AUS 
-[1] "made it here"
-696 	 12678 	 MDG 
-[1] "made it here"
-697 	 11129 	 MDG 
-[1] "made it here"
-698 	 20752 	 ARG 
-[1] "made it here"
-699 	 19307 	 BRA 
-[1] "made it here"
-700 	 11623 	 CHN 
-701 	 11440 	 CHN 
-702 	 19374 	 CHN 
-703 	 14076 	 TZA 
-[1] "made it here"
-704 	 12033 	 CAN 
-[1] "made it here"
-705 	 14345 	 CMR 
-[1] "made it here"
-706 	 19326 	 CMR NGA 
-[1] "made it here"
-707 	 12706 	 MOZ 
-708 	 17811 	 MOZ 
-709 	 19251 	 CMR 
-710 	 11648 	 KEN 
-[1] "made it here"
-711 	 11955 	 USA 
-[1] "made it here"
-712 	 11637 	 CMR 
-[1] "made it here"
-713 	 12747 	 IDN 
-[1] "made it here"
-714 	 19722 	 BRA 
-[1] "made it here"
-715 	 11903 	 GTM MEX 
-[1] "made it here"
-716 	 14574 	 HND 
-[1] "made it here"
-717 	 14570 	 HND 
-[1] "made it here"
-718 	 19254 	 CMR 
-719 	 15600 	 ARG 
-720 	 19319 	 ARG 
-[1] "made it here"
-721 	 20953 	 ARG 
-[1] "made it here"
-722 	 13061 	 CHL 
-723 	 13006 	 COD 
-724 	 13121 	 COD ZMB 
-[1] "made it here"
-725 	 19093 	 COD 
-726 	 12288 	 MDG 
-727 	 18188 	 MWI 
-[1] "made it here"
-728 	 19462 	 ITA 
-[1] "made it here"
-729 	 12431 	 ITA 
-[1] "made it here"
-730 	 15625 	 ECU 
-[1] "made it here"
-731 	 18695 	 IDN 
-[1] "made it here"
-732 	 19340 	 TZA 
-[1] "made it here"
-733 	 18436 	 ETH 
-734 	 19954 	 COD UGA 
-[1] "made it here"
-735 	 20718 	 CHN 
-736 	 19658 	 MEX 
-[1] "made it here"
-737 	 19297 	 AUS 
-[1] "made it here"
-738 	 18548 	 IND 
-[1] "made it here"
-739 	 11725 	 MYS IDN 
-[1] "made it here"
-740 	 11977 	 MYS BRN 
-[1] "made it here"
-741 	 15233 	 IDN 
-[1] "made it here"
-742 	 18146 	 MDG 
-[1] "made it here"
-743 	 19343 	 MDG 
-[1] "made it here"
-744 	 14360 	 IND 
-[1] "made it here"
-745 	 19342 	 MDG 
-746 	 18248 	 BRA 
-[1] "made it here"
-747 	 12285 	 MDG 
-[1] "made it here"
-748 	 16552 	 USA 
-[1] "made it here"
-749 	 12946 	 MMR THA 
-[1] "made it here"
-750 	 18309 	 HKG CHN 
-[1] "made it here"
-751 	 11437 	 ISR LBN SYR 
-[1] "made it here"
-752 	 11438 	 ISR LBN SYR 
-[1] "made it here"
-753 	 19551 	 ISR JOR SYR 
-[1] "made it here"
-754 	 16709 	 USA MEX 
-[1] "made it here"
-755 	 19702 	 PER 
-[1] "made it here"
-756 	 11392 	 CHN 
-757 	 18696 	 IDN 
-[1] "made it here"
-758 	 12647 	 SLB 
-759 	 19633 	 USA 
-[1] "made it here"
-760 	 14602 	 GLP 
-[1] "made it here"
-761 	 12068 	 CHN 
-[1] "made it here"
-762 	 11671 	 TZA 
-[1] "made it here"
-763 	 14361 	 IND 
-[1] "made it here"
-764 	 14208 	 ARG 
-[1] "made it here"
-765 	 18241 	 BRA 
-766 	 11321 	 CHN 
-[1] "made it here"
-767 	 17751 	 MEX 
-[1] "made it here"
-768 	 11311 	 TZA 
-[1] "made it here"
-769 	 12078 	 CHN 
-[1] "made it here"
-770 	 12672 	 CHN 
-[1] "made it here"
-771 	 19376 	 CHN 
-[1] "made it here"
-772 	 19378 	 CHN 
-[1] "made it here"
-773 	 17697 	 USA 
-[1] "made it here"
-774 	 15766 	 MAR 
-[1] "made it here"
-775 	 15767 	 MAR 
-[1] "made it here"
-776 	 11290 	 CHN 
-777 	 20721 	 CHN 
-778 	 20719 	 CHN 
-779 	 19407 	 CHN 
-780 	 14408 	 AUS 
-[1] "made it here"
-781 	 18525 	 BOL 
-782 	 17724 	 MEX USA 
-[1] "made it here"
-783 	 17729 	 MEX 
-[1] "made it here"
-784 	 11245 	 PER ECU 
-[1] "made it here"
-785 	 11255 	 PER ECU 
-[1] "made it here"
-786 	 12386 	 PER ECU 
-[1] "made it here"
-787 	 13921 	 PER ECU 
-[1] "made it here"
-788 	 11951 	 VEN 
-[1] "made it here"
-789 	 15176 	 AUS 
-[1] "made it here"
-790 	 20814 	 JPN 
-[1] "made it here"
-791 	 12834 	 IND 
-[1] "made it here"
-792 	 14614 	 VEN 
-[1] "made it here"
-793 	 14575 	 HND SLV 
-[1] "made it here"
-794 	 15351 	 HND 
-[1] "made it here"
-795 	 18846 	 PNG 
-796 	 11180 	 ZAF 
-797 	 11204 	 ZAF 
-[1] "made it here"
-798 	 11540 	 ZAF 
-[1] "made it here"
-799 	 11684 	 ZAF 
-[1] "made it here"
-800 	 11968 	 ZAF 
-[1] "made it here"
-801 	 11805 	 USA 
-802 	 17640 	 USA 
-[1] "made it here"
-803 	 14588 	 PRI 
-[1] "made it here"
-804 	 15589 	 ZAF 
-[1] "made it here"
-805 	 20366 	 ZAF 
-[1] "made it here"
-806 	 13079 	 ZAF 
-[1] "made it here"
-807 	 19818 	 AUS 
-[1] "made it here"
-808 	 11890 	 ARG 
-[1] "made it here"
-809 	 11112 	 TUR 
-[1] "made it here"
-810 	 11182 	 TUR 
-811 	 14723 	 TUR 
-812 	 17730 	 USA 
-[1] "made it here"
-813 	 15356 	 USA MEX 
-[1] "made it here"
-814 	 16760 	 USA 
-815 	 16761 	 USA 
-[1] "made it here"
-816 	 16762 	 USA 
-[1] "made it here"
-817 	 16764 	 USA 
-[1] "made it here"
-818 	 16765 	 USA 
-[1] "made it here"
-819 	 16767 	 USA 
-[1] "made it here"
-820 	 12286 	 MDG 
-[1] "made it here"
-821 	 15337 	 MDG 
-[1] "made it here"
-822 	 19686 	 AUS 
-[1] "made it here"
-823 	 19687 	 AUS 
-[1] "made it here"
-824 	 19851 	 AUS 
-[1] "made it here"
-825 	 18195 	 GNQ 
-[1] "made it here"
-826 	 14391 	 AUS 
-[1] "made it here"
-827 	 20941 	 AUS 
-[1] "made it here"
-828 	 14344 	 CMR 
-829 	 19092 	 ETH 
-[1] "made it here"
-830 	 12486 	 ETH 
-[1] "made it here"
-831 	 19338 	 ETH 
-[1] "made it here"
-832 	 19333 	 ETH 
-[1] "made it here"
-833 	 19426 	 CHN 
-[1] "made it here"
-834 	 19685 	 AUS 
-[1] "made it here"
-835 	 12190 	 AUS 
-[1] "made it here"
-836 	 12736 	 AUS 
-[1] "made it here"
-837 	 15188 	 AUS 
-[1] "made it here"
-838 	 19833 	 AUS 
-[1] "made it here"
-839 	 19834 	 AUS 
-[1] "made it here"
-840 	 19835 	 AUS 
-[1] "made it here"
-841 	 19836 	 AUS 
-[1] "made it here"
-842 	 19837 	 AUS 
-[1] "made it here"
-843 	 19838 	 AUS 
-[1] "made it here"
-844 	 19839 	 AUS 
-[1] "made it here"
-845 	 19840 	 AUS 
-[1] "made it here"
-846 	 19841 	 AUS 
-[1] "made it here"
-847 	 19842 	 AUS 
-[1] "made it here"
-848 	 19843 	 AUS 
-[1] "made it here"
-849 	 19845 	 AUS 
-[1] "made it here"
-850 	 19848 	 AUS 
-[1] "made it here"
-851 	 19849 	 AUS 
-[1] "made it here"
-852 	 19850 	 AUS 
-[1] "made it here"
-853 	 19854 	 AUS 
-[1] "made it here"
-854 	 20943 	 AUS 
-[1] "made it here"
-855 	 19811 	 CHN 
-856 	 20876 	 CHN 
-[1] "made it here"
-857 	 14357 	 MDG 
-[1] "made it here"
-858 	 19924 	 ESP 
-[1] "made it here"
-859 	 15049 	 ESP 
-[1] "made it here"
-860 	 15050 	 ESP 
-[1] "made it here"
-861 	 15051 	 ESP 
-[1] "made it here"
-862 	 15052 	 ESP 
-[1] "made it here"
-863 	 15558 	 ZAF 
-[1] "made it here"
-864 	 15559 	 ZAF 
-[1] "made it here"
-865 	 19353 	 ZAF LSO 
-[1] "made it here"
-866 	 18277 	 ZAF SWZ 
-[1] "made it here"
-867 	 18285 	 ZAF 
-[1] "made it here"
-868 	 14273 	 SGS 
-[1] "made it here"
-869 	 12061 	 ZAF 
-[1] "made it here"
-870 	 13106 	 ZAF 
-[1] "made it here"
-871 	 15566 	 ZAF 
-[1] "made it here"
-872 	 19351 	 ZAF BWA 
-[1] "made it here"
-873 	 15565 	 ZAF 
-[1] "made it here"
-874 	 19361 	 ZAF 
-[1] "made it here"
-875 	 15241 	 PHL 
-[1] "made it here"
-876 	 11238 	 PHL 
-[1] "made it here"
-877 	 18725 	 PHL 
-[1] "made it here"
-878 	 18866 	 PHL 
-[1] "made it here"
-879 	 15254 	 PHL 
-[1] "made it here"
-880 	 15239 	 PHL 
-[1] "made it here"
-881 	 19529 	 PHL 
-[1] "made it here"
-882 	 15242 	 PHL 
-[1] "made it here"
-883 	 15244 	 PHL 
-[1] "made it here"
-884 	 19528 	 PHL 
-[1] "made it here"
-885 	 11921 	 PHL 
-[1] "made it here"
-886 	 15240 	 PHL 
-[1] "made it here"
-887 	 15262 	 NA PHL 
-[1] "made it here"
-888 	 12751 	 PHL 
-[1] "made it here"
-889 	 15259 	 PHL 
-[1] "made it here"
-890 	 12750 	 PHL 
-[1] "made it here"
-891 	 18855 	 PHL 
-892 	 18724 	 PHL 
-893 	 12754 	 PHL 
-[1] "made it here"
-894 	 15243 	 PHL 
-895 	 15238 	 PHL 
-[1] "made it here"
-896 	 12753 	 PHL 
-[1] "made it here"
-897 	 12702 	 PHL 
-[1] "made it here"
-898 	 11301 	 PHL 
-[1] "made it here"
-899 	 15260 	 PHL 
-[1] "made it here"
-900 	 19527 	 PHL 
-901 	 15256 	 PHL 
-[1] "made it here"
-902 	 18857 	 PHL 
-903 	 18861 	 PHL 
-904 	 11267 	 PHL 
-[1] "made it here"
-905 	 18862 	 PHL 
-[1] "made it here"
-906 	 18860 	 PHL 
-907 	 15252 	 PHL 
-[1] "made it here"
-908 	 15258 	 PHL 
-[1] "made it here"
-909 	 15237 	 PHL 
-[1] "made it here"
-910 	 18865 	 PHL 
-[1] "made it here"
-911 	 12095 	 PHL 
-[1] "made it here"
-912 	 13008 	 KEN 
-[1] "made it here"
-913 	 18142 	 KEN 
-[1] "made it here"
-914 	 18522 	 KEN 
-915 	 15746 	 IND 
-916 	 12839 	 NPL 
-[1] "made it here"
-917 	 14365 	 IND 
-[1] "made it here"
-918 	 13915 	 IND NPL 
-[1] "made it here"
-919 	 18694 	 IDN 
-[1] "made it here"
-920 	 11743 	 MDG 
-[1] "made it here"
-921 	 20347 	 BDI RWA 
-[1] "made it here"
-922 	 19329 	 RWA BDI UGA TZA SSD 
-[1] "made it here"
-923 	 15487 	 DEU BEL 
-[1] "made it here"
-924 	 15493 	 DEU 
-[1] "made it here"
-925 	 18800 	 WSM 
-[1] "made it here"
-926 	 12954 	 ETH 
-[1] "made it here"
-927 	 20852 	 IND PAK 
-[1] "made it here"
-928 	 18536 	 KEN 
-929 	 18537 	 KEN 
-930 	 14874 	 MNE 
-[1] "made it here"
-931 	 19768 	 JOR SYR 
-932 	 11160 	 MKD GRC BGR 
-[1] "made it here"
-933 	 14815 	 MKD GRC 
-[1] "made it here"
-934 	 14819 	 MKD 
-[1] "made it here"
-935 	 15146 	 MKD 
-[1] "made it here"
-936 	 19482 	 MKD GRC 
-[1] "made it here"
-937 	 12995 	 DZA 
-[1] "made it here"
-938 	 15752 	 TUN DZA 
-[1] "made it here"
-939 	 19347 	 TUN 
-[1] "made it here"
-940 	 11625 	 MAR 
-[1] "made it here"
-941 	 14816 	 ALB MKD GRC 
-[1] "made it here"
-942 	 12077 	 CHN 
-[1] "made it here"
-943 	 11286 	 CHN 
-944 	 15690 	 CHN 
-945 	 19390 	 CHN 
-946 	 19392 	 CHN 
-947 	 20796 	 CHN 
-948 	 20798 	 CHN 
-949 	 13069 	 CHN IND 
-950 	 19404 	 CHN 
-951 	 18554 	 CPV 
-[1] "made it here"
-952 	 19346 	 DZA 
-[1] "made it here"
-953 	 20781 	 ALB MKD GRC 
-[1] "made it here"
-954 	 20782 	 MKD 
-[1] "made it here"
-955 	 18196 	 STP 
-[1] "made it here"
-956 	 13000 	 TGO GHA 
-[1] "made it here"
-957 	 15172 	 GHA 
-[1] "made it here"
-958 	 15173 	 LBR 
-[1] "made it here"
-959 	 18210 	 LBR GIN 
-[1] "made it here"
-960 	 18212 	 LBR 
-961 	 18213 	 LBR 
-962 	 18211 	 LBR 
-963 	 12277 	 GIN 
-[1] "made it here"
-964 	 19366 	 GIN 
-[1] "made it here"
-965 	 20617 	 GIN 
-[1] "made it here"
-966 	 18208 	 GIN 
-[1] "made it here"
-967 	 18304 	 TGO 
-[1] "made it here"
-968 	 14511 	 SLE 
-[1] "made it here"
-969 	 13939 	 SLE 
-[1] "made it here"
-970 	 12276 	 SLE 
-[1] "made it here"
-971 	 19249 	 NGA 
-[1] "made it here"
-972 	 19327 	 NGA 
-[1] "made it here"
-973 	 13023 	 NGA CMR 
-[1] "made it here"
-974 	 12106 	 NGA 
-[1] "made it here"
-975 	 14508 	 NGA CMR 
-[1] "made it here"
-976 	 19257 	 NGA CMR 
-[1] "made it here"
-977 	 20620 	 LBR 
-[1] "made it here"
-978 	 13001 	 LBR GIN 
-[1] "made it here"
-979 	 18153 	 GHA 
-[1] "made it here"
-980 	 18151 	 GHA 
-[1] "made it here"
-981 	 12709 	 GHA 
-[1] "made it here"
-982 	 19265 	 CMR 
-983 	 19255 	 CMR 
-[1] "made it here"
-984 	 19248 	 CMR 
-985 	 19222 	 CIV 
-[1] "made it here"
-986 	 12279 	 CIV 
-[1] "made it here"
-987 	 18150 	 GHA 
-[1] "made it here"
-988 	 19395 	 CHN KAZ 
-[1] "made it here"
-989 	 11179 	 CHN 
-[1] "made it here"
-990 	 12019 	 UZB TJK 
-[1] "made it here"
-991 	 12217 	 UZB TJK 
-[1] "made it here"
-992 	 11543 	 UZB TKM 
-[1] "made it here"
-993 	 18347 	 UZB 
-[1] "made it here"
-994 	 20672 	 UZB TKM 
-995 	 11490 	 KAZ 
-[1] "made it here"
-996 	 11216 	 UZB 
-[1] "made it here"
-997 	 11502 	 UZB 
-[1] "made it here"
-998 	 12099 	 TJK 
-[1] "made it here"
-999 	 14535 	 TJK AFG 
-1000 	 19384 	 TJK AFG 
-1001 	 14538 	 TJK 
-1002 	 11559 	 TJK UZB 
-[1] "made it here"
-1003 	 15614 	 TJK 
-1004 	 15615 	 TJK AFG 
-[1] "made it here"
-1005 	 14533 	 TJK CHN KGZ 
-[1] "made it here"
-1006 	 14706 	 TJK CHN AFG 
-[1] "made it here"
-1007 	 15616 	 TJK 
-[1] "made it here"
-1008 	 20734 	 TJK 
-[1] "made it here"
-1009 	 20819 	 TJK 
-[1] "made it here"
-1010 	 14534 	 TJK 
-[1] "made it here"
-1011 	 15613 	 TJK 
-[1] "made it here"
-1012 	 20837 	 TJK 
-[1] "made it here"
-1013 	 11492 	 KAZ CHN 
-1014 	 11498 	 KAZ KGZ 
-[1] "made it here"
-1015 	 11522 	 KAZ 
-[1] "made it here"
-1016 	 20821 	 TJK 
-1017 	 12183 	 KAZ UZB 
-[1] "made it here"
-1018 	 14526 	 CHN 
-1019 	 18386 	 CHN 
-1020 	 19397 	 CHN 
-1021 	 19398 	 CHN KGZ 
-1022 	 14709 	 KGZ 
-[1] "made it here"
-1023 	 12854 	 PAK 
-[1] "made it here"
-1024 	 15328 	 PAK CHN 
-[1] "made it here"
-1025 	 15329 	 PAK AFG CHN 
-[1] "made it here"
-1026 	 12852 	 AFG PAK 
-[1] "made it here"
-1027 	 12823 	 AFG 
-1028 	 12828 	 AFG TJK 
-[1] "made it here"
-1029 	 18165 	 AFG CHN 
-1030 	 18348 	 AFG TJK 
-[1] "made it here"
-1031 	 18349 	 AFG TJK 
-[1] "made it here"
-1032 	 20676 	 AFG 
-1033 	 18346 	 UZB 
-[1] "made it here"
-1034 	 19399 	 TJK UZB 
-[1] "made it here"
-1035 	 11513 	 KGZ CHN 
-[1] "made it here"
-1036 	 11527 	 KGZ 
-1037 	 18343 	 KAZ 
-[1] "made it here"
-1038 	 11665 	 CHN 
-[1] "made it here"
-1039 	 11325 	 CHN 
-[1] "made it here"
-1040 	 11408 	 CHN 
-[1] "made it here"
-1041 	 11495 	 CHN KGZ 
-[1] "made it here"
-1042 	 11998 	 CHN KGZ 
-[1] "made it here"
-1043 	 18334 	 CHN KGZ 
-[1] "made it here"
-1044 	 18381 	 CHN 
-[1] "made it here"
-1045 	 18345 	 TJK 
-[1] "made it here"
-1046 	 15721 	 CHN KAZ 
-1047 	 11487 	 KAZ CHN 
-[1] "made it here"
-1048 	 11144 	 UZB 
-1049 	 18382 	 CHN 
-1050 	 18383 	 CHN 
-1051 	 19394 	 CHN 
-1052 	 15722 	 UZB 
-[1] "made it here"
-1053 	 18355 	 KGZ 
-[1] "made it here"
-1054 	 15723 	 KGZ 
-[1] "made it here"
-1055 	 18329 	 KGZ 
-[1] "made it here"
-1056 	 18388 	 TJK 
-[1] "made it here"
-1057 	 14499 	 ARE 
-[1] "made it here"
-1058 	 12693 	 ARM 
-[1] "made it here"
-1059 	 20611 	 RUS 
-[1] "made it here"
-1060 	 20913 	 RUS GEO 
-[1] "made it here"
-1061 	 19542 	 RUS GEO 
-[1] "made it here"
-1062 	 15665 	 RUS 
-[1] "made it here"
-1063 	 19540 	 RUS GEO 
-[1] "made it here"
-1064 	 15667 	 RUS GEO 
-[1] "made it here"
-1065 	 17764 	 RUS 
-[1] "made it here"
-1066 	 18374 	 RUS AZE 
-[1] "made it here"
-1067 	 17765 	 RUS 
-[1] "made it here"
-1068 	 18375 	 RUS 
-1069 	 19541 	 RUS AZE GEO 
-[1] "made it here"
-1070 	 14626 	 TUR GEO 
-[1] "made it here"
-1071 	 11272 	 TUR 
-1072 	 11621 	 TUR 
-1073 	 14625 	 TUR 
-1074 	 14740 	 TUR 
-1075 	 12080 	 TUR GEO 
-1076 	 12962 	 ARM AZE IRN 
-[1] "made it here"
-1077 	 11758 	 ARM IRN 
-[1] "made it here"
-1078 	 12692 	 ARM 
-1079 	 17767 	 RUS AZE 
-[1] "made it here"
-1080 	 11121 	 TUR GEO ARM 
-[1] "made it here"
-1081 	 11465 	 TUR 
-1082 	 19537 	 IRN 
-[1] "made it here"
-1083 	 12593 	 IRN 
-[1] "made it here"
-1084 	 14550 	 IRN 
-[1] "made it here"
-1085 	 14551 	 IRN 
-[1] "made it here"
-1086 	 15273 	 IRN 
-[1] "made it here"
-1087 	 19545 	 IRN 
-[1] "made it here"
-1088 	 20914 	 AZE IRN 
-[1] "made it here"
-1089 	 12691 	 GEO 
-[1] "made it here"
-1090 	 15657 	 GEO 
-[1] "made it here"
-1091 	 15658 	 GEO 
-[1] "made it here"
-1092 	 12687 	 GEO 
-[1] "made it here"
-1093 	 15677 	 GEO 
-[1] "made it here"
-1094 	 18376 	 GEO RUS 
-[1] "made it here"
-1095 	 12697 	 GEO 
-[1] "made it here"
-1096 	 17766 	 GEO RUS 
-[1] "made it here"
-1097 	 15668 	 GEO AZE 
-[1] "made it here"
-1098 	 15669 	 GEO AZE 
-[1] "made it here"
-1099 	 11105 	 ARM IRN TUR 
-1100 	 12682 	 ARM GEO 
-[1] "made it here"
-1101 	 15251 	 ARM 
-1102 	 20689 	 ARM TUR 
-1103 	 20688 	 ARM TUR 
-1104 	 20686 	 AZE IRN 
-[1] "made it here"
-1105 	 15659 	 GEO 
-1106 	 15661 	 GEO 
-1107 	 15662 	 GEO 
-1108 	 15660 	 GEO 
-1109 	 12685 	 GEO 
-[1] "made it here"
-1110 	 15666 	 GEO 
-[1] "made it here"
-1111 	 15672 	 GEO RUS 
-[1] "made it here"
-1112 	 15670 	 GEO 
-[1] "made it here"
-1113 	 11426 	 IRN 
-[1] "made it here"
-1114 	 18523 	 IRN TUR 
-1115 	 11303 	 IRN 
-1116 	 11544 	 IRN 
-1117 	 15664 	 RUS 
-[1] "made it here"
-1118 	 14621 	 TUR 
-1119 	 19543 	 RUS 
-[1] "made it here"
-1120 	 15663 	 RUS 
-[1] "made it here"
-1121 	 19539 	 RUS GEO 
-[1] "made it here"
-1122 	 17762 	 RUS 
-[1] "made it here"
-1123 	 17763 	 RUS 
-[1] "made it here"
-1124 	 20687 	 GEO 
-1125 	 15675 	 GEO 
-1126 	 12963 	 AZE 
-[1] "made it here"
-1127 	 18259 	 BRA 
-[1] "made it here"
-1128 	 19995 	 BRA 
-[1] "made it here"
-1129 	 19381 	 CHN 
-[1] "made it here"
-1130 	 14463 	 CHN 
-[1] "made it here"
-1131 	 19377 	 CHN 
-[1] "made it here"
-1132 	 15693 	 CHN 
-1133 	 15691 	 CHN 
-1134 	 19375 	 CHN 
-[1] "made it here"
-1135 	 11674 	 CHN 
-1136 	 11222 	 CHN 
-1137 	 12255 	 CHN 
-[1] "made it here"
-1138 	 12248 	 CHN 
-1139 	 18713 	 CHN 
-1140 	 18714 	 CHN 
-[1] "made it here"
-1141 	 11152 	 CHN 
-[1] "made it here"
-1142 	 19226 	 CHN 
-[1] "made it here"
-1143 	 19400 	 CHN 
-1144 	 11980 	 CHN 
-1145 	 12674 	 CHN 
-1146 	 19401 	 CHN 
-1147 	 18422 	 CHN 
-[1] "made it here"
-1148 	 20797 	 CHN 
-[1] "made it here"
-1149 	 20867 	 CHN 
-1150 	 18712 	 CHN 
-1151 	 13067 	 CHN 
-[1] "made it here"
-1152 	 19182 	 CHN 
-1153 	 19224 	 CHN 
-1154 	 12069 	 CHN 
-1155 	 15750 	 DZA TUN 
-[1] "made it here"
-1156 	 15751 	 DZA TUN 
-1157 	 20614 	 DZA 
-1158 	 14839 	 BIH HRV 
-[1] "made it here"
-1159 	 14857 	 BIH 
-1160 	 11432 	 ALB MKD 
-[1] "made it here"
-1161 	 14812 	 ALB GRC 
-[1] "made it here"
-1162 	 11368 	 ALB 
-1163 	 15156 	 ALB 
-[1] "made it here"
-1164 	 15158 	 ALB 
-[1] "made it here"
-1165 	 11352 	 ALB 
-[1] "made it here"
-1166 	 12960 	 ALB GRC 
-[1] "made it here"
-1167 	 15155 	 ALB GRC 
-[1] "made it here"
-1168 	 19485 	 ALB GRC 
-[1] "made it here"
-1169 	 15154 	 ALB 
-[1] "made it here"
-1170 	 15157 	 ALB 
-[1] "made it here"
-1171 	 11667 	 ALB GRC 
-[1] "made it here"
-1172 	 15150 	 ALB 
-[1] "made it here"
-1173 	 18413 	 ALB GRC 
-[1] "made it here"
-1174 	 12959 	 ALB 
-[1] "made it here"
-1175 	 19368 	 CPV 
-[1] "made it here"
-1176 	 11430 	 SYR TUR 
-1177 	 11327 	 JOR 
-[1] "made it here"
-1178 	 18097 	 JOR SAU ISR 
-[1] "made it here"
-1179 	 14711 	 TUR 
-1180 	 11142 	 TUR 
-1181 	 12996 	 DZA 
-[1] "made it here"
-1182 	 10084 	 DZA 
-1183 	 12997 	 DZA MAR 
-[1] "made it here"
-1184 	 12999 	 DZA 
-1185 	 10095 	 DZA 
-[1] "made it here"
-1186 	 10092 	 DZA 
-[1] "made it here"
-1187 	 10094 	 DZA 
-1188 	 11775 	 MAR 
-[1] "made it here"
-1189 	 19345 	 MAR 
-[1] "made it here"
-1190 	 14306 	 LBY 
+863 	 12598 	 PYF 
 [1] "no PAs"
-1191 	 13015 	 LBY 
+864 	 21063 	 PYF 
 [1] "no PAs"
-1192 	 14833 	 BIH HRV 
-[1] "made it here"
-1193 	 14838 	 BIH MNE 
-1194 	 12972 	 BIH MNE HRV 
-[1] "made it here"
-1195 	 14855 	 BIH 
-[1] "made it here"
-1196 	 14866 	 MNE 
-[1] "made it here"
-1197 	 14869 	 MNE 
-1198 	 14837 	 MNE 
-[1] "made it here"
-1199 	 14632 	 SYR TUR 
-1200 	 18560 	 SYR 
+865 	 21064 	 PYF 
 [1] "no PAs"
-1201 	 10086 	 MAR DZA 
-1202 	 14309 	 MAR 
-[1] "made it here"
-1203 	 14892 	 MNE 
-[1] "made it here"
-1204 	 10091 	 DZA 
-1205 	 10087 	 DZA 
-1206 	 10088 	 DZA 
-[1] "made it here"
-1207 	 10089 	 DZA 
-1208 	 15756 	 DZA 
-[1] "made it here"
-1209 	 10093 	 DZA 
-[1] "made it here"
-1210 	 14714 	 TUR 
-1211 	 14817 	 MKD GRC 
-[1] "made it here"
-1212 	 14818 	 MKD 
-1213 	 14821 	 MKD 
-1214 	 14822 	 MKD 
-1215 	 14865 	 MNE 
-1216 	 14893 	 MNE 
-1217 	 14719 	 TUR 
-1218 	 14683 	 TUR 
-1219 	 19738 	 TUR 
-1220 	 14968 	 TUR 
-1221 	 14672 	 TUR 
-1222 	 14654 	 TUR 
-1223 	 11970 	 TUR 
-1224 	 14649 	 TUR 
-1225 	 19739 	 TUR 
-[1] "made it here"
-1226 	 11163 	 TUR 
-1227 	 14646 	 TUR 
-1228 	 14741 	 TUR 
-1229 	 11155 	 TUR 
-[1] "made it here"
-1230 	 14651 	 TUR 
-1231 	 11348 	 TUR 
-1232 	 11354 	 TUR 
-1233 	 14761 	 TUR 
-1234 	 14772 	 TUR 
-1235 	 14658 	 TUR 
-1236 	 14681 	 TUR 
-1237 	 20350 	 TUR 
-1238 	 11605 	 TUR 
-1239 	 14688 	 TUR 
-1240 	 14717 	 TUR 
-1241 	 11595 	 TUR 
-1242 	 11171 	 TUR 
-1243 	 14718 	 TUR 
-1244 	 11601 	 TUR 
-1245 	 14645 	 TUR 
-1246 	 13022 	 MAR 
-[1] "made it here"
-1247 	 11964 	 TUR 
-1248 	 19552 	 TUR 
-1249 	 14733 	 TUR 
-1250 	 14769 	 TUR 
-1251 	 18691 	 TUR GRC 
-[1] "made it here"
-1252 	 11466 	 TUR 
-1253 	 14657 	 TUR 
-1254 	 14656 	 TUR 
-1255 	 20916 	 TUR 
-1256 	 12081 	 TUR 
-1257 	 12778 	 TUR 
-1258 	 11304 	 TUR 
-1259 	 12028 	 TUR 
-1260 	 19535 	 TUR 
-1261 	 11315 	 TUR 
-1262 	 11654 	 TUR 
-1263 	 14617 	 TUR 
-1264 	 14764 	 TUR 
-1265 	 14670 	 TUR 
-1266 	 14634 	 TUR 
-1267 	 14712 	 TUR 
-1268 	 14710 	 TUR 
-1269 	 11657 	 TUR 
-1270 	 14690 	 TUR 
-1271 	 11164 	 TUR 
-1272 	 14687 	 TUR 
-1273 	 14618 	 TUR 
-1274 	 14619 	 TUR 
-1275 	 11292 	 TUR 
-1276 	 11189 	 TUR 
-1277 	 11326 	 TUR 
-1278 	 11128 	 TUR 
-1279 	 14715 	 TUR 
-1280 	 14716 	 TUR GRC 
-[1] "made it here"
-1281 	 11963 	 TUR 
-1282 	 11878 	 TUR 
-1283 	 14849 	 BIH HRV 
-[1] "made it here"
-1284 	 14850 	 BIH 
-[1] "made it here"
-1285 	 14851 	 BIH 
-[1] "made it here"
-1286 	 18681 	 TUR GRC 
-[1] "made it here"
-1287 	 18710 	 TUR 
-1288 	 11108 	 TUR 
-1289 	 14728 	 TUR 
-1290 	 14763 	 TUR 
-1291 	 14633 	 SYR 
+866 	 18783 	 PYF 
 [1] "no PAs"
-1292 	 13032 	 TUN 
-[1] "made it here"
-1293 	 14686 	 TUR 
-[1] "made it here"
-1294 	 14760 	 TUR 
-1295 	 14730 	 TUR 
-1296 	 14671 	 TUR 
-[1] "made it here"
-1297 	 19066 	 ESP 
-[1] "made it here"
-1298 	 19069 	 ESP 
-[1] "made it here"
-1299 	 11566 	 ESP 
-[1] "made it here"
-1300 	 19068 	 ESP 
-[1] "made it here"
-1301 	 12527 	 ESP 
-[1] "made it here"
-1302 	 12529 	 ESP 
-[1] "made it here"
-1303 	 12528 	 ESP 
-[1] "made it here"
-1304 	 19067 	 ESP 
-[1] "made it here"
-1305 	 19488 	 ESP 
-[1] "made it here"
-1306 	 14996 	 ESP 
-[1] "made it here"
-1307 	 15077 	 ESP 
-[1] "made it here"
-1308 	 12229 	 ESP 
-[1] "made it here"
-1309 	 12815 	 ESP 
-[1] "made it here"
-1310 	 12807 	 ESP 
-[1] "made it here"
-1311 	 15081 	 ESP 
-[1] "made it here"
-1312 	 19495 	 ESP 
-[1] "made it here"
-1313 	 19925 	 ESP 
-[1] "made it here"
-1314 	 15008 	 ESP 
-[1] "made it here"
-1315 	 14974 	 ESP 
-[1] "made it here"
-1316 	 14983 	 ESP 
-1317 	 14987 	 ESP 
-[1] "made it here"
-1318 	 14989 	 ESP 
-[1] "made it here"
-1319 	 15033 	 ESP 
-[1] "made it here"
-1320 	 14973 	 ESP 
-[1] "made it here"
-1321 	 14975 	 ESP 
-[1] "made it here"
-1322 	 14990 	 ESP 
-1323 	 15002 	 ESP 
-[1] "made it here"
-1324 	 20998 	 ESP 
-[1] "made it here"
-1325 	 12798 	 ESP 
-[1] "made it here"
-1326 	 14991 	 ESP 
-[1] "made it here"
-1327 	 15035 	 ESP 
-[1] "made it here"
-1328 	 15005 	 ESP 
-[1] "made it here"
-1329 	 15038 	 ESP 
-[1] "made it here"
-1330 	 15039 	 ESP 
-[1] "made it here"
-1331 	 15037 	 ESP 
-[1] "made it here"
-1332 	 15041 	 ESP 
-[1] "made it here"
-1333 	 14992 	 ESP 
-[1] "made it here"
-1334 	 15000 	 ESP 
-[1] "made it here"
-1335 	 15071 	 ESP 
-[1] "made it here"
-1336 	 19910 	 ESP 
-[1] "made it here"
-1337 	 20047 	 ESP 
-[1] "made it here"
-1338 	 17869 	 ESP 
-[1] "made it here"
-1339 	 17872 	 ESP 
-[1] "made it here"
-1340 	 17873 	 ESP 
-[1] "made it here"
-1341 	 20036 	 ESP 
-[1] "made it here"
-1342 	 15030 	 ESP 
-[1] "made it here"
-1343 	 15136 	 ESP 
-[1] "made it here"
-1344 	 15137 	 ESP 
-[1] "made it here"
-1345 	 12803 	 ESP 
-[1] "made it here"
-1346 	 12726 	 ESP 
-[1] "made it here"
-1347 	 12800 	 ESP 
-[1] "made it here"
-1348 	 15016 	 ESP 
-[1] "made it here"
-1349 	 15017 	 ESP 
-[1] "made it here"
-1350 	 17858 	 ESP PRT 
-[1] "made it here"
-1351 	 15161 	 ESP 
-[1] "made it here"
-1352 	 18664 	 ESP 
-[1] "made it here"
-1353 	 15091 	 ESP PRT 
-[1] "made it here"
-1354 	 15092 	 ESP 
-1355 	 15060 	 ESP 
-[1] "made it here"
-1356 	 15061 	 ESP GIB 
-[1] "made it here"
-1357 	 15062 	 ESP GIB 
-[1] "made it here"
-1358 	 12813 	 ESP 
-[1] "made it here"
-1359 	 15063 	 ESP 
-[1] "made it here"
-1360 	 15067 	 ESP 
-[1] "made it here"
-1361 	 15064 	 ESP 
-[1] "made it here"
-1362 	 15068 	 ESP 
-[1] "made it here"
-1363 	 19916 	 ESP 
-[1] "made it here"
-1364 	 12818 	 ESP 
-[1] "made it here"
-1365 	 15065 	 ESP 
-[1] "made it here"
-1366 	 19915 	 ESP 
-[1] "made it here"
-1367 	 19920 	 ESP 
-[1] "made it here"
-1368 	 15076 	 ESP 
-[1] "made it here"
-1369 	 15086 	 ESP 
-[1] "made it here"
-1370 	 15087 	 ESP 
-[1] "made it here"
-1371 	 15093 	 ESP 
-[1] "made it here"
-1372 	 15079 	 ESP 
-[1] "made it here"
-1373 	 15095 	 ESP 
-[1] "made it here"
-1374 	 15078 	 ESP 
-[1] "made it here"
-1375 	 15080 	 ESP 
-[1] "made it here"
-1376 	 15069 	 ESP 
-[1] "made it here"
-1377 	 15070 	 ESP 
-[1] "made it here"
-1378 	 15072 	 ESP 
-1379 	 15073 	 ESP 
-1380 	 12817 	 ESP 
-[1] "made it here"
-1381 	 15075 	 ESP 
-[1] "made it here"
-1382 	 12816 	 ESP 
-[1] "made it here"
-1383 	 17856 	 ESP 
-[1] "made it here"
-1384 	 17855 	 ESP 
-[1] "made it here"
-1385 	 17857 	 ESP 
-[1] "made it here"
-1386 	 15074 	 ESP 
-[1] "made it here"
-1387 	 19921 	 ESP 
-[1] "made it here"
-1388 	 12808 	 ESP 
-[1] "made it here"
-1389 	 15082 	 ESP 
-1390 	 15101 	 ESP 
-[1] "made it here"
-1391 	 12809 	 ESP 
-[1] "made it here"
-1392 	 15083 	 ESP 
-[1] "made it here"
-1393 	 15102 	 ESP 
-[1] "made it here"
-1394 	 15103 	 ESP 
-[1] "made it here"
-1395 	 12811 	 ESP 
-[1] "made it here"
-1396 	 12812 	 ESP 
-[1] "made it here"
-1397 	 15097 	 ESP 
-[1] "made it here"
-1398 	 15100 	 ESP 
-[1] "made it here"
-1399 	 15104 	 ESP 
-[1] "made it here"
-1400 	 15105 	 ESP 
-[1] "made it here"
-1401 	 15107 	 ESP 
-[1] "made it here"
-1402 	 19912 	 ESP 
-[1] "made it here"
-1403 	 15096 	 ESP 
-1404 	 18656 	 ESP 
-[1] "made it here"
-1405 	 15036 	 ESP 
-[1] "made it here"
-1406 	 20997 	 ESP 
-[1] "made it here"
-1407 	 15031 	 ESP 
-[1] "made it here"
-1408 	 15106 	 ESP 
-[1] "made it here"
-1409 	 20052 	 ESP 
-[1] "made it here"
-1410 	 15108 	 ESP 
-[1] "made it here"
-1411 	 15111 	 ESP 
-[1] "made it here"
-1412 	 15110 	 ESP 
-[1] "made it here"
-1413 	 12819 	 ESP 
-[1] "made it here"
-1414 	 15109 	 ESP 
-[1] "made it here"
-1415 	 19918 	 ESP 
-[1] "made it here"
-1416 	 17853 	 ESP 
-[1] "made it here"
-1417 	 17854 	 ESP 
-[1] "made it here"
-1418 	 17852 	 ESP 
-[1] "made it here"
-1419 	 17990 	 ESP 
-[1] "made it here"
-1420 	 17991 	 ESP 
-[1] "made it here"
-1421 	 15186 	 ESP 
-[1] "made it here"
-1422 	 15187 	 ESP 
-[1] "made it here"
-1423 	 17994 	 ESP 
-[1] "made it here"
-1424 	 14993 	 ESP 
-[1] "made it here"
-1425 	 14994 	 ESP 
-[1] "made it here"
-1426 	 14385 	 ESP 
-[1] "made it here"
-1427 	 15014 	 ESP 
-[1] "made it here"
-1428 	 20996 	 ESP 
-[1] "made it here"
-1429 	 15001 	 ESP 
-[1] "made it here"
-1430 	 15012 	 ESP 
-[1] "made it here"
-1431 	 15011 	 ESP 
-[1] "made it here"
-1432 	 15042 	 ESP 
-[1] "made it here"
-1433 	 15043 	 ESP 
-[1] "made it here"
-1434 	 15044 	 ESP 
-[1] "made it here"
-1435 	 15045 	 ESP 
-[1] "made it here"
-1436 	 15046 	 ESP 
-[1] "made it here"
-1437 	 14958 	 ESP 
-[1] "made it here"
-1438 	 14959 	 ESP 
-[1] "made it here"
-1439 	 17914 	 ESP 
-[1] "made it here"
-1440 	 17934 	 ESP 
-[1] "made it here"
-1441 	 17970 	 ESP 
-[1] "made it here"
-1442 	 15057 	 ESP FRA 
-[1] "made it here"
-1443 	 15059 	 ESP FRA 
-[1] "made it here"
-1444 	 17920 	 ESP FRA 
-[1] "made it here"
-1445 	 17963 	 ESP 
-[1] "made it here"
-1446 	 17964 	 ESP 
-[1] "made it here"
-1447 	 14960 	 ESP 
-[1] "made it here"
-1448 	 14961 	 ESP 
-[1] "made it here"
-1449 	 17940 	 ESP 
-[1] "made it here"
-1450 	 17968 	 ESP 
-[1] "made it here"
-1451 	 17915 	 ESP 
-[1] "made it here"
-1452 	 17916 	 ESP AND 
-[1] "made it here"
-1453 	 17943 	 ESP 
-[1] "made it here"
-1454 	 14387 	 ESP 
-[1] "made it here"
-1455 	 14433 	 ESP 
-[1] "made it here"
-1456 	 14971 	 ESP 
-[1] "made it here"
-1457 	 17911 	 ESP 
-[1] "made it here"
-1458 	 17935 	 ESP FRA 
-[1] "made it here"
-1459 	 17939 	 ESP 
-[1] "made it here"
-1460 	 17945 	 ESP 
-[1] "made it here"
-1461 	 17946 	 ESP 
-[1] "made it here"
-1462 	 17947 	 ESP 
-[1] "made it here"
-1463 	 17948 	 ESP 
-[1] "made it here"
-1464 	 17972 	 ESP 
-[1] "made it here"
-1465 	 17974 	 ESP 
-[1] "made it here"
-1466 	 14966 	 ESP 
-[1] "made it here"
-1467 	 17975 	 ESP FRA 
-[1] "made it here"
-1468 	 14942 	 ESP 
-[1] "made it here"
-1469 	 14943 	 ESP 
-[1] "made it here"
-1470 	 14944 	 ESP 
-[1] "made it here"
-1471 	 14970 	 ESP 
-[1] "made it here"
-1472 	 14945 	 ESP 
-[1] "made it here"
-1473 	 14946 	 ESP 
-[1] "made it here"
-1474 	 14947 	 ESP 
-[1] "made it here"
-1475 	 17983 	 ESP 
-[1] "made it here"
-1476 	 15009 	 ESP 
-[1] "made it here"
-1477 	 15010 	 ESP 
-[1] "made it here"
-1478 	 15006 	 ESP 
-[1] "made it here"
-1479 	 14972 	 ESP 
-[1] "made it here"
-1480 	 15003 	 ESP 
-[1] "made it here"
-1481 	 15007 	 ESP 
-[1] "made it here"
-1482 	 17949 	 ESP 
-[1] "made it here"
-1483 	 14941 	 ESP 
-[1] "made it here"
-1484 	 17973 	 ESP 
-[1] "made it here"
-1485 	 17882 	 ESP 
-[1] "made it here"
-1486 	 17885 	 ESP 
-[1] "made it here"
-1487 	 19493 	 ESP FRA 
-[1] "made it here"
-1488 	 17958 	 ESP 
-[1] "made it here"
-1489 	 15028 	 ESP 
-[1] "made it here"
-1490 	 12799 	 ESP 
-[1] "made it here"
-1491 	 15029 	 ESP 
-[1] "made it here"
-1492 	 15025 	 ESP 
-[1] "made it here"
-1493 	 15027 	 ESP 
-[1] "made it here"
-1494 	 15026 	 ESP 
-[1] "made it here"
-1495 	 15022 	 ESP 
-[1] "made it here"
-1496 	 15023 	 ESP 
-[1] "made it here"
-1497 	 15018 	 ESP 
-1498 	 15019 	 ESP 
-[1] "made it here"
-1499 	 15021 	 ESP 
-1500 	 17844 	 ESP PRT 
-[1] "made it here"
-1501 	 14976 	 ESP 
-[1] "made it here"
-1502 	 14978 	 ESP 
-[1] "made it here"
-1503 	 14981 	 ESP 
-[1] "made it here"
-1504 	 14982 	 ESP 
-[1] "made it here"
-1505 	 20807 	 ESP 
-[1] "made it here"
-1506 	 14984 	 ESP 
-[1] "made it here"
-1507 	 14986 	 ESP 
-[1] "made it here"
-1508 	 19923 	 ESP 
-[1] "made it here"
-1509 	 12796 	 ESP 
-[1] "made it here"
-1510 	 14979 	 ESP 
-[1] "made it here"
-1511 	 14980 	 ESP 
-[1] "made it here"
-1512 	 14985 	 ESP 
-[1] "made it here"
-1513 	 14933 	 ESP 
-[1] "made it here"
-1514 	 17959 	 ESP 
-[1] "made it here"
-1515 	 17960 	 ESP 
-[1] "made it here"
-1516 	 14948 	 ESP 
-[1] "made it here"
-1517 	 20054 	 ESP 
-[1] "made it here"
-1518 	 14949 	 ESP 
-[1] "made it here"
-1519 	 14950 	 ESP 
-[1] "made it here"
-1520 	 14952 	 ESP 
-[1] "made it here"
-1521 	 17876 	 ESP 
-[1] "made it here"
-1522 	 17878 	 ESP 
-[1] "made it here"
-1523 	 17879 	 ESP 
-[1] "made it here"
-1524 	 17880 	 ESP 
-[1] "made it here"
-1525 	 12786 	 ESP 
-[1] "made it here"
-1526 	 14951 	 ESP 
-[1] "made it here"
-1527 	 14957 	 ESP 
-[1] "made it here"
-1528 	 20035 	 ESP 
-[1] "made it here"
-1529 	 17821 	 ESP 
-[1] "made it here"
-1530 	 17837 	 ESP 
-[1] "made it here"
-1531 	 17868 	 ESP 
-[1] "made it here"
-1532 	 19489 	 ESP 
-1533 	 17822 	 ESP 
-[1] "made it here"
-1534 	 17823 	 ESP 
-[1] "made it here"
-1535 	 17830 	 ESP 
-[1] "made it here"
-1536 	 17867 	 ESP 
-[1] "made it here"
-1537 	 17828 	 ESP 
-[1] "made it here"
-1538 	 17833 	 ESP 
-[1] "made it here"
-1539 	 17831 	 ESP 
-[1] "made it here"
-1540 	 17838 	 ESP PRT 
-[1] "made it here"
-1541 	 17839 	 ESP PRT 
-[1] "made it here"
-1542 	 14894 	 HRV 
-[1] "made it here"
-1543 	 14828 	 HRV ITA SVN 
-[1] "made it here"
-1544 	 19481 	 HRV ITA SVN 
-[1] "made it here"
-1545 	 12965 	 HRV 
-[1] "made it here"
-1546 	 14895 	 HRV 
-[1] "made it here"
-1547 	 12964 	 HRV 
-[1] "made it here"
-1548 	 14847 	 HRV 
-[1] "made it here"
-1549 	 19480 	 HRV 
-[1] "made it here"
-1550 	 14842 	 HRV SVN 
-[1] "made it here"
-1551 	 14843 	 HRV SVN 
-[1] "made it here"
-1552 	 14844 	 HRV SVN 
-[1] "made it here"
-1553 	 14846 	 HRV 
-[1] "made it here"
-1554 	 14877 	 HRV SVN 
-[1] "made it here"
-1555 	 14834 	 HRV 
-[1] "made it here"
-1556 	 14829 	 HRV 
-[1] "made it here"
-1557 	 14776 	 ITA 
-[1] "made it here"
-1558 	 19471 	 ITA 
-[1] "made it here"
-1559 	 14781 	 ITA 
-[1] "made it here"
-1560 	 19034 	 ITA 
-[1] "made it here"
-1561 	 19036 	 ITA 
-[1] "made it here"
-1562 	 19037 	 ITA 
-[1] "made it here"
-1563 	 19460 	 ITA 
-[1] "made it here"
-1564 	 12429 	 ITA 
-[1] "made it here"
-1565 	 15774 	 ITA 
-[1] "made it here"
-1566 	 15776 	 ITA 
-[1] "made it here"
-1567 	 15777 	 ITA 
-[1] "made it here"
-1568 	 15778 	 ITA 
-[1] "made it here"
-1569 	 14841 	 ITA SVN 
-[1] "made it here"
-1570 	 10014 	 FRA 
-[1] "made it here"
-1571 	 15484 	 FRA 
-[1] "made it here"
-1572 	 15132 	 FRA 
-[1] "made it here"
-1573 	 10016 	 FRA 
-[1] "made it here"
-1574 	 15503 	 FRA 
-[1] "made it here"
-1575 	 15375 	 FRA 
-[1] "made it here"
-1576 	 10018 	 FRA 
-[1] "made it here"
-1577 	 10072 	 FRA 
-[1] "made it here"
-1578 	 10073 	 FRA 
-[1] "made it here"
-1579 	 10074 	 FRA 
-[1] "made it here"
-1580 	 10075 	 FRA 
-[1] "made it here"
-1581 	 15377 	 FRA ITA 
-[1] "made it here"
-1582 	 15378 	 FRA ITA 
-[1] "made it here"
-1583 	 15380 	 FRA 
-[1] "made it here"
-1584 	 15381 	 FRA 
-[1] "made it here"
-1585 	 15382 	 FRA 
-[1] "made it here"
-1586 	 15373 	 FRA 
-[1] "made it here"
-1587 	 19451 	 FRA ITA 
-[1] "made it here"
-1588 	 15383 	 FRA 
-[1] "made it here"
-1589 	 15374 	 FRA 
-[1] "made it here"
-1590 	 15376 	 FRA 
-[1] "made it here"
-1591 	 18679 	 FRA 
-[1] "made it here"
-1592 	 15120 	 FRA 
-[1] "made it here"
-1593 	 17988 	 FRA 
-[1] "made it here"
-1594 	 15119 	 FRA 
-[1] "made it here"
-1595 	 18678 	 FRA 
-[1] "made it here"
-1596 	 20027 	 FRA 
-[1] "made it here"
-1597 	 17921 	 FRA 
-[1] "made it here"
-1598 	 15058 	 FRA 
-[1] "made it here"
-1599 	 17918 	 FRA 
-[1] "made it here"
-1600 	 17919 	 FRA 
-[1] "made it here"
-1601 	 12464 	 FRA 
-[1] "made it here"
-1602 	 12465 	 FRA 
-[1] "made it here"
-1603 	 12463 	 FRA 
-[1] "made it here"
-1604 	 12466 	 FRA 
-[1] "made it here"
-1605 	 12467 	 FRA 
-[1] "made it here"
-1606 	 12468 	 FRA 
-[1] "made it here"
-1607 	 12469 	 FRA 
-[1] "made it here"
-1608 	 11651 	 CYP 
-[1] "made it here"
-1609 	 18709 	 CYP 
-1610 	 19457 	 CYP 
-1611 	 12434 	 ITA 
-[1] "made it here"
-1612 	 18576 	 ITA 
-[1] "made it here"
-1613 	 18577 	 ITA 
-[1] "made it here"
-1614 	 19479 	 ITA 
-[1] "made it here"
-1615 	 19478 	 ITA 
-[1] "made it here"
-1616 	 18579 	 ITA 
-[1] "made it here"
-1617 	 19472 	 ITA 
-[1] "made it here"
-1618 	 18594 	 ITA 
-[1] "made it here"
-1619 	 19475 	 ITA 
-[1] "made it here"
-1620 	 19477 	 ITA 
-[1] "made it here"
-1621 	 19474 	 ITA 
-[1] "made it here"
-1622 	 19207 	 ITA 
-[1] "made it here"
-1623 	 19072 	 PRT 
-[1] "made it here"
-1624 	 19074 	 PRT 
-[1] "made it here"
-1625 	 19078 	 PRT 
-[1] "made it here"
-1626 	 19077 	 PRT 
-[1] "made it here"
-1627 	 17849 	 PRT 
-[1] "made it here"
-1628 	 17848 	 PRT 
-[1] "made it here"
-1629 	 17843 	 PRT 
-[1] "made it here"
-1630 	 11848 	 PRT 
-[1] "made it here"
-1631 	 17845 	 PRT 
-[1] "made it here"
-1632 	 17842 	 PRT 
-[1] "made it here"
-1633 	 18586 	 ITA 
-[1] "made it here"
-1634 	 18587 	 ITA 
-[1] "made it here"
-1635 	 18588 	 ITA 
-[1] "made it here"
-1636 	 18591 	 ITA 
-[1] "made it here"
-1637 	 19473 	 ITA 
-[1] "made it here"
-1638 	 18581 	 ITA 
-[1] "made it here"
-1639 	 18580 	 ITA 
-[1] "made it here"
-1640 	 18170 	 ITA 
-[1] "made it here"
-1641 	 18598 	 ITA 
-[1] "made it here"
-1642 	 17710 	 ITA 
-[1] "made it here"
-1643 	 17711 	 ITA 
-[1] "made it here"
-1644 	 17712 	 ITA 
-[1] "made it here"
-1645 	 18169 	 ITA 
-[1] "made it here"
-1646 	 12430 	 ITA 
-[1] "made it here"
-1647 	 12460 	 ITA 
-[1] "made it here"
-1648 	 19461 	 ITA 
-[1] "made it here"
-1649 	 14782 	 ITA 
-[1] "made it here"
-1650 	 12462 	 ITA 
-[1] "made it here"
-1651 	 14778 	 ITA 
-1652 	 14785 	 ITA 
-[1] "made it here"
-1653 	 15779 	 ITA 
-[1] "made it here"
-1654 	 18168 	 ITA 
-[1] "made it here"
-1655 	 15780 	 ITA 
-[1] "made it here"
-1656 	 18589 	 ITA 
-[1] "made it here"
-1657 	 20887 	 ITA 
-[1] "made it here"
-1658 	 18584 	 ITA 
-[1] "made it here"
-1659 	 20808 	 ITA 
-[1] "made it here"
-1660 	 18166 	 ITA 
-[1] "made it here"
-1661 	 20809 	 ITA 
-[1] "made it here"
-1662 	 12314 	 ITA 
-[1] "made it here"
-1663 	 19452 	 ITA 
-[1] "made it here"
-1664 	 19476 	 ITA 
-[1] "made it here"
-1665 	 18683 	 GRC 
-[1] "made it here"
-1666 	 12705 	 GRC 
-[1] "made it here"
-1667 	 18682 	 GRC 
-[1] "made it here"
-1668 	 19454 	 GRC 
-[1] "made it here"
-1669 	 20880 	 GRC 
-[1] "made it here"
-1670 	 20355 	 GRC 
-[1] "made it here"
-1671 	 20354 	 GRC 
-[1] "made it here"
-1672 	 19486 	 GRC BGR 
-[1] "made it here"
-1673 	 14767 	 GRC 
-[1] "made it here"
-1674 	 19882 	 GRC 
-[1] "made it here"
-1675 	 19888 	 GRC 
-[1] "made it here"
-1676 	 11693 	 GRC 
-[1] "made it here"
-1677 	 18098 	 GRC 
-[1] "made it here"
-1678 	 19891 	 GRC 
-[1] "made it here"
-1679 	 18416 	 GRC 
-[1] "made it here"
-1680 	 19884 	 GRC 
-[1] "made it here"
-1681 	 19885 	 GRC 
-[1] "made it here"
-1682 	 19901 	 GRC 
-[1] "made it here"
-1683 	 18684 	 GRC 
-[1] "made it here"
-1684 	 18686 	 GRC 
-[1] "made it here"
-1685 	 18680 	 GRC 
-[1] "made it here"
-1686 	 18689 	 GRC 
-[1] "made it here"
-1687 	 19908 	 GRC 
-[1] "made it here"
-1688 	 19962 	 GRC 
-[1] "made it here"
-1689 	 19963 	 GRC 
-[1] "made it here"
-1690 	 19964 	 GRC 
-[1] "made it here"
-1691 	 20895 	 GRC 
-[1] "made it here"
-1692 	 19965 	 GRC 
-[1] "made it here"
-1693 	 19967 	 GRC 
-[1] "made it here"
-1694 	 19968 	 GRC 
-[1] "made it here"
-1695 	 20779 	 GRC 
-[1] "made it here"
-1696 	 19892 	 GRC BGR 
-[1] "made it here"
-1697 	 19289 	 GRC 
-[1] "made it here"
-1698 	 14800 	 GRC 
-[1] "made it here"
-1699 	 18946 	 GRC 
-[1] "made it here"
-1700 	 18687 	 GRC 
-[1] "made it here"
-1701 	 20891 	 GRC 
-[1] "made it here"
-1702 	 11707 	 GRC 
-[1] "made it here"
-1703 	 14803 	 GRC 
-[1] "made it here"
-1704 	 14790 	 GRC 
-[1] "made it here"
-1705 	 19456 	 GRC 
-[1] "made it here"
-1706 	 19905 	 GRC 
-[1] "made it here"
-1707 	 11710 	 GRC 
-[1] "made it here"
-1708 	 11973 	 GRC 
-[1] "made it here"
-1709 	 14796 	 GRC 
-[1] "made it here"
-1710 	 19894 	 GRC 
-[1] "made it here"
-1711 	 19896 	 GRC 
-[1] "made it here"
-1712 	 19897 	 GRC 
-[1] "made it here"
-1713 	 19895 	 GRC 
-[1] "made it here"
-1714 	 19904 	 GRC 
-[1] "made it here"
-1715 	 19886 	 GRC 
-[1] "made it here"
-1716 	 19900 	 GRC 
-[1] "made it here"
-1717 	 14787 	 GRC 
-[1] "made it here"
-1718 	 19899 	 GRC 
-[1] "made it here"
-1719 	 20777 	 GRC 
-[1] "made it here"
-1720 	 19890 	 GRC 
-[1] "made it here"
-1721 	 11685 	 GRC 
-[1] "made it here"
-1722 	 19889 	 GRC 
-[1] "made it here"
-1723 	 14789 	 GRC 
-[1] "made it here"
-1724 	 19883 	 GRC 
-[1] "made it here"
-1725 	 20780 	 GRC 
-[1] "made it here"
-1726 	 19887 	 GRC 
-[1] "made it here"
-1727 	 14794 	 GRC 
-[1] "made it here"
-1728 	 14791 	 GRC 
-[1] "made it here"
-1729 	 14793 	 GRC 
-[1] "made it here"
-1730 	 14792 	 GRC 
-[1] "made it here"
-1731 	 18412 	 GRC MKD 
-[1] "made it here"
-1732 	 15145 	 GRC MKD 
-[1] "made it here"
-1733 	 14811 	 GRC 
-[1] "made it here"
-1734 	 14810 	 GRC 
-[1] "made it here"
-1735 	 14807 	 GRC 
-[1] "made it here"
-1736 	 15149 	 GRC 
-[1] "made it here"
-1737 	 18099 	 GRC 
-[1] "made it here"
-1738 	 19893 	 GRC 
-[1] "made it here"
-1739 	 17841 	 PRT 
-[1] "made it here"
-1740 	 17832 	 PRT 
-[1] "made it here"
-1741 	 17840 	 PRT 
-[1] "made it here"
-1742 	 11330 	 NZL 
-[1] "made it here"
-1743 	 11582 	 NZL 
-[1] "made it here"
-1744 	 11974 	 NZL 
-[1] "made it here"
-1745 	 13567 	 NZL 
-[1] "made it here"
-1746 	 13592 	 NZL 
-[1] "made it here"
-1747 	 12875 	 NZL 
-[1] "made it here"
-1748 	 13560 	 NZL 
-[1] "made it here"
-1749 	 13561 	 NZL 
-[1] "made it here"
-1750 	 13868 	 NZL 
-[1] "made it here"
-1751 	 13869 	 NZL 
-[1] "made it here"
-1752 	 11416 	 NZL 
-[1] "made it here"
-1753 	 11772 	 NZL 
-[1] "made it here"
-1754 	 13600 	 NZL 
-[1] "made it here"
-1755 	 20804 	 NZL 
-[1] "made it here"
-1756 	 12089 	 NZL 
-[1] "made it here"
-1757 	 13613 	 NZL 
-[1] "made it here"
-1758 	 13618 	 NZL 
-[1] "made it here"
-1759 	 13624 	 NZL 
-[1] "made it here"
-1760 	 13012 	 KEN 
-[1] "made it here"
-1761 	 18539 	 KEN 
-1762 	 20326 	 CHN MNG 
-[1] "made it here"
-1763 	 20874 	 CHN 
-[1] "made it here"
-1764 	 19868 	 CHN 
-1765 	 20325 	 CHN 
-1766 	 19419 	 CHN 
-1767 	 20736 	 CHN 
-1768 	 20958 	 CHN 
-1769 	 19396 	 CHN KAZ 
-1770 	 18314 	 CHN 
-[1] "made it here"
-1771 	 18313 	 CHN 
-1772 	 19417 	 CHN 
-1773 	 12354 	 CHN RUS 
-[1] "made it here"
-1774 	 20905 	 CHN MNG 
-[1] "made it here"
-1775 	 18475 	 CHN RUS KAZ 
-[1] "made it here"
-1776 	 12074 	 CHN 
-[1] "made it here"
-1777 	 18408 	 CHN 
-1778 	 15741 	 CHN 
-1779 	 15730 	 CHN 
-1780 	 20720 	 CHN 
-1781 	 12538 	 CHN 
-1782 	 14496 	 CHN 
-1783 	 12090 	 CHN 
-1784 	 19420 	 CHN 
-1785 	 11443 	 CHN 
-1786 	 15727 	 CHN 
-1787 	 12101 	 CHN 
-1788 	 19411 	 CHN 
-1789 	 11578 	 CHN 
-1790 	 11338 	 CHN 
-1791 	 19413 	 CHN 
-1792 	 11414 	 CHN 
-1793 	 19928 	 CHN 
-1794 	 11106 	 CHN LAO 
-[1] "made it here"
-1795 	 12073 	 CHN 
-[1] "made it here"
-1796 	 18435 	 CHN MMR LAO 
-[1] "made it here"
-1797 	 20715 	 CHN 
-1798 	 20714 	 CHN 
-1799 	 11309 	 CHN 
-1800 	 15742 	 CHN 
-[1] "made it here"
-1801 	 15729 	 CHN 
-[1] "made it here"
-1802 	 20982 	 CHN 
-1803 	 11442 	 CHN 
-1804 	 19422 	 CHN 
-1805 	 15736 	 CHN 
-1806 	 18320 	 CHN 
-1807 	 19423 	 CHN 
-1808 	 20875 	 CHN 
-1809 	 12079 	 CHN 
-1810 	 12064 	 CHN 
-[1] "made it here"
-1811 	 11653 	 CHN 
-1812 	 12245 	 CHN 
-1813 	 12244 	 CHN 
-1814 	 12075 	 CHN 
-1815 	 12006 	 CHN 
-1816 	 20713 	 CHN 
-1817 	 19731 	 CHN 
-1818 	 19412 	 CHN 
-1819 	 12091 	 CHN 
-1820 	 11393 	 CHN 
-1821 	 12070 	 CHN 
-1822 	 11283 	 CHN 
-1823 	 11447 	 CHN 
-1824 	 20717 	 CHN 
-1825 	 13132 	 CHN 
-1826 	 13133 	 CHN 
-1827 	 19734 	 CHN 
-1828 	 11585 	 CHN 
-1829 	 11278 	 CHN 
-1830 	 11575 	 CHN 
-1831 	 12015 	 CHN 
-1832 	 12102 	 CHN 
-1833 	 11581 	 CHN 
-1834 	 14529 	 CHN NPL 
-[1] "made it here"
-1835 	 21022 	 CHN NPL 
-[1] "made it here"
-1836 	 12840 	 CHN NPL 
-[1] "made it here"
-1837 	 14531 	 CHN NPL 
-[1] "made it here"
-1838 	 20870 	 CHN 
-[1] "made it here"
-1839 	 19402 	 CHN 
-[1] "made it here"
-1840 	 20336 	 CHN IND 
-[1] "made it here"
-1841 	 20337 	 CHN IND 
-[1] "made it here"
-1842 	 20735 	 CHN 
-1843 	 11670 	 CHN 
-1844 	 12236 	 CHN 
-[1] "made it here"
-1845 	 18317 	 CHN 
-1846 	 18423 	 CHN 
-1847 	 18424 	 CHN 
-1848 	 19393 	 CHN 
-1849 	 18353 	 CHN 
-1850 	 19391 	 CHN 
-[1] "made it here"
-1851 	 18420 	 CHN 
-1852 	 15685 	 CHN 
-1853 	 18379 	 CHN 
-1854 	 14678 	 CHN 
-1855 	 19872 	 CHN 
-1856 	 11761 	 CHN 
-1857 	 19870 	 CHN MNG 
-[1] "made it here"
-1858 	 19414 	 CHN 
-1859 	 15716 	 CHN 
-1860 	 19405 	 CHN 
-1861 	 11461 	 CHN 
-1862 	 11584 	 CHN 
-1863 	 20800 	 CHN PRK 
-1864 	 12008 	 CHN 
-1865 	 18312 	 CHN 
-1866 	 12239 	 CHN 
-1867 	 11153 	 RUS 
-[1] "made it here"
-1868 	 11422 	 RUS 
-[1] "made it here"
-1869 	 19168 	 RUS 
-[1] "made it here"
-1870 	 13954 	 RUS 
-1871 	 12017 	 RUS 
-1872 	 19512 	 RUS 
-1873 	 14044 	 RUS 
-1874 	 15697 	 RUS 
-1875 	 18002 	 RUS MNG 
-[1] "made it here"
-1876 	 20761 	 RUS MNG 
-[1] "made it here"
-1877 	 18443 	 RUS 
-1878 	 18445 	 RUS 
-[1] "made it here"
-1879 	 18446 	 RUS 
-[1] "made it here"
-1880 	 18451 	 RUS 
-[1] "made it here"
-1881 	 18455 	 RUS 
-[1] "made it here"
-1882 	 18456 	 RUS 
-[1] "made it here"
-1883 	 18458 	 RUS 
-[1] "made it here"
-1884 	 18466 	 RUS 
-[1] "made it here"
-1885 	 19098 	 RUS 
-[1] "made it here"
-1886 	 19510 	 RUS 
-[1] "made it here"
-1887 	 18023 	 RUS 
-1888 	 18053 	 RUS 
-1889 	 18085 	 RUS 
-1890 	 18011 	 RUS 
-1891 	 18064 	 RUS 
-1892 	 18062 	 RUS 
-1893 	 11493 	 RUS MNG 
-[1] "made it here"
-1894 	 14029 	 RUS 
-1895 	 19505 	 RUS MNG 
-[1] "made it here"
-1896 	 11508 	 RUS 
-[1] "made it here"
-1897 	 11875 	 RUS 
-1898 	 12035 	 RUS 
-[1] "made it here"
-1899 	 15701 	 RUS 
-[1] "made it here"
-1900 	 11485 	 RUS MNG 
-1901 	 14041 	 RUS 
-1902 	 15702 	 RUS MNG 
-1903 	 19958 	 RUS MNG 
-[1] "made it here"
-1904 	 15709 	 RUS 
-1905 	 18444 	 RUS 
-1906 	 18459 	 RUS 
-1907 	 11497 	 RUS 
-1908 	 11511 	 RUS 
-1909 	 19506 	 RUS 
-[1] "made it here"
-1910 	 11515 	 RUS 
-1911 	 20906 	 RUS 
-1912 	 11488 	 RUS 
-[1] "made it here"
-1913 	 15706 	 RUS 
-[1] "made it here"
-1914 	 20967 	 RUS 
-[1] "made it here"
-1915 	 11101 	 RUS 
-[1] "made it here"
-1916 	 18450 	 RUS 
-[1] "made it here"
-1917 	 18467 	 RUS 
-1918 	 18454 	 RUS 
-1919 	 18482 	 RUS 
-1920 	 15698 	 RUS 
-1921 	 14490 	 HRV 
-[1] "made it here"
-1922 	 15470 	 HRV 
-[1] "made it here"
-1923 	 14934 	 ESP 
-[1] "made it here"
-1924 	 17881 	 ESP 
-[1] "made it here"
-1925 	 17956 	 ESP 
-[1] "made it here"
-1926 	 17957 	 ESP 
-[1] "made it here"
-1927 	 17955 	 ESP 
-[1] "made it here"
-1928 	 14937 	 ESP 
-[1] "made it here"
-1929 	 14938 	 ESP 
-[1] "made it here"
-1930 	 17978 	 ESP 
-1931 	 17930 	 ESP AND 
-[1] "made it here"
-1932 	 17969 	 ESP AND 
-[1] "made it here"
-1933 	 17909 	 ESP FRA 
-[1] "made it here"
-1934 	 17917 	 ESP AND 
-[1] "made it here"
-1935 	 17936 	 ESP FRA 
-[1] "made it here"
-1936 	 17937 	 ESP FRA 
-[1] "made it here"
-1937 	 17905 	 ESP FRA 
-[1] "made it here"
-1938 	 17906 	 ESP FRA 
-[1] "made it here"
-1939 	 17910 	 ESP 
-[1] "made it here"
-1940 	 17888 	 ESP 
-[1] "made it here"
-1941 	 17912 	 ESP 
-[1] "made it here"
-1942 	 17913 	 ESP 
-[1] "made it here"
-1943 	 17941 	 ESP 
-[1] "made it here"
-1944 	 17886 	 ESP 
-[1] "made it here"
-1945 	 17887 	 ESP FRA 
-[1] "made it here"
-1946 	 17894 	 ESP 
-[1] "made it here"
-1947 	 17895 	 ESP 
-[1] "made it here"
-1948 	 17898 	 ESP FRA 
-[1] "made it here"
-1949 	 17900 	 ESP FRA 
-[1] "made it here"
-1950 	 17901 	 ESP 
-[1] "made it here"
-1951 	 17931 	 ESP 
-[1] "made it here"
-1952 	 17962 	 ESP 
-[1] "made it here"
-1953 	 17944 	 ESP FRA 
-[1] "made it here"
-1954 	 17950 	 ESP FRA 
-[1] "made it here"
-1955 	 17954 	 ESP 
-[1] "made it here"
-1956 	 19492 	 ESP FRA 
-[1] "made it here"
-1957 	 17883 	 ESP 
-[1] "made it here"
-1958 	 17884 	 ESP 
-[1] "made it here"
-1959 	 17965 	 ESP FRA 
-[1] "made it here"
-1960 	 14939 	 ESP 
-1961 	 14935 	 ESP 
-[1] "made it here"
-1962 	 14936 	 ESP 
-[1] "made it here"
-1963 	 14932 	 ESP 
-[1] "made it here"
-1964 	 17982 	 ESP 
-[1] "made it here"
-1965 	 14955 	 ESP 
-[1] "made it here"
-1966 	 14953 	 ESP 
-[1] "made it here"
-1967 	 14954 	 ESP 
-[1] "made it here"
-1968 	 17870 	 ESP 
-[1] "made it here"
-1969 	 17871 	 ESP 
-[1] "made it here"
-1970 	 17874 	 ESP 
-[1] "made it here"
-1971 	 17820 	 ESP 
-[1] "made it here"
-1972 	 15412 	 AUT DEU 
-[1] "made it here"
-1973 	 15413 	 AUT DEU 
-[1] "made it here"
-1974 	 14856 	 BIH 
-1975 	 14867 	 MNE 
-[1] "made it here"
-1976 	 14868 	 MNE 
-[1] "made it here"
-1977 	 14870 	 MNE 
-[1] "made it here"
-1978 	 12098 	 PAK 
-1979 	 19373 	 PAK 
-[1] "made it here"
-1980 	 12945 	 PAK 
-[1] "made it here"
-1981 	 20844 	 PAK 
-[1] "made it here"
-1982 	 20845 	 PAK IND 
-[1] "made it here"
-1983 	 13024 	 ZAF SWZ MOZ 
-[1] "made it here"
-1984 	 19354 	 ZAF SWZ 
-1985 	 15583 	 SWZ ZAF 
-[1] "made it here"
-1986 	 15584 	 SWZ 
-[1] "made it here"
-1987 	 15585 	 SWZ ZAF 
-[1] "made it here"
-1988 	 18278 	 ZAF 
-[1] "made it here"
-1989 	 15582 	 ZAF SWZ 
-[1] "made it here"
-1990 	 11150 	 ZAF 
-1991 	 11369 	 ZAF 
-[1] "made it here"
-1992 	 11151 	 ZAF 
-[1] "made it here"
-1993 	 11978 	 ZAF 
-[1] "made it here"
-1994 	 19360 	 ZAF 
-[1] "made it here"
-1995 	 11458 	 ZAF 
-[1] "made it here"
-1996 	 19352 	 ZAF 
-[1] "made it here"
-1997 	 11530 	 ZAF 
-[1] "made it here"
-1998 	 11370 	 ZAF 
-[1] "made it here"
-1999 	 18802 	 ASM 
-2000 	 18785 	 PYF 
+867 	 18784 	 PYF 
 [1] "no PAs"
-2001 	 12598 	 PYF 
+868 	 18794 	 FJI 
+[1] "made it here"
+869 	 18795 	 FJI 
+870 	 12596 	 FJI 
+[1] "made it here"
+871 	 12595 	 FJI 
+[1] "made it here"
+872 	 18837 	 MNP 
+873 	 18801 	 ASM 
+[1] "made it here"
+874 	 18832 	 MNP 
+[1] "made it here"
+875 	 18800 	 WSM 
+[1] "made it here"
+876 	 18787 	 PYF 
 [1] "no PAs"
-2002 	 18788 	 PYF 
+877 	 18791 	 TON 
+[1] "made it here"
+878 	 11468 	 USA 
+[1] "made it here"
+879 	 18881 	 USA 
+[1] "made it here"
+880 	 15625 	 ECU 
+881 	 12720 	 ECU 
+[1] "made it here"
+882 	 20946 	 COL 
+883 	 19708 	 COL 
+884 	 13080 	 COL 
+[1] "made it here"
+885 	 14154 	 COL 
+886 	 11870 	 COL 
+887 	 12575 	 PER 
+[1] "made it here"
+888 	 19701 	 PER 
+[1] "made it here"
+889 	 19702 	 PER 
+890 	 19700 	 PER 
+[1] "made it here"
+891 	 19705 	 PER 
+[1] "made it here"
+892 	 19318 	 ARG 
+[1] "made it here"
+893 	 19309 	 ARG PRY BRA 
+[1] "made it here"
+894 	 18902 	 ARG 
+[1] "made it here"
+895 	 19717 	 ARG 
+[1] "made it here"
+896 	 14210 	 ARG 
+897 	 19280 	 ARG 
+898 	 19720 	 ARG 
+899 	 20948 	 ARG 
+900 	 19319 	 ARG 
+[1] "made it here"
+901 	 11918 	 ARG 
+[1] "made it here"
+902 	 19712 	 ARG 
+[1] "made it here"
+903 	 19783 	 ARG 
+[1] "made it here"
+904 	 20753 	 ARG 
+[1] "made it here"
+905 	 20743 	 ARG 
+[1] "made it here"
+906 	 19321 	 ARG 
+907 	 11247 	 ARG 
+908 	 19706 	 ARG 
+909 	 19305 	 BOL 
+[1] "made it here"
+910 	 12571 	 CHL 
+[1] "made it here"
+911 	 19317 	 CHL 
+[1] "made it here"
+912 	 20952 	 CHL 
+[1] "made it here"
+913 	 12573 	 CHL 
+[1] "made it here"
+914 	 12568 	 CHL 
+915 	 12569 	 CHL 
+916 	 11704 	 CHL 
+[1] "made it here"
+917 	 19718 	 CHL 
+[1] "made it here"
+918 	 18905 	 CHL 
+[1] "made it here"
+919 	 18906 	 CHL 
+[1] "made it here"
+920 	 18907 	 CHL 
+[1] "made it here"
+921 	 18909 	 CHL 
+[1] "made it here"
+922 	 18910 	 CHL 
+[1] "made it here"
+923 	 18911 	 CHL 
+[1] "made it here"
+924 	 18912 	 CHL 
+[1] "made it here"
+925 	 14436 	 CHL 
+[1] "made it here"
+926 	 11919 	 VEN 
+927 	 21007 	 VEN 
+928 	 14612 	 VEN 
+[1] "made it here"
+929 	 18768 	 VEN 
+[1] "made it here"
+930 	 11951 	 VEN 
+[1] "made it here"
+931 	 15603 	 VEN 
+[1] "made it here"
+932 	 11899 	 VEN 
+[1] "made it here"
+933 	 14292 	 SYC 
+[1] "made it here"
+934 	 18718 	 SYC 
+[1] "made it here"
+935 	 14293 	 SYC 
+[1] "made it here"
+936 	 14082 	 REU 
+[1] "made it here"
+937 	 14083 	 REU 
+[1] "made it here"
+938 	 14290 	 MYT 
+[1] "made it here"
+939 	 14261 	 MUS 
+[1] "made it here"
+940 	 13018 	 MUS 
+[1] "made it here"
+941 	 14263 	 MUS 
+[1] "made it here"
+942 	 12285 	 MDG 
+[1] "made it here"
+943 	 18144 	 MDG 
+[1] "made it here"
+944 	 15336 	 MDG 
+[1] "made it here"
+945 	 12289 	 MDG 
+[1] "made it here"
+946 	 15473 	 MDG 
+947 	 20860 	 MDG 
+948 	 15338 	 MDG 
+949 	 12223 	 MDG 
+950 	 15339 	 MDG 
+951 	 19342 	 MDG 
+952 	 12288 	 MDG 
+[1] "made it here"
+953 	 14287 	 COM 
+[1] "made it here"
+954 	 14288 	 COM 
+[1] "made it here"
+955 	 14289 	 COM 
+[1] "made it here"
+956 	 11673 	 IND 
+[1] "made it here"
+957 	 12117 	 NER 
+[1] "made it here"
+958 	 11564 	 JPN 
+[1] "made it here"
+959 	 20811 	 JPN 
+[1] "made it here"
+960 	 18941 	 JPN 
+[1] "made it here"
+961 	 20978 	 JPN 
+[1] "made it here"
+962 	 20810 	 JPN 
+[1] "made it here"
+963 	 11524 	 JPN 
+[1] "made it here"
+964 	 19164 	 JPN 
+[1] "made it here"
+965 	 11786 	 JPN 
+[1] "made it here"
+966 	 11884 	 JPN 
+[1] "made it here"
+967 	 11224 	 JPN 
+[1] "made it here"
+968 	 20822 	 JPN 
+[1] "made it here"
+969 	 18944 	 JPN 
+[1] "made it here"
+970 	 20825 	 JPN 
+[1] "made it here"
+971 	 15712 	 JPN 
+[1] "made it here"
+972 	 20979 	 JPN 
+[1] "made it here"
+973 	 20815 	 JPN 
+[1] "made it here"
+974 	 20816 	 JPN 
+[1] "made it here"
+975 	 18942 	 JPN 
+[1] "made it here"
+976 	 19202 	 JPN 
+[1] "made it here"
+977 	 19204 	 JPN 
+[1] "made it here"
+978 	 20975 	 JPN 
+[1] "made it here"
+979 	 20976 	 JPN 
+[1] "made it here"
+980 	 19415 	 JPN 
+[1] "made it here"
+981 	 20823 	 JPN 
+[1] "made it here"
+982 	 20824 	 JPN 
+[1] "made it here"
+983 	 11398 	 JPN 
+[1] "made it here"
+984 	 11139 	 JPN 
+[1] "made it here"
+985 	 12608 	 VUT 
+986 	 15497 	 VUT 
+987 	 19694 	 VUT 
+988 	 18823 	 SLB 
+989 	 12057 	 PNG 
+[1] "made it here"
+990 	 12221 	 PNG 
+[1] "made it here"
+991 	 15224 	 PNG 
+992 	 19693 	 PNG 
+993 	 18846 	 PNG 
+[1] "made it here"
+994 	 18847 	 PNG 
+995 	 18810 	 SLB 
+996 	 15496 	 SLB 
+[1] "made it here"
+997 	 18821 	 SLB 
+[1] "made it here"
+998 	 18820 	 SLB 
+999 	 11322 	 SLB 
+1000 	 18826 	 SLB 
+[1] "made it here"
+1001 	 12614 	 VUT 
+1002 	 12615 	 VUT 
+1003 	 11384 	 PNG 
+1004 	 12037 	 PNG 
+1005 	 12772 	 IDN 
+1006 	 12769 	 IDN 
+[1] "made it here"
+1007 	 12770 	 IDN 
+[1] "made it here"
+1008 	 12771 	 IDN 
+1009 	 12763 	 IDN 
+[1] "made it here"
+1010 	 18883 	 IDN 
+[1] "made it here"
+1011 	 18884 	 IDN 
+[1] "made it here"
+1012 	 18848 	 IDN 
+[1] "made it here"
+1013 	 18849 	 IDN 
+[1] "made it here"
+1014 	 18851 	 IDN 
+[1] "made it here"
+1015 	 12760 	 IDN 
+[1] "made it here"
+1016 	 12764 	 IDN 
+[1] "made it here"
+1017 	 12765 	 IDN TLS 
+[1] "made it here"
+1018 	 18852 	 IDN 
+[1] "made it here"
+1019 	 18853 	 IDN 
+[1] "made it here"
+1020 	 18888 	 IDN 
+[1] "made it here"
+1021 	 18850 	 IDN 
+1022 	 20908 	 IDN 
+[1] "made it here"
+1023 	 19291 	 TLS 
+[1] "made it here"
+1024 	 20585 	 IDN 
+1025 	 18894 	 IDN 
+[1] "made it here"
+1026 	 20768 	 IDN 
+[1] "made it here"
+1027 	 20769 	 IDN 
+[1] "made it here"
+1028 	 18893 	 IDN 
+1029 	 15233 	 IDN 
+[1] "made it here"
+1030 	 15234 	 IDN 
+[1] "made it here"
+1031 	 12747 	 IDN 
+[1] "made it here"
+1032 	 12746 	 IDN 
+[1] "made it here"
+1033 	 15235 	 IDN 
+[1] "made it here"
+1034 	 18925 	 IDN 
+[1] "made it here"
+1035 	 18892 	 IDN 
+[1] "made it here"
+1036 	 20584 	 IDN 
+1037 	 18920 	 IDN 
+[1] "made it here"
+1038 	 18921 	 IDN 
+[1] "made it here"
+1039 	 18922 	 IDN 
+[1] "made it here"
+1040 	 12745 	 IDN 
+[1] "made it here"
+1041 	 15232 	 IDN 
+1042 	 18919 	 IDN 
+[1] "made it here"
+1043 	 14274 	 SHN 
+1044 	 14275 	 SHN 
+[1] "made it here"
+1045 	 15808 	 CAN 
+[1] "made it here"
+1046 	 16850 	 CAN 
+[1] "made it here"
+1047 	 19670 	 CAN 
+[1] "made it here"
+1048 	 16014 	 CAN 
+[1] "made it here"
+1049 	 16012 	 CAN 
+[1] "made it here"
+1050 	 11883 	 CAN 
+[1] "made it here"
+1051 	 20934 	 CAN 
+[1] "made it here"
+1052 	 16795 	 CAN 
+[1] "made it here"
+1053 	 20939 	 CAN 
+[1] "made it here"
+1054 	 16807 	 CAN 
+[1] "made it here"
+1055 	 15811 	 CAN 
+1056 	 15819 	 CAN 
+1057 	 16016 	 CAN 
+[1] "made it here"
+1058 	 16018 	 CAN 
+1059 	 16010 	 CAN 
+[1] "made it here"
+1060 	 16006 	 CAN 
+[1] "made it here"
+1061 	 16007 	 CAN 
+1062 	 11766 	 CAN 
+[1] "made it here"
+1063 	 19580 	 CAN 
+1064 	 17157 	 CAN 
+1065 	 12033 	 CAN 
+[1] "made it here"
+1066 	 17153 	 CAN 
+[1] "made it here"
+1067 	 17113 	 CAN 
+1068 	 17115 	 CAN 
+1069 	 17129 	 CAN 
+[1] "made it here"
+1070 	 17130 	 CAN 
+[1] "made it here"
+1071 	 17132 	 CAN 
+1072 	 16995 	 CAN 
+1073 	 17154 	 CAN 
+[1] "made it here"
+1074 	 19672 	 CAN 
+[1] "made it here"
+1075 	 17152 	 CAN 
+[1] "made it here"
+1076 	 20428 	 NOR 
+[1] "made it here"
+1077 	 20544 	 NOR 
+1078 	 19106 	 SJM 
+[1] "made it here"
+1079 	 19108 	 SJM 
+[1] "made it here"
+1080 	 20426 	 NOR 
+[1] "made it here"
+1081 	 20429 	 NOR 
+1082 	 19103 	 SJM 
+[1] "made it here"
+1083 	 20882 	 NOR 
+[1] "made it here"
+1084 	 14877 	 SVN 
+[1] "made it here"
+1085 	 15460 	 SVN 
+[1] "made it here"
+1086 	 15461 	 SVN 
+[1] "made it here"
+1087 	 15370 	 SVN AUT 
+[1] "made it here"
+1088 	 20910 	 SAU 
+[1] "made it here"
+1089 	 11391 	 SAU 
+1090 	 11431 	 SAU 
+[1] "made it here"
+1091 	 20909 	 SAU 
+[1] "made it here"
+1092 	 11982 	 NZL 
+[1] "made it here"
+1093 	 12868 	 NZL 
+[1] "made it here"
+1094 	 12871 	 NZL 
+[1] "made it here"
+1095 	 12881 	 NZL 
+[1] "made it here"
+1096 	 13789 	 NZL 
+[1] "made it here"
+1097 	 13793 	 NZL 
+[1] "made it here"
+1098 	 13814 	 NZL 
+[1] "made it here"
+1099 	 13818 	 NZL 
+[1] "made it here"
+1100 	 13829 	 NZL 
+[1] "made it here"
+1101 	 13830 	 NZL 
+[1] "made it here"
+1102 	 13831 	 NZL 
+[1] "made it here"
+1103 	 13833 	 NZL 
+[1] "made it here"
+1104 	 13883 	 NZL 
+1105 	 13900 	 NZL 
+[1] "made it here"
+1106 	 13799 	 NZL 
+[1] "made it here"
+1107 	 13781 	 NZL 
+1108 	 13791 	 NZL 
+1109 	 13876 	 NZL 
+[1] "made it here"
+1110 	 13749 	 NZL 
+[1] "made it here"
+1111 	 13754 	 NZL 
+1112 	 14431 	 NZL 
+[1] "made it here"
+1113 	 13554 	 NZL 
+[1] "made it here"
+1114 	 13541 	 NZL 
+[1] "made it here"
+1115 	 13542 	 NZL 
+[1] "made it here"
+1116 	 13545 	 NZL 
+[1] "made it here"
+1117 	 13870 	 NZL 
+[1] "made it here"
+1118 	 13536 	 NZL 
+[1] "made it here"
+1119 	 13537 	 NZL 
+[1] "made it here"
+1120 	 13538 	 NZL 
+[1] "made it here"
+1121 	 13539 	 NZL 
+[1] "made it here"
+1122 	 13540 	 NZL 
+[1] "made it here"
+1123 	 13552 	 NZL 
+[1] "made it here"
+1124 	 11196 	 NZL 
+[1] "made it here"
+1125 	 11473 	 NZL 
+[1] "made it here"
+1126 	 12873 	 NZL 
+[1] "made it here"
+1127 	 13140 	 NZL 
+[1] "made it here"
+1128 	 13141 	 NZL 
+[1] "made it here"
+1129 	 13142 	 NZL 
+[1] "made it here"
+1130 	 13149 	 NZL 
+[1] "made it here"
+1131 	 13150 	 NZL 
+[1] "made it here"
+1132 	 13153 	 NZL 
+[1] "made it here"
+1133 	 13559 	 NZL 
+[1] "made it here"
+1134 	 13563 	 NZL 
+[1] "made it here"
+1135 	 13565 	 NZL 
+[1] "made it here"
+1136 	 13568 	 NZL 
+[1] "made it here"
+1137 	 13571 	 NZL 
+[1] "made it here"
+1138 	 13573 	 NZL 
+[1] "made it here"
+1139 	 13575 	 NZL 
+[1] "made it here"
+1140 	 13578 	 NZL 
+[1] "made it here"
+1141 	 13580 	 NZL 
+[1] "made it here"
+1142 	 13584 	 NZL 
+[1] "made it here"
+1143 	 13585 	 NZL 
+[1] "made it here"
+1144 	 13586 	 NZL 
+[1] "made it here"
+1145 	 13588 	 NZL 
+[1] "made it here"
+1146 	 13590 	 NZL 
+[1] "made it here"
+1147 	 13591 	 NZL 
+[1] "made it here"
+1148 	 13593 	 NZL 
+[1] "made it here"
+1149 	 13867 	 NZL 
+[1] "made it here"
+1150 	 13901 	 NZL 
+[1] "made it here"
+1151 	 20803 	 NZL 
+[1] "made it here"
+1152 	 13610 	 NZL 
+[1] "made it here"
+1153 	 13615 	 NZL 
+[1] "made it here"
+1154 	 13620 	 NZL 
+[1] "made it here"
+1155 	 13627 	 NZL 
+[1] "made it here"
+1156 	 13630 	 NZL 
+[1] "made it here"
+1157 	 13631 	 NZL 
+[1] "made it here"
+1158 	 13632 	 NZL 
+[1] "made it here"
+1159 	 13633 	 NZL 
+[1] "made it here"
+1160 	 13634 	 NZL 
+[1] "made it here"
+1161 	 13636 	 NZL 
+1162 	 13639 	 NZL 
+[1] "made it here"
+1163 	 13644 	 NZL 
+[1] "made it here"
+1164 	 13651 	 NZL 
+[1] "made it here"
+1165 	 13663 	 NZL 
+[1] "made it here"
+1166 	 13667 	 NZL 
+[1] "made it here"
+1167 	 13672 	 NZL 
+[1] "made it here"
+1168 	 13677 	 NZL 
+[1] "made it here"
+1169 	 13683 	 NZL 
+[1] "made it here"
+1170 	 13695 	 NZL 
+[1] "made it here"
+1171 	 13698 	 NZL 
+1172 	 13704 	 NZL 
+[1] "made it here"
+1173 	 13708 	 NZL 
+[1] "made it here"
+1174 	 13718 	 NZL 
+[1] "made it here"
+1175 	 13725 	 NZL 
+[1] "made it here"
+1176 	 13871 	 NZL 
+1177 	 11827 	 NZL 
+[1] "made it here"
+1178 	 11708 	 NZL 
+[1] "made it here"
+1179 	 13165 	 NZL 
+[1] "made it here"
+1180 	 11752 	 NZL 
+[1] "made it here"
+1181 	 11993 	 NZL 
+[1] "made it here"
+1182 	 13715 	 NZL 
+[1] "made it here"
+1183 	 13738 	 NZL 
+[1] "made it here"
+1184 	 13890 	 NZL 
+[1] "made it here"
+1185 	 13856 	 NZL 
+[1] "made it here"
+1186 	 13897 	 NZL 
+1187 	 13898 	 NZL 
+[1] "made it here"
+1188 	 13899 	 NZL 
+[1] "made it here"
+1189 	 13903 	 NZL 
+[1] "made it here"
+1190 	 19696 	 NZL 
+[1] "made it here"
+1191 	 11770 	 NZL 
+[1] "made it here"
+1192 	 13850 	 NZL 
+[1] "made it here"
+1193 	 13852 	 NZL 
+[1] "made it here"
+1194 	 13855 	 NZL 
+1195 	 13857 	 NZL 
+1196 	 13858 	 NZL 
+[1] "made it here"
+1197 	 13860 	 NZL 
+[1] "made it here"
+1198 	 13866 	 NZL 
+1199 	 13888 	 NZL 
+[1] "made it here"
+1200 	 19235 	 NZL 
+[1] "made it here"
+1201 	 13859 	 NZL 
+[1] "made it here"
+1202 	 19695 	 NZL 
+[1] "made it here"
+1203 	 11415 	 NZL 
+1204 	 13875 	 NZL 
+1205 	 13601 	 NZL 
+1206 	 13577 	 NZL 
+1207 	 13551 	 NZL 
+1208 	 13555 	 NZL 
+[1] "made it here"
+1209 	 13569 	 NZL 
+[1] "made it here"
+1210 	 13802 	 NZL 
+1211 	 13806 	 NZL 
+1212 	 19233 	 NZL 
+[1] "made it here"
+1213 	 11974 	 NZL 
+[1] "made it here"
+1214 	 13558 	 NZL 
+[1] "made it here"
+1215 	 13560 	 NZL 
+[1] "made it here"
+1216 	 13561 	 NZL 
+1217 	 13868 	 NZL 
+[1] "made it here"
+1218 	 13646 	 NZL 
+1219 	 13895 	 NZL 
+1220 	 19586 	 USA 
+[1] "made it here"
+1221 	 16671 	 USA 
+[1] "made it here"
+1222 	 20924 	 USA 
+[1] "made it here"
+1223 	 17054 	 USA 
+[1] "made it here"
+1224 	 16608 	 USA 
+[1] "made it here"
+1225 	 11735 	 USA 
+1226 	 16697 	 USA 
+[1] "made it here"
+1227 	 16699 	 USA 
+[1] "made it here"
+1228 	 16701 	 USA 
+[1] "made it here"
+1229 	 16706 	 USA 
+[1] "made it here"
+1230 	 16700 	 USA 
+1231 	 16707 	 USA 
+1232 	 19571 	 USA 
+[1] "made it here"
+1233 	 20928 	 USA 
+[1] "made it here"
+1234 	 17196 	 USA 
+[1] "made it here"
+1235 	 17194 	 USA 
+1236 	 17195 	 USA 
+1237 	 17199 	 USA 
+[1] "made it here"
+1238 	 17200 	 USA 
+1239 	 16975 	 USA 
+[1] "made it here"
+1240 	 17001 	 USA 
+[1] "made it here"
+1241 	 17156 	 USA 
+[1] "made it here"
+1242 	 17172 	 USA 
+[1] "made it here"
+1243 	 12930 	 USA 
+[1] "made it here"
+1244 	 17053 	 USA 
+[1] "made it here"
+1245 	 11811 	 USA 
+[1] "made it here"
+1246 	 17064 	 USA 
+[1] "made it here"
+1247 	 17069 	 USA 
+[1] "made it here"
+1248 	 11806 	 USA 
+[1] "made it here"
+1249 	 17050 	 USA 
+[1] "made it here"
+1250 	 19576 	 USA 
+[1] "made it here"
+1251 	 17159 	 USA 
+[1] "made it here"
+1252 	 11804 	 USA 
+[1] "made it here"
+1253 	 11808 	 USA 
+[1] "made it here"
+1254 	 17173 	 USA 
+[1] "made it here"
+1255 	 15799 	 USA 
+[1] "made it here"
+1256 	 15796 	 USA 
+[1] "made it here"
+1257 	 15798 	 USA 
+[1] "made it here"
+1258 	 15505 	 USA 
+[1] "made it here"
+1259 	 15800 	 USA 
+[1] "made it here"
+1260 	 15840 	 USA 
+1261 	 15842 	 USA 
+[1] "made it here"
+1262 	 21045 	 USA 
+[1] "made it here"
+1263 	 11532 	 USA 
+[1] "made it here"
+1264 	 12911 	 USA 
+[1] "made it here"
+1265 	 19591 	 USA 
+[1] "made it here"
+1266 	 15801 	 USA 
+[1] "made it here"
+1267 	 15838 	 USA 
+[1] "made it here"
+1268 	 17071 	 USA 
+1269 	 17072 	 USA 
+[1] "made it here"
+1270 	 21055 	 USA 
+[1] "made it here"
+1271 	 11472 	 USA 
+[1] "made it here"
+1272 	 15794 	 USA 
+[1] "made it here"
+1273 	 15806 	 USA 
+[1] "made it here"
+1274 	 21046 	 USA 
+[1] "made it here"
+1275 	 12494 	 USA 
+[1] "made it here"
+1276 	 15797 	 USA 
+[1] "made it here"
+1277 	 15832 	 USA 
+[1] "made it here"
+1278 	 15828 	 USA 
+[1] "made it here"
+1279 	 15830 	 USA 
+[1] "made it here"
+1280 	 15831 	 USA 
+[1] "made it here"
+1281 	 21054 	 USA 
+[1] "made it here"
+1282 	 17206 	 USA 
+1283 	 17155 	 USA 
+[1] "made it here"
+1284 	 16865 	 USA 
+[1] "made it here"
+1285 	 16866 	 USA 
+[1] "made it here"
+1286 	 16863 	 USA 
+[1] "made it here"
+1287 	 11446 	 USA 
+1288 	 12373 	 USA 
+1289 	 17438 	 USA 
+[1] "made it here"
+1290 	 19597 	 USA 
+1291 	 19555 	 USA 
+[1] "made it here"
+1292 	 17078 	 USA 
+[1] "made it here"
+1293 	 19677 	 USA 
+[1] "made it here"
+1294 	 16892 	 USA 
+[1] "made it here"
+1295 	 16881 	 USA 
+[1] "made it here"
+1296 	 15931 	 USA 
+[1] "made it here"
+1297 	 19636 	 USA 
+1298 	 12927 	 USA 
+[1] "made it here"
+1299 	 16914 	 USA 
+[1] "made it here"
+1300 	 19680 	 USA 
+1301 	 17074 	 USA 
+[1] "made it here"
+1302 	 15790 	 USA 
+[1] "made it here"
+1303 	 12493 	 USA 
+[1] "made it here"
+1304 	 16042 	 USA 
+1305 	 11115 	 USA 
+1306 	 17693 	 USA 
+[1] "made it here"
+1307 	 17605 	 USA 
+[1] "made it here"
+1308 	 17610 	 USA 
+[1] "made it here"
+1309 	 19113 	 USA 
+[1] "made it here"
+1310 	 16871 	 USA 
+1311 	 15982 	 USA 
+1312 	 15988 	 USA 
+1313 	 17185 	 USA 
+[1] "made it here"
+1314 	 17189 	 USA 
+[1] "made it here"
+1315 	 16335 	 USA 
+[1] "made it here"
+1316 	 19117 	 USA 
+[1] "made it here"
+1317 	 15355 	 USA 
+[1] "made it here"
+1318 	 19587 	 USA 
+[1] "made it here"
+1319 	 16334 	 USA 
+[1] "made it here"
+1320 	 17251 	 USA 
+1321 	 17254 	 USA 
+1322 	 17046 	 USA 
+[1] "made it here"
+1323 	 17175 	 USA 
+[1] "made it here"
+1324 	 11799 	 USA 
+1325 	 19592 	 USA 
+1326 	 11569 	 USA 
+[1] "made it here"
+1327 	 17226 	 USA 
+1328 	 17228 	 USA 
+[1] "made it here"
+1329 	 17259 	 USA 
+[1] "made it here"
+1330 	 17170 	 USA 
+[1] "made it here"
+1331 	 17684 	 USA 
+1332 	 17686 	 USA 
+1333 	 19359 	 ZWE 
+[1] "made it here"
+1334 	 12452 	 RUS 
+1335 	 20042 	 RUS 
+[1] "made it here"
+1336 	 19213 	 RUS 
+[1] "made it here"
+1337 	 11679 	 RUS 
+1338 	 12449 	 RUS 
+1339 	 12450 	 RUS 
+1340 	 15711 	 RUS 
+1341 	 12348 	 RUS 
+1342 	 20462 	 NOR 
+[1] "made it here"
+1343 	 20542 	 NOR 
+[1] "made it here"
+1344 	 20543 	 NOR 
+[1] "made it here"
+1345 	 20548 	 NOR 
+[1] "made it here"
+1346 	 20408 	 NOR 
+[1] "made it here"
+1347 	 20477 	 NOR 
+[1] "made it here"
+1348 	 20432 	 NOR 
+[1] "made it here"
+1349 	 20567 	 NOR 
+[1] "made it here"
+1350 	 20538 	 NOR 
+[1] "made it here"
+1351 	 20572 	 NOR 
+[1] "made it here"
+1352 	 20494 	 NOR 
+[1] "made it here"
+1353 	 20386 	 NOR 
+[1] "made it here"
+1354 	 15539 	 NOR 
+[1] "made it here"
+1355 	 20388 	 NOR 
+1356 	 12980 	 NOR 
+[1] "made it here"
+1357 	 20412 	 NOR 
+[1] "made it here"
+1358 	 20485 	 NOR 
+[1] "made it here"
+1359 	 20400 	 NOR 
+[1] "made it here"
+1360 	 20383 	 NOR 
+[1] "made it here"
+1361 	 20401 	 NOR 
+1362 	 20540 	 NOR 
+[1] "made it here"
+1363 	 20406 	 NOR 
+[1] "made it here"
+1364 	 20407 	 NOR 
+[1] "made it here"
+1365 	 20413 	 NOR 
+[1] "made it here"
+1366 	 20475 	 NOR 
+[1] "made it here"
+1367 	 20487 	 NOR 
+[1] "made it here"
+1368 	 20556 	 NOR 
+[1] "made it here"
+1369 	 20539 	 NOR 
+[1] "made it here"
+1370 	 20496 	 NOR 
+[1] "made it here"
+1371 	 15129 	 FRA 
+[1] "made it here"
+1372 	 11448 	 FRA DEU CHE 
+[1] "made it here"
+1373 	 15128 	 FRA 
+[1] "made it here"
+1374 	 17926 	 FRA 
+[1] "made it here"
+1375 	 20011 	 FRA 
+[1] "made it here"
+1376 	 20012 	 FRA 
+[1] "made it here"
+1377 	 15127 	 FRA 
+[1] "made it here"
+1378 	 15121 	 FRA 
+[1] "made it here"
+1379 	 11175 	 FRA DEU 
+[1] "made it here"
+1380 	 12042 	 FRA 
+[1] "made it here"
+1381 	 15478 	 FRA DEU 
+[1] "made it here"
+1382 	 15564 	 ZAF 
+[1] "made it here"
+1383 	 18285 	 ZAF 
+[1] "made it here"
+1384 	 15589 	 ZAF 
+[1] "made it here"
+1385 	 13017 	 ZAF 
+[1] "made it here"
+1386 	 11684 	 ZAF 
+[1] "made it here"
+1387 	 11572 	 ZAF 
+[1] "made it here"
+1388 	 13079 	 ZAF 
+1389 	 19350 	 ZAF ZWE 
+[1] "made it here"
+1390 	 15226 	 PNG 
+1391 	 18755 	 KNA 
+[1] "made it here"
+1392 	 18764 	 GLP 
+[1] "made it here"
+1393 	 18757 	 VGB 
+[1] "made it here"
+1394 	 18758 	 VGB 
+[1] "made it here"
+1395 	 14471 	 DOM 
+[1] "made it here"
+1396 	 12877 	 JAM 
+[1] "made it here"
+1397 	 19655 	 VGB 
+[1] "made it here"
+1398 	 14588 	 PRI 
+[1] "made it here"
+1399 	 14602 	 GLP 
+[1] "made it here"
+1400 	 19651 	 HTI DOM 
+[1] "made it here"
+1401 	 11638 	 HTI 
+1402 	 14586 	 HTI 
+1403 	 20830 	 HTI 
+1404 	 18756 	 KNA 
+[1] "made it here"
+1405 	 18746 	 VIR 
+[1] "made it here"
+1406 	 20933 	 MTQ 
+[1] "made it here"
+1407 	 11677 	 TTO 
+[1] "made it here"
+1408 	 14607 	 TTO 
+[1] "made it here"
+1409 	 14596 	 MTQ 
+[1] "made it here"
+1410 	 18754 	 BES 
+[1] "made it here"
+1411 	 18751 	 MAF SXM 
+[1] "made it here"
+1412 	 18753 	 BES 
+[1] "made it here"
+1413 	 20829 	 DOM 
+[1] "made it here"
+1414 	 14581 	 CUB 
+1415 	 18759 	 VGB 
+1416 	 14599 	 MSR 
+1417 	 11170 	 MMR THA 
+[1] "made it here"
+1418 	 12949 	 MMR THA 
+[1] "made it here"
+1419 	 19521 	 MMR 
+[1] "made it here"
+1420 	 11711 	 MMR IND 
+1421 	 19516 	 MMR 
+[1] "made it here"
+1422 	 11343 	 MMR 
+1423 	 11469 	 MMR 
+1424 	 11746 	 MMR 
+1425 	 11345 	 MMR 
+1426 	 11994 	 MMR 
+1427 	 14775 	 MMR 
+[1] "made it here"
+1428 	 11714 	 MMR 
+[1] "made it here"
+1429 	 19514 	 MMR 
+[1] "made it here"
+1430 	 15748 	 MMR 
+1431 	 12946 	 MMR 
+[1] "made it here"
+1432 	 15245 	 MMR THA 
+1433 	 13139 	 MMR BGD 
+[1] "made it here"
+1434 	 13131 	 THA 
+1435 	 12936 	 THA 
+1436 	 12531 	 THA 
+1437 	 19517 	 THA KHM 
+[1] "made it here"
+1438 	 12941 	 KHM 
+[1] "made it here"
+1439 	 12937 	 THA 
+1440 	 12947 	 THA 
+1441 	 19520 	 THA 
+[1] "made it here"
+1442 	 19522 	 THA 
+1443 	 19519 	 KHM LAO 
+[1] "made it here"
+1444 	 13099 	 VNM 
+[1] "made it here"
+1445 	 19290 	 KHM 
+[1] "made it here"
+1446 	 14563 	 NIC HND SLV 
+[1] "made it here"
+1447 	 15347 	 NIC 
+[1] "made it here"
+1448 	 12774 	 UKR 
+[1] "made it here"
+1449 	 12944 	 LKA 
+[1] "made it here"
+1450 	 12587 	 ISR EGY 
+[1] "made it here"
+1451 	 11327 	 ISR 
+[1] "made it here"
+1452 	 15493 	 LUX DEU 
+[1] "made it here"
+1453 	 15487 	 LUX DEU 
+[1] "made it here"
+1454 	 20235 	 POL 
+[1] "made it here"
+1455 	 20907 	 MNG 
+1456 	 19874 	 SRB 
+1457 	 14889 	 SRB 
+[1] "made it here"
+1458 	 11527 	 KGZ 
+1459 	 15189 	 AUS 
+[1] "made it here"
+1460 	 15208 	 AUS 
+[1] "made it here"
+1461 	 15204 	 AUS 
+[1] "made it here"
+1462 	 19685 	 AUS 
+[1] "made it here"
+1463 	 19827 	 AUS 
+[1] "made it here"
+1464 	 19684 	 AUS 
+[1] "made it here"
+1465 	 15202 	 AUS 
+[1] "made it here"
+1466 	 12633 	 AUS 
+[1] "made it here"
+1467 	 15176 	 AUS 
+[1] "made it here"
+1468 	 19821 	 AUS 
+[1] "made it here"
+1469 	 12628 	 AUS 
+[1] "made it here"
+1470 	 20972 	 AUS 
+[1] "made it here"
+1471 	 11336 	 AUS 
+[1] "made it here"
+1472 	 19159 	 AUS 
+[1] "made it here"
+1473 	 20973 	 AUS 
+[1] "made it here"
+1474 	 20974 	 AUS 
+[1] "made it here"
+1475 	 19297 	 AUS 
+[1] "made it here"
+1476 	 19823 	 AUS 
+[1] "made it here"
+1477 	 19824 	 AUS 
+[1] "made it here"
+1478 	 14412 	 AUS 
+[1] "made it here"
+1479 	 20772 	 AUS 
+[1] "made it here"
+1480 	 19692 	 AUS 
+[1] "made it here"
+1481 	 19688 	 AUS 
+[1] "made it here"
+1482 	 15200 	 AUS 
+[1] "made it here"
+1483 	 20236 	 POL 
+[1] "made it here"
+1484 	 20964 	 ROU BGR 
+[1] "made it here"
+1485 	 21036 	 ROU 
+[1] "made it here"
+1486 	 20172 	 ROU 
+[1] "made it here"
+1487 	 20176 	 ROU 
+[1] "made it here"
+1488 	 20612 	 ROU 
+[1] "made it here"
+1489 	 21035 	 ROU UKR MDA 
+[1] "made it here"
+1490 	 20160 	 ROU 
+[1] "made it here"
+1491 	 20166 	 ROU 
+[1] "made it here"
+1492 	 20196 	 ROU 
+[1] "made it here"
+1493 	 20197 	 ROU 
+[1] "made it here"
+1494 	 20206 	 ROU 
+[1] "made it here"
+1495 	 20203 	 ROU 
+[1] "made it here"
+1496 	 20205 	 ROU 
+[1] "made it here"
+1497 	 20137 	 ROU 
+[1] "made it here"
+1498 	 20143 	 ROU 
+[1] "made it here"
+1499 	 19740 	 TUR 
+1500 	 11965 	 TUR 
+1501 	 13000 	 GHA TGO 
+[1] "made it here"
+1502 	 19802 	 ZMB 
+1503 	 20234 	 POL 
+[1] "made it here"
+1504 	 14721 	 TUR 
+1505 	 11326 	 TUR 
+1506 	 20224 	 SVK HUN 
+[1] "made it here"
+1507 	 20294 	 SVK 
+[1] "made it here"
+1508 	 20879 	 SVK AUT 
+[1] "made it here"
+1509 	 20297 	 SVK 
+[1] "made it here"
+1510 	 20299 	 SVK 
+[1] "made it here"
+1511 	 20315 	 SVK HUN 
+[1] "made it here"
+1512 	 19161 	 AUS 
+[1] "made it here"
+1513 	 14417 	 AUS 
+[1] "made it here"
+1514 	 19293 	 AUS 
+[1] "made it here"
+1515 	 19690 	 AUS 
+[1] "made it here"
+1516 	 12511 	 AUS 
+[1] "made it here"
+1517 	 14428 	 AUS 
+[1] "made it here"
+1518 	 12525 	 AUS 
+[1] "made it here"
+1519 	 19691 	 AUS 
+[1] "made it here"
+1520 	 19846 	 AUS 
+[1] "made it here"
+1521 	 15118 	 AUS 
+[1] "made it here"
+1522 	 14450 	 GUF 
+[1] "made it here"
+1523 	 14449 	 GUF 
+[1] "made it here"
+1524 	 15520 	 GUF BRA 
+[1] "made it here"
+1525 	 19314 	 GUF BRA 
+[1] "made it here"
+1526 	 19987 	 BRA 
+[1] "made it here"
+1527 	 18224 	 BRA 
+[1] "made it here"
+1528 	 14228 	 BRA 
+1529 	 18225 	 BRA 
+[1] "made it here"
+1530 	 15654 	 BRA 
+[1] "made it here"
+1531 	 14408 	 AUS 
+[1] "made it here"
+1532 	 14411 	 AUS 
+[1] "made it here"
+1533 	 20942 	 AUS 
+[1] "made it here"
+1534 	 14445 	 SUR 
+[1] "made it here"
+1535 	 14446 	 SUR 
+[1] "made it here"
+1536 	 15523 	 SUR 
+1537 	 19315 	 SUR 
+[1] "made it here"
+1538 	 11262 	 HND 
+[1] "made it here"
+1539 	 15349 	 HND 
+[1] "made it here"
+1540 	 11257 	 HND 
+[1] "made it here"
+1541 	 15351 	 HND SLV 
+[1] "made it here"
+1542 	 17714 	 HND NIC 
+[1] "made it here"
+1543 	 19534 	 IDN 
+1544 	 21040 	 TZA 
+[1] "made it here"
+1545 	 12025 	 TZA 
+[1] "made it here"
+1546 	 14254 	 BRA 
+1547 	 11858 	 BRA 
+1548 	 11845 	 BRA 
+[1] "made it here"
+1549 	 20950 	 BRA 
+[1] "made it here"
+1550 	 20754 	 BRA 
+[1] "made it here"
+1551 	 14247 	 BRA 
+[1] "made it here"
+1552 	 19727 	 BRA 
+[1] "made it here"
+1553 	 18229 	 BRA 
+[1] "made it here"
+1554 	 18244 	 BRA 
+1555 	 14227 	 BRA PRY 
+[1] "made it here"
+1556 	 18245 	 BRA 
+1557 	 15343 	 BRA 
+1558 	 18300 	 BRA 
+1559 	 18216 	 BRA 
+1560 	 18256 	 BRA 
+[1] "made it here"
+1561 	 18260 	 BRA 
+[1] "made it here"
+1562 	 18255 	 BRA 
+[1] "made it here"
+1563 	 20381 	 BRA 
+[1] "made it here"
+1564 	 14923 	 SVK 
+[1] "made it here"
+1565 	 20214 	 SVK CZE 
+[1] "made it here"
+1566 	 19538 	 TKM IRN 
+1567 	 15274 	 TKM 
+1568 	 15276 	 TKM 
+1569 	 19865 	 KAZ 
+1570 	 19238 	 SWE 
+[1] "made it here"
+1571 	 20225 	 HUN 
+[1] "made it here"
+1572 	 20220 	 HUN 
+[1] "made it here"
+1573 	 20228 	 HUN 
+[1] "made it here"
+1574 	 20316 	 HUN 
+[1] "made it here"
+1575 	 14565 	 SLV GTM 
+[1] "made it here"
+1576 	 19780 	 URY 
+1577 	 18242 	 URY BRA 
+[1] "made it here"
+1578 	 14561 	 SLV 
+[1] "made it here"
+1579 	 14560 	 SLV 
+1580 	 14562 	 SLV 
+[1] "made it here"
+1581 	 18901 	 FLK 
+[1] "made it here"
+1582 	 18900 	 FLK 
+[1] "made it here"
+1583 	 12880 	 CRI 
+[1] "made it here"
+1584 	 17757 	 CRI 
+[1] "made it here"
+1585 	 11613 	 BLZ GTM MEX 
+[1] "made it here"
+1586 	 11893 	 BLZ 
+[1] "made it here"
+1587 	 12453 	 KAZ 
+1588 	 11864 	 PAN 
+[1] "made it here"
+1589 	 11144 	 UZB 
+1590 	 11869 	 PAN 
+[1] "made it here"
+1591 	 19779 	 PRY 
+[1] "made it here"
+1592 	 13047 	 PRY 
+[1] "made it here"
+1593 	 17715 	 NIC CRI 
+[1] "made it here"
+1594 	 19656 	 NIC CRI 
+[1] "made it here"
+1595 	 17716 	 NIC 
+[1] "made it here"
+1596 	 17717 	 NIC 
+[1] "made it here"
+1597 	 11240 	 CRI 
+[1] "made it here"
+1598 	 11728 	 CRI 
+[1] "made it here"
+1599 	 11254 	 CRI 
+[1] "made it here"
+1600 	 14554 	 GTM 
+[1] "made it here"
+1601 	 14555 	 GTM 
+[1] "made it here"
+1602 	 19658 	 GTM 
+[1] "made it here"
+1603 	 11861 	 BRA 
+[1] "made it here"
+1604 	 19991 	 BRA 
+[1] "made it here"
+1605 	 19725 	 BRA 
+[1] "made it here"
+1606 	 18222 	 BRA 
+[1] "made it here"
+1607 	 18235 	 BRA 
+[1] "made it here"
+1608 	 18218 	 BRA 
+[1] "made it here"
+1609 	 18243 	 BRA 
+[1] "made it here"
+1610 	 11849 	 BRA 
+1611 	 14504 	 BRA 
+[1] "made it here"
+1612 	 18266 	 BRA 
+[1] "made it here"
+1613 	 18261 	 BRA 
+1614 	 18262 	 BRA 
+[1] "made it here"
+1615 	 11855 	 BRA 
+[1] "made it here"
+1616 	 11852 	 BRA 
+[1] "made it here"
+1617 	 11490 	 KAZ 
+1618 	 15251 	 ARM 
+1619 	 17842 	 PRT 
+[1] "made it here"
+1620 	 11871 	 PAN 
+[1] "made it here"
+1621 	 11867 	 PAN 
+[1] "made it here"
+1622 	 11726 	 PAN 
+1623 	 19996 	 PAN 
+1624 	 14770 	 BGR GRC 
+[1] "made it here"
+1625 	 12370 	 BGR 
+[1] "made it here"
+1626 	 20965 	 BGR 
+[1] "made it here"
+1627 	 12371 	 BGR 
+[1] "made it here"
+1628 	 12372 	 BGR 
+[1] "made it here"
+1629 	 15463 	 BGR 
+[1] "made it here"
+1630 	 14805 	 BGR 
+[1] "made it here"
+1631 	 12775 	 BGR TUR 
+[1] "made it here"
+1632 	 11776 	 BGR 
+[1] "made it here"
+1633 	 15465 	 BGR 
+[1] "made it here"
+1634 	 19936 	 CZE 
+[1] "made it here"
+1635 	 15485 	 CZE 
+[1] "made it here"
+1636 	 15483 	 CZE DEU AUT 
+[1] "made it here"
+1637 	 20212 	 CZE 
+[1] "made it here"
+1638 	 20213 	 CZE 
+[1] "made it here"
+1639 	 12988 	 CZE POL 
+[1] "made it here"
+1640 	 20983 	 NPL 
+[1] "made it here"
+1641 	 20984 	 NPL 
+1642 	 13911 	 IND BGD 
+[1] "made it here"
+1643 	 15250 	 IND 
+1644 	 19279 	 IND 
+[1] "made it here"
+1645 	 19500 	 IND 
+1646 	 14366 	 IND 
+1647 	 14361 	 IND 
+1648 	 20845 	 IND 
+1649 	 12834 	 IND 
+1650 	 19269 	 IND 
+1651 	 20340 	 IND 
+1652 	 12838 	 IND 
+1653 	 15745 	 IND 
+[1] "made it here"
+1654 	 11630 	 IND 
+1655 	 12888 	 IND 
+1656 	 19756 	 IND 
+[1] "made it here"
+1657 	 11441 	 KOR 
+[1] "made it here"
+1658 	 11529 	 PAK 
+1659 	 17804 	 PAK 
+[1] "made it here"
+1660 	 12945 	 PAK 
+[1] "made it here"
+1661 	 11396 	 MNG 
+[1] "made it here"
+1662 	 19509 	 MNG 
+1663 	 11421 	 MNG 
+[1] "made it here"
+1664 	 19958 	 MNG 
+[1] "made it here"
+1665 	 18558 	 MNG 
+[1] "made it here"
+1666 	 19162 	 KOR 
+1667 	 20729 	 KOR 
+[1] "made it here"
+1668 	 20872 	 KOR PRK 
+[1] "made it here"
+1669 	 20731 	 KOR 
+[1] "made it here"
+1670 	 20728 	 KOR PRK 
+[1] "made it here"
+1671 	 11382 	 PRK 
 [1] "no PAs"
-2003 	 18789 	 PYF 
+1672 	 11664 	 PRK 
 [1] "no PAs"
-2004 	 12599 	 PYF 
+1673 	 11977 	 BRN MYS 
+[1] "made it here"
+1674 	 11307 	 MYS 
+[1] "made it here"
+1675 	 18732 	 MYS IDN 
+[1] "made it here"
+1676 	 18738 	 MYS 
+[1] "made it here"
+1677 	 14472 	 MYS 
+[1] "made it here"
+1678 	 14696 	 MYS 
+1679 	 18731 	 MYS 
+[1] "made it here"
+1680 	 11599 	 IDN 
+1681 	 11718 	 IDN 
+[1] "made it here"
+1682 	 11720 	 IDN 
+1683 	 11709 	 IDN 
+[1] "made it here"
+1684 	 18695 	 IDN 
+[1] "made it here"
+1685 	 18692 	 IDN 
+[1] "made it here"
+1686 	 14365 	 BGD 
+1687 	 20986 	 NPL 
+1688 	 11412 	 TWN 
+1689 	 19421 	 TWN 
+[1] "made it here"
+1690 	 11378 	 TWN 
+1691 	 14468 	 TWN 
+1692 	 11120 	 TWN 
+[1] "made it here"
+1693 	 12308 	 TWN 
+[1] "made it here"
+1694 	 14469 	 TWN 
+[1] "made it here"
+1695 	 17736 	 MEX 
+[1] "made it here"
+1696 	 17718 	 MEX 
+[1] "made it here"
+1697 	 17789 	 MEX 
+1698 	 15354 	 MEX 
+[1] "made it here"
+1699 	 11906 	 MEX 
+[1] "made it here"
+1700 	 15352 	 MEX 
+[1] "made it here"
+1701 	 21001 	 MEX 
+1702 	 11655 	 TUR 
+1703 	 20682 	 TUR 
+1704 	 20688 	 TUR 
+1705 	 20024 	 DEU 
+[1] "made it here"
+1706 	 20020 	 DEU 
+[1] "made it here"
+1707 	 15491 	 DEU 
+[1] "made it here"
+1708 	 15492 	 DEU 
+[1] "made it here"
+1709 	 19288 	 DEU AUT 
+[1] "made it here"
+1710 	 15476 	 DEU CHE 
+[1] "made it here"
+1711 	 20014 	 DEU 
+[1] "made it here"
+1712 	 15494 	 DEU 
+[1] "made it here"
+1713 	 20017 	 DEU 
+[1] "made it here"
+1714 	 12458 	 DEU 
+[1] "made it here"
+1715 	 12986 	 DEU 
+[1] "made it here"
+1716 	 15495 	 DEU 
+[1] "made it here"
+1717 	 20877 	 DEU 
+[1] "made it here"
+1718 	 15489 	 DEU 
+[1] "made it here"
+1719 	 15488 	 DEU 
+[1] "made it here"
+1720 	 12969 	 DEU 
+[1] "made it here"
+1721 	 20015 	 DEU 
+[1] "made it here"
+1722 	 20917 	 YEM 
+[1] "made it here"
+1723 	 20911 	 YEM 
+1724 	 19536 	 YEM 
+1725 	 12943 	 YEM 
+1726 	 14630 	 SYR 
 [1] "no PAs"
-2005 	 18840 	 FSM 
-2006 	 18878 	 USA 
-2007 	 18776 	 ECU 
+1727 	 14497 	 OMN 
+1728 	 14500 	 OMN 
 [1] "made it here"
-2008 	 18773 	 ECU 
+1729 	 18469 	 IRN 
 [1] "made it here"
-2009 	 15626 	 ECU 
+1730 	 15323 	 IRN 
 [1] "made it here"
-2010 	 11909 	 COL 
-2011 	 11863 	 COL 
+1731 	 19550 	 IRN 
 [1] "made it here"
-2012 	 12728 	 PER 
+1732 	 11450 	 IRN 
 [1] "made it here"
-2013 	 12732 	 PER 
+1733 	 11551 	 IRN 
 [1] "made it here"
-2014 	 14145 	 PER 
+1734 	 19549 	 IRN 
 [1] "made it here"
-2015 	 13928 	 PER 
+1735 	 19741 	 IRN 
 [1] "made it here"
-2016 	 13929 	 PER 
+1736 	 19548 	 IRN 
+1737 	 19742 	 IRN 
+1738 	 19743 	 IRN 
+1739 	 15285 	 IRN 
+1740 	 20685 	 IRN 
+1741 	 12002 	 AFG 
+1742 	 18498 	 AFG 
+1743 	 18345 	 AFG 
+1744 	 18348 	 AFG 
+1745 	 20676 	 AFG 
+1746 	 18143 	 ZMB 
+1747 	 18516 	 ZMB 
+1748 	 19944 	 ZMB COD 
 [1] "made it here"
-2017 	 13932 	 PER 
+1749 	 19356 	 ZMB 
 [1] "made it here"
-2018 	 12727 	 PER 
+1750 	 11647 	 UGA 
 [1] "made it here"
-2019 	 12731 	 PER 
+1751 	 13004 	 UGA 
 [1] "made it here"
-2020 	 19309 	 ARG BRA 
+1752 	 12150 	 TZA 
 [1] "made it here"
-2021 	 15627 	 ARG 
-2022 	 15637 	 ARG 
-2023 	 15638 	 ARG 
+1753 	 20861 	 TZA MOZ 
 [1] "made it here"
-2024 	 13058 	 ARG 
-2025 	 15630 	 ARG 
+1754 	 11671 	 TZA 
 [1] "made it here"
-2026 	 11251 	 ARG 
+1755 	 13028 	 TZA 
+1756 	 14076 	 TZA 
+1757 	 19340 	 TZA 
 [1] "made it here"
-2027 	 11901 	 ARG 
+1758 	 19341 	 TZA 
+1759 	 11526 	 TZA 
 [1] "made it here"
-2028 	 13037 	 ARG 
+1760 	 11676 	 TZA 
+1761 	 12908 	 TZA 
+1762 	 13105 	 TGO BEN 
 [1] "made it here"
-2029 	 11934 	 ARG 
+1763 	 14282 	 ATF 
 [1] "made it here"
-2030 	 13038 	 ARG 
+1764 	 20577 	 ATF 
 [1] "made it here"
-2031 	 15629 	 ARG 
-2032 	 20626 	 ARG 
-[1] "made it here"
-2033 	 20625 	 ARG 
-[1] "made it here"
-2034 	 19280 	 ARG CHL 
-[1] "made it here"
-2035 	 20574 	 ARG 
-[1] "made it here"
-2036 	 14187 	 ARG 
-2037 	 11918 	 ARG 
-[1] "made it here"
-2038 	 19712 	 ARG 
-[1] "made it here"
-2039 	 19318 	 ARG CHL 
-[1] "made it here"
-2040 	 13117 	 ARG 
-2041 	 11896 	 ARG 
-[1] "made it here"
-2042 	 11911 	 ARG 
-[1] "made it here"
-2043 	 11916 	 ARG 
-[1] "made it here"
-2044 	 15628 	 ARG 
-[1] "made it here"
-2045 	 15635 	 ARG 
-[1] "made it here"
-2046 	 13091 	 ARG 
-2047 	 20638 	 ARG 
-[1] "made it here"
-2048 	 20639 	 ARG 
-2049 	 20634 	 ARG 
-2050 	 20641 	 ARG 
-[1] "made it here"
-2051 	 11247 	 ARG BOL 
-[1] "made it here"
-2052 	 19321 	 ARG 
-[1] "made it here"
-2053 	 15636 	 ARG 
-[1] "made it here"
-2054 	 11249 	 ARG BOL 
-[1] "made it here"
-2055 	 18532 	 ARG 
-2056 	 15631 	 ARG 
-[1] "made it here"
-2057 	 18438 	 ARG 
-[1] "made it here"
-2058 	 20739 	 ARG 
-2059 	 14210 	 ARG 
-2060 	 14211 	 ARG 
-2061 	 12585 	 ARG 
-[1] "made it here"
-2062 	 15651 	 BOL 
-[1] "made it here"
-2063 	 11868 	 BOL 
-[1] "made it here"
-2064 	 19305 	 BOL BRA 
-[1] "made it here"
-2065 	 11250 	 BOL 
-[1] "made it here"
-2066 	 18527 	 BOL CHL 
-[1] "made it here"
-2067 	 15343 	 BOL 
-[1] "made it here"
-2068 	 20754 	 BOL 
-2069 	 18528 	 CHL 
-[1] "made it here"
-2070 	 18529 	 CHL 
-[1] "made it here"
-2071 	 12571 	 CHL 
-[1] "made it here"
-2072 	 19976 	 CHL 
-2073 	 14615 	 VEN 
-[1] "made it here"
-2074 	 11872 	 VEN 
-[1] "made it here"
-2075 	 21007 	 VEN 
-[1] "made it here"
-2076 	 18768 	 VEN 
-[1] "made it here"
-2077 	 11919 	 VEN 
-2078 	 13100 	 VEN 
-[1] "made it here"
-2079 	 14612 	 VEN 
-[1] "made it here"
-2080 	 14083 	 REU 
-[1] "made it here"
-2081 	 14290 	 MYT 
-[1] "made it here"
-2082 	 14263 	 MUS 
-[1] "made it here"
-2083 	 15336 	 MDG 
-2084 	 21044 	 MDG 
-[1] "made it here"
-2085 	 15473 	 MDG 
-2086 	 15338 	 MDG 
-2087 	 13018 	 MUS 
-[1] "made it here"
-2088 	 19195 	 IND 
-[1] "made it here"
-2089 	 18365 	 IND 
-2090 	 19499 	 IND 
-2091 	 20621 	 SEN 
-2092 	 11564 	 JPN 
-[1] "made it here"
-2093 	 11524 	 JPN 
-[1] "made it here"
-2094 	 11224 	 JPN 
-[1] "made it here"
-2095 	 11626 	 JPN 
-[1] "made it here"
-2096 	 20979 	 JPN 
-[1] "made it here"
-2097 	 20810 	 JPN 
-[1] "made it here"
-2098 	 20811 	 JPN 
-[1] "made it here"
-2099 	 11786 	 JPN 
-[1] "made it here"
-2100 	 11884 	 JPN 
-[1] "made it here"
-2101 	 11695 	 JPN 
-[1] "made it here"
-2102 	 20818 	 JPN 
-[1] "made it here"
-2103 	 20825 	 JPN 
-[1] "made it here"
-2104 	 11139 	 JPN 
-[1] "made it here"
-2105 	 11398 	 JPN 
-[1] "made it here"
-2106 	 20975 	 JPN 
-2107 	 20815 	 JPN 
-[1] "made it here"
-2108 	 20977 	 JPN 
-[1] "made it here"
-2109 	 19204 	 JPN 
-[1] "made it here"
-2110 	 19165 	 JPN 
-[1] "made it here"
-2111 	 20976 	 JPN 
-[1] "made it here"
-2112 	 20816 	 JPN 
-[1] "made it here"
-2113 	 19415 	 JPN 
-[1] "made it here"
-2114 	 15712 	 JPN 
-[1] "made it here"
-2115 	 20822 	 JPN 
-[1] "made it here"
-2116 	 11322 	 PNG 
-2117 	 18804 	 VUT 
-[1] "made it here"
-2118 	 18807 	 VUT 
-[1] "made it here"
-2119 	 15497 	 VUT 
-[1] "made it here"
-2120 	 19694 	 VUT 
-2121 	 12614 	 VUT 
-2122 	 18808 	 VUT 
-2123 	 12608 	 VUT 
-[1] "made it here"
-2124 	 12610 	 VUT 
-2125 	 12609 	 VUT 
-2126 	 12615 	 VUT 
-2127 	 18809 	 VUT 
-2128 	 18805 	 VUT 
-[1] "made it here"
-2129 	 18843 	 VUT 
-2130 	 18827 	 SLB 
-2131 	 18820 	 SLB 
-[1] "made it here"
-2132 	 12648 	 SLB 
-2133 	 18826 	 SLB 
-2134 	 12057 	 PNG 
-2135 	 15224 	 PNG 
-2136 	 12221 	 PNG 
-[1] "made it here"
-2137 	 11384 	 PNG 
-2138 	 12037 	 PNG 
-2139 	 11822 	 PNG 
-2140 	 18847 	 PNG 
-2141 	 15496 	 SLB 
-2142 	 18822 	 SLB 
-2143 	 19286 	 SLB 
-2144 	 18821 	 SLB 
-2145 	 18823 	 SLB 
-2146 	 18824 	 SLB 
-2147 	 18825 	 SLB 
-2148 	 12770 	 IDN 
-2149 	 12772 	 IDN 
-[1] "made it here"
-2150 	 12773 	 IDN 
-[1] "made it here"
-2151 	 18897 	 IDN 
-2152 	 18895 	 IDN 
-2153 	 18939 	 IDN 
-2154 	 20908 	 IDN 
-[1] "made it here"
-2155 	 18883 	 IDN 
-[1] "made it here"
-2156 	 18884 	 IDN 
-[1] "made it here"
-2157 	 18850 	 IDN 
-[1] "made it here"
-2158 	 12764 	 IDN 
-[1] "made it here"
-2159 	 18848 	 IDN 
-[1] "made it here"
-2160 	 12762 	 IDN 
-[1] "made it here"
-2161 	 18888 	 IDN 
-[1] "made it here"
-2162 	 18851 	 IDN 
-[1] "made it here"
-2163 	 18849 	 IDN 
-[1] "made it here"
-2164 	 12760 	 IDN 
-[1] "made it here"
-2165 	 19291 	 TLS 
-[1] "made it here"
-2166 	 15234 	 IDN 
-[1] "made it here"
-2167 	 18893 	 IDN 
-2168 	 12745 	 IDN 
-[1] "made it here"
-2169 	 20769 	 IDN 
-[1] "made it here"
-2170 	 18925 	 IDN 
-2171 	 18894 	 IDN 
-[1] "made it here"
-2172 	 20586 	 IDN 
-[1] "made it here"
-2173 	 20768 	 IDN 
-2174 	 14274 	 SHN 
-2175 	 15863 	 CAN 
-[1] "made it here"
-2176 	 17075 	 CAN 
-2177 	 19577 	 CAN 
-[1] "made it here"
-2178 	 15867 	 CAN 
-[1] "made it here"
-2179 	 11288 	 CAN 
-2180 	 11773 	 CAN 
-[1] "made it here"
-2181 	 15808 	 CAN 
-[1] "made it here"
-2182 	 15812 	 CAN 
-[1] "made it here"
-2183 	 19557 	 CAN 
-2184 	 18703 	 CAN 
-[1] "made it here"
-2185 	 19670 	 CAN 
-[1] "made it here"
-2186 	 20939 	 CAN 
-[1] "made it here"
-2187 	 12365 	 CAN 
-2188 	 12367 	 CAN 
-[1] "made it here"
-2189 	 20936 	 CAN 
-[1] "made it here"
-2190 	 16795 	 CAN 
-[1] "made it here"
-2191 	 19659 	 CAN 
-2192 	 19997 	 CAN 
-[1] "made it here"
-2193 	 16016 	 CAN 
-[1] "made it here"
-2194 	 16007 	 CAN 
-[1] "made it here"
-2195 	 19561 	 CAN 
-[1] "made it here"
-2196 	 16197 	 CAN 
-[1] "made it here"
-2197 	 16198 	 CAN 
-[1] "made it here"
-2198 	 16176 	 CAN 
-[1] "made it here"
-2199 	 16182 	 CAN 
-[1] "made it here"
-2200 	 19563 	 CAN 
-[1] "made it here"
-2201 	 19580 	 CAN 
-2202 	 17157 	 CAN 
-[1] "made it here"
-2203 	 17140 	 CAN 
-[1] "made it here"
-2204 	 17152 	 CAN 
-[1] "made it here"
-2205 	 17128 	 CAN 
-[1] "made it here"
-2206 	 19585 	 CAN 
-[1] "made it here"
-2207 	 12923 	 CAN 
-[1] "made it here"
-2208 	 17103 	 CAN 
-[1] "made it here"
-2209 	 17133 	 CAN 
-[1] "made it here"
-2210 	 17149 	 CAN 
-[1] "made it here"
-2211 	 11766 	 CAN 
-[1] "made it here"
-2212 	 19674 	 CAN 
-[1] "made it here"
-2213 	 19106 	 SJM 
-[1] "made it here"
-2214 	 20399 	 NOR FIN 
-[1] "made it here"
-2215 	 20430 	 NOR FIN 
-[1] "made it here"
-2216 	 20424 	 NOR SWE 
-[1] "made it here"
-2217 	 20415 	 NOR 
-[1] "made it here"
-2218 	 20418 	 NOR 
-[1] "made it here"
-2219 	 20505 	 NOR 
-[1] "made it here"
-2220 	 20556 	 NOR 
-[1] "made it here"
-2221 	 20562 	 NOR 
-[1] "made it here"
-2222 	 20563 	 NOR 
-[1] "made it here"
-2223 	 20884 	 NOR SWE 
-[1] "made it here"
-2224 	 19104 	 SJM 
-[1] "made it here"
-2225 	 19105 	 SJM 
-[1] "made it here"
-2226 	 19107 	 SJM 
-[1] "made it here"
-2227 	 15455 	 SVN ITA 
-[1] "made it here"
-2228 	 15457 	 SVN ITA AUT 
-[1] "made it here"
-2229 	 15458 	 SVN 
-[1] "made it here"
-2230 	 15459 	 SVN 
-[1] "made it here"
-2231 	 15460 	 SVN 
-[1] "made it here"
-2232 	 20834 	 SVN 
-[1] "made it here"
-2233 	 14878 	 SVN 
-[1] "made it here"
-2234 	 15456 	 SVN ITA 
-[1] "made it here"
-2235 	 15461 	 SVN 
-[1] "made it here"
-2236 	 15370 	 SVN 
-[1] "made it here"
-2237 	 20910 	 SAU YEM 
-[1] "made it here"
-2238 	 11391 	 SAU 
-2239 	 14123 	 SAU 
-2240 	 11431 	 SAU 
-[1] "made it here"
-2241 	 19771 	 SAU 
-2242 	 19772 	 SAU 
-2243 	 19767 	 SAU 
-[1] "made it here"
-2244 	 13148 	 NZL 
-[1] "made it here"
-2245 	 11418 	 NZL 
-2246 	 11451 	 NZL 
-[1] "made it here"
-2247 	 13570 	 NZL 
-[1] "made it here"
-2248 	 13552 	 NZL 
-[1] "made it here"
-2249 	 13553 	 NZL 
-[1] "made it here"
-2250 	 13558 	 NZL 
-[1] "made it here"
-2251 	 13871 	 NZL 
-[1] "made it here"
-2252 	 11346 	 NZL 
-[1] "made it here"
-2253 	 11390 	 NZL 
-[1] "made it here"
-2254 	 13589 	 NZL 
-[1] "made it here"
-2255 	 13594 	 NZL 
-[1] "made it here"
-2256 	 11308 	 NZL 
-[1] "made it here"
-2257 	 11387 	 NZL 
-[1] "made it here"
-2258 	 11741 	 NZL 
-[1] "made it here"
-2259 	 13595 	 NZL 
-[1] "made it here"
-2260 	 13597 	 NZL 
-[1] "made it here"
-2261 	 13599 	 NZL 
-[1] "made it here"
-2262 	 13606 	 NZL 
-2263 	 13614 	 NZL 
-[1] "made it here"
-2264 	 13896 	 NZL 
-[1] "made it here"
-2265 	 13602 	 NZL 
-[1] "made it here"
-2266 	 13607 	 NZL 
-[1] "made it here"
-2267 	 13617 	 NZL 
-[1] "made it here"
-2268 	 13628 	 NZL 
-[1] "made it here"
-2269 	 13642 	 NZL 
-[1] "made it here"
-2270 	 13603 	 NZL 
-[1] "made it here"
-2271 	 13604 	 NZL 
-[1] "made it here"
-2272 	 13611 	 NZL 
-[1] "made it here"
-2273 	 13619 	 NZL 
-[1] "made it here"
-2274 	 11162 	 NZL 
-[1] "made it here"
-2275 	 12023 	 NZL 
-[1] "made it here"
-2276 	 13884 	 NZL 
-2277 	 13885 	 NZL 
-[1] "made it here"
-2278 	 15220 	 NZL 
-[1] "made it here"
-2279 	 13641 	 NZL 
-[1] "made it here"
-2280 	 11579 	 NZL 
-[1] "made it here"
-2281 	 13648 	 NZL 
-[1] "made it here"
-2282 	 13659 	 NZL 
-[1] "made it here"
-2283 	 13662 	 NZL 
-[1] "made it here"
-2284 	 13668 	 NZL 
-[1] "made it here"
-2285 	 13680 	 NZL 
-[1] "made it here"
-2286 	 11528 	 NZL 
-[1] "made it here"
-2287 	 11993 	 NZL 
-[1] "made it here"
-2288 	 13598 	 NZL 
-[1] "made it here"
-2289 	 13601 	 NZL 
-[1] "made it here"
-2290 	 13894 	 NZL 
-[1] "made it here"
-2291 	 11456 	 NZL 
-[1] "made it here"
-2292 	 12869 	 NZL 
-[1] "made it here"
-2293 	 13646 	 NZL 
-[1] "made it here"
-2294 	 13649 	 NZL 
-[1] "made it here"
-2295 	 13650 	 NZL 
-[1] "made it here"
-2296 	 13656 	 NZL 
-2297 	 13657 	 NZL 
-[1] "made it here"
-2298 	 13660 	 NZL 
-[1] "made it here"
-2299 	 13682 	 NZL 
-[1] "made it here"
-2300 	 13687 	 NZL 
-[1] "made it here"
-2301 	 13690 	 NZL 
-[1] "made it here"
-2302 	 13692 	 NZL 
-[1] "made it here"
-2303 	 13694 	 NZL 
-[1] "made it here"
-2304 	 13699 	 NZL 
-[1] "made it here"
-2305 	 13895 	 NZL 
-[1] "made it here"
-2306 	 11752 	 NZL 
-[1] "made it here"
-2307 	 12872 	 NZL 
-[1] "made it here"
-2308 	 13701 	 NZL 
-[1] "made it here"
-2309 	 13724 	 NZL 
-[1] "made it here"
-2310 	 13730 	 NZL 
-[1] "made it here"
-2311 	 13731 	 NZL 
-[1] "made it here"
-2312 	 13732 	 NZL 
-[1] "made it here"
-2313 	 13733 	 NZL 
-[1] "made it here"
-2314 	 13735 	 NZL 
-[1] "made it here"
-2315 	 13738 	 NZL 
-[1] "made it here"
-2316 	 13740 	 NZL 
-[1] "made it here"
-2317 	 13742 	 NZL 
-[1] "made it here"
-2318 	 13748 	 NZL 
-[1] "made it here"
-2319 	 13714 	 NZL 
-[1] "made it here"
-2320 	 13715 	 NZL 
-[1] "made it here"
-2321 	 13719 	 NZL 
-2322 	 13744 	 NZL 
-[1] "made it here"
-2323 	 13747 	 NZL 
-[1] "made it here"
-2324 	 13749 	 NZL 
-[1] "made it here"
-2325 	 13750 	 NZL 
-[1] "made it here"
-2326 	 13752 	 NZL 
-2327 	 13753 	 NZL 
-[1] "made it here"
-2328 	 13755 	 NZL 
-[1] "made it here"
-2329 	 13756 	 NZL 
-[1] "made it here"
-2330 	 13759 	 NZL 
-[1] "made it here"
-2331 	 13770 	 NZL 
-[1] "made it here"
-2332 	 13754 	 NZL 
-[1] "made it here"
-2333 	 13763 	 NZL 
-[1] "made it here"
-2334 	 13764 	 NZL 
-[1] "made it here"
-2335 	 13766 	 NZL 
-[1] "made it here"
-2336 	 13771 	 NZL 
-[1] "made it here"
-2337 	 11453 	 NZL 
-[1] "made it here"
-2338 	 13772 	 NZL 
-[1] "made it here"
-2339 	 13773 	 NZL 
-[1] "made it here"
-2340 	 13774 	 NZL 
-[1] "made it here"
-2341 	 13775 	 NZL 
-2342 	 13902 	 NZL 
-[1] "made it here"
-2343 	 13791 	 NZL 
-[1] "made it here"
-2344 	 13793 	 NZL 
-2345 	 13799 	 NZL 
-[1] "made it here"
-2346 	 11774 	 NZL 
-[1] "made it here"
-2347 	 13776 	 NZL 
-[1] "made it here"
-2348 	 13784 	 NZL 
-[1] "made it here"
-2349 	 13796 	 NZL 
-[1] "made it here"
-2350 	 12039 	 NZL 
-[1] "made it here"
-2351 	 12870 	 NZL 
-[1] "made it here"
-2352 	 13783 	 NZL 
-[1] "made it here"
-2353 	 13786 	 NZL 
-[1] "made it here"
-2354 	 13790 	 NZL 
-[1] "made it here"
-2355 	 13792 	 NZL 
-[1] "made it here"
-2356 	 13802 	 NZL 
-[1] "made it here"
-2357 	 13806 	 NZL 
-[1] "made it here"
-2358 	 13881 	 NZL 
-[1] "made it here"
-2359 	 13778 	 NZL 
-[1] "made it here"
-2360 	 13779 	 NZL 
-[1] "made it here"
-2361 	 13787 	 NZL 
-[1] "made it here"
-2362 	 14430 	 NZL 
-[1] "made it here"
-2363 	 13615 	 NZL 
-[1] "made it here"
-2364 	 13620 	 NZL 
-[1] "made it here"
-2365 	 13577 	 NZL 
-[1] "made it here"
-2366 	 13544 	 NZL 
-2367 	 13546 	 NZL 
-[1] "made it here"
-2368 	 13549 	 NZL 
-[1] "made it here"
-2369 	 13550 	 NZL 
-[1] "made it here"
-2370 	 13870 	 NZL 
-[1] "made it here"
-2371 	 13645 	 NZL 
-2372 	 13879 	 NZL 
-[1] "made it here"
-2373 	 13890 	 NZL 
-[1] "made it here"
-2374 	 13664 	 NZL 
-2375 	 13665 	 NZL 
-[1] "made it here"
-2376 	 13670 	 NZL 
-[1] "made it here"
-2377 	 13676 	 NZL 
-[1] "made it here"
-2378 	 13679 	 NZL 
-[1] "made it here"
-2379 	 13685 	 NZL 
-[1] "made it here"
-2380 	 13880 	 NZL 
-2381 	 11779 	 NZL 
-[1] "made it here"
-2382 	 13688 	 NZL 
-2383 	 13691 	 NZL 
-[1] "made it here"
-2384 	 13693 	 NZL 
-[1] "made it here"
-2385 	 13702 	 NZL 
-[1] "made it here"
-2386 	 13703 	 NZL 
-[1] "made it here"
-2387 	 13709 	 NZL 
-[1] "made it here"
-2388 	 13710 	 NZL 
-[1] "made it here"
-2389 	 13712 	 NZL 
-[1] "made it here"
-2390 	 13713 	 NZL 
-[1] "made it here"
-2391 	 13717 	 NZL 
-[1] "made it here"
-2392 	 13721 	 NZL 
-[1] "made it here"
-2393 	 13728 	 NZL 
-[1] "made it here"
-2394 	 13878 	 NZL 
-[1] "made it here"
-2395 	 19697 	 NZL 
-[1] "made it here"
-2396 	 11473 	 NZL 
-[1] "made it here"
-2397 	 13573 	 NZL 
-[1] "made it here"
-2398 	 13578 	 NZL 
-[1] "made it here"
-2399 	 13584 	 NZL 
-[1] "made it here"
-2400 	 20803 	 NZL 
-[1] "made it here"
-2401 	 15416 	 AUT 
-[1] "made it here"
-2402 	 18675 	 AUT FRA DEU CHE 
-[1] "made it here"
-2403 	 15417 	 AUT DEU 
-[1] "made it here"
-2404 	 15908 	 USA 
-[1] "made it here"
-2405 	 15912 	 USA 
-[1] "made it here"
-2406 	 15916 	 USA 
-[1] "made it here"
-2407 	 15917 	 USA 
-[1] "made it here"
-2408 	 15918 	 USA 
-[1] "made it here"
-2409 	 15914 	 USA 
-[1] "made it here"
-2410 	 19635 	 USA 
-[1] "made it here"
-2411 	 16622 	 USA 
-[1] "made it here"
-2412 	 16646 	 USA 
-2413 	 16680 	 USA 
-[1] "made it here"
-2414 	 20924 	 USA 
-[1] "made it here"
-2415 	 19736 	 USA 
-[1] "made it here"
-2416 	 11452 	 USA 
-[1] "made it here"
-2417 	 16135 	 USA 
-[1] "made it here"
-2418 	 16141 	 USA 
-[1] "made it here"
-2419 	 11455 	 USA 
-[1] "made it here"
-2420 	 16133 	 USA 
-[1] "made it here"
-2421 	 16706 	 USA 
-[1] "made it here"
-2422 	 16707 	 USA MEX 
-[1] "made it here"
-2423 	 16715 	 USA 
-[1] "made it here"
-2424 	 11221 	 USA 
-[1] "made it here"
-2425 	 16702 	 USA 
-2426 	 16126 	 USA 
-[1] "made it here"
-2427 	 16729 	 USA MEX 
-2428 	 16732 	 USA MEX 
-[1] "made it here"
-2429 	 11340 	 USA 
-[1] "made it here"
-2430 	 11649 	 USA 
-[1] "made it here"
-2431 	 16698 	 USA 
-[1] "made it here"
-2432 	 16713 	 USA 
-[1] "made it here"
-2433 	 16714 	 USA 
-[1] "made it here"
-2434 	 16718 	 USA 
-2435 	 18575 	 USA 
-[1] "made it here"
-2436 	 16743 	 USA 
-[1] "made it here"
-2437 	 19572 	 USA 
-[1] "made it here"
-2438 	 20928 	 USA 
-[1] "made it here"
-2439 	 16036 	 USA 
-[1] "made it here"
-2440 	 16038 	 USA 
-2441 	 16040 	 USA 
-2442 	 15909 	 USA 
-2443 	 15951 	 USA 
-[1] "made it here"
-2444 	 15953 	 USA 
-[1] "made it here"
-2445 	 11115 	 USA 
-[1] "made it here"
-2446 	 16310 	 USA 
-[1] "made it here"
-2447 	 17686 	 USA 
-2448 	 17693 	 USA 
-2449 	 11768 	 USA 
-2450 	 16367 	 USA 
-[1] "made it here"
-2451 	 11395 	 USA 
-[1] "made it here"
-2452 	 16117 	 USA 
-[1] "made it here"
-2453 	 11795 	 USA 
-[1] "made it here"
-2454 	 11799 	 USA 
-[1] "made it here"
-2455 	 11804 	 USA 
-[1] "made it here"
-2456 	 19587 	 USA 
-[1] "made it here"
-2457 	 16978 	 USA 
-2458 	 17001 	 USA 
-2459 	 17013 	 USA 
-2460 	 17032 	 USA 
-[1] "made it here"
-2461 	 12494 	 USA 
-[1] "made it here"
-2462 	 21055 	 USA 
-[1] "made it here"
-2463 	 15784 	 USA 
-2464 	 15800 	 USA 
-[1] "made it here"
-2465 	 15796 	 USA 
-[1] "made it here"
-2466 	 15505 	 USA 
-[1] "made it here"
-2467 	 19591 	 USA 
-[1] "made it here"
-2468 	 15798 	 USA 
-[1] "made it here"
-2469 	 15799 	 USA 
-[1] "made it here"
-2470 	 12927 	 USA 
-[1] "made it here"
-2471 	 15891 	 USA 
-2472 	 15958 	 USA 
-[1] "made it here"
-2473 	 11607 	 USA 
-[1] "made it here"
-2474 	 16134 	 USA 
-[1] "made it here"
-2475 	 17504 	 USA 
-2476 	 17513 	 USA 
-2477 	 19612 	 USA 
-2478 	 11739 	 USA 
-2479 	 17458 	 USA 
-[1] "made it here"
-2480 	 17461 	 USA 
-[1] "made it here"
-2481 	 17572 	 USA 
-[1] "made it here"
-2482 	 17567 	 USA 
-2483 	 17568 	 USA 
-[1] "made it here"
-2484 	 17570 	 USA 
-2485 	 19604 	 USA 
-[1] "made it here"
-2486 	 11532 	 USA 
-[1] "made it here"
-2487 	 16167 	 USA 
-2488 	 16217 	 USA 
-[1] "made it here"
-2489 	 16218 	 USA 
-[1] "made it here"
-2490 	 16219 	 USA 
-[1] "made it here"
-2491 	 17058 	 USA 
-[1] "made it here"
-2492 	 16921 	 USA 
-[1] "made it here"
-2493 	 15974 	 USA 
-2494 	 15997 	 USA 
-[1] "made it here"
-2495 	 12270 	 USA 
-2496 	 12271 	 USA 
-[1] "made it here"
-2497 	 12272 	 USA 
-2498 	 12273 	 USA 
-[1] "made it here"
-2499 	 15785 	 USA 
-[1] "made it here"
-2500 	 17430 	 USA 
-[1] "made it here"
-2501 	 17440 	 USA 
-[1] "made it here"
-2502 	 17441 	 USA 
-[1] "made it here"
-2503 	 17442 	 USA 
-[1] "made it here"
-2504 	 17443 	 USA 
-[1] "made it here"
-2505 	 17444 	 USA 
-[1] "made it here"
-2506 	 17445 	 USA 
-[1] "made it here"
-2507 	 17446 	 USA 
-[1] "made it here"
-2508 	 19596 	 USA 
-[1] "made it here"
-2509 	 19600 	 USA 
-[1] "made it here"
-2510 	 19603 	 USA 
-[1] "made it here"
-2511 	 15969 	 USA 
-[1] "made it here"
-2512 	 15976 	 USA 
-[1] "made it here"
-2513 	 15978 	 USA 
-[1] "made it here"
-2514 	 15981 	 USA 
-[1] "made it here"
-2515 	 15990 	 USA 
-[1] "made it here"
-2516 	 15994 	 USA 
-[1] "made it here"
-2517 	 15996 	 USA 
-[1] "made it here"
-2518 	 16002 	 USA 
-[1] "made it here"
-2519 	 15980 	 USA 
-[1] "made it here"
-2520 	 15999 	 USA 
-[1] "made it here"
-2521 	 16001 	 USA 
-[1] "made it here"
-2522 	 19641 	 USA 
-[1] "made it here"
-2523 	 19643 	 USA 
-[1] "made it here"
-2524 	 15921 	 USA 
-[1] "made it here"
-2525 	 15924 	 USA 
-[1] "made it here"
-2526 	 17536 	 USA 
-2527 	 17539 	 USA 
-2528 	 17556 	 USA 
-2529 	 16361 	 USA 
-[1] "made it here"
-2530 	 16365 	 USA 
-2531 	 17517 	 USA 
-[1] "made it here"
-2532 	 19616 	 USA 
-[1] "made it here"
-2533 	 17519 	 USA 
-2534 	 17520 	 USA 
-2535 	 17522 	 USA 
-2536 	 17528 	 USA 
-[1] "made it here"
-2537 	 17529 	 USA 
-2538 	 19614 	 USA 
-[1] "made it here"
-2539 	 16427 	 USA 
-[1] "made it here"
-2540 	 16430 	 USA 
-[1] "made it here"
-2541 	 16431 	 USA 
-2542 	 16432 	 USA 
-[1] "made it here"
-2543 	 16416 	 USA 
-[1] "made it here"
-2544 	 16417 	 USA 
-[1] "made it here"
-2545 	 16420 	 USA 
-2546 	 19569 	 USA 
-2547 	 16055 	 USA 
-[1] "made it here"
-2548 	 16056 	 USA 
-[1] "made it here"
-2549 	 16057 	 USA 
-2550 	 16060 	 USA 
-[1] "made it here"
-2551 	 16061 	 USA 
-2552 	 16062 	 USA 
-[1] "made it here"
-2553 	 16063 	 USA 
-[1] "made it here"
-2554 	 16064 	 USA 
-[1] "made it here"
-2555 	 16068 	 USA 
-[1] "made it here"
-2556 	 16070 	 USA 
-2557 	 16071 	 USA 
-[1] "made it here"
-2558 	 16072 	 USA 
-[1] "made it here"
-2559 	 16073 	 USA 
-[1] "made it here"
-2560 	 16074 	 USA 
-[1] "made it here"
-2561 	 16076 	 USA 
-[1] "made it here"
-2562 	 16077 	 USA 
-[1] "made it here"
-2563 	 16078 	 USA 
-2564 	 16081 	 USA 
-[1] "made it here"
-2565 	 16082 	 USA 
-[1] "made it here"
-2566 	 16084 	 USA 
-2567 	 16087 	 USA 
-2568 	 16089 	 USA 
-2569 	 19119 	 USA 
-2570 	 15933 	 USA 
-[1] "made it here"
-2571 	 15945 	 USA 
-[1] "made it here"
-2572 	 15894 	 USA 
-2573 	 19637 	 USA 
-[1] "made it here"
-2574 	 16147 	 USA 
-2575 	 17699 	 USA 
-2576 	 16303 	 USA 
-2577 	 19629 	 USA 
-[1] "made it here"
-2578 	 16308 	 USA 
-[1] "made it here"
-2579 	 16315 	 USA 
-2580 	 16305 	 USA 
-2581 	 17685 	 USA 
-2582 	 17688 	 USA 
-2583 	 17692 	 USA 
-2584 	 16050 	 USA 
-[1] "made it here"
-2585 	 16024 	 USA 
-[1] "made it here"
-2586 	 19644 	 USA 
-2587 	 19645 	 USA 
-[1] "made it here"
-2588 	 15936 	 USA 
-2589 	 15982 	 USA 
-[1] "made it here"
-2590 	 15983 	 USA 
-[1] "made it here"
-2591 	 15984 	 USA 
-[1] "made it here"
-2592 	 15985 	 USA 
-[1] "made it here"
-2593 	 15986 	 USA 
-[1] "made it here"
-2594 	 15987 	 USA 
-[1] "made it here"
-2595 	 19639 	 USA 
-2596 	 16914 	 USA 
-[1] "made it here"
-2597 	 19680 	 USA 
-[1] "made it here"
-2598 	 17684 	 USA 
-[1] "made it here"
-2599 	 17698 	 USA 
-[1] "made it here"
-2600 	 17701 	 USA 
-[1] "made it here"
-2601 	 15801 	 USA 
-[1] "made it here"
-2602 	 15788 	 USA 
-[1] "made it here"
-2603 	 12427 	 USA 
-2604 	 19556 	 USA 
-[1] "made it here"
-2605 	 15792 	 USA 
-[1] "made it here"
-2606 	 11751 	 USA 
-[1] "made it here"
-2607 	 16375 	 USA 
-[1] "made it here"
-2608 	 16415 	 USA 
-[1] "made it here"
-2609 	 16419 	 USA 
-[1] "made it here"
-2610 	 16421 	 USA 
-[1] "made it here"
-2611 	 16423 	 USA 
-[1] "made it here"
-2612 	 11809 	 USA 
-[1] "made it here"
-2613 	 16393 	 USA 
-2614 	 16428 	 USA 
-2615 	 16429 	 USA 
-2616 	 16564 	 USA 
-2617 	 16573 	 USA 
-2618 	 16556 	 USA 
-[1] "made it here"
-2619 	 16376 	 USA 
-[1] "made it here"
-2620 	 16377 	 USA 
-2621 	 16379 	 USA 
-[1] "made it here"
-2622 	 16424 	 USA 
-[1] "made it here"
-2623 	 11747 	 USA 
-[1] "made it here"
-2624 	 16369 	 USA 
-[1] "made it here"
-2625 	 16355 	 USA 
-[1] "made it here"
-2626 	 11574 	 USA 
-[1] "made it here"
-2627 	 17605 	 USA 
-2628 	 17590 	 USA 
-2629 	 19617 	 USA 
-2630 	 11200 	 USA 
-[1] "made it here"
-2631 	 17689 	 USA 
-[1] "made it here"
-2632 	 11319 	 USA 
-2633 	 12050 	 USA 
-[1] "made it here"
-2634 	 17641 	 USA 
-[1] "made it here"
-2635 	 17677 	 USA 
-2636 	 17679 	 USA 
-[1] "made it here"
-2637 	 19624 	 USA 
-2638 	 16220 	 USA 
-[1] "made it here"
-2639 	 16223 	 USA 
-[1] "made it here"
-2640 	 15991 	 USA 
-[1] "made it here"
-2641 	 11798 	 USA 
-[1] "made it here"
-2642 	 17059 	 USA 
-[1] "made it here"
-2643 	 16334 	 USA 
-2644 	 17254 	 USA 
-2645 	 16328 	 USA 
-[1] "made it here"
-2646 	 16331 	 USA 
-[1] "made it here"
-2647 	 11429 	 USA 
-[1] "made it here"
-2648 	 11569 	 USA MEX 
-[1] "made it here"
-2649 	 12032 	 USA 
-2650 	 17064 	 USA 
-[1] "made it here"
-2651 	 17066 	 USA 
-2652 	 17067 	 USA 
-[1] "made it here"
-2653 	 17069 	 USA 
-[1] "made it here"
-2654 	 17070 	 USA 
-[1] "made it here"
-2655 	 15781 	 USA 
-[1] "made it here"
-2656 	 17046 	 USA 
-[1] "made it here"
-2657 	 17249 	 USA 
-[1] "made it here"
-2658 	 17251 	 USA 
-[1] "made it here"
-2659 	 17252 	 USA 
-[1] "made it here"
-2660 	 17253 	 USA 
-[1] "made it here"
-2661 	 17053 	 USA 
-[1] "made it here"
-2662 	 17261 	 USA 
-[1] "made it here"
-2663 	 19111 	 USA 
-2664 	 16555 	 USA 
-[1] "made it here"
-2665 	 16558 	 USA 
-[1] "made it here"
-2666 	 16561 	 USA 
-[1] "made it here"
-2667 	 16563 	 USA 
-[1] "made it here"
-2668 	 17220 	 USA 
-[1] "made it here"
-2669 	 17048 	 USA 
-[1] "made it here"
-2670 	 17051 	 USA 
-[1] "made it here"
-2671 	 19576 	 USA 
-[1] "made it here"
-2672 	 11806 	 USA 
-[1] "made it here"
-2673 	 17172 	 USA 
-[1] "made it here"
-2674 	 17690 	 USA 
-[1] "made it here"
-2675 	 12452 	 RUS 
-[1] "made it here"
-2676 	 12450 	 RUS 
-[1] "made it here"
-2677 	 20042 	 RUS 
-[1] "made it here"
-2678 	 19214 	 RUS 
-[1] "made it here"
-2679 	 11679 	 RUS 
-2680 	 12449 	 RUS 
-[1] "made it here"
-2681 	 12451 	 RUS 
-[1] "made it here"
-2682 	 12353 	 RUS 
-2683 	 11560 	 RUS 
-[1] "made it here"
-2684 	 11156 	 RUS 
-[1] "made it here"
-2685 	 11989 	 RUS 
-2686 	 12344 	 RUS 
-[1] "made it here"
-2687 	 12356 	 RUS 
-2688 	 12357 	 RUS 
-2689 	 18471 	 RUS 
-[1] "made it here"
-2690 	 11886 	 RUS 
-[1] "made it here"
-2691 	 11226 	 RUS 
-[1] "made it here"
-2692 	 18448 	 RUS MNG 
-[1] "made it here"
-2693 	 15711 	 RUS 
-[1] "made it here"
-2694 	 18470 	 RUS 
-[1] "made it here"
-2695 	 12359 	 RUS 
-[1] "made it here"
-2696 	 11499 	 RUS 
-[1] "made it here"
-2697 	 12351 	 RUS 
-[1] "made it here"
-2698 	 12000 	 RUS 
-[1] "made it here"
-2699 	 18477 	 RUS 
-2700 	 12346 	 RUS 
-2701 	 20489 	 NOR 
-[1] "made it here"
-2702 	 20525 	 NOR 
-[1] "made it here"
-2703 	 20587 	 NOR 
-[1] "made it here"
-2704 	 20795 	 NOR 
-[1] "made it here"
-2705 	 20885 	 NOR 
-[1] "made it here"
-2706 	 20476 	 NOR 
-2707 	 20473 	 NOR 
-[1] "made it here"
-2708 	 20475 	 NOR 
-[1] "made it here"
-2709 	 20551 	 NOR 
-[1] "made it here"
-2710 	 20429 	 NOR 
-[1] "made it here"
-2711 	 20882 	 NOR 
-2712 	 20547 	 NOR 
-[1] "made it here"
-2713 	 20470 	 NOR 
-[1] "made it here"
-2714 	 20472 	 NOR 
-[1] "made it here"
-2715 	 20537 	 NOR 
-[1] "made it here"
-2716 	 20433 	 NOR 
-[1] "made it here"
-2717 	 20031 	 FRA 
-[1] "made it here"
-2718 	 10065 	 FRA CHE 
-[1] "made it here"
-2719 	 10066 	 FRA 
-[1] "made it here"
-2720 	 10067 	 FRA 
-[1] "made it here"
-2721 	 10069 	 FRA 
-[1] "made it here"
-2722 	 10068 	 FRA 
-[1] "made it here"
-2723 	 11448 	 FRA DEU CHE 
-[1] "made it here"
-2724 	 10013 	 FRA 
-[1] "made it here"
-2725 	 10011 	 FRA 
-[1] "made it here"
-2726 	 15379 	 FRA 
-[1] "made it here"
-2727 	 15384 	 FRA ITA 
-[1] "made it here"
-2728 	 15385 	 FRA ITA 
-[1] "made it here"
-2729 	 15121 	 FRA 
-[1] "made it here"
-2730 	 15122 	 FRA 
-[1] "made it here"
-2731 	 15128 	 FRA 
-[1] "made it here"
-2732 	 15129 	 FRA 
-[1] "made it here"
-2733 	 20030 	 FRA 
-[1] "made it here"
-2734 	 17924 	 FRA 
-[1] "made it here"
-2735 	 17926 	 FRA 
-2736 	 17928 	 FRA 
-[1] "made it here"
-2737 	 18302 	 FRA 
-[1] "made it here"
-2738 	 17907 	 FRA 
-[1] "made it here"
-2739 	 17908 	 FRA 
-[1] "made it here"
-2740 	 17933 	 FRA 
-[1] "made it here"
-2741 	 17938 	 FRA 
-[1] "made it here"
-2742 	 17893 	 FRA 
-[1] "made it here"
-2743 	 15123 	 FRA 
-[1] "made it here"
-2744 	 15133 	 FRA 
-[1] "made it here"
-2745 	 15500 	 FRA 
-[1] "made it here"
-2746 	 20028 	 FRA 
-[1] "made it here"
-2747 	 15486 	 FRA DEU BEL 
-[1] "made it here"
-2748 	 15127 	 FRA 
-[1] "made it here"
-2749 	 17892 	 FRA 
-[1] "made it here"
-2750 	 17897 	 FRA 
-[1] "made it here"
-2751 	 17899 	 FRA 
-[1] "made it here"
-2752 	 17932 	 FRA 
-[1] "made it here"
-2753 	 15501 	 FRA 
-[1] "made it here"
-2754 	 15502 	 FRA 
-[1] "made it here"
-2755 	 15124 	 FRA 
-[1] "made it here"
-2756 	 15125 	 FRA 
-[1] "made it here"
-2757 	 15131 	 FRA 
-[1] "made it here"
-2758 	 15130 	 FRA 
-[1] "made it here"
-2759 	 12042 	 FRA 
-[1] "made it here"
-2760 	 18953 	 ZAF 
-[1] "made it here"
-2761 	 18954 	 ZAF 
-[1] "made it here"
-2762 	 19750 	 ZAF 
-[1] "made it here"
-2763 	 19754 	 ZAF 
-[1] "made it here"
-2764 	 11572 	 ZAF 
-[1] "made it here"
-2765 	 15562 	 ZAF 
-[1] "made it here"
-2766 	 14085 	 ZAF 
-[1] "made it here"
-2767 	 13014 	 ZAF LSO 
-[1] "made it here"
-2768 	 11157 	 ZAF 
-[1] "made it here"
-2769 	 11541 	 ZAF 
-[1] "made it here"
-2770 	 12013 	 ZAF 
-[1] "made it here"
-2771 	 14086 	 ZAF 
-[1] "made it here"
-2772 	 11696 	 ZAF 
-[1] "made it here"
-2773 	 11669 	 ZAF 
-[1] "made it here"
-2774 	 15588 	 ZAF 
-[1] "made it here"
-2775 	 13017 	 ZAF 
-[1] "made it here"
-2776 	 12951 	 ZAF 
-[1] "made it here"
-2777 	 15594 	 ZAF 
-[1] "made it here"
-2778 	 11268 	 DOM 
-[1] "made it here"
-2779 	 13950 	 GRD 
-[1] "made it here"
-2780 	 14582 	 HTI 
-2781 	 11638 	 HTI 
-2782 	 20830 	 HTI 
-2783 	 14586 	 HTI 
-2784 	 14596 	 MTQ 
-[1] "made it here"
-2785 	 20932 	 MTQ 
-[1] "made it here"
-2786 	 14608 	 TTO 
-[1] "made it here"
-2787 	 14578 	 CUB 
-[1] "made it here"
-2788 	 14579 	 CUB 
-[1] "made it here"
-2789 	 14599 	 MSR 
-2790 	 14750 	 MMR IND 
-[1] "made it here"
-2791 	 19514 	 MMR 
-[1] "made it here"
-2792 	 11746 	 MMR 
-[1] "made it here"
-2793 	 19516 	 MMR 
-[1] "made it here"
-2794 	 11343 	 MMR 
-[1] "made it here"
-2795 	 11629 	 MMR 
-[1] "made it here"
-2796 	 15749 	 MMR 
-[1] "made it here"
-2797 	 14775 	 MMR 
-[1] "made it here"
-2798 	 15748 	 MMR 
-[1] "made it here"
-2799 	 11469 	 MMR 
-2800 	 19521 	 MMR 
-[1] "made it here"
-2801 	 11714 	 MMR 
-[1] "made it here"
-2802 	 11287 	 MMR THA 
-[1] "made it here"
-2803 	 11659 	 MMR IND 
-[1] "made it here"
-2804 	 13139 	 MMR BGD 
-2805 	 19519 	 THA 
-[1] "made it here"
-2806 	 19522 	 THA 
-[1] "made it here"
-2807 	 12949 	 THA 
-[1] "made it here"
-2808 	 12936 	 THA 
-[1] "made it here"
-2809 	 12531 	 THA 
-[1] "made it here"
-2810 	 12948 	 THA MYS 
-[1] "made it here"
-2811 	 12937 	 THA LAO 
-[1] "made it here"
-2812 	 12950 	 THA 
-[1] "made it here"
-2813 	 13129 	 THA 
-[1] "made it here"
-2814 	 12947 	 THA 
-[1] "made it here"
-2815 	 12943 	 YEM 
-2816 	 20911 	 YEM 
-2817 	 18104 	 MOZ 
-[1] "made it here"
-2818 	 20861 	 MOZ ZWE ZMB TZA 
-[1] "made it here"
-2819 	 20854 	 ETH 
-[1] "made it here"
-2820 	 12774 	 UKR 
-[1] "made it here"
-2821 	 20364 	 LKA 
-[1] "made it here"
-2822 	 12587 	 ISR EGY JOR 
-[1] "made it here"
-2823 	 14073 	 EGY SDN 
-[1] "made it here"
-2824 	 20239 	 POL 
-[1] "made it here"
-2825 	 20247 	 POL 
-[1] "made it here"
-2826 	 12987 	 POL CZE 
-[1] "made it here"
-2827 	 20251 	 POL 
-[1] "made it here"
-2828 	 20253 	 POL 
-[1] "made it here"
-2829 	 20269 	 POL SVK 
-[1] "made it here"
-2830 	 20207 	 POL CZE 
-[1] "made it here"
-2831 	 20236 	 POL 
-[1] "made it here"
-2832 	 20241 	 POL 
-[1] "made it here"
-2833 	 20261 	 POL 
-[1] "made it here"
-2834 	 13027 	 TZA 
-[1] "made it here"
-2835 	 18143 	 TZA 
-[1] "made it here"
-2836 	 19745 	 TZA 
-[1] "made it here"
-2837 	 12733 	 TZA 
-[1] "made it here"
-2838 	 19094 	 UGA 
-[1] "made it here"
-2839 	 13028 	 TZA 
-[1] "made it here"
-2840 	 20858 	 ETH 
-2841 	 20349 	 UGA 
-[1] "made it here"
-2842 	 19183 	 MWI 
-2843 	 18547 	 ETH 
-[1] "made it here"
-2844 	 19087 	 ETH 
-[1] "made it here"
-2845 	 19229 	 ETH 
-2846 	 19331 	 KEN 
-[1] "made it here"
-2847 	 18160 	 KEN 
-[1] "made it here"
-2848 	 18159 	 KEN 
-[1] "made it here"
-2849 	 19090 	 ETH 
-[1] "made it here"
-2850 	 13088 	 ETH 
-[1] "made it here"
-2851 	 18175 	 MWI 
-[1] "made it here"
-2852 	 20055 	 ETH ERI 
-[1] "made it here"
-2853 	 20346 	 ETH 
-[1] "made it here"
-2854 	 19332 	 ETH 
-[1] "made it here"
-2855 	 13073 	 ETH 
-[1] "made it here"
-2856 	 20351 	 KEN 
-2857 	 18540 	 KEN 
-2858 	 20622 	 ETH DJI 
-[1] "made it here"
-2859 	 12958 	 ETH 
-[1] "made it here"
-2860 	 20056 	 ETH ERI 
-2861 	 12018 	 MNG 
-[1] "made it here"
-2862 	 20759 	 MNG 
-2863 	 14675 	 MNG 
-[1] "made it here"
-2864 	 20907 	 MNG 
-[1] "made it here"
-2865 	 18497 	 MNG 
-[1] "made it here"
-2866 	 20766 	 MNG 
-2867 	 15703 	 MNG 
-2868 	 11396 	 MNG 
-[1] "made it here"
-2869 	 20648 	 MNG 
-[1] "made it here"
-2870 	 20651 	 MNG 
-[1] "made it here"
-2871 	 19509 	 MNG 
-[1] "made it here"
-2872 	 20762 	 MNG 
-[1] "made it here"
-2873 	 20763 	 MNG 
-[1] "made it here"
-2874 	 20661 	 MNG 
-[1] "made it here"
-2875 	 20903 	 MNG 
-[1] "made it here"
-2876 	 19832 	 AUS 
-2877 	 11336 	 AUS 
-[1] "made it here"
-2878 	 14421 	 AUS 
-[1] "made it here"
-2879 	 15189 	 AUS 
-[1] "made it here"
-2880 	 15175 	 AUS 
-[1] "made it here"
-2881 	 14394 	 AUS 
-[1] "made it here"
-2882 	 15208 	 AUS 
-[1] "made it here"
-2883 	 14412 	 AUS 
-[1] "made it here"
-2884 	 14413 	 AUS 
-[1] "made it here"
-2885 	 19826 	 AUS 
-[1] "made it here"
-2886 	 14420 	 AUS 
-[1] "made it here"
-2887 	 19825 	 AUS 
-[1] "made it here"
-2888 	 14425 	 AUS 
-[1] "made it here"
-2889 	 12525 	 AUS 
-[1] "made it here"
-2890 	 15204 	 AUS 
-[1] "made it here"
-2891 	 20773 	 AUS 
-[1] "made it here"
-2892 	 20774 	 AUS 
-[1] "made it here"
-2893 	 19844 	 AUS 
-[1] "made it here"
-2894 	 18411 	 MKD 
-[1] "made it here"
-2895 	 20893 	 MKD 
-[1] "made it here"
-2896 	 11694 	 MKD BGR 
-[1] "made it here"
-2897 	 14820 	 MKD 
-[1] "made it here"
-2898 	 12636 	 AUS 
-[1] "made it here"
-2899 	 20166 	 ROU 
-[1] "made it here"
-2900 	 20172 	 ROU 
-[1] "made it here"
-2901 	 20174 	 ROU 
-[1] "made it here"
-2902 	 20176 	 ROU 
-[1] "made it here"
-2903 	 20178 	 ROU 
-[1] "made it here"
-2904 	 20191 	 ROU 
-[1] "made it here"
-2905 	 20194 	 ROU 
-[1] "made it here"
-2906 	 14477 	 ROU 
-[1] "made it here"
-2907 	 20192 	 ROU 
-[1] "made it here"
-2908 	 12514 	 AUS 
-[1] "made it here"
-2909 	 12518 	 AUS 
-[1] "made it here"
-2910 	 12519 	 AUS 
-[1] "made it here"
-2911 	 12523 	 AUS 
-[1] "made it here"
-2912 	 14426 	 AUS 
-[1] "made it here"
-2913 	 15195 	 AUS 
-[1] "made it here"
-2914 	 19689 	 AUS 
-[1] "made it here"
-2915 	 20164 	 ROU 
-[1] "made it here"
-2916 	 20165 	 ROU 
-[1] "made it here"
-2917 	 20157 	 ROU 
-[1] "made it here"
-2918 	 20161 	 ROU 
-[1] "made it here"
-2919 	 20162 	 ROU 
-[1] "made it here"
-2920 	 20163 	 ROU 
-[1] "made it here"
-2921 	 20167 	 ROU 
-[1] "made it here"
-2922 	 20168 	 ROU 
-[1] "made it here"
-2923 	 21026 	 ROU 
-[1] "made it here"
-2924 	 20196 	 ROU 
-[1] "made it here"
-2925 	 20173 	 ROU 
-[1] "made it here"
-2926 	 20177 	 ROU 
-[1] "made it here"
-2927 	 20179 	 ROU 
-[1] "made it here"
-2928 	 20180 	 ROU 
-[1] "made it here"
-2929 	 20181 	 ROU 
-[1] "made it here"
-2930 	 20155 	 ROU 
-[1] "made it here"
-2931 	 20156 	 ROU 
-[1] "made it here"
-2932 	 20198 	 ROU 
-[1] "made it here"
-2933 	 20204 	 ROU 
-[1] "made it here"
-2934 	 20140 	 ROU 
-[1] "made it here"
-2935 	 20160 	 ROU 
-[1] "made it here"
-2936 	 20150 	 ROU 
-[1] "made it here"
-2937 	 20154 	 ROU 
-[1] "made it here"
-2938 	 20158 	 ROU 
-[1] "made it here"
-2939 	 20147 	 ROU 
-[1] "made it here"
-2940 	 20149 	 ROU 
-[1] "made it here"
-2941 	 20151 	 ROU 
-[1] "made it here"
-2942 	 20203 	 ROU 
-[1] "made it here"
-2943 	 20205 	 ROU 
-[1] "made it here"
-2944 	 20201 	 ROU 
-[1] "made it here"
-2945 	 21035 	 ROU MDA 
-[1] "made it here"
-2946 	 20143 	 ROU 
-[1] "made it here"
-2947 	 14399 	 AUS 
-[1] "made it here"
-2948 	 15200 	 AUS 
-[1] "made it here"
-2949 	 19817 	 AUS 
-[1] "made it here"
-2950 	 11381 	 TUR 
-2951 	 14773 	 TUR 
-2952 	 11987 	 TUR 
-2953 	 14644 	 TUR 
-2954 	 14643 	 TUR 
-2955 	 14642 	 TUR 
-2956 	 14641 	 TUR 
-2957 	 11965 	 TUR 
-2958 	 19740 	 TUR 
-2959 	 11377 	 TUR 
-2960 	 20678 	 TUR 
-[1] "made it here"
-2961 	 20912 	 TUR 
-2962 	 20681 	 TUR 
-2963 	 20682 	 TUR 
-2964 	 20702 	 TUR 
-2965 	 20704 	 TUR 
-2966 	 20700 	 TUR 
-2967 	 12119 	 TUR 
-2968 	 14689 	 TUR 
-2969 	 15331 	 MOZ 
-2970 	 18371 	 COG 
-2971 	 17806 	 ZMB 
-[1] "made it here"
-2972 	 13125 	 ZMB 
-[1] "made it here"
-2973 	 18516 	 ZMB 
-[1] "made it here"
-2974 	 19802 	 ZMB 
-[1] "made it here"
-2975 	 19944 	 ZMB COD 
-[1] "made it here"
-2976 	 19356 	 ZMB 
-[1] "made it here"
-2977 	 19357 	 ZMB ZWE 
-[1] "made it here"
-2978 	 19358 	 ZMB ZWE 
-[1] "made it here"
-2979 	 15452 	 ITA AUT 
-[1] "made it here"
-2980 	 10055 	 ITA CHE 
-[1] "made it here"
-2981 	 15388 	 ITA CHE 
-[1] "made it here"
-2982 	 15389 	 ITA 
-[1] "made it here"
-2983 	 15390 	 ITA CHE 
-[1] "made it here"
-2984 	 15393 	 ITA CHE 
-[1] "made it here"
-2985 	 15394 	 ITA CHE 
-[1] "made it here"
-2986 	 11427 	 TUR 
-2987 	 14669 	 TUR 
-2988 	 20691 	 TUR 
-2989 	 20692 	 TUR 
-2990 	 20694 	 TUR 
-2991 	 20695 	 TUR 
-2992 	 20696 	 TUR 
-2993 	 20698 	 TUR 
-2994 	 20699 	 TUR 
-2995 	 20701 	 TUR 
-2996 	 14664 	 TUR 
-2997 	 14765 	 TUR 
-2998 	 11324 	 TUR 
-[1] "made it here"
-2999 	 14725 	 TUR 
-3000 	 14721 	 TUR 
-3001 	 14620 	 TUR 
-3002 	 14666 	 TUR 
-3003 	 14667 	 TUR 
-3004 	 14766 	 TUR 
-3005 	 20915 	 TUR 
-3006 	 19293 	 AUS 
-[1] "made it here"
-3007 	 20968 	 AUS 
-[1] "made it here"
-3008 	 14923 	 SVK 
-[1] "made it here"
-3009 	 20277 	 SVK 
-[1] "made it here"
-3010 	 20291 	 SVK 
-[1] "made it here"
-3011 	 20293 	 SVK 
-[1] "made it here"
-3012 	 20296 	 SVK 
-[1] "made it here"
-3013 	 20299 	 SVK 
-[1] "made it here"
-3014 	 20305 	 SVK 
-[1] "made it here"
-3015 	 20246 	 SVK POL 
-[1] "made it here"
-3016 	 20263 	 SVK POL 
-[1] "made it here"
-3017 	 20264 	 SVK POL 
-[1] "made it here"
-3018 	 20286 	 SVK POL 
-[1] "made it here"
-3019 	 20288 	 SVK 
-[1] "made it here"
-3020 	 20252 	 SVK POL 
-[1] "made it here"
-3021 	 14283 	 HMD 
-[1] "made it here"
-3022 	 14449 	 GUF 
-[1] "made it here"
-3023 	 14254 	 BRA 
-[1] "made it here"
-3024 	 14227 	 BRA 
-[1] "made it here"
-3025 	 14419 	 AUS 
-[1] "made it here"
-3026 	 14406 	 AUS 
-[1] "made it here"
-3027 	 14397 	 AUS 
-[1] "made it here"
-3028 	 14447 	 SUR 
-3029 	 15524 	 SUR 
-3030 	 15521 	 SUR 
-[1] "made it here"
-3031 	 14445 	 SUR 
-[1] "made it here"
-3032 	 14259 	 SUR 
-[1] "made it here"
-3033 	 14446 	 SUR 
-[1] "made it here"
-3034 	 15522 	 SUR 
-[1] "made it here"
-3035 	 15523 	 SUR 
-[1] "made it here"
-3036 	 19315 	 SUR 
-[1] "made it here"
-3037 	 17714 	 HND NIC 
-[1] "made it here"
-3038 	 11641 	 HND 
-[1] "made it here"
-3039 	 11640 	 HND 
-[1] "made it here"
-3040 	 14520 	 BTN 
-[1] "made it here"
-3041 	 19534 	 IDN 
-[1] "made it here"
-3042 	 18692 	 IDN 
-[1] "made it here"
-3043 	 19448 	 CZE DEU AUT 
-[1] "made it here"
-3044 	 21040 	 TZA 
-[1] "made it here"
-3045 	 12151 	 TZA 
-[1] "made it here"
-3046 	 21039 	 KEN 
-3047 	 19865 	 KAZ 
-3048 	 14231 	 BRA 
-[1] "made it here"
-3049 	 20949 	 BRA 
-[1] "made it here"
-3050 	 18254 	 BRA 
-[1] "made it here"
-3051 	 11858 	 BRA 
-[1] "made it here"
-3052 	 19979 	 BRA 
-3053 	 14225 	 BRA 
-[1] "made it here"
-3054 	 18255 	 BRA 
-[1] "made it here"
-3055 	 14232 	 BRA 
-[1] "made it here"
-3056 	 18230 	 BRA 
-[1] "made it here"
-3057 	 19727 	 BRA 
-[1] "made it here"
-3058 	 19862 	 KAZ 
-3059 	 20866 	 KAZ 
-3060 	 20668 	 KAZ 
-3061 	 20669 	 KAZ 
-3062 	 20268 	 SVK 
-[1] "made it here"
-3063 	 20276 	 SVK 
-[1] "made it here"
-3064 	 20228 	 SVK HUN 
-[1] "made it here"
-3065 	 20307 	 SVK 
-[1] "made it here"
-3066 	 20316 	 SVK HUN 
-[1] "made it here"
-3067 	 20321 	 SVK HUN 
-[1] "made it here"
-3068 	 11428 	 KAZ 
-3069 	 12345 	 KAZ 
-3070 	 15720 	 KAZ 
-3071 	 20230 	 POL 
-[1] "made it here"
-3072 	 20237 	 POL 
-[1] "made it here"
-3073 	 20244 	 POL 
-[1] "made it here"
-3074 	 20068 	 POL 
-[1] "made it here"
-3075 	 20072 	 POL 
-[1] "made it here"
-3076 	 20243 	 POL 
-[1] "made it here"
-3077 	 20254 	 POL SVK 
-[1] "made it here"
-3078 	 20250 	 POL SVK 
-[1] "made it here"
-3079 	 20274 	 POL SVK 
-[1] "made it here"
-3080 	 20245 	 POL SVK 
-[1] "made it here"
-3081 	 20240 	 POL 
-[1] "made it here"
-3082 	 20257 	 POL SVK 
-[1] "made it here"
-3083 	 20249 	 POL SVK 
-[1] "made it here"
-3084 	 14473 	 TKM AFG 
-3085 	 15276 	 TKM 
-3086 	 15277 	 TKM 
-3087 	 19538 	 TKM IRN AFG 
-[1] "made it here"
-3088 	 15274 	 TKM 
-3089 	 19388 	 TKM AFG 
-3090 	 18164 	 TKM AFG 
-3091 	 20410 	 SWE 
-3092 	 20419 	 SWE 
-[1] "made it here"
-3093 	 20566 	 SWE 
-3094 	 20403 	 SWE 
-[1] "made it here"
-3095 	 20507 	 SWE 
-[1] "made it here"
-3096 	 20508 	 SWE 
-[1] "made it here"
-3097 	 19863 	 KAZ 
-[1] "made it here"
-3098 	 19866 	 KAZ 
-3099 	 11666 	 KAZ 
-[1] "made it here"
-3100 	 18476 	 KAZ 
-[1] "made it here"
-3101 	 19238 	 SWE 
-[1] "made it here"
-3102 	 20528 	 SWE 
-[1] "made it here"
-3103 	 20899 	 HUN 
-[1] "made it here"
-3104 	 20900 	 HUN 
-[1] "made it here"
-3105 	 18377 	 KAZ 
-3106 	 13107 	 KEN 
-[1] "made it here"
-3107 	 14559 	 SLV 
-3108 	 14561 	 SLV 
-[1] "made it here"
-3109 	 14562 	 SLV 
-[1] "made it here"
-3110 	 14563 	 SLV 
-[1] "made it here"
-3111 	 14560 	 SLV 
-[1] "made it here"
-3112 	 14565 	 SLV 
-[1] "made it here"
-3113 	 11613 	 BLZ GTM 
-[1] "made it here"
-3114 	 11869 	 PAN 
-[1] "made it here"
-3115 	 19779 	 PRY 
-[1] "made it here"
-3116 	 13047 	 PRY 
-[1] "made it here"
-3117 	 11246 	 NIC 
-[1] "made it here"
-3118 	 11261 	 NIC 
-[1] "made it here"
-3119 	 11257 	 NIC 
-[1] "made it here"
-3120 	 17717 	 NIC 
-[1] "made it here"
-3121 	 15347 	 NIC 
-[1] "made it here"
-3122 	 11254 	 CRI 
-[1] "made it here"
-3123 	 19656 	 CRI 
-[1] "made it here"
-3124 	 11728 	 CRI 
-[1] "made it here"
-3125 	 14554 	 GTM 
-3126 	 19723 	 BRA 
-[1] "made it here"
-3127 	 11861 	 BRA 
-[1] "made it here"
-3128 	 13054 	 BRA 
-[1] "made it here"
-3129 	 11273 	 BRA 
-3130 	 19988 	 BRA 
-[1] "made it here"
-3131 	 15551 	 BRA 
-[1] "made it here"
-3132 	 18223 	 BRA 
-[1] "made it here"
-3133 	 11847 	 BRA 
-3134 	 11849 	 BRA 
-3135 	 18243 	 BRA 
-[1] "made it here"
-3136 	 19931 	 BRA 
-[1] "made it here"
-3137 	 14504 	 BRA 
-3138 	 11841 	 BRA 
-[1] "made it here"
-3139 	 18262 	 BRA 
-[1] "made it here"
-3140 	 14235 	 BRA 
-[1] "made it here"
-3141 	 18239 	 BRA 
-[1] "made it here"
-3142 	 13050 	 BRA 
-[1] "made it here"
-3143 	 18238 	 BRA 
-3144 	 11840 	 BRA 
-[1] "made it here"
-3145 	 11867 	 PAN 
-[1] "made it here"
-3146 	 11864 	 PAN 
-3147 	 14805 	 BGR GRC 
-[1] "made it here"
-3148 	 12971 	 BGR 
-[1] "made it here"
-3149 	 20965 	 BGR 
-[1] "made it here"
-3150 	 15464 	 BGR 
-[1] "made it here"
-3151 	 11776 	 BGR 
-[1] "made it here"
-3152 	 14806 	 BGR GRC 
-[1] "made it here"
-3153 	 20964 	 BGR 
-[1] "made it here"
-3154 	 11740 	 BGR 
-[1] "made it here"
-3155 	 11603 	 BGR 
-[1] "made it here"
-3156 	 15143 	 BGR 
-[1] "made it here"
-3157 	 12371 	 BGR 
-[1] "made it here"
-3158 	 15465 	 BGR 
-[1] "made it here"
-3159 	 15147 	 BGR 
-[1] "made it here"
-3160 	 12775 	 BGR 
-[1] "made it here"
-3161 	 12372 	 BGR 
-[1] "made it here"
-3162 	 15463 	 BGR 
-[1] "made it here"
-3163 	 15482 	 CZE AUT 
-[1] "made it here"
-3164 	 20217 	 CZE 
-[1] "made it here"
-3165 	 12988 	 CZE 
-[1] "made it here"
-3166 	 12458 	 CZE DEU 
-[1] "made it here"
-3167 	 15481 	 CZE DEU 
-[1] "made it here"
-3168 	 14522 	 IND BTN 
-[1] "made it here"
-3169 	 20850 	 IND 
-[1] "made it here"
-3170 	 14368 	 IND 
-[1] "made it here"
-3171 	 20954 	 IND 
-[1] "made it here"
-3172 	 18426 	 IND 
-[1] "made it here"
-3173 	 12842 	 IND NPL 
-[1] "made it here"
-3174 	 13918 	 IND NPL 
-[1] "made it here"
-3175 	 19283 	 IND 
-[1] "made it here"
-3176 	 19191 	 IND 
-[1] "made it here"
-3177 	 14121 	 IND 
-[1] "made it here"
-3178 	 18368 	 IND 
-[1] "made it here"
-3179 	 18369 	 IND 
-[1] "made it here"
-3180 	 18358 	 IND 
-[1] "made it here"
-3181 	 19500 	 IND 
-3182 	 19267 	 IND 
-[1] "made it here"
-3183 	 18364 	 IND 
-[1] "made it here"
-3184 	 11568 	 IND 
-[1] "made it here"
-3185 	 17860 	 IND 
-[1] "made it here"
-3186 	 11388 	 IND 
-[1] "made it here"
-3187 	 14363 	 IND 
-[1] "made it here"
-3188 	 20984 	 IND NPL 
-[1] "made it here"
-3189 	 14774 	 IND 
-3190 	 12034 	 IND 
-3191 	 19852 	 IND 
-[1] "made it here"
-3192 	 11436 	 IND 
-3193 	 19758 	 IND 
-3194 	 19757 	 IND 
-3195 	 14297 	 IND 
-3196 	 11523 	 PAK 
-[1] "made it here"
-3197 	 11529 	 PAK 
-[1] "made it here"
-3198 	 11699 	 PAK 
-3199 	 20846 	 PAK 
-3200 	 20847 	 PAK 
-[1] "made it here"
-3201 	 19383 	 PAK AFG 
-3202 	 20836 	 PAK 
-[1] "made it here"
-3203 	 20843 	 PAK 
-[1] "made it here"
-3204 	 12825 	 PAK 
-[1] "made it here"
-3205 	 14756 	 PAK 
-[1] "made it here"
-3206 	 11205 	 PAK AFG 
-[1] "made it here"
-3207 	 18001 	 MNG 
-3208 	 15704 	 MNG 
-[1] "made it here"
-3209 	 20760 	 MNG 
-[1] "made it here"
-3210 	 15705 	 MNG 
-3211 	 11407 	 MNG 
-[1] "made it here"
-3212 	 19504 	 MNG 
-[1] "made it here"
-3213 	 20642 	 MNG 
-[1] "made it here"
-3214 	 20643 	 MNG 
-[1] "made it here"
-3215 	 14517 	 MNG 
-3216 	 20872 	 KOR PRK 
-[1] "made it here"
-3217 	 11382 	 PRK 
+1765 	 14067 	 SOM 
 [1] "no PAs"
-3218 	 11663 	 PRK 
+1766 	 18551 	 SOM 
 [1] "no PAs"
-3219 	 11307 	 MYS 
-3220 	 18735 	 MYS IDN 
+1767 	 20621 	 SEN 
 [1] "made it here"
-3221 	 18736 	 MYS IDN 
+1768 	 20619 	 SLE 
 [1] "made it here"
-3222 	 19532 	 MYS IDN 
+1769 	 18519 	 SSD 
 [1] "made it here"
-3223 	 14693 	 MYS 
-3224 	 11409 	 MYS IDN 
+1770 	 18544 	 SSD 
+1771 	 18517 	 SSD 
+1772 	 14356 	 SSD CAF 
 [1] "made it here"
-3225 	 18732 	 MYS 
-3226 	 11187 	 MYS IDN 
+1773 	 18204 	 SDN ETH 
 [1] "made it here"
-3227 	 18738 	 MYS 
-3228 	 14472 	 MYS IDN 
+1774 	 20855 	 SDN ETH 
 [1] "made it here"
-3229 	 14696 	 MYS 
+1775 	 14073 	 SDN EGY 
 [1] "made it here"
-3230 	 18730 	 MYS 
+1776 	 14354 	 NGA 
 [1] "made it here"
-3231 	 18729 	 MYS 
+1777 	 19367 	 NGA 
 [1] "made it here"
-3232 	 11599 	 MYS 
+1778 	 19752 	 NAM 
 [1] "made it here"
-3233 	 15142 	 MYS 
-3234 	 19531 	 MYS 
+1779 	 19363 	 NAM 
 [1] "made it here"
-3235 	 18731 	 MYS 
+1780 	 18131 	 NAM BWA 
 [1] "made it here"
-3236 	 11719 	 IDN 
+1781 	 17806 	 MOZ 
 [1] "made it here"
-3237 	 18734 	 IDN 
-3238 	 12062 	 IDN 
+1782 	 19170 	 MRT 
+1783 	 18179 	 MLI 
 [1] "made it here"
-3239 	 14695 	 IDN 
+1784 	 18182 	 MLI 
+1785 	 18178 	 MLI 
 [1] "made it here"
-3240 	 11718 	 IDN 
-3241 	 11720 	 IDN 
+1786 	 18180 	 MLI 
+1787 	 13022 	 MAR 
 [1] "made it here"
-3242 	 14103 	 IDN 
-[1] "made it here"
-3243 	 14523 	 BTN 
-[1] "made it here"
-3244 	 20957 	 BTN 
-[1] "made it here"
-3245 	 12838 	 BTN 
-[1] "made it here"
-3246 	 14527 	 BTN 
-[1] "made it here"
-3247 	 20986 	 NPL 
-[1] "made it here"
-3248 	 14519 	 NPL 
-[1] "made it here"
-3249 	 20839 	 NPL 
-[1] "made it here"
-3250 	 12845 	 NPL 
-[1] "made it here"
-3251 	 20841 	 NPL 
-[1] "made it here"
-3252 	 20983 	 NPL 
-[1] "made it here"
-3253 	 20985 	 NPL 
-[1] "made it here"
-3254 	 14518 	 NPL 
-[1] "made it here"
-3255 	 20840 	 NPL 
-[1] "made it here"
-3256 	 11378 	 TWN 
-[1] "made it here"
-3257 	 12308 	 TWN 
-[1] "made it here"
-3258 	 20758 	 MEX 
-[1] "made it here"
-3259 	 14555 	 MEX 
-[1] "made it here"
-3260 	 17743 	 MEX 
-3261 	 19573 	 MEX 
-[1] "made it here"
-3262 	 16579 	 MEX 
-3263 	 16644 	 MEX 
-3264 	 16653 	 MEX 
-3265 	 16656 	 MEX 
-3266 	 16700 	 MEX 
-3267 	 16733 	 MEX 
-[1] "made it here"
-3268 	 20048 	 MEX 
-3269 	 17723 	 MEX 
-[1] "made it here"
-3270 	 17737 	 MEX 
-[1] "made it here"
-3271 	 17753 	 MEX 
-[1] "made it here"
-3272 	 21004 	 MEX 
-[1] "made it here"
-3273 	 17752 	 MEX 
-[1] "made it here"
-3274 	 19765 	 MEX 
-[1] "made it here"
-3275 	 18437 	 MEX 
-[1] "made it here"
-3276 	 11834 	 TUR 
-3277 	 14759 	 TUR 
-3278 	 14668 	 TUR 
-3279 	 20697 	 TUR 
-3280 	 14635 	 TUR 
-3281 	 20680 	 TUR 
-3282 	 15421 	 DEU AUT 
-[1] "made it here"
-3283 	 15426 	 DEU 
-[1] "made it here"
-3284 	 15491 	 DEU 
-[1] "made it here"
-3285 	 19288 	 DEU CHE AUT 
-[1] "made it here"
-3286 	 15476 	 DEU 
-[1] "made it here"
-3287 	 20018 	 DEU 
-[1] "made it here"
-3288 	 20020 	 DEU 
-[1] "made it here"
-3289 	 11175 	 DEU CHE 
-[1] "made it here"
-3290 	 20014 	 DEU 
-[1] "made it here"
-3291 	 15478 	 DEU 
-[1] "made it here"
-3292 	 15494 	 DEU 
-[1] "made it here"
-3293 	 20017 	 DEU 
-[1] "made it here"
-3294 	 15488 	 DEU 
-[1] "made it here"
-3295 	 15475 	 DEU 
-[1] "made it here"
-3296 	 15489 	 DEU 
-[1] "made it here"
-3297 	 15492 	 DEU 
-[1] "made it here"
-3298 	 20877 	 DEU 
-[1] "made it here"
-3299 	 15495 	 DEU 
-[1] "made it here"
-3300 	 12969 	 DEU 
-[1] "made it here"
-3301 	 20015 	 DEU 
-[1] "made it here"
-3302 	 19536 	 YEM 
-3303 	 14497 	 YEM OMN 
-[1] "made it here"
-3304 	 14631 	 SYR 
+1788 	 12436 	 LBY 
 [1] "no PAs"
-3305 	 14498 	 OMN 
+1789 	 21034 	 KEN 
+1790 	 18159 	 KEN 
+1791 	 19951 	 GNQ 
 [1] "made it here"
-3306 	 14500 	 OMN 
-3307 	 14501 	 OMN 
-3308 	 18469 	 IRN 
+1792 	 18149 	 GHA 
 [1] "made it here"
-3309 	 15318 	 IRN 
+1793 	 18371 	 GAB COG COD 
 [1] "made it here"
-3310 	 19550 	 IRN 
+1794 	 19328 	 GAB 
 [1] "made it here"
-3311 	 11556 	 IRN 
-3312 	 11548 	 IRN 
-3313 	 11831 	 IRN 
-3314 	 11550 	 IRN 
-3315 	 15324 	 IRN 
+1795 	 19948 	 GAB 
 [1] "made it here"
-3316 	 19549 	 IRN 
+1796 	 15169 	 GAB CMR COG 
 [1] "made it here"
-3317 	 14540 	 IRN 
+1797 	 18205 	 ETH 
 [1] "made it here"
-3318 	 14547 	 IRN 
+1798 	 19335 	 ETH 
 [1] "made it here"
-3319 	 15270 	 IRN 
+1799 	 20623 	 ETH 
+1800 	 13073 	 ETH 
+1801 	 12955 	 ETH 
+1802 	 20859 	 ETH 
+1803 	 12116 	 ETH 
+1804 	 20858 	 ETH 
+1805 	 19086 	 ERI 
+1806 	 20056 	 ERI 
+1807 	 20038 	 EGY 
 [1] "made it here"
-3320 	 19547 	 IRN 
+1808 	 18553 	 DJI 
+1809 	 13007 	 DJI 
+1810 	 19949 	 CMR COG 
 [1] "made it here"
-3321 	 11551 	 IRN 
+1811 	 18555 	 CMR 
 [1] "made it here"
-3322 	 19742 	 IRN 
+1812 	 19952 	 CMR 
 [1] "made it here"
-3323 	 14549 	 IRN 
+1813 	 19254 	 CMR 
+1814 	 19788 	 CIV 
 [1] "made it here"
-3324 	 15292 	 IRN 
-3325 	 15311 	 IRN 
+1815 	 20853 	 COG COD AGO 
 [1] "made it here"
-3326 	 15314 	 IRN 
-3327 	 15310 	 IRN 
-3328 	 19743 	 IRN 
-3329 	 11555 	 IRN 
-3330 	 15266 	 IRN 
+1816 	 19947 	 COG CAF 
 [1] "made it here"
-3331 	 15278 	 IRN 
+1817 	 19946 	 CAF 
 [1] "made it here"
-3332 	 15279 	 IRN 
+1818 	 19943 	 CAF 
+1819 	 19954 	 COD 
 [1] "made it here"
-3333 	 15281 	 IRN 
+1820 	 19957 	 COD 
 [1] "made it here"
-3334 	 14541 	 IRN 
+1821 	 19787 	 BEN 
 [1] "made it here"
-3335 	 17760 	 IRN 
-3336 	 20685 	 IRN 
+1822 	 19942 	 AGO 
 [1] "made it here"
-3337 	 11553 	 IRN 
+1823 	 19959 	 AGO 
+1824 	 19362 	 AGO 
 [1] "made it here"
-3338 	 11554 	 IRN 
+1825 	 19941 	 AGO 
 [1] "made it here"
-3339 	 20353 	 IRN 
+1826 	 20018 	 DEU 
 [1] "made it here"
-3340 	 11549 	 IRN 
+1827 	 15475 	 DEU 
 [1] "made it here"
-3341 	 11212 	 AFG 
-3342 	 12002 	 AFG 
-3343 	 18498 	 AFG 
-3344 	 12824 	 AFG 
-3345 	 12827 	 AFG 
-3346 	 14705 	 AFG 
-3347 	 15299 	 AFG 
-3348 	 14702 	 AFG 
+1828 	 15474 	 DEU 
 [1] "made it here"
-3349 	 19386 	 AFG 
+1829 	 15480 	 DEU 
 [1] "made it here"
-3350 	 18350 	 AFG 
-3351 	 18385 	 AFG 
-3352 	 18105 	 ZWE 
+1830 	 18675 	 DEU CHE 
 [1] "made it here"
-3353 	 18108 	 ZWE 
+1831 	 20940 	 GRL 
 [1] "made it here"
-3354 	 18187 	 ZWE 
+1832 	 15394 	 CHE 
 [1] "made it here"
-3355 	 18131 	 ZWE ZMB 
+1833 	 15396 	 CHE 
 [1] "made it here"
-3356 	 18133 	 ZWE ZMB 
+1834 	 15397 	 CHE ITA 
 [1] "made it here"
-3357 	 12169 	 ZWE MOZ 
+1835 	 15436 	 AUT 
 [1] "made it here"
-3358 	 12168 	 ZWE 
-3359 	 18177 	 ZMB 
+1836 	 20328 	 AUT 
 [1] "made it here"
-3360 	 18157 	 UGA SSD 
+1837 	 15482 	 AUT 
 [1] "made it here"
-3361 	 18203 	 UGA SSD 
+1838 	 15434 	 AUT 
 [1] "made it here"
-3362 	 19095 	 UGA 
+1839 	 20329 	 AUT SVK 
 [1] "made it here"
-3363 	 12908 	 TZA 
+1840 	 20226 	 SVK HUN 
 [1] "made it here"
-3364 	 14074 	 TZA 
+1841 	 20227 	 SVK HUN 
 [1] "made it here"
-3365 	 18542 	 TZA 
-3366 	 14078 	 TZA 
+1842 	 20305 	 SVK 
 [1] "made it here"
-3367 	 12152 	 TZA 
+1843 	 20314 	 SVK 
 [1] "made it here"
-3368 	 12150 	 TZA 
+1844 	 20318 	 SVK 
 [1] "made it here"
-3369 	 18198 	 TZA KEN 
+1845 	 20320 	 SVK HUN 
 [1] "made it here"
-3370 	 18199 	 TZA KEN 
+1846 	 20321 	 SVK HUN 
 [1] "made it here"
-3371 	 18200 	 TZA KEN 
+1847 	 14926 	 SVK 
 [1] "made it here"
-3372 	 18112 	 TZA 
+1848 	 14484 	 SVK 
 [1] "made it here"
-3373 	 21043 	 TZA 
+1849 	 14485 	 SVK HUN 
 [1] "made it here"
-3374 	 14282 	 ATF 
+1850 	 14487 	 SVK 
 [1] "made it here"
-3375 	 14281 	 ATF 
+1851 	 20322 	 SVK 
 [1] "made it here"
-3376 	 14069 	 TCD 
+1852 	 20195 	 ROU 
 [1] "made it here"
-3377 	 11996 	 TCD 
-3378 	 18163 	 SOM 
-[1] "no PAs"
-3379 	 18214 	 SOM 
-[1] "no PAs"
-3380 	 14067 	 SOM 
-[1] "no PAs"
-3381 	 14063 	 SOM 
-[1] "no PAs"
-3382 	 20618 	 SLE 
-3383 	 14276 	 SHN 
+1853 	 20198 	 ROU 
 [1] "made it here"
-3384 	 18517 	 SSD 
-3385 	 18518 	 SSD 
+1854 	 20216 	 CZE 
 [1] "made it here"
-3386 	 18156 	 SSD 
+1855 	 19141 	 GRL 
 [1] "made it here"
-3387 	 18519 	 SSD 
-3388 	 18520 	 SSD 
+1856 	 19661 	 GRL 
 [1] "made it here"
-3389 	 19304 	 SSD ETH 
+1857 	 19151 	 GRL 
+1858 	 19663 	 GRL 
+1859 	 15389 	 ITA 
 [1] "made it here"
-3390 	 12397 	 SDN 
-3391 	 19367 	 NGA 
+1860 	 15451 	 ITA 
 [1] "made it here"
-3392 	 18303 	 NGA 
-3393 	 14302 	 NER 
+1861 	 15454 	 ITA 
 [1] "made it here"
-3394 	 18552 	 NER 
+1862 	 15450 	 ITA 
 [1] "made it here"
-3395 	 18556 	 NER 
+1863 	 19209 	 ITA 
 [1] "made it here"
-3396 	 19348 	 NER 
+1864 	 15443 	 ITA 
 [1] "made it here"
-3397 	 15568 	 NAM 
+1865 	 20896 	 HUN 
 [1] "made it here"
-3398 	 19752 	 NAM 
+1866 	 20897 	 HUN 
 [1] "made it here"
-3399 	 17808 	 MOZ MWI 
+1867 	 20878 	 HUN 
 [1] "made it here"
-3400 	 18276 	 LSO 
-3401 	 18543 	 KEN 
+1868 	 20531 	 FIN 
 [1] "made it here"
-3402 	 20608 	 KEN 
+1869 	 14806 	 GRC 
 [1] "made it here"
-3403 	 20609 	 KEN 
+1870 	 12987 	 POL 
 [1] "made it here"
-3404 	 13009 	 KEN 
+1871 	 20689 	 TUR 
+1872 	 14620 	 TUR 
 [1] "made it here"
-3405 	 20334 	 KEN 
+1873 	 14738 	 TUR 
+1874 	 14766 	 TUR 
+1875 	 14618 	 TUR 
+1876 	 20350 	 TUR 
+1877 	 14619 	 TUR 
+1878 	 12119 	 TUR 
 [1] "made it here"
-3406 	 21031 	 KEN 
+1879 	 14661 	 TUR 
 [1] "made it here"
-3407 	 21032 	 KEN 
+1880 	 19739 	 TUR 
 [1] "made it here"
-3408 	 21033 	 KEN 
+1881 	 15486 	 BEL 
 [1] "made it here"
-3409 	 18205 	 KEN 
-3410 	 18541 	 KEN 
+1882 	 18994 	 IRL 
 [1] "made it here"
-3411 	 13010 	 KEN 
+1883 	 18993 	 IRL 
 [1] "made it here"
-3412 	 15169 	 GNQ 
+1884 	 20004 	 IRL 
 [1] "made it here"
-3413 	 18207 	 ETH 
-3414 	 20623 	 ETH 
+1885 	 18983 	 IRL 
 [1] "made it here"
-3415 	 20859 	 ETH 
-3416 	 20855 	 ETH 
-3417 	 18553 	 ETH DJI 
+1886 	 19019 	 IRL 
 [1] "made it here"
-3418 	 12402 	 DZA 
-3419 	 14312 	 DZA 
+1887 	 12058 	 IRL 
 [1] "made it here"
-3420 	 19349 	 DZA 
+1888 	 18982 	 IRL 
 [1] "made it here"
-3421 	 12436 	 DZA 
+1889 	 18984 	 IRL 
 [1] "made it here"
-3422 	 18551 	 DJI 
+1890 	 19057 	 IRL 
 [1] "made it here"
-3423 	 13007 	 DJI 
-3424 	 19947 	 CMR 
+1891 	 11590 	 IRL 
 [1] "made it here"
-3425 	 18555 	 CMR 
-3426 	 19256 	 CMR 
-3427 	 19045 	 CMR 
+1892 	 18988 	 IRL 
 [1] "made it here"
-3428 	 19324 	 CMR 
+1893 	 18976 	 IRL 
 [1] "made it here"
-3429 	 19245 	 CMR 
+1894 	 19046 	 IRL 
 [1] "made it here"
-3430 	 19258 	 CMR 
+1895 	 19012 	 IRL 
 [1] "made it here"
-3431 	 19800 	 CMR 
-3432 	 19325 	 CMR 
-3433 	 19950 	 CAF 
+1896 	 19023 	 IRL 
 [1] "made it here"
-3434 	 14356 	 CAF 
+1897 	 19009 	 IRL 
 [1] "made it here"
-3435 	 18136 	 COD 
+1898 	 19013 	 IRL 
 [1] "made it here"
-3436 	 19330 	 COD 
+1899 	 19015 	 IRL 
 [1] "made it here"
-3437 	 13005 	 COD 
+1900 	 19016 	 IRL 
 [1] "made it here"
-3438 	 18194 	 COD 
+1901 	 19369 	 ISL 
 [1] "made it here"
-3439 	 18132 	 BWA 
-3440 	 18183 	 BFA 
+1902 	 20592 	 ISL 
+1903 	 20593 	 ISL 
+1904 	 20599 	 ISL 
+1905 	 20589 	 ISL 
+1906 	 20604 	 ISL 
+1907 	 20602 	 ISL 
 [1] "made it here"
-3441 	 11837 	 AGO 
-3442 	 12401 	 AGO 
-3443 	 18119 	 AGO 
-3444 	 18121 	 AGO 
-3445 	 19942 	 AGO 
+1908 	 20590 	 ISL 
+1909 	 18956 	 ISL 
 [1] "made it here"
-3446 	 15567 	 AGO 
+1910 	 18968 	 ISL 
+1911 	 18955 	 ISL 
+1912 	 20990 	 ISL 
+1913 	 20862 	 ISL 
+1914 	 18958 	 ISL 
+1915 	 20605 	 ISL 
+1916 	 20988 	 ISL 
 [1] "made it here"
-3447 	 15575 	 AGO 
+1917 	 18961 	 ISL 
 [1] "made it here"
-3448 	 18193 	 AGO 
+1918 	 18962 	 ISL 
+1919 	 18963 	 ISL 
+1920 	 19370 	 ISL 
 [1] "made it here"
-3449 	 19362 	 AGO 
-3450 	 18125 	 AGO 
-3451 	 15166 	 AGO 
-3452 	 15418 	 DEU AUT 
+1921 	 18969 	 ISL 
 [1] "made it here"
-3453 	 15419 	 DEU 
+1922 	 20597 	 ISL 
 [1] "made it here"
-3454 	 15474 	 DEU AUT CZE 
+1923 	 19371 	 ISL 
 [1] "made it here"
-3455 	 19148 	 GRL 
-3456 	 15396 	 CHE 
+1924 	 20603 	 ISL 
 [1] "made it here"
-3457 	 15401 	 CHE 
+1925 	 20595 	 ISL 
 [1] "made it here"
-3458 	 15405 	 CHE 
+1926 	 20596 	 ISL 
 [1] "made it here"
-3459 	 10053 	 CHE 
+1927 	 20591 	 ISL 
 [1] "made it here"
-3460 	 10054 	 CHE 
+1928 	 20057 	 ROU 
 [1] "made it here"
-3461 	 15395 	 CHE ITA 
+1929 	 20183 	 ROU 
 [1] "made it here"
-3462 	 10056 	 CHE ITA 
+1930 	 20060 	 ROU 
 [1] "made it here"
-3463 	 10057 	 CHE ITA 
+1931 	 20061 	 ROU 
 [1] "made it here"
-3464 	 10058 	 CHE AUT 
+1932 	 20188 	 ROU 
 [1] "made it here"
-3465 	 10059 	 CHE 
+1933 	 14272 	 FRO 
 [1] "made it here"
-3466 	 19450 	 CHE 
+1934 	 19149 	 GRL 
+1935 	 19150 	 GRL 
+1936 	 19148 	 GRL 
+1937 	 19082 	 GRL 
 [1] "made it here"
-3467 	 15399 	 CHE 
+1938 	 19140 	 GRL 
 [1] "made it here"
-3468 	 15387 	 CHE 
+1939 	 20208 	 CZE 
 [1] "made it here"
-3469 	 15406 	 CHE AUT 
-[1] "made it here"
-3470 	 15403 	 CHE 
-[1] "made it here"
-3471 	 15404 	 CHE 
-[1] "made it here"
-3472 	 15402 	 CHE 
-[1] "made it here"
-3473 	 15400 	 CHE 
-3474 	 15362 	 AUT 
-[1] "made it here"
-3475 	 15363 	 AUT 
-[1] "made it here"
-3476 	 10060 	 AUT LIE 
-[1] "made it here"
-3477 	 15411 	 AUT 
-[1] "made it here"
-3478 	 15410 	 AUT 
-[1] "made it here"
-3479 	 15415 	 AUT 
-[1] "made it here"
-3480 	 15423 	 AUT 
-3481 	 15453 	 AUT 
-[1] "made it here"
-3482 	 15364 	 AUT 
-[1] "made it here"
-3483 	 15365 	 AUT 
-[1] "made it here"
-3484 	 15428 	 AUT 
-[1] "made it here"
-3485 	 15432 	 AUT 
-[1] "made it here"
-3486 	 15430 	 AUT 
-[1] "made it here"
-3487 	 15371 	 AUT 
-[1] "made it here"
-3488 	 20878 	 AUT 
-[1] "made it here"
-3489 	 15358 	 AUT 
-[1] "made it here"
-3490 	 15359 	 AUT 
-[1] "made it here"
-3491 	 15360 	 AUT ITA 
-[1] "made it here"
-3492 	 15429 	 AUT 
-[1] "made it here"
-3493 	 15431 	 AUT 
-[1] "made it here"
-3494 	 15483 	 AUT 
-[1] "made it here"
-3495 	 15434 	 AUT 
-[1] "made it here"
-3496 	 15435 	 AUT 
-[1] "made it here"
-3497 	 15436 	 AUT 
-[1] "made it here"
-3498 	 20303 	 SVK 
-[1] "made it here"
-3499 	 20306 	 SVK 
-[1] "made it here"
-3500 	 20271 	 SVK 
-[1] "made it here"
-3501 	 20287 	 SVK 
-3502 	 20281 	 SVK 
-[1] "made it here"
-3503 	 20310 	 SVK 
-[1] "made it here"
-3504 	 20314 	 SVK 
-[1] "made it here"
-3505 	 20318 	 SVK 
-[1] "made it here"
-3506 	 20086 	 SVK UKR 
-[1] "made it here"
-3507 	 20074 	 SVK POL 
-[1] "made it here"
-3508 	 20084 	 SVK 
-[1] "made it here"
-3509 	 12991 	 SVK 
-[1] "made it here"
-3510 	 12990 	 SVK POL 
-[1] "made it here"
-3511 	 20273 	 SVK 
-[1] "made it here"
-3512 	 20283 	 SVK 
-[1] "made it here"
-3513 	 21021 	 SVK 
-[1] "made it here"
-3514 	 20297 	 SVK 
-[1] "made it here"
-3515 	 20311 	 SVK HUN 
-[1] "made it here"
-3516 	 20262 	 SVK 
-[1] "made it here"
-3517 	 20267 	 SVK 
-[1] "made it here"
-3518 	 20272 	 SVK 
-[1] "made it here"
-3519 	 20879 	 SVK 
-[1] "made it here"
-3520 	 20223 	 SVK HUN 
-[1] "made it here"
-3521 	 20087 	 SVK UKR 
-[1] "made it here"
-3522 	 20298 	 SVK 
-[1] "made it here"
-3523 	 20224 	 SVK HUN 
-[1] "made it here"
-3524 	 20294 	 SVK HUN 
-[1] "made it here"
-3525 	 20292 	 SVK 
-[1] "made it here"
-3526 	 20300 	 SVK 
-[1] "made it here"
-3527 	 12985 	 SVK POL 
-[1] "made it here"
-3528 	 20304 	 SVK 
-[1] "made it here"
-3529 	 14925 	 SVK 
-[1] "made it here"
-3530 	 20280 	 SVK 
-[1] "made it here"
-3531 	 20806 	 SRB 
-[1] "made it here"
-3532 	 19936 	 CZE 
-[1] "made it here"
-3533 	 20213 	 CZE 
-[1] "made it here"
-3534 	 20266 	 CZE 
-[1] "made it here"
-3535 	 20218 	 CZE 
-[1] "made it here"
-3536 	 20940 	 GRL 
-[1] "made it here"
-3537 	 19149 	 GRL 
-3538 	 19150 	 GRL 
-3539 	 19151 	 GRL 
-3540 	 10012 	 ITA 
-[1] "made it here"
-3541 	 15386 	 ITA 
-[1] "made it here"
-3542 	 15454 	 ITA 
-[1] "made it here"
-3543 	 15445 	 ITA 
-[1] "made it here"
-3544 	 15448 	 ITA 
-[1] "made it here"
-3545 	 15451 	 ITA 
-[1] "made it here"
-3546 	 15449 	 ITA 
-[1] "made it here"
-3547 	 15450 	 ITA 
-[1] "made it here"
-3548 	 15447 	 ITA 
-[1] "made it here"
-3549 	 15446 	 ITA 
-[1] "made it here"
-3550 	 15437 	 ITA 
-[1] "made it here"
-3551 	 15439 	 ITA 
-[1] "made it here"
-3552 	 15440 	 ITA 
-[1] "made it here"
-3553 	 15441 	 ITA 
-[1] "made it here"
-3554 	 15442 	 ITA 
-[1] "made it here"
-3555 	 15443 	 ITA 
-[1] "made it here"
-3556 	 15407 	 ITA 
-[1] "made it here"
-3557 	 15438 	 ITA 
-[1] "made it here"
-3558 	 15444 	 ITA 
-[1] "made it here"
-3559 	 10064 	 ITA 
-[1] "made it here"
-3560 	 20088 	 UKR 
-3561 	 20096 	 UKR 
-3562 	 20103 	 UKR 
-3563 	 20104 	 UKR 
-3564 	 20106 	 UKR 
-[1] "made it here"
-3565 	 20108 	 UKR 
-3566 	 20112 	 UKR 
-3567 	 20114 	 UKR 
-3568 	 20115 	 UKR 
-[1] "made it here"
-3569 	 20123 	 UKR 
-3570 	 20095 	 UKR 
-3571 	 20099 	 UKR 
-3572 	 20093 	 UKR 
-[1] "made it here"
-3573 	 20097 	 UKR 
-[1] "made it here"
-3574 	 20101 	 UKR 
-[1] "made it here"
-3575 	 20107 	 UKR 
-[1] "made it here"
-3576 	 20111 	 UKR 
-[1] "made it here"
-3577 	 20113 	 UKR 
-3578 	 20116 	 UKR 
-[1] "made it here"
-3579 	 20220 	 HUN 
-[1] "made it here"
-3580 	 14481 	 HUN 
-[1] "made it here"
-3581 	 14485 	 HUN 
-[1] "made it here"
-3582 	 14486 	 HUN 
-[1] "made it here"
-3583 	 14487 	 HUN 
-[1] "made it here"
-3584 	 20225 	 HUN 
-[1] "made it here"
-3585 	 20221 	 HUN 
-[1] "made it here"
-3586 	 14484 	 HUN 
-[1] "made it here"
-3587 	 20226 	 HUN 
-[1] "made it here"
-3588 	 20322 	 HUN 
-[1] "made it here"
-3589 	 20531 	 FIN 
-[1] "made it here"
-3590 	 19242 	 FIN 
-[1] "made it here"
-3591 	 19243 	 FIN 
-[1] "made it here"
-3592 	 20428 	 FIN 
-[1] "made it here"
-3593 	 19240 	 FIN 
-[1] "made it here"
-3594 	 19463 	 FIN 
-[1] "made it here"
-3595 	 19239 	 FIN 
-[1] "made it here"
-3596 	 19244 	 FIN 
-[1] "made it here"
-3597 	 20069 	 POL 
-[1] "made it here"
-3598 	 20075 	 POL 
-[1] "made it here"
-3599 	 20076 	 POL 
-[1] "made it here"
-3600 	 20083 	 POL 
-[1] "made it here"
-3601 	 20530 	 SWE 
-[1] "made it here"
-3602 	 12479 	 SWE 
-[1] "made it here"
-3603 	 20883 	 SWE 
-[1] "made it here"
-3604 	 20515 	 SWE 
-[1] "made it here"
-3605 	 20526 	 SWE 
-[1] "made it here"
-3606 	 20520 	 SWE 
-[1] "made it here"
-3607 	 20385 	 SWE 
-[1] "made it here"
-3608 	 20416 	 SWE 
-[1] "made it here"
-3609 	 20513 	 SWE 
-[1] "made it here"
-3610 	 20404 	 SWE 
-[1] "made it here"
-3611 	 20510 	 SWE 
-[1] "made it here"
-3612 	 20512 	 SWE 
-[1] "made it here"
-3613 	 20514 	 SWE 
-[1] "made it here"
-3614 	 20516 	 SWE 
-[1] "made it here"
-3615 	 20533 	 SWE 
-[1] "made it here"
-3616 	 20534 	 SWE 
-[1] "made it here"
-3617 	 20422 	 SWE 
-[1] "made it here"
-3618 	 20425 	 SWE 
-[1] "made it here"
-3619 	 20503 	 SWE 
-[1] "made it here"
-3620 	 20679 	 TUR 
-3621 	 14660 	 TUR 
-3622 	 14661 	 TUR 
-3623 	 12779 	 TUR 
-3624 	 14735 	 TUR 
-3625 	 14722 	 TUR 
-3626 	 14665 	 TUR 
-3627 	 14724 	 TUR 
-[1] "made it here"
-3628 	 14720 	 TUR 
-[1] "made it here"
-3629 	 11602 	 TUR 
-3630 	 14734 	 TUR 
-3631 	 11424 	 TUR 
-3632 	 18994 	 IRL 
-[1] "made it here"
-3633 	 19016 	 IRL 
-[1] "made it here"
-3634 	 18978 	 IRL 
-[1] "made it here"
-3635 	 18976 	 IRL 
-[1] "made it here"
-3636 	 18988 	 IRL 
-[1] "made it here"
-3637 	 19057 	 IRL 
-[1] "made it here"
-3638 	 19009 	 IRL 
-[1] "made it here"
-3639 	 12058 	 IRL 
-[1] "made it here"
-3640 	 19369 	 ISL 
-[1] "made it here"
-3641 	 20864 	 ISL 
-[1] "made it here"
-3642 	 20865 	 ISL 
-[1] "made it here"
-3643 	 18958 	 ISL 
-[1] "made it here"
-3644 	 20605 	 ISL 
-[1] "made it here"
-3645 	 20607 	 ISL 
-[1] "made it here"
-3646 	 20988 	 ISL 
-[1] "made it here"
-3647 	 18961 	 ISL 
-3648 	 18962 	 ISL 
-3649 	 18969 	 ISL 
-3650 	 20597 	 ISL 
-3651 	 18966 	 ISL 
-[1] "made it here"
-3652 	 20603 	 ISL 
-3653 	 20863 	 ISL 
-[1] "made it here"
-3654 	 20604 	 ISL 
-[1] "made it here"
-3655 	 20200 	 ROU 
-[1] "made it here"
-3656 	 20146 	 ROU 
-[1] "made it here"
-3657 	 20182 	 ROU 
-[1] "made it here"
-3658 	 20184 	 ROU 
-[1] "made it here"
-3659 	 20185 	 ROU 
-[1] "made it here"
-3660 	 20186 	 ROU 
-[1] "made it here"
-3661 	 20199 	 ROU 
-[1] "made it here"
-3662 	 20141 	 ROU 
-[1] "made it here"
-3663 	 20152 	 ROU 
-[1] "made it here"
-3664 	 20153 	 ROU 
-[1] "made it here"
-3665 	 14770 	 BGR 
-[1] "made it here"
-3666 	 20379 	 BGR 
-[1] "made it here"
-3667 	 19663 	 GRL 
-[1] "made it here"
-3668 	 19144 	 GRL 
-3669 	 19082 	 GRL 
-[1] "made it here"
-3670 	 19661 	 GRL 
-[1] "made it here"
-3671 	 17929 	 AND 
+1940 	 20209 	 CZE 
 [1] "made it here"
 user.self 
- 373.1747 
-  SitRecID      kba        ovl year random nPAs DOMAIN range_countries
-1    20520 25189935 3730071.09 1981   TRUE    1  14099     PSE;ISR;JOR
-2    20521 51927238   36603.87 1996   TRUE    1  14099     PSE;ISR;JOR
-3    20521 51927238  377909.70 2007   TRUE    1  14099     PSE;ISR;JOR
-4    20521 51927238  459239.98 2011   TRUE    1  14099     PSE;ISR;JOR
-5    20521 51927238   41515.95 2013   TRUE    1  14099     PSE;ISR;JOR
-6    20521 51927238 3356664.35 2017   TRUE    1  14099     PSE;ISR;JOR
-          RangeName COUNTRY multiple_ranges all_gmba_intersec mountain
-1 Judaean Mountains     PSE           FALSE             14099        1
-2 Judaean Mountains     PSE           FALSE             14099        1
-3 Judaean Mountains     PSE           FALSE             14099        1
-4 Judaean Mountains     PSE           FALSE             14099        1
-5 Judaean Mountains     PSE           FALSE             14099        1
-6 Judaean Mountains     PSE           FALSE             14099        1
-  terrestrial marine freshwater original_area kba_note error_note       percPA
-1           1      0          0      25189935     <NA>            0.1480778354
-2           1      0          0      51927238     <NA>            0.0007049070
-3           1      0          0      51927238     <NA>            0.0072776777
-4           1      0          0      51927238     <NA>            0.0088439131
-5           1      0          0      51927238     <NA>            0.0007995023
-6           1      0          0      51927238     <NA>            0.0646416886
-'data.frame':	21985 obs. of  20 variables:
- $ SitRecID         : num  20520 20521 20521 20521 20521 ...
- $ kba              : num  25189935 51927238 51927238 51927238 51927238 ...
- $ ovl              : num  3730071 36604 377910 459240 41516 ...
- $ year             : num  1981 1996 2007 2011 2013 ...
- $ random           : logi  TRUE TRUE TRUE TRUE TRUE TRUE ...
- $ nPAs             : num  1 1 1 1 1 1 1 1 1 1 ...
- $ DOMAIN           : chr  "14099" "14099" "14099" "14099" ...
- $ range_countries  : chr  "PSE;ISR;JOR" "PSE;ISR;JOR" "PSE;ISR;JOR" "PSE;ISR;JOR" ...
- $ RangeName        : chr  "Judaean Mountains" "Judaean Mountains" "Judaean Mountains" "Judaean Mountains" ...
- $ COUNTRY          : chr  "PSE" "PSE" "PSE" "PSE" ...
- $ multiple_ranges  : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
- $ all_gmba_intersec: chr  "14099" "14099" "14099" "14099" ...
- $ mountain         : int  1 1 1 1 1 1 1 1 1 1 ...
- $ terrestrial      : int  1 1 1 1 1 1 1 1 1 1 ...
- $ marine           : int  0 0 0 0 0 0 0 0 0 0 ...
+ 156.1105 
+  SitRecID       kba          ovl year random nPAs DOMAIN range_countries
+1    30673 449475077  2323584.751 1957  FALSE    1  11695             JPN
+2    30673 449475077  1848707.513 1963  FALSE    1  11695             JPN
+3    30673 449475077  4766825.072 1964  FALSE    1  11695             JPN
+4    30673 449475077     1379.007 1972  FALSE    1  11695             JPN
+5    30673 449475077 32259848.521 1973  FALSE    1  11695             JPN
+6    30673 449475077        0.000 1989  FALSE    1  11695             JPN
+     RangeName COUNTRY multiple_ranges all_gmba_intersec mountain terrestrial
+1 Ou Mountains     JPN            TRUE             11695        0           0
+2 Ou Mountains     JPN            TRUE             11695        0           0
+3 Ou Mountains     JPN            TRUE             11695        0           0
+4 Ou Mountains     JPN            TRUE             11695        0           0
+5 Ou Mountains     JPN            TRUE             11695        0           0
+6 Ou Mountains     JPN            TRUE             11695        0           0
+  marine freshwater original_area kba_note error_note       percPA
+1      1          0   28183126245     <NA>            5.169552e-03
+2      1          0   28183126245     <NA>            4.113037e-03
+3      1          0   28183126245     <NA>            1.060532e-02
+4      1          0   28183126245     <NA>            3.068039e-06
+5      1          0   28183126245     <NA>            7.177227e-02
+6      1          0   28183126245     <NA>            0.000000e+00
+'data.frame':	9574 obs. of  20 variables:
+ $ SitRecID         : num  30673 30673 30673 30673 30673 ...
+ $ kba              : num  4.49e+08 4.49e+08 4.49e+08 4.49e+08 4.49e+08 ...
+ $ ovl              : num  2323585 1848708 4766825 1379 32259849 ...
+ $ year             : num  1957 1963 1964 1972 1973 ...
+ $ random           : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
+ $ nPAs             : num  1 1 1 1 1 1 1 0 0 1 ...
+ $ DOMAIN           : chr  "11695" "11695" "11695" "11695" ...
+ $ range_countries  : chr  "JPN" "JPN" "JPN" "JPN" ...
+ $ RangeName        : chr  "Ou Mountains" "Ou Mountains" "Ou Mountains" "Ou Mountains" ...
+ $ COUNTRY          : chr  "JPN" "JPN" "JPN" "JPN" ...
+ $ multiple_ranges  : logi  TRUE TRUE TRUE TRUE TRUE TRUE ...
+ $ all_gmba_intersec: chr  "11695" "11695" "11695" "11695" ...
+ $ mountain         : int  0 0 0 0 0 0 0 0 0 0 ...
+ $ terrestrial      : int  0 0 0 0 0 0 0 1 1 1 ...
+ $ marine           : int  1 1 1 1 1 1 1 1 0 0 ...
  $ freshwater       : int  0 0 0 0 0 0 0 0 0 0 ...
- $ original_area    : num  25189935 51927238 51927238 51927238 51927238 ...
+ $ original_area    : num  2.82e+10 2.82e+10 2.82e+10 2.82e+10 2.82e+10 ...
  $ kba_note         : chr  NA NA NA NA ...
  $ error_note       : chr  "" "" "" "" ...
- $ percPA           : num  0.148078 0.000705 0.007278 0.008844 0.0008 ...
+ $ percPA           : num  5.17e-03 4.11e-03 1.06e-02 3.07e-06 7.18e-02 ...
 [1] 0
