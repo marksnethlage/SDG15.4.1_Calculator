@@ -1,6 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-19808,45186531.057385,29821209.8327886,2008,FALSE,1,"11926","CUB","Sierra Maestra","CUB",FALSE,"11926","",0.659957937353431
-19808,45186531.057385,15365321.1271077,2010,FALSE,1,"11926","CUB","Sierra Maestra","CUB",FALSE,"11926","",0.340042060489095
-29712,5678982.99480391,0,0,FALSE,0,"11926","CUB","Sierra Maestra","CUB",NA,NA,"no pas overlapping kba",0
-26543,1806549.60869355,0,0,FALSE,0,"11926","CUB","Sierra Maestra","CUB",NA,NA,"no pas overlapping kba",0
-26826,94420583.1972494,64601.9893412963,2001,FALSE,1,"11926","CUB","Sierra Maestra","CUB",FALSE,"11926","",0.000684193924182182

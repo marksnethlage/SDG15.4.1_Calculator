@@ -1,5 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-18641,1032224582.83842,1022852297.46077,1994,FALSE,1,"12354","RUS;CHN","Saylyugem Range","RUS",TRUE,"12354","",0.990920304037049
-18807,107077845.194161,0,0,FALSE,0,"12354","RUS;CHN","Saylyugem Range","RUS",NA,NA,"no pas overlapping kba",0
-15427,121372519.93071,630109.849295139,1994,FALSE,1,"12354","RUS;CHN","Saylyugem Range","CHN",TRUE,"12354","",0.00519153635151401
-15427,121372519.93071,6271.62066876888,1998,FALSE,1,"12354","RUS;CHN","Saylyugem Range","CHN",TRUE,"12354","",5.1672492853813e-05

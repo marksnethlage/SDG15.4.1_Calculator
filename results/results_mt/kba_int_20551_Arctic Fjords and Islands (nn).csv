@@ -1,5 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-3154,1279205.78129864,398627.263083115,1995,FALSE,2,"20551","NOR","Arctic Fjords and Islands (nn)","NOR",TRUE,"20551","",0.311620904869921
-3154,1279205.78129864,8881.65786848409,2002,FALSE,1,"20551","NOR","Arctic Fjords and Islands (nn)","NOR",TRUE,"20551","",0.00694310328981434
-3152,28525268.2934084,24348018.7560855,2004,FALSE,1,"20551","NOR","Arctic Fjords and Islands (nn)","NOR",FALSE,"20551","",0.853559675780921
-32098,1964352.04608607,0,0,FALSE,0,"20551","NOR","Arctic Fjords and Islands (nn)","NOR",NA,NA,"no pas overlapping kba",0

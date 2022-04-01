@@ -1,6 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-10012,2032766914.70285,109395913.12753,2003,FALSE,1,"21000","MEX","Sierra de Miahuatlán","MEX",TRUE,"21000","",0.0538162601606107
-10012,2032766914.70285,4242517.90794379,2006,FALSE,24,"21000","MEX","Sierra de Miahuatlán","MEX",TRUE,"21000","",0.00208706560366463
-10012,2032766914.70285,212017.877564604,2007,FALSE,1,"21000","MEX","Sierra de Miahuatlán","MEX",TRUE,"21000","",0.00010430014185645
-26792,109602682.425202,0,0,FALSE,0,"21000","MEX","Sierra de Miahuatlán","MEX",NA,NA,"no pas overlapping kba",0
-10011,26991631.8832643,0,0,FALSE,0,"21000","MEX","Sierra de Miahuatlán","MEX",NA,NA,"no pas overlapping kba",0

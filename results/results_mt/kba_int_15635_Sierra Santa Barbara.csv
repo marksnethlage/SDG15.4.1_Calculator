@@ -1,5 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-19398,48098179.8789306,11271220.7496787,2002,FALSE,1,"15635","ARG","Sierra Santa Barbara","ARG",TRUE,"15635","",0.234337781139533
-19446,152581.191986322,152581.191986322,2002,FALSE,1,"15635","ARG","Sierra Santa Barbara","ARG",TRUE,"15635","",1
-19448,23840116.012603,0,0,FALSE,0,"15635","ARG","Sierra Santa Barbara","ARG",NA,NA,"no pas overlapping kba",0
-19494,7208257.11419579,0,0,FALSE,0,"15635","ARG","Sierra Santa Barbara","ARG",NA,NA,"no pas overlapping kba",0

@@ -1,6 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-10003,1405831187.95306,2744950.43515489,1994,FALSE,1,"17738","MEX","Neovolcanica Tarasca","MEX",TRUE,"17738","",0.00195254626492647
-10005,898794049.689111,233762600.982512,2009,FALSE,2,"17738","MEX","Neovolcanica Tarasca","MEX",TRUE,"17738","",0.26008472248272
-26764,17538265.0664271,0,0,FALSE,0,"17738","MEX","Neovolcanica Tarasca","MEX",NA,NA,"no pas overlapping kba",0
-29748,18347708.8509642,0,0,FALSE,0,"17738","MEX","Neovolcanica Tarasca","MEX",NA,NA,"no pas overlapping kba",0
-10054,701088905.446522,0,0,FALSE,0,"17738","MEX","Neovolcanica Tarasca","MEX",NA,NA,"no pas overlapping kba",0

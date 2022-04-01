@@ -1,7 +1,0 @@
-"SitRecID","kba","ovl","year","random","nPAs","DOMAIN","range_countries","RangeName","COUNTRY","multiple_ranges","all_gmba_intersec","note","percPA"
-15823,2702410809.20721,2324083713.49845,1997,FALSE,1,"19534","IDN","Aceh Highlands (nn)","IDN",TRUE,"19534","",0.860003854921026
-15823,2702410809.20721,204115817.223779,2004,FALSE,1,"19534","IDN","Aceh Highlands (nn)","IDN",TRUE,"19534","",0.0755310097666681
-15823,2702410809.20721,9.97930146024633e-07,2006,FALSE,1,"19534","IDN","Aceh Highlands (nn)","IDN",TRUE,"19534","",3.69274035844088e-16
-23033,197307192.852412,5874277.40373787,2008,TRUE,1,"19534","IDN","Aceh Highlands (nn)","IDN",FALSE,"19534","",0.0297722415428205
-23065,114819105.051615,0,0,FALSE,0,"19534","IDN","Aceh Highlands (nn)","IDN",NA,NA,"no pas overlapping kba",0
-23078,60361601.5149208,0,0,FALSE,0,"19534","IDN","Aceh Highlands (nn)","IDN",NA,NA,"no pas overlapping kba",0
