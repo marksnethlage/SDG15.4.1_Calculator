@@ -436,7 +436,7 @@ for (x in 1:length(listloop)){
                   
                   ovf2 <- ovfpol[ovfpol$STATUS_YR == year2, ]
                   ovf22 <- NULL
-                  ovf22 <- tryCatch({st_union(ovf2, by_feature = F)}, error=function(e){print(e)})
+                  ovf22 <- tryCatch({st_union(ovf2, by_feature = F)}, error=function(e){})
                   
                   if(PLOTIT){
                     plot(ovf22, col=w+1)
@@ -464,7 +464,7 @@ for (x in 1:length(listloop)){
                   ##Determine if there is a difference in protected area coverage of kba the following year by making a 
                   ## new polygon of the area in the following year that wasn't in the previous year
                   ovf22 <- ovf22 %>% st_set_precision(1e5) %>% st_make_valid() 
-                  ovfprev3 <- ovfprev3 %>% st_set_precision(1e5) %>% st_make_valid() HGHHGD
+                  ovfprev3 <- ovfprev3 %>% st_set_precision(1e5) %>% st_make_valid()
                   ovf23 <- tryCatch({st_difference(ovf22, ovfprev3)}, error = function(e){}) 
                   if(PLOTIT){
                     plot(ovf23, add=T, col="grey", alpha = .1)
