@@ -33,11 +33,11 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity/results"),
        setwd("/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results"))
 
 ### Read in the results #TODO update this section before running
-finfile <- "clean_data_for_visuals.csv"
-results_wcmc <- read_csv("finaltab_official_2020_Mar2022.csv")
+finfile <- "clean_data_for_visuals_Apr2022.csv"
+results_wcmc <- read_csv("finaltab_official2020.csv")
 results_gmba <- read_csv("finaltab_gmba_2020_Mar2022.csv")
 
-kba_class <- read.csv(paste(folder, "/data/KBA/kba_class_2020.csv", sep = ""))   ## file with types of kbas 
+kba_class <- read_csv("../data/KBA/kba_class_2020.csv")   ## file with types of kbas 
 
 #### 2.0 WCMC ----
 #### 2.1 Calculate full timeline with cumulative coverage for WCMC/official
@@ -311,9 +311,6 @@ write_csv(cleaned_data, finfile)
 #### 4.0 Aggregation to Intermediate Levels 
 
 
-
-
-
 #### 4.1 Aggregate to intermediate level ----
 intermediate_map <- read_csv("../data/GMBA_Inventory_v2_intermediate_map.csv")
 intermediate_map <- intermediate_map %>% rename(DOMAIN = GMBA_V2_ID)
@@ -327,7 +324,7 @@ results_all_years_parentrange <- results_all_years %>%
             cum_overlap = sum(cum_overlap, na.rm = T)) %>%
   mutate(cum_percPA = (cum_overlap/kba) * 100)
 
-write.csv(results_all_years_parentrange, paste0(saveName, "_parentrange.csv"))
+write.csv(results_all_years_parentrange, paste0(finfile, "_parentrange.csv"))
 
 #### 4.3 Calculate mountain range AND country aggregation cumulative coverage ----
 results_all_years_parentrange_country <- results_all_years %>% 
@@ -338,7 +335,7 @@ results_all_years_parentrange_country <- results_all_years %>%
   mutate(cum_percPA = (cum_overlap/kba) * 100)
 
 write.csv(results_all_years_parentrange_country, 
-          paste0(saveName, "_parentrange_country.csv"))
+          paste0(finfile, "_parentrange_country.csv"))
 
 ## 4.4 Calculate Avg Coverage of KBAs in Parent Range
 results_all_years_parentrange_avg <- results_all_years %>%
@@ -346,7 +343,7 @@ results_all_years_parentrange_avg <- results_all_years %>%
   summarize(mean(percPA, na.rm = T))
 
 write.csv(results_all_years_parentrange_avg, 
-          paste0(saveName, "_parentrange_avg.csv"))
+          paste0(finfile, "_parentrange_avg.csv"))
 
 ## 4.5 Calculate Avg Coverage of KBAs in Parent Range and COuntry 
 results_all_years_parentrange_country_avg <- results_all_years %>%
@@ -354,7 +351,7 @@ results_all_years_parentrange_country_avg <- results_all_years %>%
   summarize(mean(percPA, na.rm = T))
 
 write.csv(results_all_years_parentrange_country_avg, 
-          paste0(saveName, "_parentrange_country_avg.csv"))
+          paste0(finfile, "_parentrange_country_avg.csv"))
 
 
 
