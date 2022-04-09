@@ -33,7 +33,8 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity/results"),
        setwd("/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results"))
 
 ### Read in the results #TODO update this section before running
-finfile <- "clean_data_for_visuals_Apr2022.csv"
+finfilerange <- "clean_data_for_visuals_range_Apr2022.csv"
+finfilesystem <- "clean_data_for_visuals_system_Apr2022.csv"
 results_wcmc <- read_csv("finaltab_official2020_Apr2022.csv")
 results_gmba <- read_csv("finaltab_gmba_2020_Apr2022.csv")
 
@@ -210,7 +211,7 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_country_avg)
 ## 3.1 Add in  300 level 
 map300 <- read_csv("../data/GMBA_Inventory_ConversionBasic300.csv")
 map300 <- map300 %>% select(DOMAIN = GMBA_V2_ID, DOMAIN_300 = GMBA_V2_ID_DissolveField) %>% filter(!is.na(DOMAIN_300))
-results_all_years <- left_join(results_all_years, intermediate_map, by = "DOMAIN")
+results_all_years <- left_join(results_all_years, map300, by = "DOMAIN")
 
 #### 3.2 Calculate mountain range aggregation cumulative coverage 
 results_all_years_mtrange <- results_all_years %>% 
@@ -405,7 +406,7 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_country)
 ## 5.1 Add in  300 level 
 map300 <- read_csv("../data/GMBA_Inventory_ConversionBasic300.csv")
 map300 <- map300 %>% select(DOMAIN = GMBA_V2_ID, DOMAIN_300 = GMBA_V2_ID_DissolveField) %>% filter(!is.na(DOMAIN_300))
-results_all_years <- left_join(results_all_years, intermediate_map, by = "DOMAIN")
+results_all_years <- left_join(results_all_years, map300, by = "DOMAIN")
 
 #### 4.3 Calculate mountain range aggregation cumulative coverage 
 results_all_years_mtrange <- results_all_years %>% 
@@ -456,5 +457,10 @@ results_all_years_mtrange_country <- results_all_years_mtrange_country %>%  sele
 cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_country)
 
 #### 6.0 Write Out ----
-write_csv(cleaned_data, finfile)
+
+cleaned_data_system <- cleaned_data %>% filter(UnitOfAnalysis %in% c("CountrySystem", "System"))
+cleaned_data_range <- cleaned_data %>% filter(!UnitOfAnalysis %in% c("CountrySystem", "System"))
+
+write_csv(cleaned_data_range, finfilerange)
+write_csv(cleaned_data_system, finfilesystem)
 
