@@ -61,7 +61,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 #### 1.3 Read in shapefiles ----
 
 pas <- st_read(dsn = paste0(folder, "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
-gmba <- st_read(dsn = paste0(folder, "/data/GMBA/GMBA_Inventory_v2.0_standard_basic.shp"), stringsAsFactors = F, crs = 4326) 
+gmba <- st_read(dsn = paste0(folder, "/data/GMBA/GMBA_Inventory_v2.0_broad_300.shp"), stringsAsFactors = F, crs = 4326) 
 kbas <- st_read(dsn = paste0(folder, "/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL.shp"), stringsAsFactors = F, crs = 4326) 
 #world <- st_read(dsn = paste0(folder, '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
