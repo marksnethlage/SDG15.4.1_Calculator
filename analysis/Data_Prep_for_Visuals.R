@@ -149,7 +149,7 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_country)
 #### 2.5 Calculate Average Coverage of KBAs in Country 
 results_all_years_country_avg <- results_all_years %>%
   group_by(year, ISO = COUNTRY) %>%
-  summarize(mean_percPA = mean(percPA, na.rm = T))
+  summarize(mean_percPA = mean(cum_percPA, na.rm = T))
 
 results_all_years_country_avg <- left_join(results_all_years_country_avg, unique(kba_class %>% select(COUNTRY, ISO)), by = "ISO")
 
@@ -169,7 +169,7 @@ cleaned_data <- rbind(cleaned_data, results_all_years_country_avg)
 #### 2.6 Calculate Avg Coverage of KBAs in MT Range
 results_all_years_mtrange_avg <- results_all_years %>%
   group_by(year, DOMAIN, RangeName) %>%
-  summarize(mean_percPA = mean(percPA, na.rm = T))
+  summarize(mean_percPA = mean(cum_percPA, na.rm = T))
 
 ## format
 results_all_years_mtrange_avg <- results_all_years_mtrange_avg %>%
@@ -188,7 +188,7 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_avg)
 #### 2.7 Calculate Avg Coverage of KBAs in Country & MT Range
 results_all_years_mtrange_country_avg <- results_all_years %>%
   group_by(year, ISO = COUNTRY, DOMAIN, RangeName) %>%
-  summarize(mean_percPA = mean(percPA, na.rm = T))
+  summarize(mean_percPA = mean(cum_percPA, na.rm = T))
 
 results_all_years_mtrange_country_avg <- left_join(results_all_years_mtrange_country_avg, 
                                                unique(kba_class %>% select(COUNTRY, ISO)), by = "ISO")
@@ -210,12 +210,12 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_country_avg)
 
 ## 3.1 Add in  300 level 
 map300 <- read_csv("../data/GMBA_Inventory_ConversionBasic300.csv")
-map300 <- map300 %>% select(DOMAIN = GMBA_V2_ID, DOMAIN_300 = GMBA_V2_ID_DissolveField) %>% filter(!is.na(DOMAIN_300))
+map300 <- map300 %>% select(DOMAIN = GMBA_V2_ID, DOMAIN_300 = GMBA_V2_ID_DissolveField, Selected_Range) %>% filter(!is.na(DOMAIN_300)) 
 results_all_years <- left_join(results_all_years, map300, by = "DOMAIN")
 
 #### 3.2 Calculate mountain range aggregation cumulative coverage 
 results_all_years_mtrange <- results_all_years %>% 
-  group_by(year, DOMAIN_300, RangeName) %>%
+  group_by(year, DOMAIN_300, Selected_Range) %>%
   summarize(mount_kba_area = sum(unique(kba), na.rm = T),
             kba = sum(unique(kba), na.rm = T),
             cum_overlap = sum(cum_overlap, na.rm = T)) %>%
@@ -227,7 +227,7 @@ results_all_years_mtrange <- results_all_years_mtrange %>%
          Country = NA, UnitOfAnalysis = "System", Landscape = "Highland", Metric = "KBAPA", 
          Definition = "WCMC", Calculation = "Area", Unit = "percent", 
          FilterString = paste(UnitOfAnalysis, Landscape, Metric, Definition, Calculation, sep = "_")) %>% 
-  rename(Year = year, Name = RangeName, ResultValue = cum_percPA, Mountain = DOMAIN_300)
+  rename(Year = year, Name = Selected_Range, ResultValue = cum_percPA, Mountain = DOMAIN_300)
 
 ## reorder
 results_all_years_mtrange <- results_all_years_mtrange %>% select(ID, ID_underscore, Year, UnitOfAnalysis, Landscape, Country, 
@@ -238,7 +238,7 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange)
 
 #### 3.3 Calculate mountain range AND country aggregation cumulative coverage 
 results_all_years_mtrange_country <- results_all_years %>% 
-  group_by(year, ISO = COUNTRY, DOMAIN_300, RangeName) %>%
+  group_by(year, ISO = COUNTRY, DOMAIN_300, Selected_Range) %>%
   summarize(mount_kba_area = sum(unique(kba), na.rm = T),
             kba = sum(unique(kba), na.rm = T),
             cum_overlap = sum(cum_overlap, na.rm = T)) %>%
@@ -248,7 +248,7 @@ results_all_years_mtrange_country <- left_join(results_all_years_mtrange_country
 
 ## format
 results_all_years_mtrange_country <- results_all_years_mtrange_country %>% 
-  mutate(ID = paste0(ISO, DOMAIN_300), ID_underscore = paste(ISO, DOMAIN_300, sep = "_"), Name = paste(COUNTRY, RangeName, sep = " | "),
+  mutate(ID = paste0(ISO, DOMAIN_300), ID_underscore = paste(ISO, DOMAIN_300, sep = "_"), Name = paste(COUNTRY, Selected_Range, sep = " | "),
          UnitOfAnalysis = "CountrySystem", Landscape = "Highland", Metric = "KBAPA", 
          Definition = "WCMC", Calculation = "Area", Unit = "percent", 
          FilterString = paste(UnitOfAnalysis, Landscape, Metric, Definition, Calculation, sep = "_")) %>% 
@@ -262,8 +262,8 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_country)
 
 #### 3.4 Calculate Avg Coverage of KBAs in MT Range
 results_all_years_mtrange_avg <- results_all_years %>%
-  group_by(year, DOMAIN_300, RangeName) %>%
-  summarize(mean_percPA = mean(percPA, na.rm = T))
+  group_by(year, DOMAIN_300, Selected_Range) %>%
+  summarize(mean_percPA = mean(cum_percPA, na.rm = T))
 
 ## format
 results_all_years_mtrange_avg <- results_all_years_mtrange_avg %>%
@@ -271,7 +271,7 @@ results_all_years_mtrange_avg <- results_all_years_mtrange_avg %>%
          Country = NA, UnitOfAnalysis = "System", Landscape = "Highland", Metric = "KBAPA", 
          Definition = "WCMC", Calculation = "Site", Unit = "percent", 
          FilterString = paste(UnitOfAnalysis, Landscape, Metric, Definition, Calculation, sep = "_")) %>% 
-  rename(Year = year, Name = RangeName, ResultValue = mean_percPA, Mountain = DOMAIN_300)
+  rename(Year = year, Name = Selected_Range, ResultValue = mean_percPA, Mountain = DOMAIN_300)
 
 ## reorder
 results_all_years_mtrange_avg <- results_all_years_mtrange_avg %>% select(ID, ID_underscore, Year, UnitOfAnalysis, Landscape, Country, 
@@ -281,14 +281,14 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_avg)
 
 #### 3.5 Calculate Avg Coverage of KBAs in Country & MT Range
 results_all_years_mtrange_country_avg <- results_all_years %>%
-  group_by(year, ISO = COUNTRY, DOMAIN_300, RangeName) %>%
-  summarize(mean_percPA = mean(percPA, na.rm = T))
+  group_by(year, ISO = COUNTRY, DOMAIN_300, Selected_Range) %>%
+  summarize(mean_percPA = mean(cum_percPA, na.rm = T))
 
 results_all_years_mtrange_country_avg <- left_join(results_all_years_mtrange_country_avg, 
                                                    unique(kba_class %>% select(COUNTRY, ISO)), by = "ISO")
 
 results_all_years_mtrange_country_avg <- results_all_years_mtrange_country_avg %>% 
-  mutate(ID = paste0(ISO, DOMAIN_300), ID_underscore = paste(ISO, DOMAIN_300, sep = "_"), Name = paste(COUNTRY, RangeName, sep = " | "),
+  mutate(ID = paste0(ISO, DOMAIN_300), ID_underscore = paste(ISO, DOMAIN_300, sep = "_"), Name = paste(COUNTRY, Selected_Range, sep = " | "),
          UnitOfAnalysis = "CountrySystem", Landscape = "Highland", Metric = "KBAPA", 
          Definition = "WCMC", Calculation = "Site", Unit = "percent", 
          FilterString = paste(UnitOfAnalysis, Landscape, Metric, Definition, Calculation, sep = "_")) %>% 
@@ -405,12 +405,12 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_country)
 
 ## 5.1 Add in  300 level 
 map300 <- read_csv("../data/GMBA_Inventory_ConversionBasic300.csv")
-map300 <- map300 %>% select(DOMAIN = GMBA_V2_ID, DOMAIN_300 = GMBA_V2_ID_DissolveField) %>% filter(!is.na(DOMAIN_300))
+map300 <- map300 %>% select(DOMAIN = GMBA_V2_ID, DOMAIN_300 = GMBA_V2_ID_DissolveField, Selected_Range) %>% filter(!is.na(DOMAIN_300))
 results_all_years <- left_join(results_all_years, map300, by = "DOMAIN")
 
-#### 4.3 Calculate mountain range aggregation cumulative coverage 
+#### 5.2 Calculate mountain range aggregation cumulative coverage 
 results_all_years_mtrange <- results_all_years %>% 
-  group_by(year, DOMAIN_300, RangeName) %>%
+  group_by(year, DOMAIN_300, Selected_Range) %>%
   summarize(mount_kba_area = sum(unique(kba), na.rm = T),
             kba = sum(unique(kba), na.rm = T),
             cum_overlap = sum(cum_overlap, na.rm = T)) %>%
@@ -422,7 +422,7 @@ results_all_years_mtrange <- results_all_years_mtrange %>%
          Country = NA, UnitOfAnalysis = "System", Landscape = "Highland", Metric = "KBAPA", 
          Definition = "GMBA", Calculation = "Area", Unit = "percent", 
          FilterString = paste(UnitOfAnalysis, Landscape, Metric, Definition, Calculation, sep = "_")) %>% 
-  rename(Year = year, Name = RangeName, ResultValue = cum_percPA, Mountain = DOMAIN_300)
+  rename(Year = year, Name = Selected_Range, ResultValue = cum_percPA, Mountain = DOMAIN_300)
 
 ## reorder
 results_all_years_mtrange <- results_all_years_mtrange %>% select(ID, ID_underscore, Year, UnitOfAnalysis, Landscape, Country, 
@@ -431,9 +431,9 @@ results_all_years_mtrange <- results_all_years_mtrange %>% select(ID, ID_undersc
 cleaned_data <- rbind(cleaned_data, results_all_years_mtrange)
 
 
-#### 4.4 Calculate mountain range AND country aggregation cumulative coverage 
+#### 5.3 Calculate mountain range AND country aggregation cumulative coverage 
 results_all_years_mtrange_country <- results_all_years %>% 
-  group_by(year, ISO = COUNTRY, DOMAIN_300, RangeName) %>%
+  group_by(year, ISO = COUNTRY, DOMAIN_300, Selected_Range) %>%
   summarize(mount_kba_area = sum(unique(kba), na.rm = T),
             kba = sum(unique(kba), na.rm = T),
             cum_overlap = sum(cum_overlap, na.rm = T)) %>%
@@ -444,7 +444,7 @@ results_all_years_mtrange_country <- left_join(results_all_years_mtrange_country
 
 ## format
 results_all_years_mtrange_country <- results_all_years_mtrange_country %>% 
-  mutate(ID = paste0(ISO, DOMAIN_300), ID_underscore = paste(ISO, DOMAIN_300, sep = "_"), Name = paste(COUNTRY, RangeName, sep = " | "),
+  mutate(ID = paste0(ISO, DOMAIN_300), ID_underscore = paste(ISO, DOMAIN_300, sep = "_"), Name = paste(COUNTRY, Selected_Range, sep = " | "),
          UnitOfAnalysis = "CountrySystem", Landscape = "Highland", Metric = "KBAPA", 
          Definition = "GMBA", Calculation = "Area", Unit = "percent", 
          FilterString = paste(UnitOfAnalysis, Landscape, Metric, Definition, Calculation, sep = "_")) %>% 
