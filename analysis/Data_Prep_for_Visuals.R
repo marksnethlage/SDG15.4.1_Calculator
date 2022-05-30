@@ -33,8 +33,8 @@ ifelse(dir.exists("~/Box Sync/mountain_biodiversity/results"),
        setwd("/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results"))
 
 ### Read in the results #TODO update this section before running
-finfilerange <- "clean_data_for_visuals_range_Apr2022.csv"
-finfilesystem <- "clean_data_for_visuals_system_Apr2022.csv"
+finfilerange <- "clean_data_for_visuals_range_May2022.csv"
+finfilesystem <- "clean_data_for_visuals_system_May2022.csv"
 results_wcmc <- read_csv("finaltab_official2020_Apr2022.csv")
 results_gmba <- read_csv("finaltab_gmba_2020_Apr2022.csv")
 
