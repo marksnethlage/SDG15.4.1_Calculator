@@ -4,8 +4,8 @@
 ## based on code by Ash Simkins & Lizzie Pearmain, March 2020
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Script to estimate the overlap of PAs and KBAs (giving earliest year of designation) 
-# using GMBA mountain inventory to identify mountainous KBAs 
+# Script to estimate the AREA-BASED overlap of PAs and KBAs (giving earliest year of designation) 
+# using GMBA mountain inventory to identify mountainous KBAs  
 
 ### IMPORTANT NOTES
 # The minimum requirement to run the script is a 16 GB RAM machine
@@ -13,7 +13,6 @@
 # it might occur an error preventing to calculate which kbas overlap with protected area. These situations are easily identifiable in the final csv file (filter by ovl=NA)
 
 # TODO before you run this make sure you do the following:
-# you have run the python code to prepare the KBA & GMBA and the WDPA files if necessary
 # have your file paths set up to reflect your code
 # update your Universal Variables 
 # make sure you have the results/results_mt directory
@@ -61,7 +60,7 @@ isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should 
 
 pas <- st_read(dsn = paste0(folder, "/data/WDPA/WDPA_Nov2020_Public_shp/WDPA_poly_Nov2020_filtered.gdb"))
 gmba <- st_read(dsn = paste0(folder, "/data/GMBA/GMBA_Inventory_v2.0_standard_basic.shp"), stringsAsFactors = F, crs = 4326) 
-world <- st_read(dsn = paste0(folder, '/data/World/world_shp/world.shp'), stringsAsFactors = F)
+#world <- st_read(dsn = paste0(folder, '/data/World/world_shp/world.shp'), stringsAsFactors = F)
 
 ## Pull in cleaned KBA, and if not source file to make it
 kba_loc <- paste0(folder,"/data/KBA/KBA2020/KBAsGlobal_2020_September_02_POL_noOverlaps.shp")
@@ -153,7 +152,6 @@ kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Belarus"] <- 
 kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Russian Federation"] <- "RUS"
 kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Russia (Asian)"] <- "RUS"
 kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Philippines"] <- "PHL"
-
 
 #remove any sites that cannot be assigned a country as are disputed
 kbas <- kbas[kbas$Country != 'Disputed',] 
@@ -270,7 +268,7 @@ for (x in 1:length(listloop)){
   RangeName <- str_replace(paste0(unique(gmba_kba.c$DBaseName), collapse = ""), "/", "_")
   
   ##checks to see if this range has already been run
-  ## if we don't want to overwrite existing code (OVERWRITE), then skip to the next in the loop
+  ## if we don't want to overwrite existing results (OVERWRITE), then skip to the next in the loop
   tname <- paste(finfolder,"/kba_int_",domain, "_", RangeName, ".csv", sep="")
   if((!OVERWRITE) && file.exists(tname)) {
     ## read in the completed run

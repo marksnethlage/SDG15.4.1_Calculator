@@ -54,17 +54,6 @@ for(k in 1:nrow(intersecs_all)) {
     
     #if this KBA has been cut already so now the overlap is no longer there, next
     if(nrow(overlap) == 0) next
-    
-    print("i:")
-    print(i)
-    print("kba:")
-    print(kba$SitRecID)
-    print("akbas kba")
-    print(kba$akba)
-    print("akbas intersec")
-    print(intersec$akba)
-    print("overlap area")
-    print(overlap_area)
 
     ## is the overlapping area > 2% of this KBA's area?
     if(0.02 < (overlap_area/ kba$akba)) {

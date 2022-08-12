@@ -4,7 +4,7 @@
 ## based on code by Ash Simkins & Lizzie Pearmain, March 2020
 ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Script to estimate the overlap of PAs and KBAs (giving earliest year of designation) 
+# Script to estimate the SITE-BASED overlap of PAs and KBAs (giving earliest year of designation) 
 # using GMBA mountain inventory to identify mountainous KBAs 
 
 ### IMPORTANT NOTES
@@ -13,7 +13,6 @@
 # it might occur an error preventing to calculate which kbas overlap with protected area. These situations are easily identifiable in the final csv file (filter by ovl=NA)
 
 # TODO before you run this make sure you do the following:
-# you have run the python code to prepare the KBA & GMBA and the WDPA files if necessary
 # have your file paths set up to reflect your code
 # update your Universal Variables 
 # make sure you have the results/results_official directory
@@ -56,7 +55,7 @@ finfolder <- paste0(folder, "/results/results_official") #folder where the files
 
 # You will need 2 additional files: KBA classes and iso country codes
 tabmf <- read.csv(paste(folder, "/data/KBA/kba_class_2020.csv", sep = ""))   ## file with types of kbas 
-isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should be stored in the wkfolder specified above; no changes in 2 019, so 2018 file used
+isos <- read.csv("data/iso_country_codes.csv")   ## file with ISO codes; should be stored in the wkfolder specified above; no changes in 2019, so 2018 file used
 
 #### 1.3 Read in shapefiles ----
 
@@ -133,6 +132,7 @@ kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Libya"] <- "L
 kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Belarus"] <- "BLR"
 kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Russian Federation"] <- "RUS"
 kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Russia (Asian)"] <- "RUS"
+kbas$ISO3[(kbas$ISO3 == " " | is.na(kbas$ISO3)) & kbas$Country == "Philippines"] <- "PHL"
 
 kbas <- kbas[kbas$Country != 'Disputed',] #remove any sites that cannot be assigned a country as are disputed
 
