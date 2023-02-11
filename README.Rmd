@@ -1,16 +1,27 @@
 ---
 title: 'README: GMBA SDG 15.4.1 Calculator'
 author: "Amina Ly"
-date: "11/23/2021"
+date: "02/10/2023"
 output:
   pdf_document: default
   html_document: default
 ---
+
+## Code Contributors: 
+Amina Ly, Stanford University 2021-22
+Mark Snethlage, University of Bern, 2021-22
+
+"Intersection_Official" and "Intersection GMBA" are based on
+code by Ash Simkins & Lizzie Pearmain, March 2020
+
 ## Purpose:
 This project contains a set of scripts used to calculate mountain biodiversity protections 
 utilizing the GMBA mountain inventory V2.0. Contents of this project are aimed at 
 improving reporting progress towards SDG 15.4.1 by disaggregating calculations 
 to the mountain level 
+
+## Data Availability: 
+The most recent version of world database on protected areas (WDPA) can be accessed through the website: https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA. Data on key biodiversity areas (KBA) can be accessed by request via this form: https://www.keybiodiversityareas.org/kba-data/request. The GMBA mountain inventory is accessible online: https://www.earthenv.org/mountains. Preselection of mountainous KBAs provided by Bird Life International as one of the indicator custodians, and the data file is available as part of our repository: https://github.com/GMBA-biodiversity/SDG15.4.1_Calculator/tree/master/data/KBA/kba_class_2020.csv 
 
 ## Setup: 
 
@@ -18,16 +29,8 @@ The results of this analysis are reproducible using only this repo, and all r
 required input data files. To do so:
 
 1. Clone this repository
-2. Download additional required data files (see associated publication for details)
+2. Download additional required data files (see above)
 3. Run the desired analysis (see below for details)
-
-While most input files are static for any analysis, some may be updated annually
-Please refer to the file Input_File_Details in the home directory of this project
-for more detailed information on the required data files.
- 
-## Included Analyses: 
-_Detailed instructions on how to run these analyses can be found in 'Instructions
-to Prepare and Run Code.docx'_
 
 ### Intersection_Official.R :
 Calculate the % coverage of mountainous Key Biodiversity Areas (KBAs) by 
@@ -40,7 +43,7 @@ International script:  (https://github.com/BirdLifeInternational/kba-overlap)
 #### Output: 
    + **/results/finaltab_official_'YEAR_RUN'.csv"** : table with % added coverage for
    each KBA
-   + **/results/results_country/...** : folder with country-specific results
+   + **/results/results_official/...** : folder with country-specific results
    
 ### Intersection_GMBA.R
 Calculate the % coverage of mountainous Key Biodiversity Areas (KBAs) by 
@@ -101,11 +104,5 @@ Four main output files are created after running the above script:
       + CountrySystem_Highland_KBAPA_GMBA_Area
       
   
-See associated publication for details on aggregation levels
+See associated publication (Ly et al. 2023) for details on aggregation levels
   
-## Code Contributors: 
-Amina Ly, Stanford University 2021-22
-Mark Snethlage, University of Bern, 2021-22
-
-"Intersection_Official" and "Intersection GMBA" are based on
-code by Ash Simkins & Lizzie Pearmain, March 2020

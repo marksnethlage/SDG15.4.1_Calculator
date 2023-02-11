@@ -11,7 +11,7 @@
 
 <meta name="author" content="Amina Ly" />
 
-<meta name="date" content="2021-11-23" />
+<meta name="date" content="2023-02-10" />
 
 <title>README: GMBA SDG 15.4.1 Calculator</title>
 
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type="text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -167,42 +171,47 @@ pre code {
 
 <h1 class="title toc-ignore">README: GMBA SDG 15.4.1 Calculator</h1>
 <h4 class="author">Amina Ly</h4>
-<h4 class="date">11/23/2021</h4>
+<h4 class="date">02/10/2023</h4>
 
 </div>
 
 
+<div id="code-contributors" class="section level2">
+<h2>Code Contributors:</h2>
+<p>Amina Ly, Stanford University 2021-22 Mark Snethlage, University of Bern, 2021-22</p>
+<p>“Intersection_Official” and “Intersection GMBA” are based on code by Ash Simkins &amp; Lizzie Pearmain, March 2020</p>
+</div>
 <div id="purpose" class="section level2">
 <h2>Purpose:</h2>
-<p>This project contains a set of scripts used to calculate mountain biodiversity utilizing the GMBA mountain inventory V2.0. Contents of this project are aimed at improving reporting progress towards SDG 15.4.1 by disaggregating calculations to the mountain level</p>
+<p>This project contains a set of scripts used to calculate mountain biodiversity protections utilizing the GMBA mountain inventory V2.0. Contents of this project are aimed at improving reporting progress towards SDG 15.4.1 by disaggregating calculations to the mountain level</p>
+</div>
+<div id="data-availability" class="section level2">
+<h2>Data Availability:</h2>
+<p>The most recent version of world database on protected areas (WDPA) can be accessed through the website: <a href="https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA" class="uri">https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA</a>. Data on key biodiversity areas (KBA) can be accessed by request via this form: <a href="https://www.keybiodiversityareas.org/kba-data/request" class="uri">https://www.keybiodiversityareas.org/kba-data/request</a>. The GMBA mountain inventory is accessible online: <a href="https://www.earthenv.org/mountains" class="uri">https://www.earthenv.org/mountains</a>. Preselection of mountainous KBAs provided by Bird Life International as one of the indicator custodians, and the data file is available as part of our repository: <a href="https://github.com/GMBA-biodiversity/SDG15.4.1_Calculator/tree/master/data/KBA/kba_class_2020.csv" class="uri">https://github.com/GMBA-biodiversity/SDG15.4.1_Calculator/tree/master/data/KBA/kba_class_2020.csv</a></p>
 </div>
 <div id="setup" class="section level2">
 <h2>Setup:</h2>
 <p>The results of this analysis are reproducible using only this repo, and all r required input data files. To do so:</p>
 <ol style="list-style-type: decimal">
 <li>Clone this repository</li>
-<li>Download the required data files (request access from <strong>____</strong>)</li>
+<li>Download additional required data files (see above)</li>
 <li>Run the desired analysis (see below for details)</li>
 </ol>
-<p>While most input files are static for any analysis, some may be updated annually Please refer to the file Input_File_Details in the home directory of this project for more detailed information on the required data files.</p>
-</div>
-<div id="included-analyses" class="section level2">
-<h2>Included Analyses:</h2>
-<p><em>Detailed instructions on how to run these analyses can be found in ‘Instructions to Prepare and Run Code.docx’</em></p>
 <div id="intersection_official.r" class="section level3">
 <h3>Intersection_Official.R :</h3>
-<p>Calculate the % coverage of mountainous Key Biodiversity Areas (KBAs) by Protected Areas (PAs) using the official SDG method. For any KBA that overlaps with a GMBA polygon, the <em>full</em> KBA is overlapped with all PAs to determine the % coverage. For KBAs that increase in size, each additional entry is the additional overlap. Results are <em>not</em> cumulative. Adapted from the Birdlife International script: (<a href="https://github.com/BirdLifeInternational/kba-overlap" class="uri">https://github.com/BirdLifeInternational/kba-overlap</a>)</p>
+<p>Calculate the % coverage of mountainous Key Biodiversity Areas (KBAs) by Protected Areas (PAs) using the official SDG method. For any KBA that overlaps with a GMBA polygon, the <em>full</em> KBA is overlapped with all PAs to determine the % coverage. For KBAs that increase in size, each additional entry is the additional overlap. Initial output results are <em>not</em> cumulative. Adapted from the Birdlife International script: (<a href="https://github.com/BirdLifeInternational/kba-overlap" class="uri">https://github.com/BirdLifeInternational/kba-overlap</a>)</p>
 <div id="output" class="section level4">
 <h4>Output:</h4>
 <ul>
 <li><strong>/results/finaltab_official_‘YEAR_RUN’.csv”</strong> : table with % added coverage for each KBA</li>
-<li><strong>/results/results_country/…</strong> : folder with country-specific results</li>
+<li><strong>/results/results_official/…</strong> : folder with country-specific results</li>
 </ul>
 </div>
 </div>
 <div id="intersection_gmba.r" class="section level3">
 <h3>Intersection_GMBA.R</h3>
-<p>Calculate the % coverage</p>
+<p>Calculate the % coverage of mountainous Key Biodiversity Areas (KBAs) by Protected Areas (PAs) using the new GMBA proposed method. For any KBA that overlaps with a GMBA polygon, the <em>KBA is cropped</em> by the mountaoin range, and then overlapped with all PAs to determine the % coverage. For KBAs that increase in size, each additional entry is the additional overlap. Initial output results are <em>not</em> cumulative. Adapted from the Birdlife International script:<br />
+(<a href="https://github.com/BirdLifeInternational/kba-overlap" class="uri">https://github.com/BirdLifeInternational/kba-overlap</a>)</p>
 <div id="output-1" class="section level4">
 <h4>Output:</h4>
 <ul>
@@ -219,24 +228,35 @@ pre code {
 <p>To simplify aggregation and translate the data to show cumulative coverage for every year, this script reads in the results of a previous run (updated by user in section 1.2), and outputs multiple aggregation files.</p>
 <div id="output-2" class="section level4">
 <h4>Output:</h4>
+<p>Four main output files are created after running the above script:</p>
 <ul>
-<li><strong>results/finaltab_cumulative.csv</strong> : cumulative coverage by KBA for every year starting with the minimum year in the result file. Each row is the total coverage for a KBA in that year.</li>
-<li><strong>results/finaltab_cumulative_country.csv</strong> : aggregated to the country level <strong>by total area</strong></li>
-<li><strong>results/finaltab_cumulative_mtrange.csv</strong> : aggregated to the mountain range <strong>by total area</strong></li>
-<li><strong>results/finaltab_cumulative_mtrange_country.csv</strong> : aggregated to the mountain range by country <strong>by total area</strong></li>
-<li><strong>results/finaltab_cumulative_country_avg.csv</strong> : aggregated to get the average coverage of KBAs within a country</li>
-<li><strong>results/finaltab_cumulative_mtrange_avg.csv</strong> : aggregated to get the average coverage of KBAs within a mountain range</li>
-<li><strong>results/finaltab_cumulative_mtrange_country_avg.csv</strong> : aggregated to get the average coverage of KBAs within a country</li>
-<li><strong>results/finaltab_cumulative_parentrange.csv</strong> : aggregated to the intermediate range <strong>by total area</strong></li>
-<li><strong>results/finaltab_cumulative_parentrange_country.csv</strong> : aggregated to the intermediate range <strong>by total area</strong></li>
+<li><p><strong>results/results_all_years.csv</strong> : cumulative coverage by KBA for every year starting with the minimum year in the result file when using the official SDG 15.4.1 method. Each row is the total coverage for a KBA in that year. All aggregations for official results come from this dataset</p></li>
+<li><p><strong>results/results_gmba_all_years.csv</strong> : cumulative coverage by KBA for every year starting with the minimum year in the result file when using the GMBA proposed method. Each row is the total coverage for a KBA in that year. All aggregations for official results come from this dataset</p></li>
+<li><p><strong>results/clean_data_for_visuals_range_MONTHYEAR.csv</strong> : All range-level aggregations for both official WCMC method and GMBA proposed method</p>
+<ul>
+<li>Country_Highland_KBAPA_WCMC_Area</li>
+<li>Range_Highland_KBAPA_WCMC_Area</li>
+<li>CountryRange_Highland_KBAPA_WCMC_Area</li>
+<li>Country_Highland_KBAPA_WCMC_Site</li>
+<li>Range_Highland_KBAPA_WCMC_Site</li>
+<li>CountryRange_Highland_KBAPA_WCMC_Site</li>
+<li>Country_Highland_KBAPA_GMBA_Area</li>
+<li>Range_Highland_KBAPA_GMBA_Area</li>
+<li>CountryRange_Highland_KBAPA_GMBA_Area</li>
+</ul></li>
+<li><p><strong>results/clean_data_for_visuals_system_MONTHYEAR.csv</strong> : All range-level aggregations for both official WCMC method and GMBA proposed method</p>
+<ul>
+<li>System_Highland_KBAPA_WCMC_Area</li>
+<li>CountrySystem_Highland_KBAPA_WCMC_Area</li>
+<li>System_Highland_KBAPA_WCMC_Site</li>
+<li>CountrySystem_Highland_KBAPA_WCMC_Site</li>
+<li>System_Highland_KBAPA_GMBA_Area</li>
+<li>CountrySystem_Highland_KBAPA_GMBA_Area</li>
+</ul></li>
 </ul>
+<p>See associated publication (Ly et al. 2023) for details on aggregation levels</p>
 </div>
 </div>
-</div>
-<div id="contributors" class="section level2">
-<h2>Contributors:</h2>
-<p>Amina Ly, Stanford University 2021</p>
-<p>Based on Code by based on code by Ash Simkins &amp; Lizzie Pearmain, March 2020</p>
 </div>
 
 
