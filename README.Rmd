@@ -14,6 +14,13 @@ Mark Snethlage, University of Bern, 2021-22
 "Intersection_Official" and "Intersection GMBA" are based on
 code by Ash Simkins & Lizzie Pearmain, March 2020
 
+## OS Requirements
+This code has been tested on Linux and MAC OSX operating systems and should operate on 
+Linux, Mac OSX, and Window
+
+Code was created and tested on R versions 4.1.1 and 4.1.2
+the latest version of R can be installed by adding the latest repository to apt:
+
 ## Purpose:
 This project contains a set of scripts used to calculate mountain biodiversity protections 
 utilizing the GMBA mountain inventory V2.0. Contents of this project are aimed at 
@@ -40,6 +47,8 @@ with a GMBA polygon, the _full_ KBA is overlapped with all PAs to determine the
 additional overlap. Initial output results are _not_ cumulative. Adapted from the Birdlife 
 International script:  (https://github.com/BirdLifeInternational/kba-overlap)
 
+Runtime: Full dataset will take 8-15 hours depending on compute power
+
 #### Output: 
    + **/results/finaltab_official_'YEAR_RUN'.csv"** : table with % added coverage for
    each KBA
@@ -54,6 +63,8 @@ additional entry is the additional overlap. Initial output results are _not_
 cumulative. Adapted from the Birdlife International script:  
 (https://github.com/BirdLifeInternational/kba-overlap)
 
+Runtime: Full dataset will take 8-15 hours depending on compute power
+
 #### Output: 
   + **/results/finaltab_gmba_'YEAR_RUN'.csv** : table with % coverage of each 
   mountainous area of each KBA as identified by the GMBA polygons
@@ -66,6 +77,8 @@ cumulative. Adapted from the Birdlife International script:
 To simplify aggregation and translate the data to show cumulative coverage for 
 every year, this script reads in the results of a previous run (updated by user
 in section 1.2), and outputs multiple aggregation files.
+
+Runtime: Full dataset will take 5-15 minutes depending on compute power
 
 #### Output: 
 
