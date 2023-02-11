@@ -28,9 +28,9 @@ library(animation)
 MOUNTAIN_ONLY <- T
 
 ## set working directory
-ifelse(dir.exists("~/Box Sync/mountain_biodiversity/results"),
-       setwd("~/Box Sync/mountain_biodiversity/results"),
-       setwd("/oak/stanford/groups/omramom/group_members/aminaly/mountain_biodiversity/results"))
+ifelse(dir.exists("~/Box Sync/SDG15.4.1_Calculator/results"),
+       setwd("~/Box Sync/SDG15.4.1_Calculator/results"),
+       setwd("/oak/stanford/groups/omramom/group_members/aminaly/SDG15.4.1_Calculator/results"))
 
 ### Read in the results #TODO update this section before running
 td <- format(Sys.Date(), "%m_%Y")

@@ -1,5 +1,4 @@
 .DS_Store
-data
 outfiles
 .RData
 .RDataTmp
@@ -11,3 +10,5 @@ results/results_mt
 results/raster_results
 results/unzipped
 results/results_mt
+results/clean_data_for_visuals_system_May2022.csv
+results/clean_data_for_visuals_range_May2022.csv
