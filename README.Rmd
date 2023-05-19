@@ -3,8 +3,8 @@ title: 'README: GMBA SDG 15.4.1 Calculator'
 author: "Amina Ly"
 date: "02/10/2023"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ## Code Contributors: 
@@ -16,10 +16,9 @@ code by Ash Simkins & Lizzie Pearmain, March 2020
 
 ## OS Requirements
 This code has been tested on Linux and MAC OSX operating systems and should operate on 
-Linux, Mac OSX, and Window
+Linux, Mac OSX, and Windows
 
-Code was created and tested on R versions 4.1.1 and 4.1.2
-the latest version of R can be installed by adding the latest repository to apt:
+The code was created and tested on R versions 4.1.1 and 4.1.2
 
 ## Purpose:
 This project contains a set of scripts used to calculate mountain biodiversity protections 
@@ -28,7 +27,12 @@ improving reporting progress towards SDG 15.4.1 by disaggregating calculations
 to the mountain level 
 
 ## Data Availability: 
-The most recent version of world database on protected areas (WDPA) can be accessed through the website: https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA. Data on key biodiversity areas (KBA) can be accessed by request via this form: https://www.keybiodiversityareas.org/kba-data/request. The GMBA mountain inventory is accessible online: https://www.earthenv.org/mountains. Preselection of mountainous KBAs provided by Bird Life International as one of the indicator custodians, and the data file is available as part of our repository: https://github.com/GMBA-biodiversity/SDG15.4.1_Calculator/tree/master/data/KBA/kba_class_2020.csv 
+The most recent version of World Database on Protected Areas (WDPA) can be accessed through the website: https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA. Data on key biodiversity areas (KBA) can be accessed by request via this form: https://www.keybiodiversityareas.org/kba-data/request. The GMBA mountain inventory is accessible online: https://www.earthenv.org/mountains. Preselection of mountainous KBAs provided by Bird Life International as one of the indicator custodians, and the data file is available as part of our repository: https://github.com/GMBA-biodiversity/SDG15.4.1_Calculator/tree/master/data/KBA/kba_class_2020.csv 
+
+Two versions of the GMBA Mountain Inventory v 2.0 were used in this analysis:
+- "standard", in which the outer borders of the mountain range polygons correspond to the new (conservative) GMBA mountain definition, and
+
+- "broad" in which these outer borders correspond to the union of the three major mountain definitions (including the UNEP-WCMC mountain definition, which is used in the official site-based calculation of SDG 15.4.1)
 
 ## Setup: 
 
@@ -42,10 +46,11 @@ required input data files. To do so:
 ### Intersection_Official.R :
 Calculate the % coverage of mountainous Key Biodiversity Areas (KBAs) by 
 Protected Areas (PAs) using the official SDG method. For any KBA that overlaps
-with a GMBA polygon, the _full_ KBA is overlapped with all PAs to determine the 
-% coverage. For KBAs that increase in size, each additional entry is the
-additional overlap. Initial output results are _not_ cumulative. Adapted from the Birdlife 
-International script:  (https://github.com/BirdLifeInternational/kba-overlap)
+with one or more polygons of the GMBA Mountain Inventory v2.0 (Broad), the KBA 
+is assigned to the GMBA polygon with which it has the largest overlap., the _full_ KBA 
+is overlapped with all PAs to determine the % coverage. For PAs that increase in size,
+each additional entry is the additional overlap. Initial output results are _not_ cumulative. 
+Adapted from the Birdlife International script:  (https://github.com/BirdLifeInternational/kba-overlap)
 
 Runtime: Full dataset will take 8-15 hours depending on compute power
 
@@ -57,8 +62,9 @@ Runtime: Full dataset will take 8-15 hours depending on compute power
 ### Intersection_GMBA.R
 Calculate the % coverage of mountainous Key Biodiversity Areas (KBAs) by 
 Protected Areas (PAs) using the new GMBA proposed method. For any KBA that overlaps
-with a GMBA polygon, the _KBA is cropped_ by the mountaoin range, and then overlapped
-with all PAs to determine the % coverage. For KBAs that increase in size, each 
+with one or more polygons of the GMBA Mountain Inventory 2.0 (Standard),
+the _KBA is intersected_ with the mountain, and then overlapped
+with all PAs to determine the % coverage. For PAs that increase in size, each 
 additional entry is the additional overlap. Initial output results are _not_ 
 cumulative. Adapted from the Birdlife International script:  
 (https://github.com/BirdLifeInternational/kba-overlap)
