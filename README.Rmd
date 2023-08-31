@@ -40,7 +40,7 @@ The results of this analysis are reproducible using only this repo, and all r
 required input data files. To do so:
 
 1. Clone this repository
-2. Download additional required data files (see above)
+2. Download data files (see metadata for list of necessary input files)
 3. Run the desired analysis (see below for details)
 
 ### Intersection_Official.R :
