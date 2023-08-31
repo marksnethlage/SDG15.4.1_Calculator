@@ -211,7 +211,7 @@ cleaned_data <- rbind(cleaned_data, results_all_years_mtrange_country_avg)
 #### 3.0 WCMC Aggregation to 300 Levels (Exact same as part 2, just with new GMBA_V2_ID identifier) ----
 
 ## 3.1 Add in  300 level 
-map300 <- read_csv("../data/GMBA_Inventory_ConversionBasic300.csv")
+map300 <- read_csv("../data/GMBA/GMBA_Inventory_ConversionBasic300.csv")
 map300 <- map300 %>% select(DOMAIN = GMBA_V2_ID, DOMAIN_300 = GMBA_V2_ID_DissolveField, Selected_Range) %>% filter(!is.na(DOMAIN_300)) 
 results_all_years <- left_join(results_all_years, map300, by = "DOMAIN")
 
