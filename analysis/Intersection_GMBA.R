@@ -37,7 +37,7 @@ lu <- function (x = x){
 
 #### Universal Variables ----
 # TODO review these and update based on what you want to do
-YEAR_RUN <- 2020 ## update with the year
+MONTHYEAR <-format(Sys.Date(), "%m_%Y") ## update with the year and month (alternataely you can put it in manually)
 PLOTIT <- F ## if you want plots (usually when stepping through, not the full run)
 OVERWRITE <- T ## For ranges already calculated, do you want to rerun them if we already have output?
 
@@ -526,6 +526,6 @@ lu(finaltab$x) #not sure what suppposed to do
 
 finaltab <- unique(finaltab)
 
-write.csv(finaltab, paste("./results/finaltab_gmba_", YEAR_RUN, ".csv", sep=""), row.names = F)
+write.csv(finaltab, paste("./results/finaltab_gmba_", MONTHYEAR, ".csv", sep=""), row.names = F)
 ### end here
 
