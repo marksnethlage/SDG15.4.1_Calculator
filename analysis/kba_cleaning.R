@@ -4,11 +4,9 @@
 #### Part 1.1 load packages ----
 # if you do not have any of the packages, please install them before running this code
 
-library(sf)
-library(dplyr)
-library(tidyverse)
-library(lwgeom)
-library(rgdal)
+
+pacman(sf, dplyr, tidyverse, lwgeom, rgdal)
+
 sf::sf_use_s2(FALSE) ## to deal with some issues not fixable with st_make_valid
 
 #### Part 1.2 Working Directory & Files ----
